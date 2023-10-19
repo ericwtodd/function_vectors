@@ -1,0 +1,1806 @@
+[
+    {
+        "input": "Birmingham Civil Rights National Monument",
+        "output": "Alabama"
+    },
+    {
+        "input": "Freedom Riders National Monument",
+        "output": "Alabama"
+    },
+    {
+        "input": "Horseshoe Bend National Military Park",
+        "output": "Alabama"
+    },
+    {
+        "input": "Little River Canyon National Preserve",
+        "output": "Alabama"
+    },
+    {
+        "input": "Russell Cave National Monument",
+        "output": "Alabama"
+    },
+    {
+        "input": "Tuskegee Airmen National Historic Site",
+        "output": "Alabama"
+    },
+    {
+        "input": "Tuskegee Institute National Historic Site",
+        "output": "Alabama"
+    },
+    {
+        "input": "Alagnak Wild River",
+        "output": "Alaska"
+    },
+    {
+        "input": "Aniakchak National Monument",
+        "output": "Alaska"
+    },
+    {
+        "input": "Aniakchak National Preserve",
+        "output": "Alaska"
+    },
+    {
+        "input": "Bering Land Bridge National Preserve",
+        "output": "Alaska"
+    },
+    {
+        "input": "Cape Krusenstern National Monument",
+        "output": "Alaska"
+    },
+    {
+        "input": "Denali National Park",
+        "output": "Alaska"
+    },
+    {
+        "input": "Denali National Preserve",
+        "output": "Alaska"
+    },
+    {
+        "input": "Gates of the Arctic National Park",
+        "output": "Alaska"
+    },
+    {
+        "input": "Gates of the Arctic National Preserve",
+        "output": "Alaska"
+    },
+    {
+        "input": "Glacier Bay National Park",
+        "output": "Alaska"
+    },
+    {
+        "input": "Glacier Bay National Preserve",
+        "output": "Alaska"
+    },
+    {
+        "input": "Katmai National Park",
+        "output": "Alaska"
+    },
+    {
+        "input": "Katmai National Preserve",
+        "output": "Alaska"
+    },
+    {
+        "input": "Kenai Fjords National Park",
+        "output": "Alaska"
+    },
+    {
+        "input": "Klondike Gold Rush National Historical Park",
+        "output": "Alaska"
+    },
+    {
+        "input": "Klondike Gold Rush National Historical Park",
+        "output": "Washington"
+    },
+    {
+        "input": "Kobuk Valley National Park",
+        "output": "Alaska"
+    },
+    {
+        "input": "Lake Clark National Park",
+        "output": "Alaska"
+    },
+    {
+        "input": "Lake Clark National Preserve",
+        "output": "Alaska"
+    },
+    {
+        "input": "Noatak National Preserve",
+        "output": "Alaska"
+    },
+    {
+        "input": "Sitka National Historical Park",
+        "output": "Alaska"
+    },
+    {
+        "input": "Wrangell-St. Elias National Park",
+        "output": "Alaska"
+    },
+    {
+        "input": "Wrangell-St. Elias National Preserve",
+        "output": "Alaska"
+    },
+    {
+        "input": "Yukon-Charley Rivers National Preserve",
+        "output": "Alaska"
+    },
+    {
+        "input": "National Park of American Samoa",
+        "output": "American Samoa"
+    },
+    {
+        "input": "Canyon De Chelly National Monument",
+        "output": "Arizona"
+    },
+    {
+        "input": "Casa Grande Ruins National Monument",
+        "output": "Arizona"
+    },
+    {
+        "input": "Chiricahua National Monument",
+        "output": "Arizona"
+    },
+    {
+        "input": "Coronado National Memorial",
+        "output": "Arizona"
+    },
+    {
+        "input": "Fort Bowie National Historic Site",
+        "output": "Arizona"
+    },
+    {
+        "input": "Glen Canyon National Recreation Area",
+        "output": "Arizona"
+    },
+    {
+        "input": "Glen Canyon National Recreation Area",
+        "output": "Utah"
+    },
+    {
+        "input": "Grand Canyon National Park",
+        "output": "Arizona"
+    },
+    {
+        "input": "Hohokam Pima National Monument",
+        "output": "Arizona"
+    },
+    {
+        "input": "Hubbell Trading Post National Historic Site",
+        "output": "Arizona"
+    },
+    {
+        "input": "Montezuma Castle National Monument",
+        "output": "Arizona"
+    },
+    {
+        "input": "Navajo National Monument",
+        "output": "Arizona"
+    },
+    {
+        "input": "Organ Pipe Cactus National Monument",
+        "output": "Arizona"
+    },
+    {
+        "input": "Petrified Forest National Park",
+        "output": "Arizona"
+    },
+    {
+        "input": "Pipe Spring National Monument",
+        "output": "Arizona"
+    },
+    {
+        "input": "Saguaro National Park",
+        "output": "Arizona"
+    },
+    {
+        "input": "Sunset Crater Volcano National Monument",
+        "output": "Arizona"
+    },
+    {
+        "input": "Tonto National Monument",
+        "output": "Arizona"
+    },
+    {
+        "input": "Tumacacori National Historical Park",
+        "output": "Arizona"
+    },
+    {
+        "input": "Tuzigoot National Monument",
+        "output": "Arizona"
+    },
+    {
+        "input": "Walnut Canyon National Monument",
+        "output": "Arizona"
+    },
+    {
+        "input": "Wupatki National Monument",
+        "output": "Arizona"
+    },
+    {
+        "input": "Arkansas Post National Memorial",
+        "output": "Arkansas"
+    },
+    {
+        "input": "Buffalo National River",
+        "output": "Arkansas"
+    },
+    {
+        "input": "Fort Smith National Historic Site",
+        "output": "Arkansas"
+    },
+    {
+        "input": "Hot Springs National Park",
+        "output": "Arkansas"
+    },
+    {
+        "input": "Little Rock Central High School National Historic Site",
+        "output": "Arkansas"
+    },
+    {
+        "input": "Pea Ridge National Military Park",
+        "output": "Arkansas"
+    },
+    {
+        "input": "President William Jefferson Clinton Birthplace Home National Historic Site",
+        "output": "Arkansas"
+    },
+    {
+        "input": "Cabrillo National Monument",
+        "output": "California"
+    },
+    {
+        "input": "Castle Mountains National Monument",
+        "output": "California"
+    },
+    {
+        "input": "C\u00e9sar E. Ch\u00e1vez National Monument",
+        "output": "California"
+    },
+    {
+        "input": "Channel Islands National Park",
+        "output": "California"
+    },
+    {
+        "input": "Death Valley National Park",
+        "output": "California"
+    },
+    {
+        "input": "Death Valley National Park",
+        "output": "Nevada"
+    },
+    {
+        "input": "Devils Postpile National Monument",
+        "output": "California"
+    },
+    {
+        "input": "Eugene O'Neill National Historic Site",
+        "output": "California"
+    },
+    {
+        "input": "Fort Point National Historic Site",
+        "output": "California"
+    },
+    {
+        "input": "Golden Gate National Recreation Area",
+        "output": "California"
+    },
+    {
+        "input": "John Muir National Historic Site",
+        "output": "California"
+    },
+    {
+        "input": "Joshua Tree National Park",
+        "output": "California"
+    },
+    {
+        "input": "Kings Canyon National Park",
+        "output": "California"
+    },
+    {
+        "input": "Lassen Volcanic National Park",
+        "output": "California"
+    },
+    {
+        "input": "Lava Beds National Monument",
+        "output": "California"
+    },
+    {
+        "input": "Manzanar National Historic Site",
+        "output": "California"
+    },
+    {
+        "input": "Mojave National Preserve",
+        "output": "California"
+    },
+    {
+        "input": "Muir Woods National Monument",
+        "output": "California"
+    },
+    {
+        "input": "Pinnacles National Park",
+        "output": "California"
+    },
+    {
+        "input": "Point Reyes National Seashore",
+        "output": "California"
+    },
+    {
+        "input": "Port Chicago Naval Magazine National Memorial",
+        "output": "California"
+    },
+    {
+        "input": "Redwood National Park",
+        "output": "California"
+    },
+    {
+        "input": "Rosie the Riveter World War II Home Front National Historical Park",
+        "output": "California"
+    },
+    {
+        "input": "San Francisco Maritime National Historical Park",
+        "output": "California"
+    },
+    {
+        "input": "Santa Monica Mountains National Recreation Area",
+        "output": "California"
+    },
+    {
+        "input": "Sequoia National Park",
+        "output": "California"
+    },
+    {
+        "input": "Tule Lake National Monument",
+        "output": "California"
+    },
+    {
+        "input": "Whiskeytown-Shasta-Trinity National Recreation Area",
+        "output": "California"
+    },
+    {
+        "input": "Yosemite National Park",
+        "output": "California"
+    },
+    {
+        "input": "Bent's Old Fort National Historic Site",
+        "output": "Colorado"
+    },
+    {
+        "input": "Black Canyon of the Gunnison National Park",
+        "output": "Colorado"
+    },
+    {
+        "input": "Colorado National Monument",
+        "output": "Colorado"
+    },
+    {
+        "input": "Curecanti National Recreation Area",
+        "output": "Colorado"
+    },
+    {
+        "input": "Dinosaur National Monument",
+        "output": "Colorado"
+    },
+    {
+        "input": "Dinosaur National Monument",
+        "output": "Utah"
+    },
+    {
+        "input": "Florissant Fossil Beds National Monument",
+        "output": "Colorado"
+    },
+    {
+        "input": "Great Sand Dunes National Park",
+        "output": "Colorado"
+    },
+    {
+        "input": "Great Sand Dunes National Preserve",
+        "output": "Colorado"
+    },
+    {
+        "input": "Hovenweep National Monument",
+        "output": "Colorado"
+    },
+    {
+        "input": "Hovenweep National Monument",
+        "output": "Utah"
+    },
+    {
+        "input": "Mesa Verde National Park",
+        "output": "Colorado"
+    },
+    {
+        "input": "Rocky Mountain National Park",
+        "output": "Colorado"
+    },
+    {
+        "input": "Sand Creek Massacre National Historic Site",
+        "output": "Colorado"
+    },
+    {
+        "input": "Yucca House National Monument",
+        "output": "Colorado"
+    },
+    {
+        "input": "Weir Farm National Historical Park",
+        "output": "Connecticut"
+    },
+    {
+        "input": "First State National Historical Park",
+        "output": "Delaware"
+    },
+    {
+        "input": "First State National Historical Park",
+        "output": "Pennsylvania"
+    },
+    {
+        "input": "Big Cypress National Preserve",
+        "output": "Florida"
+    },
+    {
+        "input": "Biscayne National Park",
+        "output": "Florida"
+    },
+    {
+        "input": "Canaveral National Seashore",
+        "output": "Florida"
+    },
+    {
+        "input": "Castillo de San Marcos National Monument",
+        "output": "Florida"
+    },
+    {
+        "input": "De Soto National Memorial",
+        "output": "Florida"
+    },
+    {
+        "input": "Dry Tortugas National Park",
+        "output": "Florida"
+    },
+    {
+        "input": "Everglades National Park",
+        "output": "Florida"
+    },
+    {
+        "input": "Fort Caroline National Memorial",
+        "output": "Florida"
+    },
+    {
+        "input": "Fort Matanzas National Monument",
+        "output": "Florida"
+    },
+    {
+        "input": "Gulf Islands National Seashore",
+        "output": "Florida"
+    },
+    {
+        "input": "Gulf Islands National Seashore",
+        "output": "Mississippi"
+    },
+    {
+        "input": "Timucuan Ecological and Historic Preserve",
+        "output": "Florida"
+    },
+    {
+        "input": "Andersonville National Historic Site",
+        "output": "Georgia"
+    },
+    {
+        "input": "Chattahoochee River National Recreation Area",
+        "output": "Georgia"
+    },
+    {
+        "input": "Chickamauga & Chattanooga National Military Park",
+        "output": "Georgia"
+    },
+    {
+        "input": "Chickamauga & Chattanooga National Military Park",
+        "output": "Tennessee"
+    },
+    {
+        "input": "Cumberland Island National Seashore",
+        "output": "Georgia"
+    },
+    {
+        "input": "Fort Frederica National Monument",
+        "output": "Georgia"
+    },
+    {
+        "input": "Fort Pulaski National Monument",
+        "output": "Georgia"
+    },
+    {
+        "input": "Jimmy Carter National Historical Park",
+        "output": "Georgia"
+    },
+    {
+        "input": "Kennesaw Mountain National Battlefield Park",
+        "output": "Georgia"
+    },
+    {
+        "input": "Martin Luther King Jr. National Historical Park",
+        "output": "Georgia"
+    },
+    {
+        "input": "Ocmulgee Mounds National Historical Park",
+        "output": "Georgia"
+    },
+    {
+        "input": "War in the Pacific National Historical Park",
+        "output": "Guam"
+    },
+    {
+        "input": "Haleakala National Park",
+        "output": "Hawaii"
+    },
+    {
+        "input": "Hawaii Volcanoes National Park",
+        "output": "Hawaii"
+    },
+    {
+        "input": "Honouliuli National Historic Site",
+        "output": "Hawaii"
+    },
+    {
+        "input": "Kalaupapa National Historical Park",
+        "output": "Hawaii"
+    },
+    {
+        "input": "Kaloko-Honokohau National Historical Park",
+        "output": "Hawaii"
+    },
+    {
+        "input": "Pearl Harbor National Memorial",
+        "output": "Hawaii"
+    },
+    {
+        "input": "Pu'uhonua O Honaunau National Historical Park",
+        "output": "Hawaii"
+    },
+    {
+        "input": "Pu'ukohola Heiau National Historic Site",
+        "output": "Hawaii"
+    },
+    {
+        "input": "City of Rocks National Reserve",
+        "output": "Idaho"
+    },
+    {
+        "input": "Craters of the Moon National Monument",
+        "output": "Idaho"
+    },
+    {
+        "input": "Craters of the Moon National Preserve",
+        "output": "Idaho"
+    },
+    {
+        "input": "Hagerman Fossil Beds National Monument",
+        "output": "Idaho"
+    },
+    {
+        "input": "Minidoka National Historic Site",
+        "output": "Idaho"
+    },
+    {
+        "input": "Nez Perce National Historical Park",
+        "output": "Idaho"
+    },
+    {
+        "input": "Lincoln Home National Historic Site",
+        "output": "Illinois"
+    },
+    {
+        "input": "New Philadelphia National Historic Site",
+        "output": "Illinois"
+    },
+    {
+        "input": "Pullman National Historical Park",
+        "output": "Illinois"
+    },
+    {
+        "input": "George Rogers Clark National Historical Park",
+        "output": "Indiana"
+    },
+    {
+        "input": "Indiana Dunes National Park",
+        "output": "Indiana"
+    },
+    {
+        "input": "Lincoln Boyhood National Memorial",
+        "output": "Indiana"
+    },
+    {
+        "input": "Effigy Mounds National Monument",
+        "output": "Iowa"
+    },
+    {
+        "input": "Herbert Hoover National Historic Site",
+        "output": "Iowa"
+    },
+    {
+        "input": "Brown v. Board of Education National Historical Park",
+        "output": "Kansas"
+    },
+    {
+        "input": "Fort Larned National Historic Site",
+        "output": "Kansas"
+    },
+    {
+        "input": "Fort Scott National Historic Site",
+        "output": "Kansas"
+    },
+    {
+        "input": "Nicodemus National Historic Site",
+        "output": "Kansas"
+    },
+    {
+        "input": "Tallgrass Prairie National Preserve",
+        "output": "Kansas"
+    },
+    {
+        "input": "Abraham Lincoln Birthplace National Historical Park",
+        "output": "Kentucky"
+    },
+    {
+        "input": "Camp Nelson National Monument",
+        "output": "Kentucky"
+    },
+    {
+        "input": "Cumberland Gap National Historical Park",
+        "output": "Kentucky"
+    },
+    {
+        "input": "Cumberland Gap National Historical Park",
+        "output": "Tennessee"
+    },
+    {
+        "input": "Cumberland Gap National Historical Park",
+        "output": "Virginia"
+    },
+    {
+        "input": "Mammoth Cave National Park",
+        "output": "Kentucky"
+    },
+    {
+        "input": "Mill Springs Battlefield National Monument",
+        "output": "Kentucky"
+    },
+    {
+        "input": "Cane River Creole National Historical Park",
+        "output": "Louisiana"
+    },
+    {
+        "input": "Jean Lafitte National Historical Park and Preserve",
+        "output": "Louisiana"
+    },
+    {
+        "input": "New Orleans Jazz National Historical Park",
+        "output": "Louisiana"
+    },
+    {
+        "input": "Poverty Point National Monument",
+        "output": "Louisiana"
+    },
+    {
+        "input": "Acadia National Park",
+        "output": "Maine"
+    },
+    {
+        "input": "Katahdin Woods and Waters National Monument",
+        "output": "Maine"
+    },
+    {
+        "input": "Saint Croix Island International Historic Site",
+        "output": "Maine"
+    },
+    {
+        "input": "Antietam National Battlefield",
+        "output": "Maryland"
+    },
+    {
+        "input": "Assateague Island National Seashore",
+        "output": "Maryland"
+    },
+    {
+        "input": "Assateague Island National Seashore",
+        "output": "Virginia"
+    },
+    {
+        "input": "Catoctin Mountain Park",
+        "output": "Maryland"
+    },
+    {
+        "input": "Chesapeake and Ohio Canal National Historical Park",
+        "output": "Maryland"
+    },
+    {
+        "input": "Chesapeake and Ohio Canal National Historical Park",
+        "output": "Washington DC"
+    },
+    {
+        "input": "Clara Barton National Historic Site",
+        "output": "Maryland"
+    },
+    {
+        "input": "Fort McHenry National Monument and Historic Shrine",
+        "output": "Maryland"
+    },
+    {
+        "input": "Fort Washington Park",
+        "output": "Maryland"
+    },
+    {
+        "input": "Greenbelt Park",
+        "output": "Maryland"
+    },
+    {
+        "input": "Hampton National Historic Site",
+        "output": "Maryland"
+    },
+    {
+        "input": "Harriet Tubman Underground Railroad National Historical Park",
+        "output": "Maryland"
+    },
+    {
+        "input": "Monocacy National Battlefield",
+        "output": "Maryland"
+    },
+    {
+        "input": "Piscataway Park",
+        "output": "Maryland"
+    },
+    {
+        "input": "Thomas Stone National Historic Site",
+        "output": "Maryland"
+    },
+    {
+        "input": "Adams National Historical Park",
+        "output": "Massachusetts"
+    },
+    {
+        "input": "Boston African American National Historic Site",
+        "output": "Massachusetts"
+    },
+    {
+        "input": "Boston Harbor Islands National Recreation Area",
+        "output": "Massachusetts"
+    },
+    {
+        "input": "Boston National Historical Park",
+        "output": "Massachusetts"
+    },
+    {
+        "input": "Cape Cod National Seashore",
+        "output": "Massachusetts"
+    },
+    {
+        "input": "Frederick Law Olmsted National Historic Site",
+        "output": "Massachusetts"
+    },
+    {
+        "input": "John F. Kennedy National Historic Site",
+        "output": "Massachusetts"
+    },
+    {
+        "input": "Longfellow House\u2013Washington's Headquarters National Historic Site",
+        "output": "Massachusetts"
+    },
+    {
+        "input": "Lowell National Historical Park",
+        "output": "Massachusetts"
+    },
+    {
+        "input": "Minute Man National Historical Park",
+        "output": "Massachusetts"
+    },
+    {
+        "input": "New Bedford Whaling National Historical Park",
+        "output": "Massachusetts"
+    },
+    {
+        "input": "Salem Maritime National Historic Site",
+        "output": "Massachusetts"
+    },
+    {
+        "input": "Saugus Iron Works National Historic Site",
+        "output": "Massachusetts"
+    },
+    {
+        "input": "Springfield Armory National Historic Site",
+        "output": "Massachusetts"
+    },
+    {
+        "input": "Isle Royale National Park",
+        "output": "Michigan"
+    },
+    {
+        "input": "Keweenaw National Historical Park",
+        "output": "Michigan"
+    },
+    {
+        "input": "Pictured Rocks National Lakeshore",
+        "output": "Michigan"
+    },
+    {
+        "input": "River Raisin National Battlefield Park",
+        "output": "Michigan"
+    },
+    {
+        "input": "Sleeping Bear Dunes National Lakeshore",
+        "output": "Michigan"
+    },
+    {
+        "input": "Grand Portage National Monument",
+        "output": "Minnesota"
+    },
+    {
+        "input": "Mississippi National River and Recreation Area",
+        "output": "Minnesota"
+    },
+    {
+        "input": "Pipestone National Monument",
+        "output": "Minnesota"
+    },
+    {
+        "input": "Voyageurs National Park",
+        "output": "Minnesota"
+    },
+    {
+        "input": "Brices Cross Roads National Battlefield Site",
+        "output": "Mississippi"
+    },
+    {
+        "input": "Medgar and Myrlie Evers Home National Monument",
+        "output": "Mississippi"
+    },
+    {
+        "input": "Natchez National Historical Park",
+        "output": "Mississippi"
+    },
+    {
+        "input": "Natchez Trace Parkway",
+        "output": "Mississippi"
+    },
+    {
+        "input": "Natchez Trace Parkway",
+        "output": "Alabama"
+    },
+    {
+        "input": "Natchez Trace Parkway",
+        "output": "Tennessee"
+    },
+    {
+        "input": "Tupelo National Battlefield",
+        "output": "Mississippi"
+    },
+    {
+        "input": "Vicksburg National Military Park",
+        "output": "Mississippi Louisiana"
+    },
+    {
+        "input": "Gateway Arch National Park",
+        "output": "Missouri"
+    },
+    {
+        "input": "George Washington Carver National Monument",
+        "output": "Missouri"
+    },
+    {
+        "input": "Harry S Truman National Historic Site",
+        "output": "Missouri"
+    },
+    {
+        "input": "Ozark National Scenic Riverways",
+        "output": "Missouri"
+    },
+    {
+        "input": "Ste. Genevieve National Historical Park",
+        "output": "Missouri"
+    },
+    {
+        "input": "Ulysses S. Grant National Historic Site",
+        "output": "Missouri"
+    },
+    {
+        "input": "Wilson's Creek National Battlefield",
+        "output": "Missouri"
+    },
+    {
+        "input": "Big Hole National Battlefield",
+        "output": "Montana"
+    },
+    {
+        "input": "Bighorn Canyon National Recreation Area",
+        "output": "Montana"
+    },
+    {
+        "input": "Glacier National Park",
+        "output": "Montana"
+    },
+    {
+        "input": "Grant-Kohrs Ranch National Historic Site",
+        "output": "Montana"
+    },
+    {
+        "input": "Little Bighorn Battlefield National Monument",
+        "output": "Montana"
+    },
+    {
+        "input": "Agate Fossil Beds National Monument",
+        "output": "Nebraska"
+    },
+    {
+        "input": "Homestead National Historical Park",
+        "output": "Nebraska"
+    },
+    {
+        "input": "Missouri National Recreational River",
+        "output": "Nebraska"
+    },
+    {
+        "input": "Missouri National Recreational River",
+        "output": "South Dakota"
+    },
+    {
+        "input": "Niobrara National Scenic River",
+        "output": "Nebraska"
+    },
+    {
+        "input": "Scotts Bluff National Monument",
+        "output": "Nebraska"
+    },
+    {
+        "input": "Great Basin National Park",
+        "output": "Nevada"
+    },
+    {
+        "input": "Lake Mead National Recreation Area",
+        "output": "Arizona"
+    },
+    {
+        "input": "Lake Mead National Recreation Area",
+        "output": "Nevada"
+    },
+    {
+        "input": "Tule Springs Fossil Beds National Monument",
+        "output": "Nevada"
+    },
+    {
+        "input": "Saint-Gaudens National Historical Park",
+        "output": "New Hampshire"
+    },
+    {
+        "input": "Great Egg Harbor Scenic and Recreational River",
+        "output": "New Jersey"
+    },
+    {
+        "input": "Morristown National Historical Park",
+        "output": "New Jersey"
+    },
+    {
+        "input": "Paterson Great Falls National Historical Park",
+        "output": "New Jersey"
+    },
+    {
+        "input": "Thomas Edison National Historical Park",
+        "output": "New Jersey"
+    },
+    {
+        "input": "Aztec Ruins National Monument",
+        "output": "New Mexico"
+    },
+    {
+        "input": "Bandelier National Monument",
+        "output": "New Mexico"
+    },
+    {
+        "input": "Capulin Volcano National Monument",
+        "output": "New Mexico"
+    },
+    {
+        "input": "Carlsbad Caverns National Park",
+        "output": "New Mexico"
+    },
+    {
+        "input": "Chaco Culture National Historical Park",
+        "output": "New Mexico"
+    },
+    {
+        "input": "El Malpais National Monument",
+        "output": "New Mexico"
+    },
+    {
+        "input": "El Morro National Monument",
+        "output": "New Mexico"
+    },
+    {
+        "input": "Fort Union National Monument",
+        "output": "New Mexico"
+    },
+    {
+        "input": "Gila Cliff Dwellings National Monument",
+        "output": "New Mexico"
+    },
+    {
+        "input": "Manhattan Project National Historical Park",
+        "output": "New Mexico"
+    },
+    {
+        "input": "Manhattan Project National Historical Park",
+        "output": "Tennessee"
+    },
+    {
+        "input": "Manhattan Project National Historical Park",
+        "output": "Washington"
+    },
+    {
+        "input": "Pecos National Historical Park",
+        "output": "New Mexico"
+    },
+    {
+        "input": "Petroglyph National Monument",
+        "output": "New Mexico"
+    },
+    {
+        "input": "Salinas Pueblo Missions National Monument",
+        "output": "New Mexico"
+    },
+    {
+        "input": "Valles Caldera National Preserve",
+        "output": "New Mexico"
+    },
+    {
+        "input": "White Sands National Park",
+        "output": "New Mexico"
+    },
+    {
+        "input": "African Burial Ground National Monument",
+        "output": "New York"
+    },
+    {
+        "input": "Castle Clinton National Monument",
+        "output": "New York"
+    },
+    {
+        "input": "Eleanor Roosevelt National Historic Site",
+        "output": "New York"
+    },
+    {
+        "input": "Federal Hall National Memorial",
+        "output": "New York"
+    },
+    {
+        "input": "Fire Island National Seashore",
+        "output": "New York"
+    },
+    {
+        "input": "Fort Stanwix National Monument",
+        "output": "New York"
+    },
+    {
+        "input": "Gateway National Recreation Area",
+        "output": "New York"
+    },
+    {
+        "input": "Gateway National Recreation Area",
+        "output": "New Jersey"
+    },
+    {
+        "input": "General Grant National Memorial",
+        "output": "New York"
+    },
+    {
+        "input": "Governors Island National Monument",
+        "output": "New York"
+    },
+    {
+        "input": "Hamilton Grange National Memorial",
+        "output": "New York"
+    },
+    {
+        "input": "Harriet Tubman National Historical Park",
+        "output": "New York"
+    },
+    {
+        "input": "Home of Franklin D. Roosevelt National Historic Site",
+        "output": "New York"
+    },
+    {
+        "input": "Martin Van Buren National Historic Site",
+        "output": "New York"
+    },
+    {
+        "input": "Saint Paul's Church National Historic Site",
+        "output": "New York"
+    },
+    {
+        "input": "Sagamore Hill National Historic Site",
+        "output": "New York"
+    },
+    {
+        "input": "Saratoga National Historical Park",
+        "output": "New York"
+    },
+    {
+        "input": "Statue of Liberty National Monument",
+        "output": "New York New Jersey"
+    },
+    {
+        "input": "Stonewall National Monument",
+        "output": "New York"
+    },
+    {
+        "input": "Theodore Roosevelt Birthplace National Historic Site",
+        "output": "New York"
+    },
+    {
+        "input": "Theodore Roosevelt Inaugural National Historic Site",
+        "output": "New York"
+    },
+    {
+        "input": "Vanderbilt Mansion National Historic Site",
+        "output": "New York"
+    },
+    {
+        "input": "Women's Rights National Historical Park",
+        "output": "New York"
+    },
+    {
+        "input": "Blue Ridge Parkway",
+        "output": "North Carolina Virginia"
+    },
+    {
+        "input": "Cape Hatteras National Seashore",
+        "output": "North Carolina"
+    },
+    {
+        "input": "Cape Lookout National Seashore",
+        "output": "North Carolina"
+    },
+    {
+        "input": "Carl Sandburg Home National Historic Site",
+        "output": "North Carolina"
+    },
+    {
+        "input": "Fort Raleigh National Historic Site",
+        "output": "North Carolina"
+    },
+    {
+        "input": "Guilford Courthouse National Military Park",
+        "output": "North Carolina"
+    },
+    {
+        "input": "Moores Creek National Battlefield",
+        "output": "North Carolina"
+    },
+    {
+        "input": "Wright Brothers National Memorial",
+        "output": "North Carolina"
+    },
+    {
+        "input": "Fort Union Trading Post National Historic Site",
+        "output": "North Dakota"
+    },
+    {
+        "input": "Fort Union Trading Post National Historic Site",
+        "output": "Montana"
+    },
+    {
+        "input": "Knife River Indian Villages National Historic Site",
+        "output": "North Dakota"
+    },
+    {
+        "input": "Theodore Roosevelt National Park",
+        "output": "North Dakota"
+    },
+    {
+        "input": "Charles Young Buffalo Soldiers National Monument",
+        "output": "Ohio"
+    },
+    {
+        "input": "Cuyahoga Valley National Park",
+        "output": "Ohio"
+    },
+    {
+        "input": "Dayton Aviation Heritage National Historical Park",
+        "output": "Ohio"
+    },
+    {
+        "input": "First Ladies National Historic Site",
+        "output": "Ohio"
+    },
+    {
+        "input": "Hopewell Culture National Historical Park",
+        "output": "Ohio"
+    },
+    {
+        "input": "James A. Garfield National Historic Site",
+        "output": "Ohio"
+    },
+    {
+        "input": "Perry's Victory and International Peace Memorial",
+        "output": "Ohio"
+    },
+    {
+        "input": "William Howard Taft National Historic Site",
+        "output": "Ohio"
+    },
+    {
+        "input": "Chickasaw National Recreation Area",
+        "output": "Oklahoma"
+    },
+    {
+        "input": "Washita Battlefield National Historic Site",
+        "output": "Oklahoma"
+    },
+    {
+        "input": "Crater Lake National Park",
+        "output": "Oregon"
+    },
+    {
+        "input": "Lewis and Clark National Historical Park",
+        "output": "Oregon"
+    },
+    {
+        "input": "Lewis and Clark National Historical Park",
+        "output": "Washington"
+    },
+    {
+        "input": "John Day Fossil Beds National Monument",
+        "output": "Oregon"
+    },
+    {
+        "input": "Oregon Caves National Monument and Preserve",
+        "output": "Oregon"
+    },
+    {
+        "input": "Allegheny Portage Railroad National Historic Site",
+        "output": "Pennsylvania"
+    },
+    {
+        "input": "Edgar Allan Poe National Historic Site",
+        "output": "Pennsylvania"
+    },
+    {
+        "input": "Eisenhower National Historic Site",
+        "output": "Pennsylvania"
+    },
+    {
+        "input": "Flight 93 National Memorial",
+        "output": "Pennsylvania"
+    },
+    {
+        "input": "Fort Necessity National Battlefield",
+        "output": "Pennsylvania"
+    },
+    {
+        "input": "Friendship Hill National Historic Site",
+        "output": "Pennsylvania"
+    },
+    {
+        "input": "Gettysburg National Military Park",
+        "output": "Pennsylvania"
+    },
+    {
+        "input": "Hopewell Furnace National Historic Site",
+        "output": "Pennsylvania"
+    },
+    {
+        "input": "Independence National Historical Park",
+        "output": "Pennsylvania"
+    },
+    {
+        "input": "Johnstown Flood National Memorial",
+        "output": "Pennsylvania"
+    },
+    {
+        "input": "Middle Delaware National Scenic River",
+        "output": "Pennsylvania"
+    },
+    {
+        "input": "Steamtown National Historic Site",
+        "output": "Pennsylvania"
+    },
+    {
+        "input": "Thaddeus Kosciuszko National Memorial",
+        "output": "Pennsylvania"
+    },
+    {
+        "input": "Upper Delaware Scenic and Recreational River",
+        "output": "Pennsylvania"
+    },
+    {
+        "input": "Valley Forge National Historical Park",
+        "output": "Pennsylvania"
+    },
+    {
+        "input": "San Juan National Historic Site",
+        "output": "Puerto Rico"
+    },
+    {
+        "input": "Blackstone River Valley National Historical Park",
+        "output": "Rhode Island"
+    },
+    {
+        "input": "Blackstone River Valley National Historical Park",
+        "output": "Massachusetts"
+    },
+    {
+        "input": "Roger Williams National Memorial",
+        "output": "Rhode Island"
+    },
+    {
+        "input": "Charles Pinckney National Historic Site",
+        "output": "South Carolina"
+    },
+    {
+        "input": "Congaree National Park",
+        "output": "South Carolina"
+    },
+    {
+        "input": "Cowpens National Battlefield",
+        "output": "South Carolina"
+    },
+    {
+        "input": "Fort Sumter and Fort Moultrie National Historical Park",
+        "output": "South Carolina"
+    },
+    {
+        "input": "Kings Mountain National Military Park",
+        "output": "South Carolina"
+    },
+    {
+        "input": "Ninety Six National Historic Site",
+        "output": "South Carolina"
+    },
+    {
+        "input": "Reconstruction Era National Historical Park",
+        "output": "South Carolina"
+    },
+    {
+        "input": "Badlands National Park",
+        "output": "South Dakota"
+    },
+    {
+        "input": "Jewel Cave National Monument",
+        "output": "South Dakota"
+    },
+    {
+        "input": "Minuteman Missile National Historic Site",
+        "output": "South Dakota"
+    },
+    {
+        "input": "Mount Rushmore National Memorial",
+        "output": "South Dakota"
+    },
+    {
+        "input": "Wind Cave National Park",
+        "output": "South Dakota"
+    },
+    {
+        "input": "Andrew Johnson National Historic Site",
+        "output": "Tennessee"
+    },
+    {
+        "input": "Big South Fork National River and Recreation Area",
+        "output": "Tennessee"
+    },
+    {
+        "input": "Big South Fork National River and Recreation Area",
+        "output": "Kentucky"
+    },
+    {
+        "input": "Fort Donelson National Battlefield",
+        "output": "Tennessee"
+    },
+    {
+        "input": "Fort Donelson National Battlefield",
+        "output": "Kentucky"
+    },
+    {
+        "input": "Great Smoky Mountains National Park",
+        "output": "Tennessee"
+    },
+    {
+        "input": "Great Smoky Mountains National Park",
+        "output": "North Carolina"
+    },
+    {
+        "input": "Obed Wild and Scenic River",
+        "output": "Tennessee"
+    },
+    {
+        "input": "Shiloh National Military Park",
+        "output": "Tennessee"
+    },
+    {
+        "input": "Shiloh National Military Park",
+        "output": "Mississippi"
+    },
+    {
+        "input": "Stones River National Battlefield",
+        "output": "Tennessee"
+    },
+    {
+        "input": "Alibates Flint Quarries National Monument",
+        "output": "Texas"
+    },
+    {
+        "input": "Amistad National Recreation Area",
+        "output": "Texas"
+    },
+    {
+        "input": "Big Bend National Park",
+        "output": "Texas"
+    },
+    {
+        "input": "Big Thicket National Preserve",
+        "output": "Texas"
+    },
+    {
+        "input": "Chamizal National Memorial",
+        "output": "Texas"
+    },
+    {
+        "input": "Fort Davis National Historic Site",
+        "output": "Texas"
+    },
+    {
+        "input": "Guadalupe Mountains National Park",
+        "output": "Texas"
+    },
+    {
+        "input": "Lake Meredith National Recreation Area",
+        "output": "Texas"
+    },
+    {
+        "input": "Lyndon B. Johnson National Historical Park",
+        "output": "Texas"
+    },
+    {
+        "input": "Padre Island National Seashore",
+        "output": "Texas"
+    },
+    {
+        "input": "Palo Alto Battlefield National Historical Park",
+        "output": "Texas"
+    },
+    {
+        "input": "Rio Grande Wild and Scenic River",
+        "output": "Texas"
+    },
+    {
+        "input": "San Antonio Missions National Historical Park",
+        "output": "Texas"
+    },
+    {
+        "input": "Waco Mammoth National Monument",
+        "output": "Texas"
+    },
+    {
+        "input": "Arches National Park",
+        "output": "Utah"
+    },
+    {
+        "input": "Bryce Canyon National Park",
+        "output": "Utah"
+    },
+    {
+        "input": "Canyonlands National Park",
+        "output": "Utah"
+    },
+    {
+        "input": "Capitol Reef National Park",
+        "output": "Utah"
+    },
+    {
+        "input": "Cedar Breaks National Monument",
+        "output": "Utah"
+    },
+    {
+        "input": "Golden Spike National Historical Park",
+        "output": "Utah"
+    },
+    {
+        "input": "Natural Bridges National Monument",
+        "output": "Utah"
+    },
+    {
+        "input": "Rainbow Bridge National Monument",
+        "output": "Utah"
+    },
+    {
+        "input": "Timpanogos Cave National Monument",
+        "output": "Utah"
+    },
+    {
+        "input": "Zion National Park",
+        "output": "Utah"
+    },
+    {
+        "input": "Marsh-Billings-Rockefeller National Historical Park",
+        "output": "Vermont"
+    },
+    {
+        "input": "Buck Island Reef National Monument",
+        "output": "Virgin Islands"
+    },
+    {
+        "input": "Christiansted National Historic Site",
+        "output": "Virgin Islands"
+    },
+    {
+        "input": "Salt River Bay National Historical Park and Ecological Preserve",
+        "output": "Virgin Islands"
+    },
+    {
+        "input": "Virgin Islands National Park",
+        "output": "Virgin Islands"
+    },
+    {
+        "input": "Virgin Islands Coral Reef National Monument",
+        "output": "Virgin Islands"
+    },
+    {
+        "input": "Appomattox Court House National Historical Park",
+        "output": "Virginia"
+    },
+    {
+        "input": "Arlington House, The Robert E. Lee Memorial",
+        "output": "Virginia"
+    },
+    {
+        "input": "Booker T. Washington National Monument",
+        "output": "Virginia"
+    },
+    {
+        "input": "Cedar Creek and Belle Grove National Historical Park",
+        "output": "Virginia"
+    },
+    {
+        "input": "Colonial National Historical Park",
+        "output": "Virginia"
+    },
+    {
+        "input": "Fort Monroe National Monument",
+        "output": "Virginia"
+    },
+    {
+        "input": "Fredericksburg and Spotsylvania National Military Park",
+        "output": "Virginia"
+    },
+    {
+        "input": "George Washington Birthplace National Monument",
+        "output": "Virginia"
+    },
+    {
+        "input": "George Washington Memorial Parkway",
+        "output": "Maryland"
+    },
+    {
+        "input": "George Washington Memorial Parkway",
+        "output": "Virginia"
+    },
+    {
+        "input": "George Washington Memorial Parkway",
+        "output": "Washington DC"
+    },
+    {
+        "input": "Maggie L. Walker National Historic Site",
+        "output": "Virginia"
+    },
+    {
+        "input": "Manassas National Battlefield Park",
+        "output": "Virginia"
+    },
+    {
+        "input": "Petersburg National Battlefield",
+        "output": "Virginia"
+    },
+    {
+        "input": "Prince William Forest Park",
+        "output": "Virginia"
+    },
+    {
+        "input": "Richmond National Battlefield Park",
+        "output": "Virginia"
+    },
+    {
+        "input": "Shenandoah National Park",
+        "output": "Virginia"
+    },
+    {
+        "input": "Wolf Trap National Park for the Performing Arts",
+        "output": "Virginia"
+    },
+    {
+        "input": "Ebey's Landing National Historical Reserve",
+        "output": "Washington"
+    },
+    {
+        "input": "Fort Vancouver National Historic Site",
+        "output": "Washington"
+    },
+    {
+        "input": "Fort Vancouver National Historic Site",
+        "output": "Oregon"
+    },
+    {
+        "input": "Lake Chelan National Recreation Area",
+        "output": "Washington"
+    },
+    {
+        "input": "Lake Roosevelt National Recreation Area",
+        "output": "Washington"
+    },
+    {
+        "input": "Mount Rainier National Park",
+        "output": "Washington"
+    },
+    {
+        "input": "North Cascades National Park",
+        "output": "Washington"
+    },
+    {
+        "input": "Olympic National Park",
+        "output": "Washington"
+    },
+    {
+        "input": "Ross Lake National Recreation Area",
+        "output": "Washington"
+    },
+    {
+        "input": "San Juan Island National Historical Park",
+        "output": "Washington"
+    },
+    {
+        "input": "Whitman Mission National Historic Site",
+        "output": "Washington"
+    },
+    {
+        "input": "Belmont-Paul Women's Equality National Monument",
+        "output": "Washington DC"
+    },
+    {
+        "input": "Carter G. Woodson Home National Historic Site",
+        "output": "Washington DC"
+    },
+    {
+        "input": "Constitution Gardens",
+        "output": "Washington DC"
+    },
+    {
+        "input": "Dwight D. Eisenhower Memorial",
+        "output": "Washington DC"
+    },
+    {
+        "input": "Ford's Theatre National Historic Site",
+        "output": "Washington DC"
+    },
+    {
+        "input": "Franklin D. Roosevelt Memorial",
+        "output": "Washington DC"
+    },
+    {
+        "input": "Frederick Douglass National Historic Site",
+        "output": "Washington DC"
+    },
+    {
+        "input": "Korean War Veterans Memorial",
+        "output": "Washington DC"
+    },
+    {
+        "input": "Lincoln Memorial",
+        "output": "Washington DC"
+    },
+    {
+        "input": "Lyndon Baines Johnson Memorial Grove on the Potomac",
+        "output": "Washington DC"
+    },
+    {
+        "input": "Martin Luther King, Jr. Memorial",
+        "output": "Washington DC"
+    },
+    {
+        "input": "Mary McLeod Bethune Council House National Historic Site",
+        "output": "Washington DC"
+    },
+    {
+        "input": "National Capital Parks-East",
+        "output": "Washington DC"
+    },
+    {
+        "input": "National Mall and Memorial Parks",
+        "output": "Washington DC"
+    },
+    {
+        "input": "Pennsylvania Avenue National Historic Site",
+        "output": "Washington DC"
+    },
+    {
+        "input": "Rock Creek Park",
+        "output": "Washington DC"
+    },
+    {
+        "input": "Theodore Roosevelt Island",
+        "output": "Washington DC"
+    },
+    {
+        "input": "Thomas Jefferson Memorial",
+        "output": "Washington DC"
+    },
+    {
+        "input": "Vietnam Veterans Memorial",
+        "output": "Washington DC"
+    },
+    {
+        "input": "Washington Monument",
+        "output": "Washington DC"
+    },
+    {
+        "input": "White House and President's Park",
+        "output": "Washington DC"
+    },
+    {
+        "input": "World War I Memorial",
+        "output": "Washington DC"
+    },
+    {
+        "input": "World War II Memorial",
+        "output": "Washington DC"
+    },
+    {
+        "input": "Bluestone National Scenic River",
+        "output": "West Virginia"
+    },
+    {
+        "input": "Gauley River National Recreation Area",
+        "output": "West Virginia"
+    },
+    {
+        "input": "Harpers Ferry National Historical Park",
+        "output": "West Virginia"
+    },
+    {
+        "input": "New River Gorge National Park and Preserve",
+        "output": "West Virginia"
+    },
+    {
+        "input": "Apostle Islands National Lakeshore",
+        "output": "Wisconsin"
+    },
+    {
+        "input": "Saint Croix National Scenic Riverway",
+        "output": "Wisconsin Minnesota"
+    },
+    {
+        "input": "Devils Tower National Monument",
+        "output": "Wyoming"
+    },
+    {
+        "input": "Fort Laramie National Historic Site",
+        "output": "Wyoming"
+    },
+    {
+        "input": "Fossil Butte National Monument",
+        "output": "Wyoming"
+    },
+    {
+        "input": "Grand Teton National Park",
+        "output": "Wyoming"
+    },
+    {
+        "input": "John D. Rockefeller Jr. Memorial Parkway",
+        "output": "Wyoming"
+    },
+    {
+        "input": "Yellowstone National Park",
+        "output": "Wyoming"
+    },
+    {
+        "input": "Yellowstone National Park",
+        "output": "Idaho"
+    },
+    {
+        "input": "Yellowstone National Park",
+        "output": "Montana"
+    }
+]

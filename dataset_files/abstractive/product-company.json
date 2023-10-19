@@ -1,0 +1,2090 @@
+[
+    {
+        "input": "Platform Controller Hub",
+        "output": "Intel"
+    },
+    {
+        "input": "Shahab-2",
+        "output": "Iran"
+    },
+    {
+        "input": "Infiniti QX",
+        "output": "Nissan"
+    },
+    {
+        "input": "iPhone 5",
+        "output": "Apple"
+    },
+    {
+        "input": "Wii Balance Board",
+        "output": "Nintendo"
+    },
+    {
+        "input": "Acura TL",
+        "output": "Honda"
+    },
+    {
+        "input": "Lancia 037",
+        "output": "Fiat"
+    },
+    {
+        "input": "Windows Server 2003",
+        "output": "Microsoft"
+    },
+    {
+        "input": "DualShock",
+        "output": "Sony"
+    },
+    {
+        "input": "Mac Pro",
+        "output": "Apple"
+    },
+    {
+        "input": "Game Boy Advance SP",
+        "output": "Nintendo"
+    },
+    {
+        "input": "Squad 51",
+        "output": "Dodge"
+    },
+    {
+        "input": "PGM-19 Jupiter",
+        "output": "Chrysler"
+    },
+    {
+        "input": "Prince R380",
+        "output": "Nissan"
+    },
+    {
+        "input": "Monomail",
+        "output": "Boeing"
+    },
+    {
+        "input": "Geo Metro",
+        "output": "Suzuki"
+    },
+    {
+        "input": "Shahab-1",
+        "output": "Iran"
+    },
+    {
+        "input": "PowerFlite",
+        "output": "Chrysler"
+    },
+    {
+        "input": "DC-3",
+        "output": "Douglas"
+    },
+    {
+        "input": "Kindle Fire",
+        "output": "Amazon"
+    },
+    {
+        "input": "AGM-86 ALCM",
+        "output": "Boeing"
+    },
+    {
+        "input": "Autobianchi Y10",
+        "output": "Fiat"
+    },
+    {
+        "input": "Mini E",
+        "output": "BMW"
+    },
+    {
+        "input": "Isetta",
+        "output": "BMW"
+    },
+    {
+        "input": "Datsun Sports",
+        "output": "Nissan"
+    },
+    {
+        "input": "Acura ILX",
+        "output": "Honda"
+    },
+    {
+        "input": "SteadyShot",
+        "output": "Sony"
+    },
+    {
+        "input": "SNES-CD",
+        "output": "Nintendo"
+    },
+    {
+        "input": "Ferrari 250 GTO",
+        "output": "Fiat"
+    },
+    {
+        "input": "Lancia Aprilia",
+        "output": "Fiat"
+    },
+    {
+        "input": "Windows Live Mail",
+        "output": "Microsoft"
+    },
+    {
+        "input": "Bluesmobile",
+        "output": "Dodge"
+    },
+    {
+        "input": "Bionz",
+        "output": "Sony"
+    },
+    {
+        "input": "AMC 35",
+        "output": "Renault"
+    },
+    {
+        "input": "Acura ZDX",
+        "output": "Honda"
+    },
+    {
+        "input": "Lancia Thema",
+        "output": "Fiat"
+    },
+    {
+        "input": "Acura EL",
+        "output": "Honda"
+    },
+    {
+        "input": "Alfa Romeo Montreal",
+        "output": "Fiat"
+    },
+    {
+        "input": "Acura MDX",
+        "output": "Honda"
+    },
+    {
+        "input": "Toyopet Master",
+        "output": "Toyota"
+    },
+    {
+        "input": "Xbox",
+        "output": "Microsoft"
+    },
+    {
+        "input": "Auto Avio Costruzioni 815",
+        "output": "Ferrari"
+    },
+    {
+        "input": "iPhone 4s",
+        "output": "Apple"
+    },
+    {
+        "input": "Eagle Premier",
+        "output": "Renault"
+    },
+    {
+        "input": "Dino",
+        "output": "Ferrari"
+    },
+    {
+        "input": "iPod",
+        "output": "Apple"
+    },
+    {
+        "input": "iPad Mini",
+        "output": "Apple"
+    },
+    {
+        "input": "AGM-69 SRAM",
+        "output": "Boeing"
+    },
+    {
+        "input": "LGM-30 Minuteman",
+        "output": "Boeing"
+    },
+    {
+        "input": "iPod Mini",
+        "output": "Apple"
+    },
+    {
+        "input": "Alfa Romeo 6C",
+        "output": "Fiat"
+    },
+    {
+        "input": "AMR 35",
+        "output": "Renault"
+    },
+    {
+        "input": "TorqueFlite",
+        "output": "Chrysler"
+    },
+    {
+        "input": "System Controller Hub",
+        "output": "Intel"
+    },
+    {
+        "input": "Alfa Romeo MiTo",
+        "output": "Fiat"
+    },
+    {
+        "input": "MIM-3 Nike-Ajax",
+        "output": "Douglas"
+    },
+    {
+        "input": "Color TV-Game",
+        "output": "Nintendo"
+    },
+    {
+        "input": "Mini Hatch",
+        "output": "BMW"
+    },
+    {
+        "input": "MessagePad",
+        "output": "Apple"
+    },
+    {
+        "input": "GAM-87 Skybolt",
+        "output": "Douglas"
+    },
+    {
+        "input": "Lancia Musa",
+        "output": "Fiat"
+    },
+    {
+        "input": "F3D Skyknight",
+        "output": "Douglas"
+    },
+    {
+        "input": "Dacia Sandero",
+        "output": "Renault"
+    },
+    {
+        "input": "Lancia Dedra",
+        "output": "Fiat"
+    },
+    {
+        "input": "Acura RDX",
+        "output": "Honda"
+    },
+    {
+        "input": "Rolls-Royce Phantom",
+        "output": "BMW"
+    },
+    {
+        "input": "iPod shuffle",
+        "output": "Apple"
+    },
+    {
+        "input": "Plymouth Prowler",
+        "output": "Chrysler"
+    },
+    {
+        "input": "Eagle Medallion",
+        "output": "Renault"
+    },
+    {
+        "input": "Pontiac Firebird",
+        "output": "Chevrolet"
+    },
+    {
+        "input": "B-17 Flying Fortress",
+        "output": "Boeing"
+    },
+    {
+        "input": "Infiniti Q50",
+        "output": "Nissan"
+    },
+    {
+        "input": "Dardo IFV",
+        "output": "Fiat"
+    },
+    {
+        "input": "Exmor",
+        "output": "Sony"
+    },
+    {
+        "input": "Windows 2000",
+        "output": "Microsoft"
+    },
+    {
+        "input": "Lumia series",
+        "output": "Microsoft"
+    },
+    {
+        "input": "Alfa Romeo Brera",
+        "output": "Fiat"
+    },
+    {
+        "input": "B-29 Superfortress",
+        "output": "Boeing"
+    },
+    {
+        "input": "Pratt & Miller",
+        "output": "Chevrolet"
+    },
+    {
+        "input": "SNES-CD",
+        "output": "Sony"
+    },
+    {
+        "input": "AMR 33",
+        "output": "Renault"
+    },
+    {
+        "input": "CIM-10 Bomarc",
+        "output": "Boeing"
+    },
+    {
+        "input": "Lancia Ypsilon",
+        "output": "Fiat"
+    },
+    {
+        "input": "Acura Legend",
+        "output": "Honda"
+    },
+    {
+        "input": "Lancia Gamma",
+        "output": "Fiat"
+    },
+    {
+        "input": "PGM-17 Thor",
+        "output": "Douglas"
+    },
+    {
+        "input": "N-Gage QD",
+        "output": "Nokia"
+    },
+    {
+        "input": "Dino",
+        "output": "Fiat"
+    },
+    {
+        "input": "Alpine A106",
+        "output": "Renault"
+    },
+    {
+        "input": "iPhone 3GS",
+        "output": "Apple"
+    },
+    {
+        "input": "iPad",
+        "output": "Apple"
+    },
+    {
+        "input": "Acura CL",
+        "output": "Honda"
+    },
+    {
+        "input": "Windows Phone 8.1",
+        "output": "Microsoft"
+    },
+    {
+        "input": "B-47 Stratojet",
+        "output": "Boeing"
+    },
+    {
+        "input": "C-40 Clipper",
+        "output": "Boeing"
+    },
+    {
+        "input": "Alfa Romeo 155",
+        "output": "Fiat"
+    },
+    {
+        "input": "YF-22",
+        "output": "Boeing"
+    },
+    {
+        "input": "iPhone 1",
+        "output": "Apple"
+    },
+    {
+        "input": "CineAlta",
+        "output": "Sony"
+    },
+    {
+        "input": "Plymouth Valiant",
+        "output": "Chrysler"
+    },
+    {
+        "input": "Autobianchi A112",
+        "output": "Fiat"
+    },
+    {
+        "input": "PGM-11 Redstone",
+        "output": "Chrysler"
+    },
+    {
+        "input": "RC-135",
+        "output": "Boeing"
+    },
+    {
+        "input": "Chromecast",
+        "output": "Google"
+    },
+    {
+        "input": "Chromebook Pixel",
+        "output": "Google"
+    },
+    {
+        "input": "Sileighty",
+        "output": "Nissan"
+    },
+    {
+        "input": "Kenmore Appliances",
+        "output": "Sears"
+    },
+    {
+        "input": "LGA 775",
+        "output": "Intel"
+    },
+    {
+        "input": "Model M keyboard",
+        "output": "IBM"
+    },
+    {
+        "input": "Scion tC",
+        "output": "Toyota"
+    },
+    {
+        "input": "iPad 4",
+        "output": "Apple"
+    },
+    {
+        "input": "Shahab-4",
+        "output": "Iran"
+    },
+    {
+        "input": "MacBook Air",
+        "output": "Apple"
+    },
+    {
+        "input": "Hwasong-5",
+        "output": "Iran"
+    },
+    {
+        "input": "Jeep Grand Cherokee",
+        "output": "Chrysler"
+    },
+    {
+        "input": "Game & Watch",
+        "output": "Nintendo"
+    },
+    {
+        "input": "Wii U",
+        "output": "Nintendo"
+    },
+    {
+        "input": "Lancia Flavia",
+        "output": "Fiat"
+    },
+    {
+        "input": "Game Boy Advance",
+        "output": "Nintendo"
+    },
+    {
+        "input": "DC-9",
+        "output": "Douglas"
+    },
+    {
+        "input": "Fateh-110",
+        "output": "Iran"
+    },
+    {
+        "input": "Windows Vista",
+        "output": "Microsoft"
+    },
+    {
+        "input": "Lancia Lybra",
+        "output": "Fiat"
+    },
+    {
+        "input": "C-135 Stratolifter",
+        "output": "Boeing"
+    },
+    {
+        "input": "Nasr-1",
+        "output": "Iran"
+    },
+    {
+        "input": "iPhone",
+        "output": "Apple"
+    },
+    {
+        "input": "StyleWriter",
+        "output": "Apple"
+    },
+    {
+        "input": "Infiniti JX",
+        "output": "Nissan"
+    },
+    {
+        "input": "DeltaWing",
+        "output": "Nissan"
+    },
+    {
+        "input": "iPod Touch",
+        "output": "Apple"
+    },
+    {
+        "input": "Alfa Romeo SZ",
+        "output": "Fiat"
+    },
+    {
+        "input": "iISO flash shoe",
+        "output": "Sony"
+    },
+    {
+        "input": "VTEC",
+        "output": "Honda"
+    },
+    {
+        "input": "Xeon",
+        "output": "Intel"
+    },
+    {
+        "input": "Windows 7",
+        "output": "Microsoft"
+    },
+    {
+        "input": "EA-18G Growler",
+        "output": "Boeing"
+    },
+    {
+        "input": "Amiibo",
+        "output": "Nintendo"
+    },
+    {
+        "input": "Fully Integrated Robotised Engine",
+        "output": "Fiat"
+    },
+    {
+        "input": "MacBook Pro",
+        "output": "Apple"
+    },
+    {
+        "input": "Alfa Romeo 75",
+        "output": "Fiat"
+    },
+    {
+        "input": "Jeep Wrangler",
+        "output": "Chrysler"
+    },
+    {
+        "input": "Alpine A108",
+        "output": "Renault"
+    },
+    {
+        "input": "Game Boy Micro",
+        "output": "Nintendo"
+    },
+    {
+        "input": "PlayStation Eye",
+        "output": "Sony"
+    },
+    {
+        "input": "iPod Classic",
+        "output": "Apple"
+    },
+    {
+        "input": "Zelzal-2",
+        "output": "Iran"
+    },
+    {
+        "input": "SEAT 133",
+        "output": "Fiat"
+    },
+    {
+        "input": "Cyber-shot",
+        "output": "Sony"
+    },
+    {
+        "input": "Windows Phone 7",
+        "output": "Microsoft"
+    },
+    {
+        "input": "Family Computer Disk System",
+        "output": "Nintendo"
+    },
+    {
+        "input": "Alfa Romeo 164",
+        "output": "Fiat"
+    },
+    {
+        "input": "Dacia Duster",
+        "output": "Renault"
+    },
+    {
+        "input": "Windows Phone 8",
+        "output": "Microsoft"
+    },
+    {
+        "input": "Alfa Romeo Alfasud",
+        "output": "Fiat"
+    },
+    {
+        "input": "Super Game Boy",
+        "output": "Nintendo"
+    },
+    {
+        "input": "Acura RL",
+        "output": "Honda"
+    },
+    {
+        "input": "Acura TSX",
+        "output": "Honda"
+    },
+    {
+        "input": "Mini Countryman",
+        "output": "BMW"
+    },
+    {
+        "input": "M6 Gun Motor Carriage",
+        "output": "Dodge"
+    },
+    {
+        "input": "Scion xD",
+        "output": "Toyota"
+    },
+    {
+        "input": "iTunes Remote",
+        "output": "Apple"
+    },
+    {
+        "input": "Multi Interface Shoe",
+        "output": "Sony"
+    },
+    {
+        "input": "Infiniti Q45",
+        "output": "Nissan"
+    },
+    {
+        "input": "Windows Embedded CE 6.0",
+        "output": "Microsoft"
+    },
+    {
+        "input": "Sandy Bridge",
+        "output": "Intel"
+    },
+    {
+        "input": "Tizen",
+        "output": "Samsung"
+    },
+    {
+        "input": "VP9",
+        "output": "Google"
+    },
+    {
+        "input": "Final Fantasy",
+        "output": "Square"
+    },
+    {
+        "input": "OS X Mavericks",
+        "output": "Apple"
+    },
+    {
+        "input": "iBooks Author",
+        "output": "Apple"
+    },
+    {
+        "input": "Symbian",
+        "output": "Nokia"
+    },
+    {
+        "input": "Windows 98",
+        "output": "Microsoft"
+    },
+    {
+        "input": "Windows Embedded Compact",
+        "output": "Microsoft"
+    },
+    {
+        "input": "Internet Explorer 5",
+        "output": "Microsoft"
+    },
+    {
+        "input": "IntelliPoint",
+        "output": "Microsoft"
+    },
+    {
+        "input": "Journaled File System",
+        "output": "IBM"
+    },
+    {
+        "input": "Windows XP",
+        "output": "Microsoft"
+    },
+    {
+        "input": "NTFS",
+        "output": "Microsoft"
+    },
+    {
+        "input": "Windows Driver Frameworks",
+        "output": "Microsoft"
+    },
+    {
+        "input": "Heavyweight Champ",
+        "output": "Sega"
+    },
+    {
+        "input": "Glyph Bitmap Distribution Format",
+        "output": "Adobe"
+    },
+    {
+        "input": "Logic Pro",
+        "output": "Apple"
+    },
+    {
+        "input": "Windows NT 3.1",
+        "output": "Microsoft"
+    },
+    {
+        "input": "High Performance File System",
+        "output": "Microsoft"
+    },
+    {
+        "input": "Gain Ground",
+        "output": "Sega"
+    },
+    {
+        "input": "Final Fantasy V",
+        "output": "Square"
+    },
+    {
+        "input": "DirectX",
+        "output": "Microsoft"
+    },
+    {
+        "input": "Disk Utility",
+        "output": "Apple"
+    },
+    {
+        "input": "Core 2",
+        "output": "Intel"
+    },
+    {
+        "input": "Internet Explorer",
+        "output": "Microsoft"
+    },
+    {
+        "input": "Mac OS X Lion",
+        "output": "Apple"
+    },
+    {
+        "input": "Gmail",
+        "output": "Google"
+    },
+    {
+        "input": "Mac OS X Panther",
+        "output": "Apple"
+    },
+    {
+        "input": "ISPF",
+        "output": "IBM"
+    },
+    {
+        "input": "Sonic Drift 2",
+        "output": "Sega"
+    },
+    {
+        "input": "Windows Easy Transfer",
+        "output": "Microsoft"
+    },
+    {
+        "input": "Windows Media Video",
+        "output": "Microsoft"
+    },
+    {
+        "input": "Xbox One",
+        "output": "Microsoft"
+    },
+    {
+        "input": "Windows RT",
+        "output": "Microsoft"
+    },
+    {
+        "input": "Tamarin",
+        "output": "Adobe"
+    },
+    {
+        "input": "Windows Server 2008",
+        "output": "Microsoft"
+    },
+    {
+        "input": "Windows Internet Explorer 7",
+        "output": "Microsoft"
+    },
+    {
+        "input": "Photo Booth",
+        "output": "Apple"
+    },
+    {
+        "input": "iCloud",
+        "output": "Apple"
+    },
+    {
+        "input": "Windows Live Mesh",
+        "output": "Microsoft"
+    },
+    {
+        "input": "Android Runtime",
+        "output": "Google"
+    },
+    {
+        "input": "VoiceOver",
+        "output": "Apple"
+    },
+    {
+        "input": "MacPaint",
+        "output": "Apple"
+    },
+    {
+        "input": "MiniDisc",
+        "output": "Sony"
+    },
+    {
+        "input": "QuickTime",
+        "output": "Apple"
+    },
+    {
+        "input": "Chrome OS",
+        "output": "Google"
+    },
+    {
+        "input": "Windows NT 3.51",
+        "output": "Microsoft"
+    },
+    {
+        "input": "Newsstand",
+        "output": "Apple"
+    },
+    {
+        "input": "Windows 7",
+        "output": "Microsoft"
+    },
+    {
+        "input": "Visual Basic Script",
+        "output": "Microsoft"
+    },
+    {
+        "input": "Donkey Kong",
+        "output": "Nintendo"
+    },
+    {
+        "input": "iPod Nano",
+        "output": "Apple"
+    },
+    {
+        "input": "Bing Maps",
+        "output": "Microsoft"
+    },
+    {
+        "input": "Windows Virtual PC",
+        "output": "Microsoft"
+    },
+    {
+        "input": "PowerShell",
+        "output": "Microsoft"
+    },
+    {
+        "input": "Windows Me",
+        "output": "Microsoft"
+    },
+    {
+        "input": "PostScript Printer Description",
+        "output": "Adobe"
+    },
+    {
+        "input": "Yorkfield",
+        "output": "Intel"
+    },
+    {
+        "input": "Dynix",
+        "output": "IBM"
+    },
+    {
+        "input": "MacApp",
+        "output": "Apple"
+    },
+    {
+        "input": "Windows Live Messenger",
+        "output": "Microsoft"
+    },
+    {
+        "input": "WebP Lossless",
+        "output": "Google"
+    },
+    {
+        "input": "Windows Vista",
+        "output": "Microsoft"
+    },
+    {
+        "input": "Windows 8",
+        "output": "Microsoft"
+    },
+    {
+        "input": "Fatal Labyrinth",
+        "output": "Sega"
+    },
+    {
+        "input": "Transaction Processing Facility",
+        "output": "IBM"
+    },
+    {
+        "input": "ColorSync",
+        "output": "Apple"
+    },
+    {
+        "input": "Safari",
+        "output": "Apple"
+    },
+    {
+        "input": "HFS Plus",
+        "output": "Apple"
+    },
+    {
+        "input": "The Revenge of Shinobi",
+        "output": "Sega"
+    },
+    {
+        "input": "Event Viewer",
+        "output": "Microsoft"
+    },
+    {
+        "input": "Wii U system software",
+        "output": "Nintendo"
+    },
+    {
+        "input": "MSX BASIC",
+        "output": "Microsoft"
+    },
+    {
+        "input": "Gear VR",
+        "output": "Samsung"
+    },
+    {
+        "input": "Clang",
+        "output": "Apple"
+    },
+    {
+        "input": "High Level Shader Language",
+        "output": "Microsoft"
+    },
+    {
+        "input": "iOS",
+        "output": "Apple"
+    },
+    {
+        "input": "QuickTime VR",
+        "output": "Apple"
+    },
+    {
+        "input": "Xbox 360",
+        "output": "Microsoft"
+    },
+    {
+        "input": "Altered Beast",
+        "output": "Sega"
+    },
+    {
+        "input": "WebObjects",
+        "output": "Apple"
+    },
+    {
+        "input": "ActiveSync",
+        "output": "Microsoft"
+    },
+    {
+        "input": "WebM",
+        "output": "Google"
+    },
+    {
+        "input": "iOS 5",
+        "output": "Apple"
+    },
+    {
+        "input": "Xsan",
+        "output": "Apple"
+    },
+    {
+        "input": "Schema.org",
+        "output": "Google"
+    },
+    {
+        "input": "SonicStage",
+        "output": "Sony"
+    },
+    {
+        "input": "Internet Explorer 11",
+        "output": "Microsoft"
+    },
+    {
+        "input": "Windows XP Media Center Edition",
+        "output": "Microsoft"
+    },
+    {
+        "input": "Binary Synchronous Communications",
+        "output": "IBM"
+    },
+    {
+        "input": "Mac OS 8",
+        "output": "Apple"
+    },
+    {
+        "input": "Alex Kidd",
+        "output": "Sega"
+    },
+    {
+        "input": "CICS",
+        "output": "IBM"
+    },
+    {
+        "input": "Clang",
+        "output": "Sony"
+    },
+    {
+        "input": "Windows 10",
+        "output": "Microsoft"
+    },
+    {
+        "input": "Apache Traffic Server",
+        "output": "Yahoo"
+    },
+    {
+        "input": "iOS 8",
+        "output": "Apple"
+    },
+    {
+        "input": "MobileMe",
+        "output": "Apple"
+    },
+    {
+        "input": "Pentium II",
+        "output": "Intel"
+    },
+    {
+        "input": "Channel Definition Format",
+        "output": "Microsoft"
+    },
+    {
+        "input": "Time Machine (macOS)",
+        "output": "Apple"
+    },
+    {
+        "input": "Open XML Paper Specification",
+        "output": "Microsoft"
+    },
+    {
+        "input": "Eternal Champions",
+        "output": "Sega"
+    },
+    {
+        "input": "Uniform Type Identifier",
+        "output": "Apple"
+    },
+    {
+        "input": "Internet Information Services",
+        "output": "Microsoft"
+    },
+    {
+        "input": "Process Explorer",
+        "output": "Microsoft"
+    },
+    {
+        "input": "HyperCard",
+        "output": "Apple"
+    },
+    {
+        "input": "Windows Phone 8.1",
+        "output": "Microsoft"
+    },
+    {
+        "input": "Resource Interchange File Format",
+        "output": "Microsoft"
+    },
+    {
+        "input": "Wii U",
+        "output": "Nintendo"
+    },
+    {
+        "input": "App Inventor for Android",
+        "output": "Google"
+    },
+    {
+        "input": "Final Cut Pro",
+        "output": "Apple"
+    },
+    {
+        "input": "B-52 Stratofortress",
+        "output": "Boeing"
+    },
+    {
+        "input": "B-17 Flying Fortress",
+        "output": "Boeing"
+    },
+    {
+        "input": "File Explorer",
+        "output": "Microsoft"
+    },
+    {
+        "input": "Macintosh File System",
+        "output": "Apple"
+    },
+    {
+        "input": "iLife",
+        "output": "Apple"
+    },
+    {
+        "input": "IA-32",
+        "output": "Intel"
+    },
+    {
+        "input": "Visual Basic .NET",
+        "output": "Microsoft"
+    },
+    {
+        "input": "Zune",
+        "output": "Microsoft"
+    },
+    {
+        "input": "Windows NT",
+        "output": "Microsoft"
+    },
+    {
+        "input": "Wii MotionPlus",
+        "output": "Nintendo"
+    },
+    {
+        "input": "Skype",
+        "output": "Microsoft"
+    },
+    {
+        "input": "Tetris DS",
+        "output": "Nintendo"
+    },
+    {
+        "input": "Soundtrack Pro",
+        "output": "Apple"
+    },
+    {
+        "input": "Tizen",
+        "output": "Intel"
+    },
+    {
+        "input": "Andrew File System",
+        "output": "IBM"
+    },
+    {
+        "input": "Fonz",
+        "output": "Sega"
+    },
+    {
+        "input": "IA-64",
+        "output": "Intel"
+    },
+    {
+        "input": "Windows Phone 8",
+        "output": "Microsoft"
+    },
+    {
+        "input": "Congo Bongo",
+        "output": "Sega"
+    },
+    {
+        "input": "G Suite",
+        "output": "Google"
+    },
+    {
+        "input": "MVS",
+        "output": "IBM"
+    },
+    {
+        "input": "Office Open XML",
+        "output": "Microsoft"
+    },
+    {
+        "input": "KC-767",
+        "output": "Boeing"
+    },
+    {
+        "input": "Schema.org",
+        "output": "Yahoo"
+    },
+    {
+        "input": "Baku Baku Animal",
+        "output": "Sega"
+    },
+    {
+        "input": "Rich Text Format",
+        "output": "Microsoft"
+    },
+    {
+        "input": "Eclipse",
+        "output": "IBM"
+    },
+    {
+        "input": "Windows Server 2008 R2",
+        "output": "Microsoft"
+    },
+    {
+        "input": "Windows Internet Explorer 9",
+        "output": "Microsoft"
+    },
+    {
+        "input": "Mac OS 9",
+        "output": "Apple"
+    },
+    {
+        "input": "CarPlay",
+        "output": "Apple"
+    },
+    {
+        "input": "iPod",
+        "output": "Apple"
+    },
+    {
+        "input": "Pentium III",
+        "output": "Intel"
+    },
+    {
+        "input": "Rational Team Concert",
+        "output": "IBM"
+    },
+    {
+        "input": "MXML",
+        "output": "Adobe"
+    },
+    {
+        "input": "The Legend of Zelda",
+        "output": "Nintendo"
+    },
+    {
+        "input": "Quick Look",
+        "output": "Apple"
+    },
+    {
+        "input": "Advanced Function Presentation",
+        "output": "IBM"
+    },
+    {
+        "input": "Windows Mobile 6.5",
+        "output": "Microsoft"
+    },
+    {
+        "input": "UNIX System Services",
+        "output": "IBM"
+    },
+    {
+        "input": "Windows Movie Maker",
+        "output": "Microsoft"
+    },
+    {
+        "input": "Interface Builder",
+        "output": "Apple"
+    },
+    {
+        "input": "NTLDR",
+        "output": "Microsoft"
+    },
+    {
+        "input": "Audio Interchange File Format",
+        "output": "Apple"
+    },
+    {
+        "input": "Windows Media Audio",
+        "output": "Microsoft"
+    },
+    {
+        "input": "Virtual Hard Disk",
+        "output": "Microsoft"
+    },
+    {
+        "input": "iTunes Radio",
+        "output": "Apple"
+    },
+    {
+        "input": "Open Packaging Conventions",
+        "output": "Microsoft"
+    },
+    {
+        "input": "Metroid",
+        "output": "Nintendo"
+    },
+    {
+        "input": "Windows 8.1",
+        "output": "Microsoft"
+    },
+    {
+        "input": "macOS",
+        "output": "Apple"
+    },
+    {
+        "input": "Windows Live OneCare",
+        "output": "Microsoft"
+    },
+    {
+        "input": "Active Server Pages",
+        "output": "Microsoft"
+    },
+    {
+        "input": "Xcode",
+        "output": "Apple"
+    },
+    {
+        "input": "Windows Mobile",
+        "output": "Microsoft"
+    },
+    {
+        "input": "Mac OS",
+        "output": "Apple"
+    },
+    {
+        "input": "Golden Axe",
+        "output": "Sega"
+    },
+    {
+        "input": "XScale",
+        "output": "Intel"
+    },
+    {
+        "input": "iOS 6",
+        "output": "Apple"
+    },
+    {
+        "input": "SPDY",
+        "output": "Google"
+    },
+    {
+        "input": "Windows Internet Explorer 8",
+        "output": "Microsoft"
+    },
+    {
+        "input": "Logic Studio",
+        "output": "Apple"
+    },
+    {
+        "input": "iPod shuffle",
+        "output": "Apple"
+    },
+    {
+        "input": "Windows Mixed Reality",
+        "output": "Microsoft"
+    },
+    {
+        "input": "High Performance File System",
+        "output": "IBM"
+    },
+    {
+        "input": "Final Fantasy Legend III",
+        "output": "Square"
+    },
+    {
+        "input": "Windows NT 3.5",
+        "output": "Microsoft"
+    },
+    {
+        "input": "Motion",
+        "output": "Apple"
+    },
+    {
+        "input": "Project Ara",
+        "output": "Google"
+    },
+    {
+        "input": "Android TV",
+        "output": "Google"
+    },
+    {
+        "input": "Robocopy",
+        "output": "Microsoft"
+    },
+    {
+        "input": "Mac OS X Leopard",
+        "output": "Apple"
+    },
+    {
+        "input": "Gran Trak 10",
+        "output": "Atari"
+    },
+    {
+        "input": "iMovie",
+        "output": "Apple"
+    },
+    {
+        "input": "Lotus 1-2-3",
+        "output": "IBM"
+    },
+    {
+        "input": "Squeak",
+        "output": "Apple"
+    },
+    {
+        "input": "Yakuza 2",
+        "output": "Sega"
+    },
+    {
+        "input": "Windows Phone Store",
+        "output": "Microsoft"
+    },
+    {
+        "input": "Pentium",
+        "output": "Intel"
+    },
+    {
+        "input": "Xgrid",
+        "output": "Apple"
+    },
+    {
+        "input": "sRGB",
+        "output": "Microsoft"
+    },
+    {
+        "input": "B-47 Stratojet",
+        "output": "Boeing"
+    },
+    {
+        "input": "Virtual Telecommunications Access Method",
+        "output": "IBM"
+    },
+    {
+        "input": "Object REXX",
+        "output": "IBM"
+    },
+    {
+        "input": "WriteNow",
+        "output": "Apple"
+    },
+    {
+        "input": "Windows 95",
+        "output": "Microsoft"
+    },
+    {
+        "input": "Attached Support Processor",
+        "output": "IBM"
+    },
+    {
+        "input": "Mario Bros.",
+        "output": "Nintendo"
+    },
+    {
+        "input": "TSS/360",
+        "output": "IBM"
+    },
+    {
+        "input": "Digital Negative",
+        "output": "Adobe"
+    },
+    {
+        "input": "Vector Markup Language",
+        "output": "Microsoft"
+    },
+    {
+        "input": "Final Fantasy III",
+        "output": "Square"
+    },
+    {
+        "input": "Clang",
+        "output": "Intel"
+    },
+    {
+        "input": "Front Mission",
+        "output": "Square"
+    },
+    {
+        "input": "iBeacon",
+        "output": "Apple"
+    },
+    {
+        "input": "Windows Installer",
+        "output": "Microsoft"
+    },
+    {
+        "input": "macOS Server",
+        "output": "Apple"
+    },
+    {
+        "input": "Shadow Dancer",
+        "output": "Sega"
+    },
+    {
+        "input": "Hierarchical File System",
+        "output": "Apple"
+    },
+    {
+        "input": "EA-18G Growler",
+        "output": "Boeing"
+    },
+    {
+        "input": "Time Sharing Option",
+        "output": "IBM"
+    },
+    {
+        "input": "Mac OS X Snow Leopard",
+        "output": "Apple"
+    },
+    {
+        "input": "BBeB",
+        "output": "Sony"
+    },
+    {
+        "input": "Windows NT 4.0",
+        "output": "Microsoft"
+    },
+    {
+        "input": "REXX",
+        "output": "IBM"
+    },
+    {
+        "input": "Windows Phone",
+        "output": "Microsoft"
+    },
+    {
+        "input": "Xenix",
+        "output": "Microsoft"
+    },
+    {
+        "input": "B-29 Superfortress",
+        "output": "Boeing"
+    },
+    {
+        "input": "MacsBug",
+        "output": "Apple"
+    },
+    {
+        "input": "Dynamic-link library",
+        "output": "Microsoft"
+    },
+    {
+        "input": "MessagePad",
+        "output": "Apple"
+    },
+    {
+        "input": "Shining Hearts",
+        "output": "Sega"
+    },
+    {
+        "input": "Final Cut Studio",
+        "output": "Apple"
+    },
+    {
+        "input": "Sonic Drift",
+        "output": "Sega"
+    },
+    {
+        "input": "Advanced Systems Format",
+        "output": "Microsoft"
+    },
+    {
+        "input": "OpenSearch",
+        "output": "Amazon"
+    },
+    {
+        "input": "Windows Aero",
+        "output": "Microsoft"
+    },
+    {
+        "input": "iPod Mini",
+        "output": "Apple"
+    },
+    {
+        "input": "Shining Blade",
+        "output": "Sega"
+    },
+    {
+        "input": "Mario franchise",
+        "output": "Nintendo"
+    },
+    {
+        "input": "Mac OS X 10.1",
+        "output": "Apple"
+    },
+    {
+        "input": "Windows 2.0",
+        "output": "Microsoft"
+    },
+    {
+        "input": "application bundle",
+        "output": "Apple"
+    },
+    {
+        "input": "SPSS Modeler",
+        "output": "IBM"
+    },
+    {
+        "input": "Gears",
+        "output": "Google"
+    },
+    {
+        "input": "Golden Axe",
+        "output": "Sega"
+    },
+    {
+        "input": "YUI Library",
+        "output": "Yahoo"
+    },
+    {
+        "input": "Windows Server 2012",
+        "output": "Microsoft"
+    },
+    {
+        "input": "Windows 1.0",
+        "output": "Microsoft"
+    },
+    {
+        "input": "XNU",
+        "output": "Apple"
+    },
+    {
+        "input": "Windows Media Player",
+        "output": "Microsoft"
+    },
+    {
+        "input": "iTunes",
+        "output": "Apple"
+    },
+    {
+        "input": "DVD Studio Pro",
+        "output": "Apple"
+    },
+    {
+        "input": "Pentium 4",
+        "output": "Intel"
+    },
+    {
+        "input": "Super Monaco GP",
+        "output": "Sega"
+    },
+    {
+        "input": "Yakuza",
+        "output": "Sega"
+    },
+    {
+        "input": "Universal Media Disc",
+        "output": "Sony"
+    },
+    {
+        "input": "Chrono Trigger",
+        "output": "Square"
+    },
+    {
+        "input": "Picasa",
+        "output": "Google"
+    },
+    {
+        "input": "General Transit Feed Specification",
+        "output": "Google"
+    },
+    {
+        "input": "HyperTalk",
+        "output": "Apple"
+    },
+    {
+        "input": "Audio Video Interleave, version 1.0",
+        "output": "Microsoft"
+    },
+    {
+        "input": "Windows 2000",
+        "output": "Microsoft"
+    },
+    {
+        "input": "Pentium Pro",
+        "output": "Intel"
+    },
+    {
+        "input": "NetBurst",
+        "output": "Intel"
+    },
+    {
+        "input": "QuickDraw",
+        "output": "Apple"
+    },
+    {
+        "input": ".NET Framework",
+        "output": "Microsoft"
+    },
+    {
+        "input": "Pilotwings 64",
+        "output": "Nintendo"
+    },
+    {
+        "input": "Cloud Spanner",
+        "output": "Google"
+    },
+    {
+        "input": "Books",
+        "output": "Apple"
+    },
+    {
+        "input": "Windows Server 2003",
+        "output": "Microsoft"
+    },
+    {
+        "input": "Test Drive Le Mans",
+        "output": "Atari"
+    },
+    {
+        "input": "OneDrive",
+        "output": "Microsoft"
+    },
+    {
+        "input": "Small Web Format",
+        "output": "Adobe"
+    },
+    {
+        "input": "Chromecast",
+        "output": "Google"
+    },
+    {
+        "input": "Clang",
+        "output": "Microsoft"
+    },
+    {
+        "input": "Windows Update",
+        "output": "Microsoft"
+    },
+    {
+        "input": "Internet Explorer 10",
+        "output": "Microsoft"
+    },
+    {
+        "input": "Astron Belt",
+        "output": "Sega"
+    },
+    {
+        "input": "XDCAM",
+        "output": "Sony"
+    },
+    {
+        "input": "CUPS",
+        "output": "Apple"
+    },
+    {
+        "input": "Minecraft",
+        "output": "Microsoft"
+    },
+    {
+        "input": "Programmed Airline Reservations System",
+        "output": "IBM"
+    },
+    {
+        "input": "TypeScript",
+        "output": "Microsoft"
+    },
+    {
+        "input": "Virtual Console",
+        "output": "Nintendo"
+    },
+    {
+        "input": "Cyberdog",
+        "output": "Apple"
+    },
+    {
+        "input": "Bing Maps Platform",
+        "output": "Microsoft"
+    },
+    {
+        "input": "GarageBand",
+        "output": "Apple"
+    },
+    {
+        "input": "Mother 3",
+        "output": "Nintendo"
+    },
+    {
+        "input": "Outlook Express",
+        "output": "Microsoft"
+    },
+    {
+        "input": "Windows Malicious Software Removal Tool",
+        "output": "Microsoft"
+    },
+    {
+        "input": "Front Mission 3",
+        "output": "Square"
+    },
+    {
+        "input": "Windows Media Encoder",
+        "output": "Microsoft"
+    },
+    {
+        "input": "ThinkPad",
+        "output": "IBM"
+    },
+    {
+        "input": "Thunder Blade",
+        "output": "Sega"
+    },
+    {
+        "input": "iWork",
+        "output": "Apple"
+    },
+    {
+        "input": "iPad Mini 3",
+        "output": "Apple"
+    },
+    {
+        "input": "Windows Communication Foundation",
+        "output": "Microsoft"
+    },
+    {
+        "input": "ASCI Red",
+        "output": "Intel"
+    },
+    {
+        "input": "Synchronized Accessible Media Interchange",
+        "output": "Microsoft"
+    },
+    {
+        "input": "Windows Setup Information File",
+        "output": "Microsoft"
+    },
+    {
+        "input": "Fantasy Zone",
+        "output": "Sega"
+    },
+    {
+        "input": "Asteroids Deluxe",
+        "output": "Atari"
+    },
+    {
+        "input": "Fortran",
+        "output": "IBM"
+    },
+    {
+        "input": "iPad 3",
+        "output": "Apple"
+    },
+    {
+        "input": "Final Fantasy Legend II",
+        "output": "Square"
+    },
+    {
+        "input": "Alien Storm",
+        "output": "Sega"
+    },
+    {
+        "input": "Newton OS",
+        "output": "Apple"
+    },
+    {
+        "input": "Final Cut Pro X",
+        "output": "Apple"
+    },
+    {
+        "input": "Silvermont",
+        "output": "Intel"
+    },
+    {
+        "input": "WebKit",
+        "output": "Apple"
+    },
+    {
+        "input": "Clockwork Knight",
+        "output": "Sega"
+    },
+    {
+        "input": "Flicky",
+        "output": "Sega"
+    },
+    {
+        "input": "Amiibo",
+        "output": "Nintendo"
+    },
+    {
+        "input": "Android Jelly Bean",
+        "output": "Google"
+    },
+    {
+        "input": "Windows Embedded Automotive",
+        "output": "Microsoft"
+    },
+    {
+        "input": "OS X Yosemite",
+        "output": "Apple"
+    },
+    {
+        "input": "The Ocean Hunter",
+        "output": "Sega"
+    },
+    {
+        "input": "PostScript",
+        "output": "Adobe"
+    },
+    {
+        "input": "Windows Live Writer",
+        "output": "Microsoft"
+    },
+    {
+        "input": "Mac OS X 10.0",
+        "output": "Apple"
+    },
+    {
+        "input": "iPod Touch",
+        "output": "Apple"
+    },
+    {
+        "input": "X11.app",
+        "output": "Apple"
+    },
+    {
+        "input": "OpenAFS",
+        "output": "IBM"
+    },
+    {
+        "input": "GW-BASIC",
+        "output": "Microsoft"
+    },
+    {
+        "input": "Mac OS X Tiger",
+        "output": "Apple"
+    },
+    {
+        "input": "OS X Mountain Lion",
+        "output": "Apple"
+    },
+    {
+        "input": "Mac OS X 10.2",
+        "output": "Apple"
+    },
+    {
+        "input": "Super Audio CD",
+        "output": "Sony"
+    },
+    {
+        "input": "Android Auto",
+        "output": "Google"
+    },
+    {
+        "input": "Pentium M",
+        "output": "Intel"
+    },
+    {
+        "input": "Windows Messaging",
+        "output": "Microsoft"
+    },
+    {
+        "input": "Windows Genuine Advantage",
+        "output": "Microsoft"
+    },
+    {
+        "input": "Dashboard",
+        "output": "Apple"
+    },
+    {
+        "input": "MSX-DOS",
+        "output": "Microsoft"
+    },
+    {
+        "input": "iOS 7",
+        "output": "Apple"
+    },
+    {
+        "input": "FairPlay",
+        "output": "Apple"
+    },
+    {
+        "input": "Itanium",
+        "output": "Intel"
+    },
+    {
+        "input": "Meta Content Framework",
+        "output": "Apple"
+    },
+    {
+        "input": "iChat",
+        "output": "Apple"
+    },
+    {
+        "input": "Xbox Live",
+        "output": "Microsoft"
+    },
+    {
+        "input": "System 7",
+        "output": "Apple"
+    },
+    {
+        "input": "MS-DOS",
+        "output": "Microsoft"
+    },
+    {
+        "input": "iPod Classic",
+        "output": "Apple"
+    },
+    {
+        "input": "Yoshi's Universal Gravitation",
+        "output": "Nintendo"
+    },
+    {
+        "input": "Resource Access Control Facility",
+        "output": "IBM"
+    },
+    {
+        "input": "Applesoft BASIC",
+        "output": "Microsoft"
+    },
+    {
+        "input": "Final Fantasy X",
+        "output": "Square"
+    },
+    {
+        "input": "Zaxxon",
+        "output": "Sega"
+    },
+    {
+        "input": "TextEdit",
+        "output": "Apple"
+    },
+    {
+        "input": "App Store",
+        "output": "Apple"
+    },
+    {
+        "input": "Blogger",
+        "output": "Google"
+    },
+    {
+        "input": "Report Program Generator",
+        "output": "IBM"
+    },
+    {
+        "input": "Zero configuration networking",
+        "output": "Apple"
+    },
+    {
+        "input": "Wear OS",
+        "output": "Google"
+    },
+    {
+        "input": "iDisk",
+        "output": "Apple"
+    },
+    {
+        "input": "Statistical Package for the Social Sciences",
+        "output": "IBM"
+    },
+    {
+        "input": "Internet Explorer Mobile",
+        "output": "Microsoft"
+    },
+    {
+        "input": "V8",
+        "output": "Google"
+    },
+    {
+        "input": "Windows 2.1x",
+        "output": "Microsoft"
+    },
+    {
+        "input": "Windows Embedded",
+        "output": "Microsoft"
+    },
+    {
+        "input": "Portable Document Format",
+        "output": "Adobe"
+    },
+    {
+        "input": "XEDIT",
+        "output": "IBM"
+    },
+    {
+        "input": "WinDbg",
+        "output": "Microsoft"
+    },
+    {
+        "input": "Siri",
+        "output": "Apple"
+    }
+]

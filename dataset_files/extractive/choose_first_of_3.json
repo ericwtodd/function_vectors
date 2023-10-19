@@ -1,0 +1,4002 @@
+[
+    {
+        "input": "ostrich, since, out",
+        "output": "ostrich"
+    },
+    {
+        "input": "play, gray, zap",
+        "output": "play"
+    },
+    {
+        "input": "durian, globe, funny",
+        "output": "durian"
+    },
+    {
+        "input": "salty, crocodile, harmonious",
+        "output": "salty"
+    },
+    {
+        "input": "kill, visit, glass",
+        "output": "kill"
+    },
+    {
+        "input": "rug, woodpecker, boat",
+        "output": "rug"
+    },
+    {
+        "input": "reach, puzzle, passionate",
+        "output": "reach"
+    },
+    {
+        "input": "hungry, zucchini, lion",
+        "output": "hungry"
+    },
+    {
+        "input": "donut, sad, who",
+        "output": "donut"
+    },
+    {
+        "input": "buffalo, decide, read",
+        "output": "buffalo"
+    },
+    {
+        "input": "bat, dolphin, monkey",
+        "output": "bat"
+    },
+    {
+        "input": "treat, inquisitive, coral",
+        "output": "treat"
+    },
+    {
+        "input": "opossum, yield, gentle",
+        "output": "opossum"
+    },
+    {
+        "input": "caterpillar, validate, bison",
+        "output": "caterpillar"
+    },
+    {
+        "input": "ibex, need, them",
+        "output": "ibex"
+    },
+    {
+        "input": "notebook, talk, observe",
+        "output": "notebook"
+    },
+    {
+        "input": "caring, kind, zany",
+        "output": "caring"
+    },
+    {
+        "input": "fossa, cobra, juggle",
+        "output": "fossa"
+    },
+    {
+        "input": "guava, learn, dance",
+        "output": "guava"
+    },
+    {
+        "input": "determined, juggle, qualify",
+        "output": "determined"
+    },
+    {
+        "input": "alarm, charming, kindhearted",
+        "output": "alarm"
+    },
+    {
+        "input": "upbeat, white, pencil",
+        "output": "upbeat"
+    },
+    {
+        "input": "during, help, picture",
+        "output": "during"
+    },
+    {
+        "input": "caring, shirt, visualize",
+        "output": "caring"
+    },
+    {
+        "input": "witty, decide, horse",
+        "output": "witty"
+    },
+    {
+        "input": "young, justify, know",
+        "output": "young"
+    },
+    {
+        "input": "emu, firefly, bountiful",
+        "output": "emu"
+    },
+    {
+        "input": "firefly, salmon, good",
+        "output": "firefly"
+    },
+    {
+        "input": "visit, shirt, her",
+        "output": "visit"
+    },
+    {
+        "input": "think, justify, grow",
+        "output": "think"
+    },
+    {
+        "input": "joyous, lively, read",
+        "output": "joyous"
+    },
+    {
+        "input": "cockroach, kindhearted, lynx",
+        "output": "cockroach"
+    },
+    {
+        "input": "bountiful, as, rice",
+        "output": "bountiful"
+    },
+    {
+        "input": "weasel, dog, volleyball",
+        "output": "weasel"
+    },
+    {
+        "input": "breathe, create, emu",
+        "output": "breathe"
+    },
+    {
+        "input": "mango, study, explore",
+        "output": "mango"
+    },
+    {
+        "input": "pear, destroy, live",
+        "output": "pear"
+    },
+    {
+        "input": "luminous, over, diligent",
+        "output": "luminous"
+    },
+    {
+        "input": "globe, realize, pepper",
+        "output": "globe"
+    },
+    {
+        "input": "monkey, brave, hungry",
+        "output": "monkey"
+    },
+    {
+        "input": "release, jaguar, clean",
+        "output": "release"
+    },
+    {
+        "input": "dynamic, watermelon, fight",
+        "output": "dynamic"
+    },
+    {
+        "input": "like, owl, coconut",
+        "output": "like"
+    },
+    {
+        "input": "into, bold, yogurt",
+        "output": "into"
+    },
+    {
+        "input": "zany, ferret, humble",
+        "output": "zany"
+    },
+    {
+        "input": "whose, underneath, nurturing",
+        "output": "whose"
+    },
+    {
+        "input": "humble, swan, vibrant",
+        "output": "humble"
+    },
+    {
+        "input": "maracas, pink, light",
+        "output": "maracas"
+    },
+    {
+        "input": "divide, cream, learn",
+        "output": "divide"
+    },
+    {
+        "input": "calculate, swan, I",
+        "output": "calculate"
+    },
+    {
+        "input": "upon, mark, off",
+        "output": "upon"
+    },
+    {
+        "input": "bat, fishing pole, think",
+        "output": "bat"
+    },
+    {
+        "input": "wombat, calm, pink",
+        "output": "wombat"
+    },
+    {
+        "input": "of, reliable, beef",
+        "output": "of"
+    },
+    {
+        "input": "xylophone, jackfruit, train",
+        "output": "xylophone"
+    },
+    {
+        "input": "chocolate, wonderful, query",
+        "output": "chocolate"
+    },
+    {
+        "input": "xerox, study, lamp",
+        "output": "xerox"
+    },
+    {
+        "input": "talk, seahorse, zesty",
+        "output": "talk"
+    },
+    {
+        "input": "tender, slow, talented",
+        "output": "tender"
+    },
+    {
+        "input": "join, aardvark, caring",
+        "output": "join"
+    },
+    {
+        "input": "until, negotiate, gorilla",
+        "output": "until"
+    },
+    {
+        "input": "tenacious, select, adorable",
+        "output": "tenacious"
+    },
+    {
+        "input": "walk, fig, sheep",
+        "output": "walk"
+    },
+    {
+        "input": "goat, lynx, volunteer",
+        "output": "goat"
+    },
+    {
+        "input": "devoted, spicy, kindhearted",
+        "output": "devoted"
+    },
+    {
+        "input": "hedgehog, warmhearted, beside",
+        "output": "hedgehog"
+    },
+    {
+        "input": "I, under, after",
+        "output": "I"
+    },
+    {
+        "input": "celebrate, behind, choose",
+        "output": "celebrate"
+    },
+    {
+        "input": "whale, zap, lettuce",
+        "output": "whale"
+    },
+    {
+        "input": "salmon, tender, plate",
+        "output": "salmon"
+    },
+    {
+        "input": "snorkel, pigeon, after",
+        "output": "snorkel"
+    },
+    {
+        "input": "igloo, realize, penguin",
+        "output": "igloo"
+    },
+    {
+        "input": "but, write, wristwatch",
+        "output": "but"
+    },
+    {
+        "input": "deer, write, book",
+        "output": "deer"
+    },
+    {
+        "input": "out, xylophone, optimistic",
+        "output": "out"
+    },
+    {
+        "input": "gloves, jigsaw, peaceful",
+        "output": "gloves"
+    },
+    {
+        "input": "since, nectarine, patient",
+        "output": "since"
+    },
+    {
+        "input": "from, whom, mandrill",
+        "output": "from"
+    },
+    {
+        "input": "tall, resilient, cougar",
+        "output": "tall"
+    },
+    {
+        "input": "plate, grateful, thoughtful",
+        "output": "plate"
+    },
+    {
+        "input": "serious, donkey, teach",
+        "output": "serious"
+    },
+    {
+        "input": "harmonious, microphone, scorpion",
+        "output": "harmonious"
+    },
+    {
+        "input": "owl, believe, necklace",
+        "output": "owl"
+    },
+    {
+        "input": "clean, dynamic, achieve",
+        "output": "clean"
+    },
+    {
+        "input": "rabbit, penguin, sheep",
+        "output": "rabbit"
+    },
+    {
+        "input": "alarm, violin, laptop",
+        "output": "alarm"
+    },
+    {
+        "input": "these, whoever, bison",
+        "output": "these"
+    },
+    {
+        "input": "small, kumquat, basketball",
+        "output": "small"
+    },
+    {
+        "input": "over, race, warmhearted",
+        "output": "over"
+    },
+    {
+        "input": "jigsaw, oryx, buffalo",
+        "output": "jigsaw"
+    },
+    {
+        "input": "try, fascinating, squirrel",
+        "output": "try"
+    },
+    {
+        "input": "cherry, serious, anteater",
+        "output": "cherry"
+    },
+    {
+        "input": "round, yellow, panther",
+        "output": "round"
+    },
+    {
+        "input": "he, thoughtful, rake",
+        "output": "he"
+    },
+    {
+        "input": "sample, maximize, plan",
+        "output": "sample"
+    },
+    {
+        "input": "giraffe, pork, by",
+        "output": "giraffe"
+    },
+    {
+        "input": "hammer, lantern, justify",
+        "output": "hammer"
+    },
+    {
+        "input": "fascinating, chinchilla, enchanting",
+        "output": "fascinating"
+    },
+    {
+        "input": "transform, serious, gorilla",
+        "output": "transform"
+    },
+    {
+        "input": "earring, crocodile, volunteer",
+        "output": "earring"
+    },
+    {
+        "input": "plant, cranberry, komodo",
+        "output": "plant"
+    },
+    {
+        "input": "lovely, fishing pole, except",
+        "output": "lovely"
+    },
+    {
+        "input": "from, believe, justify",
+        "output": "from"
+    },
+    {
+        "input": "dog, pink, salmon",
+        "output": "dog"
+    },
+    {
+        "input": "coral, serious, yogurt",
+        "output": "coral"
+    },
+    {
+        "input": "hear, ostrich, eraser",
+        "output": "hear"
+    },
+    {
+        "input": "rifle, spoon, bat",
+        "output": "rifle"
+    },
+    {
+        "input": "perform, mint, rock",
+        "output": "perform"
+    },
+    {
+        "input": "make, weasel, black",
+        "output": "make"
+    },
+    {
+        "input": "unwavering, xylophone, duster",
+        "output": "unwavering"
+    },
+    {
+        "input": "recruit, expensive, vulture",
+        "output": "recruit"
+    },
+    {
+        "input": "net, wallet, deer",
+        "output": "net"
+    },
+    {
+        "input": "swan, observant, shark",
+        "output": "swan"
+    },
+    {
+        "input": "frog, approve, resolute",
+        "output": "frog"
+    },
+    {
+        "input": "passionate, turkey, organize",
+        "output": "passionate"
+    },
+    {
+        "input": "zany, finish, speak",
+        "output": "zany"
+    },
+    {
+        "input": "durian, guava, violin",
+        "output": "durian"
+    },
+    {
+        "input": "realize, toilet, her",
+        "output": "realize"
+    },
+    {
+        "input": "fascinating, chinchilla, gather",
+        "output": "fascinating"
+    },
+    {
+        "input": "concerning, treat, exuberant",
+        "output": "concerning"
+    },
+    {
+        "input": "komodo, map, negotiate",
+        "output": "komodo"
+    },
+    {
+        "input": "bitter, mantis, dove",
+        "output": "bitter"
+    },
+    {
+        "input": "versatile, eloquent, talk",
+        "output": "versatile"
+    },
+    {
+        "input": "towel, jolly, cranberry",
+        "output": "towel"
+    },
+    {
+        "input": "toward, inside, quilt",
+        "output": "toward"
+    },
+    {
+        "input": "fork, curtain, intuitive",
+        "output": "fork"
+    },
+    {
+        "input": "learn, teach, hedgehog",
+        "output": "learn"
+    },
+    {
+        "input": "sculpture, goat, vacuum",
+        "output": "sculpture"
+    },
+    {
+        "input": "fierce, apple, create",
+        "output": "fierce"
+    },
+    {
+        "input": "behind, train, candy",
+        "output": "behind"
+    },
+    {
+        "input": "young, reliable, white",
+        "output": "young"
+    },
+    {
+        "input": "perform, guava, thin",
+        "output": "perform"
+    },
+    {
+        "input": "develop, hornet, komodo",
+        "output": "develop"
+    },
+    {
+        "input": "decide, intuitive, through",
+        "output": "decide"
+    },
+    {
+        "input": "measure, plate, rake",
+        "output": "measure"
+    },
+    {
+        "input": "caring, dark, jacket",
+        "output": "caring"
+    },
+    {
+        "input": "joyous, through, myself",
+        "output": "joyous"
+    },
+    {
+        "input": "win, python, eager",
+        "output": "win"
+    },
+    {
+        "input": "knife, orangutan, goat",
+        "output": "knife"
+    },
+    {
+        "input": "watch, fight, durian",
+        "output": "watch"
+    },
+    {
+        "input": "prepare, round, pelican",
+        "output": "prepare"
+    },
+    {
+        "input": "fierce, between, yellow",
+        "output": "fierce"
+    },
+    {
+        "input": "label, new, diligent",
+        "output": "label"
+    },
+    {
+        "input": "quill, he, except",
+        "output": "quill"
+    },
+    {
+        "input": "kindred, vibrant, upon",
+        "output": "kindred"
+    },
+    {
+        "input": "master, llama, weak",
+        "output": "master"
+    },
+    {
+        "input": "ocelot, rhinoceros, open",
+        "output": "ocelot"
+    },
+    {
+        "input": "zoom, speak, dazzling",
+        "output": "zoom"
+    },
+    {
+        "input": "by, otter, myself",
+        "output": "by"
+    },
+    {
+        "input": "nourish, young, modest",
+        "output": "nourish"
+    },
+    {
+        "input": "window, dress, cat",
+        "output": "window"
+    },
+    {
+        "input": "robot, innocent, these",
+        "output": "robot"
+    },
+    {
+        "input": "win, until, mantis",
+        "output": "win"
+    },
+    {
+        "input": "between, us, bag",
+        "output": "between"
+    },
+    {
+        "input": "test, manage, reliable",
+        "output": "test"
+    },
+    {
+        "input": "bountiful, vacuum, ecstatic",
+        "output": "bountiful"
+    },
+    {
+        "input": "sour, amiable, whistle",
+        "output": "sour"
+    },
+    {
+        "input": "sail, against, hamster",
+        "output": "sail"
+    },
+    {
+        "input": "crane, without, guitar",
+        "output": "crane"
+    },
+    {
+        "input": "exist, snake, basket",
+        "output": "exist"
+    },
+    {
+        "input": "oven, whom, flower",
+        "output": "oven"
+    },
+    {
+        "input": "picture, resourceful, think",
+        "output": "picture"
+    },
+    {
+        "input": "jubilant, hot, witty",
+        "output": "jubilant"
+    },
+    {
+        "input": "dingo, cat, indigo",
+        "output": "dingo"
+    },
+    {
+        "input": "calm, cry, peach",
+        "output": "calm"
+    },
+    {
+        "input": "at, upon, boomerang",
+        "output": "at"
+    },
+    {
+        "input": "bowl, coral, banana",
+        "output": "bowl"
+    },
+    {
+        "input": "compete, tiger, python",
+        "output": "compete"
+    },
+    {
+        "input": "puzzle, plate, glasses",
+        "output": "puzzle"
+    },
+    {
+        "input": "lovely, chimpanzee, salty",
+        "output": "lovely"
+    },
+    {
+        "input": "serious, knife, good",
+        "output": "serious"
+    },
+    {
+        "input": "koala, paint, uncover",
+        "output": "koala"
+    },
+    {
+        "input": "silver, modern, affable",
+        "output": "silver"
+    },
+    {
+        "input": "keep, crab, crow",
+        "output": "keep"
+    },
+    {
+        "input": "mantis, hedgehog, make",
+        "output": "mantis"
+    },
+    {
+        "input": "mandrill, loud, jar",
+        "output": "mandrill"
+    },
+    {
+        "input": "pen, whimsical, generous",
+        "output": "pen"
+    },
+    {
+        "input": "brown, into, devoted",
+        "output": "brown"
+    },
+    {
+        "input": "decide, devoted, question",
+        "output": "decide"
+    },
+    {
+        "input": "remember, tape, alarm",
+        "output": "remember"
+    },
+    {
+        "input": "carefree, cockroach, gold",
+        "output": "carefree"
+    },
+    {
+        "input": "alligator, youthful, soda",
+        "output": "alligator"
+    },
+    {
+        "input": "salmon, window, tennis racket",
+        "output": "salmon"
+    },
+    {
+        "input": "panther, predict, kite",
+        "output": "panther"
+    },
+    {
+        "input": "cry, inventive, banana",
+        "output": "cry"
+    },
+    {
+        "input": "dragonfruit, kindred, exquisite",
+        "output": "dragonfruit"
+    },
+    {
+        "input": "piano, cougar, jackfruit",
+        "output": "piano"
+    },
+    {
+        "input": "heavy, earring, breathe",
+        "output": "heavy"
+    },
+    {
+        "input": "jar, white, gray",
+        "output": "jar"
+    },
+    {
+        "input": "hammock, define, celebrate",
+        "output": "hammock"
+    },
+    {
+        "input": "whoever, flower, amiable",
+        "output": "whoever"
+    },
+    {
+        "input": "dirty, hopeful, oven",
+        "output": "dirty"
+    },
+    {
+        "input": "tall, affable, knit",
+        "output": "tall"
+    },
+    {
+        "input": "lemon, mantis, gold",
+        "output": "lemon"
+    },
+    {
+        "input": "fast, cube, laugh",
+        "output": "fast"
+    },
+    {
+        "input": "pink, dove, passionate",
+        "output": "pink"
+    },
+    {
+        "input": "out, lemur, key",
+        "output": "out"
+    },
+    {
+        "input": "across, black, apricot",
+        "output": "across"
+    },
+    {
+        "input": "knowledgeable, orangutan, enjoy",
+        "output": "knowledgeable"
+    },
+    {
+        "input": "realize, resilient, caring",
+        "output": "realize"
+    },
+    {
+        "input": "bat, rotten, falcon",
+        "output": "bat"
+    },
+    {
+        "input": "hyena, at, ourselves",
+        "output": "hyena"
+    },
+    {
+        "input": "notebook, narwhal, at",
+        "output": "notebook"
+    },
+    {
+        "input": "airplane, pen, focus",
+        "output": "airplane"
+    },
+    {
+        "input": "measure, wallet, lovely",
+        "output": "measure"
+    },
+    {
+        "input": "enjoy, pig, penguin",
+        "output": "enjoy"
+    },
+    {
+        "input": "upbeat, develop, focus",
+        "output": "upbeat"
+    },
+    {
+        "input": "luminous, eraser, newt",
+        "output": "luminous"
+    },
+    {
+        "input": "shoe, obtain, rifle",
+        "output": "shoe"
+    },
+    {
+        "input": "intuitive, observant, jaguar",
+        "output": "intuitive"
+    },
+    {
+        "input": "cheap, juggle, reflect",
+        "output": "cheap"
+    },
+    {
+        "input": "to, query, sloth",
+        "output": "to"
+    },
+    {
+        "input": "produce, mango, spicy",
+        "output": "produce"
+    },
+    {
+        "input": "between, hungry, robot",
+        "output": "between"
+    },
+    {
+        "input": "speak, brown, reach",
+        "output": "speak"
+    },
+    {
+        "input": "benevolent, loving, enjoy",
+        "output": "benevolent"
+    },
+    {
+        "input": "resilient, learn, celebrate",
+        "output": "resilient"
+    },
+    {
+        "input": "coral, paint, wonderful",
+        "output": "coral"
+    },
+    {
+        "input": "gentle, house, bag",
+        "output": "gentle"
+    },
+    {
+        "input": "memorize, falcon, concerning",
+        "output": "memorize"
+    },
+    {
+        "input": "yellow, glass, whom",
+        "output": "yellow"
+    },
+    {
+        "input": "olive, dragonfly, date",
+        "output": "olive"
+    },
+    {
+        "input": "zeppelin, motorcycle, during",
+        "output": "zeppelin"
+    },
+    {
+        "input": "analyze, bitter, earmuffs",
+        "output": "analyze"
+    },
+    {
+        "input": "chinchilla, dingo, perform",
+        "output": "chinchilla"
+    },
+    {
+        "input": "barracuda, jump, gorilla",
+        "output": "barracuda"
+    },
+    {
+        "input": "fierce, playful, climb",
+        "output": "fierce"
+    },
+    {
+        "input": "create, boomerang, jog",
+        "output": "create"
+    },
+    {
+        "input": "cougar, barracuda, need",
+        "output": "cougar"
+    },
+    {
+        "input": "judge, explore, sheep",
+        "output": "judge"
+    },
+    {
+        "input": "boar, honest, through",
+        "output": "boar"
+    },
+    {
+        "input": "except, open, overcome",
+        "output": "except"
+    },
+    {
+        "input": "fork, ourselves, violet",
+        "output": "fork"
+    },
+    {
+        "input": "focus, after, quilt",
+        "output": "focus"
+    },
+    {
+        "input": "between, upbeat, quirky",
+        "output": "between"
+    },
+    {
+        "input": "create, fast, unselfish",
+        "output": "create"
+    },
+    {
+        "input": "uncover, chocolate, quick",
+        "output": "uncover"
+    },
+    {
+        "input": "fossa, short, white",
+        "output": "fossa"
+    },
+    {
+        "input": "jolt, update, graceful",
+        "output": "jolt"
+    },
+    {
+        "input": "rock, cranberry, knowledgeable",
+        "output": "rock"
+    },
+    {
+        "input": "donut, tranquil, collect",
+        "output": "donut"
+    },
+    {
+        "input": "picture, duster, paint",
+        "output": "picture"
+    },
+    {
+        "input": "curtain, jaguar, candlestick",
+        "output": "curtain"
+    },
+    {
+        "input": "relax, give, boat",
+        "output": "relax"
+    },
+    {
+        "input": "kick, airplane, beside",
+        "output": "kick"
+    },
+    {
+        "input": "win, gorilla, smart",
+        "output": "win"
+    },
+    {
+        "input": "into, knife, door",
+        "output": "into"
+    },
+    {
+        "input": "hamster, observant, cake",
+        "output": "hamster"
+    },
+    {
+        "input": "gray, falcon, silly",
+        "output": "gray"
+    },
+    {
+        "input": "iguana, onion, define",
+        "output": "iguana"
+    },
+    {
+        "input": "pear, consider, daring",
+        "output": "pear"
+    },
+    {
+        "input": "wombat, kangaroo, ourselves",
+        "output": "wombat"
+    },
+    {
+        "input": "whom, them, shark",
+        "output": "whom"
+    },
+    {
+        "input": "giraffe, light, mango",
+        "output": "giraffe"
+    },
+    {
+        "input": "rake, dazzling, olive",
+        "output": "rake"
+    },
+    {
+        "input": "grape, friendly, owl",
+        "output": "grape"
+    },
+    {
+        "input": "cat, glass, vulture",
+        "output": "cat"
+    },
+    {
+        "input": "kangaroo, hoop, macaw",
+        "output": "kangaroo"
+    },
+    {
+        "input": "teapot, charming, live",
+        "output": "teapot"
+    },
+    {
+        "input": "moray, during, silly",
+        "output": "moray"
+    },
+    {
+        "input": "manage, hungry, perform",
+        "output": "manage"
+    },
+    {
+        "input": "rotten, join, sofa",
+        "output": "rotten"
+    },
+    {
+        "input": "lobster, faithful, rock",
+        "output": "lobster"
+    },
+    {
+        "input": "pepper, salamander, ice",
+        "output": "pepper"
+    },
+    {
+        "input": "humble, key, piano",
+        "output": "humble"
+    },
+    {
+        "input": "of, scorpion, egg",
+        "output": "of"
+    },
+    {
+        "input": "bird, sensible, dice",
+        "output": "bird"
+    },
+    {
+        "input": "inquisitive, peacock, jolly",
+        "output": "inquisitive"
+    },
+    {
+        "input": "eloquent, soda, olive",
+        "output": "eloquent"
+    },
+    {
+        "input": "yearn, armadillo, fierce",
+        "output": "yearn"
+    },
+    {
+        "input": "zipper, daring, pasta",
+        "output": "zipper"
+    },
+    {
+        "input": "read, wristwatch, join",
+        "output": "read"
+    },
+    {
+        "input": "him, serve, train",
+        "output": "him"
+    },
+    {
+        "input": "eraser, select, sofa",
+        "output": "eraser"
+    },
+    {
+        "input": "pizza, innocent, regarding",
+        "output": "pizza"
+    },
+    {
+        "input": "qualify, justify, cake",
+        "output": "qualify"
+    },
+    {
+        "input": "at, coyote, rice",
+        "output": "at"
+    },
+    {
+        "input": "anchor, chicken, jaguar",
+        "output": "anchor"
+    },
+    {
+        "input": "after, quick, avocado",
+        "output": "after"
+    },
+    {
+        "input": "cheetah, guitar, quirky",
+        "output": "cheetah"
+    },
+    {
+        "input": "eloquent, prepare, komodo",
+        "output": "eloquent"
+    },
+    {
+        "input": "since, bicycle, olive",
+        "output": "since"
+    },
+    {
+        "input": "delightful, sofa, blackberry",
+        "output": "delightful"
+    },
+    {
+        "input": "them, soft, toucan",
+        "output": "them"
+    },
+    {
+        "input": "soda, breathe, help",
+        "output": "soda"
+    },
+    {
+        "input": "kettle, meerkat, fear",
+        "output": "kettle"
+    },
+    {
+        "input": "which, raspberry, pelican",
+        "output": "which"
+    },
+    {
+        "input": "joyous, down, oven",
+        "output": "joyous"
+    },
+    {
+        "input": "radio, knock, sweet",
+        "output": "radio"
+    },
+    {
+        "input": "teapot, calculate, basket",
+        "output": "teapot"
+    },
+    {
+        "input": "salamander, ostrich, into",
+        "output": "salamander"
+    },
+    {
+        "input": "bat, search, crocodile",
+        "output": "bat"
+    },
+    {
+        "input": "net, zebra, otter",
+        "output": "net"
+    },
+    {
+        "input": "beneath, sad, dazzling",
+        "output": "beneath"
+    },
+    {
+        "input": "mirthful, candy, clean",
+        "output": "mirthful"
+    },
+    {
+        "input": "leopard, dazzling, fountain",
+        "output": "leopard"
+    },
+    {
+        "input": "negotiate, reindeer, guitar",
+        "output": "negotiate"
+    },
+    {
+        "input": "develop, manage, robot",
+        "output": "develop"
+    },
+    {
+        "input": "vase, television, by",
+        "output": "vase"
+    },
+    {
+        "input": "shirt, visit, lemon",
+        "output": "shirt"
+    },
+    {
+        "input": "rice, huckleberry, fear",
+        "output": "rice"
+    },
+    {
+        "input": "fight, beneath, basket",
+        "output": "fight"
+    },
+    {
+        "input": "prepare, caterpillar, socks",
+        "output": "prepare"
+    },
+    {
+        "input": "tambourine, whimsical, cherry",
+        "output": "tambourine"
+    },
+    {
+        "input": "moose, dazzling, reliable",
+        "output": "moose"
+    },
+    {
+        "input": "charming, benevolent, durian",
+        "output": "charming"
+    },
+    {
+        "input": "yak, python, listen",
+        "output": "yak"
+    },
+    {
+        "input": "prune, tape, herself",
+        "output": "prune"
+    },
+    {
+        "input": "worm, elephant, despite",
+        "output": "worm"
+    },
+    {
+        "input": "skates, blithe, frog",
+        "output": "skates"
+    },
+    {
+        "input": "gumball, spider, innocent",
+        "output": "gumball"
+    },
+    {
+        "input": "strong, gooseberry, plan",
+        "output": "strong"
+    },
+    {
+        "input": "crane, jellyfish, snail",
+        "output": "crane"
+    },
+    {
+        "input": "violin, label, vibrant",
+        "output": "violin"
+    },
+    {
+        "input": "long, armadillo, enthusiastic",
+        "output": "long"
+    },
+    {
+        "input": "white, talented, fight",
+        "output": "white"
+    },
+    {
+        "input": "fish, egg, about",
+        "output": "fish"
+    },
+    {
+        "input": "inquisitive, believe, modern",
+        "output": "inquisitive"
+    },
+    {
+        "input": "bright, computer, kind-hearted",
+        "output": "bright"
+    },
+    {
+        "input": "beef, carrot, coconut",
+        "output": "beef"
+    },
+    {
+        "input": "caring, lamp, gooseberry",
+        "output": "caring"
+    },
+    {
+        "input": "woodpecker, knife, rabbit",
+        "output": "woodpecker"
+    },
+    {
+        "input": "goat, eagle, skunk",
+        "output": "goat"
+    },
+    {
+        "input": "drum, climb, over",
+        "output": "drum"
+    },
+    {
+        "input": "dice, feather, exquisite",
+        "output": "dice"
+    },
+    {
+        "input": "thirsty, change, swan",
+        "output": "thirsty"
+    },
+    {
+        "input": "plantain, off, within",
+        "output": "plantain"
+    },
+    {
+        "input": "aardvark, reliable, adoring",
+        "output": "aardvark"
+    },
+    {
+        "input": "she, honest, out",
+        "output": "she"
+    },
+    {
+        "input": "us, quokka, blithe",
+        "output": "us"
+    },
+    {
+        "input": "in, reach, pomegranate",
+        "output": "in"
+    },
+    {
+        "input": "chicken, work, rabbit",
+        "output": "chicken"
+    },
+    {
+        "input": "about, globe, alligator",
+        "output": "about"
+    },
+    {
+        "input": "hornet, visit, zealous",
+        "output": "hornet"
+    },
+    {
+        "input": "hot, treat, buffalo",
+        "output": "hot"
+    },
+    {
+        "input": "breathe, map, newspaper",
+        "output": "breathe"
+    },
+    {
+        "input": "lucky, nurture, seahorse",
+        "output": "lucky"
+    },
+    {
+        "input": "copy, owl, lemon",
+        "output": "copy"
+    },
+    {
+        "input": "dolphin, beyond, curtain",
+        "output": "dolphin"
+    },
+    {
+        "input": "pencil, narwhal, dragonfly",
+        "output": "pencil"
+    },
+    {
+        "input": "plant, spicy, oversee",
+        "output": "plant"
+    },
+    {
+        "input": "unwavering, gazelle, magpie",
+        "output": "unwavering"
+    },
+    {
+        "input": "within, elephant, cheerful",
+        "output": "within"
+    },
+    {
+        "input": "pizza, collect, earring",
+        "output": "pizza"
+    },
+    {
+        "input": "merge, mandarine, cougar",
+        "output": "merge"
+    },
+    {
+        "input": "knit, beneath, genuine",
+        "output": "knit"
+    },
+    {
+        "input": "naughty, bison, eraser",
+        "output": "naughty"
+    },
+    {
+        "input": "visualize, bison, ice",
+        "output": "visualize"
+    },
+    {
+        "input": "trustworthy, regarding, camel",
+        "output": "trustworthy"
+    },
+    {
+        "input": "plant, spider, about",
+        "output": "plant"
+    },
+    {
+        "input": "wolf, manage, motorcycle",
+        "output": "wolf"
+    },
+    {
+        "input": "enthusiastic, determined, watch",
+        "output": "enthusiastic"
+    },
+    {
+        "input": "yarn, climb, teach",
+        "output": "yarn"
+    },
+    {
+        "input": "fishing pole, finch, out",
+        "output": "fishing pole"
+    },
+    {
+        "input": "ecstatic, watermelon, live",
+        "output": "ecstatic"
+    },
+    {
+        "input": "purple, bat, white",
+        "output": "purple"
+    },
+    {
+        "input": "schedule, doubt, blue",
+        "output": "schedule"
+    },
+    {
+        "input": "arrive, anteater, clever",
+        "output": "arrive"
+    },
+    {
+        "input": "lucky, turtle, hoop",
+        "output": "lucky"
+    },
+    {
+        "input": "green, motorcycle, measure",
+        "output": "green"
+    },
+    {
+        "input": "verify, mandarine, finish",
+        "output": "verify"
+    },
+    {
+        "input": "gentle, glass, ibex",
+        "output": "gentle"
+    },
+    {
+        "input": "naive, along, puma",
+        "output": "naive"
+    },
+    {
+        "input": "lantern, tranquil, enjoy",
+        "output": "lantern"
+    },
+    {
+        "input": "except, question, doubt",
+        "output": "except"
+    },
+    {
+        "input": "analyze, coconut, wallet",
+        "output": "analyze"
+    },
+    {
+        "input": "rhinoceros, attack, snake",
+        "output": "rhinoceros"
+    },
+    {
+        "input": "donkey, affable, hornet",
+        "output": "donkey"
+    },
+    {
+        "input": "outside, baboon, match",
+        "output": "outside"
+    },
+    {
+        "input": "small, pensive, frog",
+        "output": "small"
+    },
+    {
+        "input": "kick, justify, dog",
+        "output": "kick"
+    },
+    {
+        "input": "toucan, kangaroo, globe",
+        "output": "toucan"
+    },
+    {
+        "input": "cherry, teach, donut",
+        "output": "cherry"
+    },
+    {
+        "input": "manipulate, quokka, spider",
+        "output": "manipulate"
+    },
+    {
+        "input": "emu, around, match",
+        "output": "emu"
+    },
+    {
+        "input": "long, old, launch",
+        "output": "long"
+    },
+    {
+        "input": "bird, relax, with",
+        "output": "bird"
+    },
+    {
+        "input": "narwhal, vibrant, underneath",
+        "output": "narwhal"
+    },
+    {
+        "input": "yak, teapot, whale",
+        "output": "yak"
+    },
+    {
+        "input": "below, piano, optimistic",
+        "output": "below"
+    },
+    {
+        "input": "through, pen, zeppelin",
+        "output": "through"
+    },
+    {
+        "input": "rhinoceros, joyous, view",
+        "output": "rhinoceros"
+    },
+    {
+        "input": "tomato, wolverine, adorable",
+        "output": "tomato"
+    },
+    {
+        "input": "devoted, caterpillar, achieve",
+        "output": "devoted"
+    },
+    {
+        "input": "lantern, iguana, overcome",
+        "output": "lantern"
+    },
+    {
+        "input": "trustworthy, panda, resolute",
+        "output": "trustworthy"
+    },
+    {
+        "input": "query, pigeon, young",
+        "output": "query"
+    },
+    {
+        "input": "grizzly, despite, panda",
+        "output": "grizzly"
+    },
+    {
+        "input": "change, painting, from",
+        "output": "change"
+    },
+    {
+        "input": "hopeful, unselfish, kick",
+        "output": "hopeful"
+    },
+    {
+        "input": "fountain, turtle, off",
+        "output": "fountain"
+    },
+    {
+        "input": "grizzly, salamander, window",
+        "output": "grizzly"
+    },
+    {
+        "input": "wolverine, tenacious, chimpanzee",
+        "output": "wolverine"
+    },
+    {
+        "input": "rhinoceros, cow, parrot",
+        "output": "rhinoceros"
+    },
+    {
+        "input": "devoted, eager, long",
+        "output": "devoted"
+    },
+    {
+        "input": "perform, climb, cold",
+        "output": "perform"
+    },
+    {
+        "input": "predict, stapler, lynx",
+        "output": "predict"
+    },
+    {
+        "input": "raspberry, hoop, nurturing",
+        "output": "raspberry"
+    },
+    {
+        "input": "by, doubt, motorcycle",
+        "output": "by"
+    },
+    {
+        "input": "snail, whose, bat",
+        "output": "snail"
+    },
+    {
+        "input": "zeppelin, chocolate, talk",
+        "output": "zeppelin"
+    },
+    {
+        "input": "consider, television, dazzling",
+        "output": "consider"
+    },
+    {
+        "input": "picture, donkey, dolphin",
+        "output": "picture"
+    },
+    {
+        "input": "clementine, fish, coconut",
+        "output": "clementine"
+    },
+    {
+        "input": "perform, like, volleyball",
+        "output": "perform"
+    },
+    {
+        "input": "agreeable, flamingo, short",
+        "output": "agreeable"
+    },
+    {
+        "input": "dress, insightful, rabbit",
+        "output": "dress"
+    },
+    {
+        "input": "mustard, carrot, manatee",
+        "output": "mustard"
+    },
+    {
+        "input": "kite, sour, turkey",
+        "output": "kite"
+    },
+    {
+        "input": "reliable, weasel, fig",
+        "output": "reliable"
+    },
+    {
+        "input": "indigo, outside, hamster",
+        "output": "indigo"
+    },
+    {
+        "input": "olive, plantain, zipper",
+        "output": "olive"
+    },
+    {
+        "input": "baboon, lettuce, serious",
+        "output": "baboon"
+    },
+    {
+        "input": "caterpillar, yield, from",
+        "output": "caterpillar"
+    },
+    {
+        "input": "jump, manage, outside",
+        "output": "jump"
+    },
+    {
+        "input": "cry, parrot, choose",
+        "output": "cry"
+    },
+    {
+        "input": "I, kangaroo, white",
+        "output": "I"
+    },
+    {
+        "input": "avocado, need, hamster",
+        "output": "avocado"
+    },
+    {
+        "input": "envelope, exuberant, yo-yo",
+        "output": "envelope"
+    },
+    {
+        "input": "help, jolt, pelican",
+        "output": "help"
+    },
+    {
+        "input": "in, lift, ferret",
+        "output": "in"
+    },
+    {
+        "input": "within, intelligent, change",
+        "output": "within"
+    },
+    {
+        "input": "calculate, upon, deer",
+        "output": "calculate"
+    },
+    {
+        "input": "sloth, x-ray, magpie",
+        "output": "sloth"
+    },
+    {
+        "input": "gumball, piano, bee",
+        "output": "gumball"
+    },
+    {
+        "input": "quirky, determined, optimistic",
+        "output": "quirky"
+    },
+    {
+        "input": "oryx, lift, speak",
+        "output": "oryx"
+    },
+    {
+        "input": "komodo, calculate, badger",
+        "output": "komodo"
+    },
+    {
+        "input": "hot, benevolent, zebra",
+        "output": "hot"
+    },
+    {
+        "input": "update, violin, outside",
+        "output": "update"
+    },
+    {
+        "input": "kiwifruit, indigo, blithe",
+        "output": "kiwifruit"
+    },
+    {
+        "input": "talented, define, brown",
+        "output": "talented"
+    },
+    {
+        "input": "qualify, chocolate, vivacious",
+        "output": "qualify"
+    },
+    {
+        "input": "sour, bicycle, wallet",
+        "output": "sour"
+    },
+    {
+        "input": "grateful, view, crab",
+        "output": "grateful"
+    },
+    {
+        "input": "yarn, slow, release",
+        "output": "yarn"
+    },
+    {
+        "input": "reflect, juice, along",
+        "output": "reflect"
+    },
+    {
+        "input": "me, pen, talented",
+        "output": "me"
+    },
+    {
+        "input": "envelope, pasta, cake",
+        "output": "envelope"
+    },
+    {
+        "input": "potato, pizza, wallet",
+        "output": "potato"
+    },
+    {
+        "input": "on, before, hard",
+        "output": "on"
+    },
+    {
+        "input": "practice, hairbrush, approve",
+        "output": "practice"
+    },
+    {
+        "input": "vacuum, they, camera",
+        "output": "vacuum"
+    },
+    {
+        "input": "glass, kumquat, dance",
+        "output": "glass"
+    },
+    {
+        "input": "small, yogurt, lime",
+        "output": "small"
+    },
+    {
+        "input": "remember, rhinoceros, calculate",
+        "output": "remember"
+    },
+    {
+        "input": "nectarine, recruit, tenacious",
+        "output": "nectarine"
+    },
+    {
+        "input": "gray, goat, release",
+        "output": "gray"
+    },
+    {
+        "input": "optimistic, above, naughty",
+        "output": "optimistic"
+    },
+    {
+        "input": "net, youthful, outside",
+        "output": "net"
+    },
+    {
+        "input": "validate, apple, outside",
+        "output": "validate"
+    },
+    {
+        "input": "papaya, doubt, hate",
+        "output": "papaya"
+    },
+    {
+        "input": "wonderful, ant, obtain",
+        "output": "wonderful"
+    },
+    {
+        "input": "adoring, knowledgeable, since",
+        "output": "adoring"
+    },
+    {
+        "input": "phone, remember, chipmunk",
+        "output": "phone"
+    },
+    {
+        "input": "explore, book, naughty",
+        "output": "explore"
+    },
+    {
+        "input": "fossa, quick, gnu",
+        "output": "fossa"
+    },
+    {
+        "input": "monkey, house, impala",
+        "output": "monkey"
+    },
+    {
+        "input": "hippopotamus, altruistic, but",
+        "output": "hippopotamus"
+    },
+    {
+        "input": "coral, bee, laugh",
+        "output": "coral"
+    },
+    {
+        "input": "magnificent, wise, notice",
+        "output": "magnificent"
+    },
+    {
+        "input": "youthful, book, devoted",
+        "output": "youthful"
+    },
+    {
+        "input": "like, deer, deliver",
+        "output": "like"
+    },
+    {
+        "input": "update, piano, notebook",
+        "output": "update"
+    },
+    {
+        "input": "candle, smart, knot",
+        "output": "candle"
+    },
+    {
+        "input": "walrus, chair, persimmon",
+        "output": "walrus"
+    },
+    {
+        "input": "rhinoceros, dynamic, zucchini",
+        "output": "rhinoceros"
+    },
+    {
+        "input": "key, lizard, believe",
+        "output": "key"
+    },
+    {
+        "input": "olive, kangaroo, breathe",
+        "output": "olive"
+    },
+    {
+        "input": "clean, notice, gooseberry",
+        "output": "clean"
+    },
+    {
+        "input": "that, diligent, resolute",
+        "output": "that"
+    },
+    {
+        "input": "ink, puzzle, alpaca",
+        "output": "ink"
+    },
+    {
+        "input": "toward, incense, out",
+        "output": "toward"
+    },
+    {
+        "input": "moth, strawberry, weak",
+        "output": "moth"
+    },
+    {
+        "input": "armadillo, watch, observe",
+        "output": "armadillo"
+    },
+    {
+        "input": "of, remember, hedgehog",
+        "output": "of"
+    },
+    {
+        "input": "gazelle, optimistic, marker",
+        "output": "gazelle"
+    },
+    {
+        "input": "dress, firefly, newt",
+        "output": "dress"
+    },
+    {
+        "input": "considering, expensive, they",
+        "output": "considering"
+    },
+    {
+        "input": "amazing, unite, deliver",
+        "output": "amazing"
+    },
+    {
+        "input": "sour, finch, laugh",
+        "output": "sour"
+    },
+    {
+        "input": "courageous, zucchini, blithe",
+        "output": "courageous"
+    },
+    {
+        "input": "lemur, outside, mellow",
+        "output": "lemur"
+    },
+    {
+        "input": "net, climb, work",
+        "output": "net"
+    },
+    {
+        "input": "maracas, brave, passionfruit",
+        "output": "maracas"
+    },
+    {
+        "input": "coconut, notice, pink",
+        "output": "coconut"
+    },
+    {
+        "input": "myself, glasses, relax",
+        "output": "myself"
+    },
+    {
+        "input": "turtle, butterfly, yield",
+        "output": "turtle"
+    },
+    {
+        "input": "bitter, salty, aardvark",
+        "output": "bitter"
+    },
+    {
+        "input": "by, ruler, charismatic",
+        "output": "by"
+    },
+    {
+        "input": "pizza, yak, marker",
+        "output": "pizza"
+    },
+    {
+        "input": "knit, sad, adorable",
+        "output": "knit"
+    },
+    {
+        "input": "modern, daring, bottle",
+        "output": "modern"
+    },
+    {
+        "input": "walrus, hate, considering",
+        "output": "walrus"
+    },
+    {
+        "input": "wise, grateful, him",
+        "output": "wise"
+    },
+    {
+        "input": "spider, modest, basket",
+        "output": "spider"
+    },
+    {
+        "input": "chipmunk, egg, spider",
+        "output": "chipmunk"
+    },
+    {
+        "input": "notebook, modest, jellyfish",
+        "output": "notebook"
+    },
+    {
+        "input": "chair, decide, reindeer",
+        "output": "chair"
+    },
+    {
+        "input": "peaceful, apron, hedgehog",
+        "output": "peaceful"
+    },
+    {
+        "input": "squirrel, boat, wet",
+        "output": "squirrel"
+    },
+    {
+        "input": "which, mark, observant",
+        "output": "which"
+    },
+    {
+        "input": "tennis racket, graceful, dance",
+        "output": "tennis racket"
+    },
+    {
+        "input": "slow, herself, agile",
+        "output": "slow"
+    },
+    {
+        "input": "give, nurture, finish",
+        "output": "give"
+    },
+    {
+        "input": "volleyball, over, map",
+        "output": "volleyball"
+    },
+    {
+        "input": "ruler, measure, quirky",
+        "output": "ruler"
+    },
+    {
+        "input": "rug, who, bee",
+        "output": "rug"
+    },
+    {
+        "input": "anchor, shirt, impala",
+        "output": "anchor"
+    },
+    {
+        "input": "earring, monkey, rat",
+        "output": "earring"
+    },
+    {
+        "input": "jackal, tambourine, dry",
+        "output": "jackal"
+    },
+    {
+        "input": "igloo, amazing, zipper",
+        "output": "igloo"
+    },
+    {
+        "input": "ice, flamingo, barracuda",
+        "output": "ice"
+    },
+    {
+        "input": "wolverine, tomato, nurture",
+        "output": "wolverine"
+    },
+    {
+        "input": "predict, adoring, toucan",
+        "output": "predict"
+    },
+    {
+        "input": "quirky, him, use",
+        "output": "quirky"
+    },
+    {
+        "input": "turtle, easel, witty",
+        "output": "turtle"
+    },
+    {
+        "input": "lamp, jellyfish, notebook",
+        "output": "lamp"
+    },
+    {
+        "input": "volunteer, eager, noble",
+        "output": "volunteer"
+    },
+    {
+        "input": "faithful, vase, seal",
+        "output": "faithful"
+    },
+    {
+        "input": "lovely, ukulele, treat",
+        "output": "lovely"
+    },
+    {
+        "input": "eraser, pizza, big",
+        "output": "eraser"
+    },
+    {
+        "input": "brave, define, net",
+        "output": "brave"
+    },
+    {
+        "input": "otter, bowl, benevolent",
+        "output": "otter"
+    },
+    {
+        "input": "shoe, navigate, prepare",
+        "output": "shoe"
+    },
+    {
+        "input": "zesty, dragonfruit, iguana",
+        "output": "zesty"
+    },
+    {
+        "input": "grape, anteater, caterpillar",
+        "output": "grape"
+    },
+    {
+        "input": "read, forgive, bag",
+        "output": "read"
+    },
+    {
+        "input": "dolphin, round, dragonfruit",
+        "output": "dolphin"
+    },
+    {
+        "input": "olive, thick, candy",
+        "output": "olive"
+    },
+    {
+        "input": "loud, validate, decide",
+        "output": "loud"
+    },
+    {
+        "input": "study, fossa, into",
+        "output": "study"
+    },
+    {
+        "input": "solve, jog, gray",
+        "output": "solve"
+    },
+    {
+        "input": "jolly, strawberry, indigo",
+        "output": "jolly"
+    },
+    {
+        "input": "paint, tranquil, sail",
+        "output": "paint"
+    },
+    {
+        "input": "delightful, hammer, along",
+        "output": "delightful"
+    },
+    {
+        "input": "ferret, observe, dark",
+        "output": "ferret"
+    },
+    {
+        "input": "seahorse, rotten, by",
+        "output": "seahorse"
+    },
+    {
+        "input": "huckleberry, cold, quill",
+        "output": "huckleberry"
+    },
+    {
+        "input": "climb, speak, jellyfish",
+        "output": "climb"
+    },
+    {
+        "input": "navigate, macaw, bitter",
+        "output": "navigate"
+    },
+    {
+        "input": "coconut, skates, thick",
+        "output": "coconut"
+    },
+    {
+        "input": "yourself, juggle, after",
+        "output": "yourself"
+    },
+    {
+        "input": "television, door, fountain",
+        "output": "television"
+    },
+    {
+        "input": "badger, intuitive, weasel",
+        "output": "badger"
+    },
+    {
+        "input": "pelican, playful, soft",
+        "output": "pelican"
+    },
+    {
+        "input": "except, turtle, piano",
+        "output": "except"
+    },
+    {
+        "input": "exuberant, deliver, intuitive",
+        "output": "exuberant"
+    },
+    {
+        "input": "fear, bat, arrive",
+        "output": "fear"
+    },
+    {
+        "input": "jolt, dolphin, thin",
+        "output": "jolt"
+    },
+    {
+        "input": "consider, pencil, knife",
+        "output": "consider"
+    },
+    {
+        "input": "create, into, airplane",
+        "output": "create"
+    },
+    {
+        "input": "door, attack, tiger",
+        "output": "door"
+    },
+    {
+        "input": "quill, lemur, select",
+        "output": "quill"
+    },
+    {
+        "input": "quiet, except, newt",
+        "output": "quiet"
+    },
+    {
+        "input": "produce, candle, lamp",
+        "output": "produce"
+    },
+    {
+        "input": "modern, reindeer, above",
+        "output": "modern"
+    },
+    {
+        "input": "passionate, chinchilla, necklace",
+        "output": "passionate"
+    },
+    {
+        "input": "those, durian, witty",
+        "output": "those"
+    },
+    {
+        "input": "yellow, intrepid, gloves",
+        "output": "yellow"
+    },
+    {
+        "input": "above, trustworthy, kettle",
+        "output": "above"
+    },
+    {
+        "input": "plantain, gloves, sincere",
+        "output": "plantain"
+    },
+    {
+        "input": "eraser, listen, durian",
+        "output": "eraser"
+    },
+    {
+        "input": "understand, crab, microphone",
+        "output": "understand"
+    },
+    {
+        "input": "chipmunk, vacuum, car",
+        "output": "chipmunk"
+    },
+    {
+        "input": "slow, blissful, coyote",
+        "output": "slow"
+    },
+    {
+        "input": "examine, amiable, desk",
+        "output": "examine"
+    },
+    {
+        "input": "worm, of, green",
+        "output": "worm"
+    },
+    {
+        "input": "alarm, zucchini, examine",
+        "output": "alarm"
+    },
+    {
+        "input": "as, lemon, transform",
+        "output": "as"
+    },
+    {
+        "input": "resolute, sensible, but",
+        "output": "resolute"
+    },
+    {
+        "input": "komodo, pig, cake",
+        "output": "komodo"
+    },
+    {
+        "input": "copy, skunk, chicken",
+        "output": "copy"
+    },
+    {
+        "input": "skates, plate, judge",
+        "output": "skates"
+    },
+    {
+        "input": "cougar, igloo, view",
+        "output": "cougar"
+    },
+    {
+        "input": "visualize, concerning, new",
+        "output": "visualize"
+    },
+    {
+        "input": "cookie, thirsty, fascinating",
+        "output": "cookie"
+    },
+    {
+        "input": "jovial, rug, chimpanzee",
+        "output": "jovial"
+    },
+    {
+        "input": "ostrich, race, maracas",
+        "output": "ostrich"
+    },
+    {
+        "input": "help, train, choose",
+        "output": "help"
+    },
+    {
+        "input": "rotten, rice, jar",
+        "output": "rotten"
+    },
+    {
+        "input": "down, skates, camel",
+        "output": "down"
+    },
+    {
+        "input": "knot, regarding, approve",
+        "output": "knot"
+    },
+    {
+        "input": "by, rug, potato",
+        "output": "by"
+    },
+    {
+        "input": "tambourine, chinchilla, practice",
+        "output": "tambourine"
+    },
+    {
+        "input": "practice, as, eel",
+        "output": "practice"
+    },
+    {
+        "input": "peaceful, despite, caring",
+        "output": "peaceful"
+    },
+    {
+        "input": "kindle, pineapple, paper",
+        "output": "kindle"
+    },
+    {
+        "input": "window, guava, car",
+        "output": "window"
+    },
+    {
+        "input": "jellyfish, turkey, in",
+        "output": "jellyfish"
+    },
+    {
+        "input": "scorpion, query, blue",
+        "output": "scorpion"
+    },
+    {
+        "input": "fresh, vacuum, since",
+        "output": "fresh"
+    },
+    {
+        "input": "need, durian, itself",
+        "output": "need"
+    },
+    {
+        "input": "along, regarding, dance",
+        "output": "along"
+    },
+    {
+        "input": "tomato, gray, rug",
+        "output": "tomato"
+    },
+    {
+        "input": "yo-yo, key, thick",
+        "output": "yo-yo"
+    },
+    {
+        "input": "frog, he, mellow",
+        "output": "frog"
+    },
+    {
+        "input": "capybara, candle, peach",
+        "output": "capybara"
+    },
+    {
+        "input": "energetic, volleyball, kayak",
+        "output": "energetic"
+    },
+    {
+        "input": "test, rifle, intuitive",
+        "output": "test"
+    },
+    {
+        "input": "peacock, dingo, bountiful",
+        "output": "peacock"
+    },
+    {
+        "input": "shoe, grape, baboon",
+        "output": "shoe"
+    },
+    {
+        "input": "jar, candlestick, earring",
+        "output": "jar"
+    },
+    {
+        "input": "outside, strong, bicycle",
+        "output": "outside"
+    },
+    {
+        "input": "rice, goose, update",
+        "output": "rice"
+    },
+    {
+        "input": "moth, snake, airplane",
+        "output": "moth"
+    },
+    {
+        "input": "practice, verify, light",
+        "output": "practice"
+    },
+    {
+        "input": "view, sail, hungry",
+        "output": "view"
+    },
+    {
+        "input": "reliable, keep, hammer",
+        "output": "reliable"
+    },
+    {
+        "input": "of, net, snorkel",
+        "output": "of"
+    },
+    {
+        "input": "nourish, newspaper, coral",
+        "output": "nourish"
+    },
+    {
+        "input": "concerning, toilet, natural",
+        "output": "concerning"
+    },
+    {
+        "input": "carefree, pig, puzzle",
+        "output": "carefree"
+    },
+    {
+        "input": "mirror, watermelon, whose",
+        "output": "mirror"
+    },
+    {
+        "input": "by, picture, luminous",
+        "output": "by"
+    },
+    {
+        "input": "plate, soft, door",
+        "output": "plate"
+    },
+    {
+        "input": "naughty, pelican, bountiful",
+        "output": "naughty"
+    },
+    {
+        "input": "benevolent, cranberry, insightful",
+        "output": "benevolent"
+    },
+    {
+        "input": "crane, themselves, calculate",
+        "output": "crane"
+    },
+    {
+        "input": "define, jar, strawberry",
+        "output": "define"
+    },
+    {
+        "input": "change, incense, long",
+        "output": "change"
+    },
+    {
+        "input": "skunk, energetic, bad",
+        "output": "skunk"
+    },
+    {
+        "input": "reflect, destroy, whoever",
+        "output": "reflect"
+    },
+    {
+        "input": "us, naive, lift",
+        "output": "us"
+    },
+    {
+        "input": "fish, hungry, you",
+        "output": "fish"
+    },
+    {
+        "input": "crocodile, benevolent, think",
+        "output": "crocodile"
+    },
+    {
+        "input": "hamster, mild, observe",
+        "output": "hamster"
+    },
+    {
+        "input": "quilt, unwavering, lamp",
+        "output": "quilt"
+    },
+    {
+        "input": "walk, amazing, salamander",
+        "output": "walk"
+    },
+    {
+        "input": "igloo, mantis, honest",
+        "output": "igloo"
+    },
+    {
+        "input": "peacock, hopeful, guitar",
+        "output": "peacock"
+    },
+    {
+        "input": "zealous, kindhearted, plant",
+        "output": "zealous"
+    },
+    {
+        "input": "compete, goose, weasel",
+        "output": "compete"
+    },
+    {
+        "input": "open, baboon, destroy",
+        "output": "open"
+    },
+    {
+        "input": "radio, chimpanzee, during",
+        "output": "radio"
+    },
+    {
+        "input": "teach, herself, rotten",
+        "output": "teach"
+    },
+    {
+        "input": "mirror, window, optimistic",
+        "output": "mirror"
+    },
+    {
+        "input": "kite, jeans, we",
+        "output": "kite"
+    },
+    {
+        "input": "save, approve, seahorse",
+        "output": "save"
+    },
+    {
+        "input": "radio, dumbbell, affable",
+        "output": "radio"
+    },
+    {
+        "input": "amiable, mellow, kite",
+        "output": "amiable"
+    },
+    {
+        "input": "under, fan, release",
+        "output": "under"
+    },
+    {
+        "input": "dumbbell, modern, vibrant",
+        "output": "dumbbell"
+    },
+    {
+        "input": "caribou, earmuffs, yogurt",
+        "output": "caribou"
+    },
+    {
+        "input": "jackfruit, raccoon, upon",
+        "output": "jackfruit"
+    },
+    {
+        "input": "hedgehog, whose, uncover",
+        "output": "hedgehog"
+    },
+    {
+        "input": "know, versatile, chipmunk",
+        "output": "know"
+    },
+    {
+        "input": "visualize, camera, drum",
+        "output": "visualize"
+    },
+    {
+        "input": "grow, test, hairbrush",
+        "output": "grow"
+    },
+    {
+        "input": "bee, emu, baboon",
+        "output": "bee"
+    },
+    {
+        "input": "stupid, test, net",
+        "output": "stupid"
+    },
+    {
+        "input": "panther, she, daring",
+        "output": "panther"
+    },
+    {
+        "input": "fan, outside, round",
+        "output": "fan"
+    },
+    {
+        "input": "salamander, mild, expensive",
+        "output": "salamander"
+    },
+    {
+        "input": "okapi, falcon, mirthful",
+        "output": "okapi"
+    },
+    {
+        "input": "weasel, mirror, donut",
+        "output": "weasel"
+    },
+    {
+        "input": "light, plant, ocelot",
+        "output": "light"
+    },
+    {
+        "input": "gooseberry, whose, over",
+        "output": "gooseberry"
+    },
+    {
+        "input": "over, boar, moray",
+        "output": "over"
+    },
+    {
+        "input": "watch, sculpture, mirror",
+        "output": "watch"
+    },
+    {
+        "input": "genuine, into, apricot",
+        "output": "genuine"
+    },
+    {
+        "input": "donut, down, pelican",
+        "output": "donut"
+    },
+    {
+        "input": "koala, leopard, master",
+        "output": "koala"
+    },
+    {
+        "input": "myself, soda, rug",
+        "output": "myself"
+    },
+    {
+        "input": "amazing, dance, enthusiastic",
+        "output": "amazing"
+    },
+    {
+        "input": "choose, view, serene",
+        "output": "choose"
+    },
+    {
+        "input": "sweet, falcon, tender",
+        "output": "sweet"
+    },
+    {
+        "input": "off, faithful, down",
+        "output": "off"
+    },
+    {
+        "input": "know, vacuum, thoughtful",
+        "output": "know"
+    },
+    {
+        "input": "door, cow, wombat",
+        "output": "door"
+    },
+    {
+        "input": "knock, ladder, considering",
+        "output": "knock"
+    },
+    {
+        "input": "affectionate, teach, yogurt",
+        "output": "affectionate"
+    },
+    {
+        "input": "violet, daring, vase",
+        "output": "violet"
+    },
+    {
+        "input": "coconut, intrepid, before",
+        "output": "coconut"
+    },
+    {
+        "input": "quiet, skunk, motorcycle",
+        "output": "quiet"
+    },
+    {
+        "input": "resourceful, kite, create",
+        "output": "resourceful"
+    },
+    {
+        "input": "vivacious, label, serene",
+        "output": "vivacious"
+    },
+    {
+        "input": "thirsty, mustard, plum",
+        "output": "thirsty"
+    },
+    {
+        "input": "think, prepare, accordion",
+        "output": "think"
+    },
+    {
+        "input": "resolute, learn, remote",
+        "output": "resolute"
+    },
+    {
+        "input": "robot, study, motorcycle",
+        "output": "robot"
+    },
+    {
+        "input": "plum, gooseberry, turtle",
+        "output": "plum"
+    },
+    {
+        "input": "moose, regarding, cheap",
+        "output": "moose"
+    },
+    {
+        "input": "radio, forgive, delightful",
+        "output": "radio"
+    },
+    {
+        "input": "kneel, grateful, crow",
+        "output": "kneel"
+    },
+    {
+        "input": "kumquat, bountiful, enjoy",
+        "output": "kumquat"
+    },
+    {
+        "input": "black, beaver, television",
+        "output": "black"
+    },
+    {
+        "input": "caterpillar, recruit, narwhal",
+        "output": "caterpillar"
+    },
+    {
+        "input": "basket, egg, lecture",
+        "output": "basket"
+    },
+    {
+        "input": "heavy, inside, her",
+        "output": "heavy"
+    },
+    {
+        "input": "pepper, passionate, walk",
+        "output": "pepper"
+    },
+    {
+        "input": "explore, lovable, donkey",
+        "output": "explore"
+    },
+    {
+        "input": "lovely, divide, caterpillar",
+        "output": "lovely"
+    },
+    {
+        "input": "lucky, spoon, treat",
+        "output": "lucky"
+    },
+    {
+        "input": "ecstatic, realize, amiable",
+        "output": "ecstatic"
+    },
+    {
+        "input": "rhinoceros, between, upon",
+        "output": "rhinoceros"
+    },
+    {
+        "input": "sour, enthusiastic, eel",
+        "output": "sour"
+    },
+    {
+        "input": "they, pork, robot",
+        "output": "they"
+    },
+    {
+        "input": "towel, desk, fox",
+        "output": "towel"
+    },
+    {
+        "input": "penguin, butterfly, whimsical",
+        "output": "penguin"
+    },
+    {
+        "input": "strawberry, tangerine, candlestick",
+        "output": "strawberry"
+    },
+    {
+        "input": "friendly, dumbbell, give",
+        "output": "friendly"
+    },
+    {
+        "input": "hornet, clean, itself",
+        "output": "hornet"
+    },
+    {
+        "input": "me, hot, carrot",
+        "output": "me"
+    },
+    {
+        "input": "eloquent, dynamic, exist",
+        "output": "eloquent"
+    },
+    {
+        "input": "laugh, finish, explore",
+        "output": "laugh"
+    },
+    {
+        "input": "into, unwavering, yourself",
+        "output": "into"
+    },
+    {
+        "input": "strong, dress, motorcycle",
+        "output": "strong"
+    },
+    {
+        "input": "otter, hungry, camera",
+        "output": "otter"
+    },
+    {
+        "input": "bat, judge, rock",
+        "output": "bat"
+    },
+    {
+        "input": "oven, spider, ball",
+        "output": "oven"
+    },
+    {
+        "input": "robot, update, us",
+        "output": "robot"
+    },
+    {
+        "input": "navigate, witty, cheetah",
+        "output": "navigate"
+    },
+    {
+        "input": "car, persuade, zucchini",
+        "output": "car"
+    },
+    {
+        "input": "yak, hoop, kumquat",
+        "output": "yak"
+    },
+    {
+        "input": "overcome, watermelon, beneath",
+        "output": "overcome"
+    },
+    {
+        "input": "them, white, serene",
+        "output": "them"
+    },
+    {
+        "input": "meerkat, genuine, consider",
+        "output": "meerkat"
+    },
+    {
+        "input": "view, give, forgive",
+        "output": "view"
+    },
+    {
+        "input": "mirror, hedgehog, mango",
+        "output": "mirror"
+    },
+    {
+        "input": "quizzical, violin, fork",
+        "output": "quizzical"
+    },
+    {
+        "input": "argue, impala, dragonfruit",
+        "output": "argue"
+    },
+    {
+        "input": "basketball, vivacious, hippopotamus",
+        "output": "basketball"
+    },
+    {
+        "input": "stupid, blanket, seahorse",
+        "output": "stupid"
+    },
+    {
+        "input": "compete, oven, examine",
+        "output": "compete"
+    },
+    {
+        "input": "weasel, out, uplifting",
+        "output": "weasel"
+    },
+    {
+        "input": "breathe, bunny, eager",
+        "output": "breathe"
+    },
+    {
+        "input": "dolphin, zoom, sensible",
+        "output": "dolphin"
+    },
+    {
+        "input": "ferret, naughty, hopeful",
+        "output": "ferret"
+    },
+    {
+        "input": "quirky, pensive, piano",
+        "output": "quirky"
+    },
+    {
+        "input": "live, durian, within",
+        "output": "live"
+    },
+    {
+        "input": "sheep, eel, fox",
+        "output": "sheep"
+    },
+    {
+        "input": "ice, practice, key",
+        "output": "ice"
+    },
+    {
+        "input": "gather, race, witty",
+        "output": "gather"
+    },
+    {
+        "input": "buffalo, youthful, hear",
+        "output": "buffalo"
+    },
+    {
+        "input": "apron, give, horse",
+        "output": "apron"
+    },
+    {
+        "input": "uncover, chicken, alligator",
+        "output": "uncover"
+    },
+    {
+        "input": "armadillo, work, sad",
+        "output": "armadillo"
+    },
+    {
+        "input": "brown, understand, potato",
+        "output": "brown"
+    },
+    {
+        "input": "zesty, caring, dazzling",
+        "output": "zesty"
+    },
+    {
+        "input": "rock, yield, compete",
+        "output": "rock"
+    },
+    {
+        "input": "stapler, gloves, resilient",
+        "output": "stapler"
+    },
+    {
+        "input": "decide, peach, violet",
+        "output": "decide"
+    },
+    {
+        "input": "violet, fork, itself",
+        "output": "violet"
+    },
+    {
+        "input": "cougar, good, moth",
+        "output": "cougar"
+    },
+    {
+        "input": "delightful, complete, navigate",
+        "output": "delightful"
+    },
+    {
+        "input": "ukulele, pelican, through",
+        "output": "ukulele"
+    },
+    {
+        "input": "okapi, young, bountiful",
+        "output": "okapi"
+    },
+    {
+        "input": "piano, laugh, inventive",
+        "output": "piano"
+    },
+    {
+        "input": "durian, black, her",
+        "output": "durian"
+    },
+    {
+        "input": "measure, prune, caribou",
+        "output": "measure"
+    },
+    {
+        "input": "hammer, laptop, jolly",
+        "output": "hammer"
+    },
+    {
+        "input": "persuade, yo-yo, kind",
+        "output": "persuade"
+    },
+    {
+        "input": "until, lemur, xerox",
+        "output": "until"
+    },
+    {
+        "input": "yak, cherry, search",
+        "output": "yak"
+    },
+    {
+        "input": "butterfly, inquisitive, of",
+        "output": "butterfly"
+    },
+    {
+        "input": "to, friendly, owl",
+        "output": "to"
+    },
+    {
+        "input": "beaver, until, navy",
+        "output": "beaver"
+    },
+    {
+        "input": "as, upbeat, zoom",
+        "output": "as"
+    },
+    {
+        "input": "magnificent, turkey, long",
+        "output": "magnificent"
+    },
+    {
+        "input": "need, camera, intrepid",
+        "output": "need"
+    },
+    {
+        "input": "intelligent, bad, tambourine",
+        "output": "intelligent"
+    },
+    {
+        "input": "need, zany, across",
+        "output": "need"
+    },
+    {
+        "input": "idealistic, tangerine, magnificent",
+        "output": "idealistic"
+    },
+    {
+        "input": "green, consult, blithe",
+        "output": "green"
+    },
+    {
+        "input": "judge, by, but",
+        "output": "judge"
+    },
+    {
+        "input": "up, net, candlestick",
+        "output": "up"
+    },
+    {
+        "input": "naive, below, komodo",
+        "output": "naive"
+    },
+    {
+        "input": "lucky, leopard, ruler",
+        "output": "lucky"
+    },
+    {
+        "input": "ice, macaw, to",
+        "output": "ice"
+    },
+    {
+        "input": "yogurt, write, egg",
+        "output": "yogurt"
+    },
+    {
+        "input": "toilet, octopus, alarm",
+        "output": "toilet"
+    },
+    {
+        "input": "trustworthy, adventurous, puzzle",
+        "output": "trustworthy"
+    },
+    {
+        "input": "nectarine, jolt, participate",
+        "output": "nectarine"
+    },
+    {
+        "input": "ink, juice, squirrel",
+        "output": "ink"
+    },
+    {
+        "input": "dynamic, clock, orange",
+        "output": "dynamic"
+    },
+    {
+        "input": "avocado, upbeat, practice",
+        "output": "avocado"
+    },
+    {
+        "input": "jigsaw, lemur, deliver",
+        "output": "jigsaw"
+    },
+    {
+        "input": "lime, plum, flamingo",
+        "output": "lime"
+    },
+    {
+        "input": "long, clementine, work",
+        "output": "long"
+    },
+    {
+        "input": "gumball, snail, globe",
+        "output": "gumball"
+    },
+    {
+        "input": "out, giraffe, new",
+        "output": "out"
+    },
+    {
+        "input": "zipper, huckleberry, plate",
+        "output": "zipper"
+    },
+    {
+        "input": "accordion, silly, plan",
+        "output": "accordion"
+    },
+    {
+        "input": "lucky, ibex, observant",
+        "output": "lucky"
+    },
+    {
+        "input": "zeppelin, coyote, candle",
+        "output": "zeppelin"
+    },
+    {
+        "input": "dislike, radiant, jog",
+        "output": "dislike"
+    },
+    {
+        "input": "beyond, ferret, basketball",
+        "output": "beyond"
+    },
+    {
+        "input": "clever, rock, panda",
+        "output": "clever"
+    },
+    {
+        "input": "cry, quick, stupid",
+        "output": "cry"
+    },
+    {
+        "input": "hamster, uplifting, quiet",
+        "output": "hamster"
+    },
+    {
+        "input": "listen, candlestick, blanket",
+        "output": "listen"
+    },
+    {
+        "input": "big, boat, yak",
+        "output": "big"
+    },
+    {
+        "input": "tomato, slow, land",
+        "output": "tomato"
+    },
+    {
+        "input": "boar, remote, modest",
+        "output": "boar"
+    },
+    {
+        "input": "crab, beaver, cat",
+        "output": "crab"
+    },
+    {
+        "input": "window, coconut, mirror",
+        "output": "window"
+    },
+    {
+        "input": "jog, youthful, kill",
+        "output": "jog"
+    },
+    {
+        "input": "x-ray, sensitive, believe",
+        "output": "x-ray"
+    },
+    {
+        "input": "black, worm, firefly",
+        "output": "black"
+    },
+    {
+        "input": "but, pensive, listen",
+        "output": "but"
+    },
+    {
+        "input": "need, zipper, window",
+        "output": "need"
+    },
+    {
+        "input": "play, youthful, practice",
+        "output": "play"
+    },
+    {
+        "input": "sincere, wallet, zesty",
+        "output": "sincere"
+    },
+    {
+        "input": "jar, earring, lift",
+        "output": "jar"
+    },
+    {
+        "input": "kettle, peacock, consult",
+        "output": "kettle"
+    },
+    {
+        "input": "hear, smart, coconut",
+        "output": "hear"
+    },
+    {
+        "input": "zealous, know, gorilla",
+        "output": "zealous"
+    },
+    {
+        "input": "tambourine, chicken, funny",
+        "output": "tambourine"
+    },
+    {
+        "input": "kind, baboon, target",
+        "output": "kind"
+    },
+    {
+        "input": "onion, okapi, volunteer",
+        "output": "onion"
+    },
+    {
+        "input": "serve, hamster, flamingo",
+        "output": "serve"
+    },
+    {
+        "input": "zebra, keen, skunk",
+        "output": "zebra"
+    },
+    {
+        "input": "good, long, daring",
+        "output": "good"
+    },
+    {
+        "input": "practice, snail, green",
+        "output": "practice"
+    },
+    {
+        "input": "ocelot, along, adventurous",
+        "output": "ocelot"
+    },
+    {
+        "input": "wolverine, noble, tangerine",
+        "output": "wolverine"
+    },
+    {
+        "input": "intelligent, peach, python",
+        "output": "intelligent"
+    },
+    {
+        "input": "select, jacket, eagle",
+        "output": "select"
+    },
+    {
+        "input": "rhinoceros, uncover, dress",
+        "output": "rhinoceros"
+    },
+    {
+        "input": "reach, jolly, consider",
+        "output": "reach"
+    },
+    {
+        "input": "onto, target, teach",
+        "output": "onto"
+    },
+    {
+        "input": "carefree, cold, hot",
+        "output": "carefree"
+    },
+    {
+        "input": "yak, kind-hearted, define",
+        "output": "yak"
+    },
+    {
+        "input": "eraser, rock, verify",
+        "output": "eraser"
+    },
+    {
+        "input": "pensive, jigsaw, merge",
+        "output": "pensive"
+    },
+    {
+        "input": "bee, dazzling, weasel",
+        "output": "bee"
+    },
+    {
+        "input": "approve, keep, seal",
+        "output": "approve"
+    },
+    {
+        "input": "basket, peacock, ukulele",
+        "output": "basket"
+    },
+    {
+        "input": "avocado, robot, chicken",
+        "output": "avocado"
+    },
+    {
+        "input": "ant, gorilla, hammer",
+        "output": "ant"
+    },
+    {
+        "input": "ruler, pear, train",
+        "output": "ruler"
+    },
+    {
+        "input": "caterpillar, tranquil, cougar",
+        "output": "caterpillar"
+    },
+    {
+        "input": "vivacious, toward, penguin",
+        "output": "vivacious"
+    },
+    {
+        "input": "oven, hopeful, motorcycle",
+        "output": "oven"
+    },
+    {
+        "input": "xylophone, resilient, practice",
+        "output": "xylophone"
+    },
+    {
+        "input": "radio, sculpture, read",
+        "output": "radio"
+    },
+    {
+        "input": "hammock, accordion, elephant",
+        "output": "hammock"
+    },
+    {
+        "input": "plate, predict, thirsty",
+        "output": "plate"
+    },
+    {
+        "input": "butterfly, lovable, fight",
+        "output": "butterfly"
+    },
+    {
+        "input": "anteater, cold, organize",
+        "output": "anteater"
+    },
+    {
+        "input": "match, above, hammock",
+        "output": "match"
+    },
+    {
+        "input": "adorable, listen, rat",
+        "output": "adorable"
+    },
+    {
+        "input": "chipmunk, marker, coconut",
+        "output": "chipmunk"
+    },
+    {
+        "input": "mark, house, ourselves",
+        "output": "mark"
+    },
+    {
+        "input": "spoon, bad, horse",
+        "output": "spoon"
+    },
+    {
+        "input": "watermelon, jolly, hairbrush",
+        "output": "watermelon"
+    },
+    {
+        "input": "vivacious, target, strong",
+        "output": "vivacious"
+    },
+    {
+        "input": "open, laugh, map",
+        "output": "open"
+    },
+    {
+        "input": "determined, hear, warm",
+        "output": "determined"
+    },
+    {
+        "input": "ant, save, natural",
+        "output": "ant"
+    },
+    {
+        "input": "firefly, brown, gold",
+        "output": "firefly"
+    },
+    {
+        "input": "divide, launch, me",
+        "output": "divide"
+    },
+    {
+        "input": "joyful, measure, observe",
+        "output": "joyful"
+    },
+    {
+        "input": "alarm, except, guava",
+        "output": "alarm"
+    },
+    {
+        "input": "lovely, radio, grizzly",
+        "output": "lovely"
+    },
+    {
+        "input": "cranberry, jellyfish, ice",
+        "output": "cranberry"
+    },
+    {
+        "input": "delightful, dragonfly, turkey",
+        "output": "delightful"
+    },
+    {
+        "input": "open, determined, focus",
+        "output": "open"
+    },
+    {
+        "input": "yourself, x-ray, qualify",
+        "output": "yourself"
+    },
+    {
+        "input": "spicy, think, red",
+        "output": "spicy"
+    },
+    {
+        "input": "walrus, label, memorize",
+        "output": "walrus"
+    },
+    {
+        "input": "wise, participate, yourself",
+        "output": "wise"
+    },
+    {
+        "input": "koala, smart, rabbit",
+        "output": "koala"
+    },
+    {
+        "input": "ball, them, finish",
+        "output": "ball"
+    },
+    {
+        "input": "uplifting, kite, pig",
+        "output": "uplifting"
+    },
+    {
+        "input": "chocolate, table, make",
+        "output": "chocolate"
+    },
+    {
+        "input": "elk, wonderful, these",
+        "output": "elk"
+    },
+    {
+        "input": "armadillo, playful, devoted",
+        "output": "armadillo"
+    },
+    {
+        "input": "egg, long, witty",
+        "output": "egg"
+    },
+    {
+        "input": "transform, quiet, work",
+        "output": "transform"
+    },
+    {
+        "input": "bowl, crocodile, unselfish",
+        "output": "bowl"
+    },
+    {
+        "input": "koala, crab, use",
+        "output": "koala"
+    },
+    {
+        "input": "zany, short, divide",
+        "output": "zany"
+    },
+    {
+        "input": "sweet, panda, giraffe",
+        "output": "sweet"
+    },
+    {
+        "input": "past, resourceful, patient",
+        "output": "past"
+    },
+    {
+        "input": "fresh, piano, by",
+        "output": "fresh"
+    },
+    {
+        "input": "blithe, bicycle, puzzle",
+        "output": "blithe"
+    },
+    {
+        "input": "panther, short, anchor",
+        "output": "panther"
+    },
+    {
+        "input": "gather, meerkat, merge",
+        "output": "gather"
+    },
+    {
+        "input": "turkey, natural, fishing pole",
+        "output": "turkey"
+    },
+    {
+        "input": "paintbrush, apple, phone",
+        "output": "paintbrush"
+    },
+    {
+        "input": "apple, resolute, energetic",
+        "output": "apple"
+    },
+    {
+        "input": "tenacious, grateful, curtain",
+        "output": "tenacious"
+    },
+    {
+        "input": "intelligent, crane, need",
+        "output": "intelligent"
+    },
+    {
+        "input": "energetic, shark, grow",
+        "output": "energetic"
+    },
+    {
+        "input": "before, chair, laugh",
+        "output": "before"
+    },
+    {
+        "input": "toilet, since, orangutan",
+        "output": "toilet"
+    },
+    {
+        "input": "chinchilla, navy, panda",
+        "output": "chinchilla"
+    },
+    {
+        "input": "prepare, destroy, octopus",
+        "output": "prepare"
+    },
+    {
+        "input": "green, natural, minimize",
+        "output": "green"
+    },
+    {
+        "input": "adoring, basket, paintbrush",
+        "output": "adoring"
+    },
+    {
+        "input": "ecstatic, upon, earmuffs",
+        "output": "ecstatic"
+    },
+    {
+        "input": "quizzical, breathe, treat",
+        "output": "quizzical"
+    },
+    {
+        "input": "potato, dove, except",
+        "output": "potato"
+    },
+    {
+        "input": "snorkel, joyous, toucan",
+        "output": "snorkel"
+    },
+    {
+        "input": "ferret, zesty, mandrill",
+        "output": "ferret"
+    },
+    {
+        "input": "himself, sweet, lift",
+        "output": "himself"
+    },
+    {
+        "input": "coral, cry, caribou",
+        "output": "coral"
+    },
+    {
+        "input": "map, cheetah, x-ray",
+        "output": "map"
+    },
+    {
+        "input": "penguin, him, swan",
+        "output": "penguin"
+    },
+    {
+        "input": "apricot, beef, notebook",
+        "output": "apricot"
+    },
+    {
+        "input": "otter, expensive, faithful",
+        "output": "otter"
+    },
+    {
+        "input": "eloquent, kindhearted, silly",
+        "output": "eloquent"
+    },
+    {
+        "input": "weak, resolute, beef",
+        "output": "weak"
+    },
+    {
+        "input": "which, chimpanzee, skates",
+        "output": "which"
+    },
+    {
+        "input": "listen, earmuffs, volleyball",
+        "output": "listen"
+    },
+    {
+        "input": "beside, fearless, moose",
+        "output": "beside"
+    },
+    {
+        "input": "ibex, skunk, hate",
+        "output": "ibex"
+    },
+    {
+        "input": "ink, remove, worm",
+        "output": "ink"
+    },
+    {
+        "input": "choose, loud, upbeat",
+        "output": "choose"
+    },
+    {
+        "input": "achieve, land, quokka",
+        "output": "achieve"
+    },
+    {
+        "input": "dumbbell, chimpanzee, intelligent",
+        "output": "dumbbell"
+    },
+    {
+        "input": "treat, into, lucky",
+        "output": "treat"
+    },
+    {
+        "input": "sculpture, inside, mirthful",
+        "output": "sculpture"
+    },
+    {
+        "input": "cake, pink, know",
+        "output": "cake"
+    },
+    {
+        "input": "jog, window, perform",
+        "output": "jog"
+    },
+    {
+        "input": "generous, wallet, lettuce",
+        "output": "generous"
+    },
+    {
+        "input": "alpaca, net, open",
+        "output": "alpaca"
+    },
+    {
+        "input": "baboon, strong, judge",
+        "output": "baboon"
+    },
+    {
+        "input": "plan, sofa, reliable",
+        "output": "plan"
+    },
+    {
+        "input": "query, snail, capybara",
+        "output": "query"
+    },
+    {
+        "input": "bat, lizard, whimsical",
+        "output": "bat"
+    },
+    {
+        "input": "bitter, dragonfly, serene",
+        "output": "bitter"
+    },
+    {
+        "input": "snake, innocent, hamster",
+        "output": "snake"
+    },
+    {
+        "input": "manage, exchange, he",
+        "output": "manage"
+    },
+    {
+        "input": "eager, sofa, picture",
+        "output": "eager"
+    },
+    {
+        "input": "solve, chimpanzee, necklace",
+        "output": "solve"
+    },
+    {
+        "input": "inventive, nurture, peacock",
+        "output": "inventive"
+    },
+    {
+        "input": "forgive, kind, goose",
+        "output": "forgive"
+    },
+    {
+        "input": "doubt, volleyball, visualize",
+        "output": "doubt"
+    },
+    {
+        "input": "egg, navigate, tambourine",
+        "output": "egg"
+    },
+    {
+        "input": "mark, fig, noble",
+        "output": "mark"
+    },
+    {
+        "input": "wombat, over, orange",
+        "output": "wombat"
+    },
+    {
+        "input": "drum, bird, from",
+        "output": "drum"
+    },
+    {
+        "input": "consult, magpie, squirrel",
+        "output": "consult"
+    },
+    {
+        "input": "consider, observant, trustworthy",
+        "output": "consider"
+    },
+    {
+        "input": "soft, gumball, tranquil",
+        "output": "soft"
+    },
+    {
+        "input": "fox, durian, jeans",
+        "output": "fox"
+    },
+    {
+        "input": "kumquat, caring, keen",
+        "output": "kumquat"
+    },
+    {
+        "input": "innocent, enjoy, yacht",
+        "output": "innocent"
+    },
+    {
+        "input": "cookie, determined, clever",
+        "output": "cookie"
+    },
+    {
+        "input": "versatile, sloth, pomegranate",
+        "output": "versatile"
+    },
+    {
+        "input": "duster, sail, hot",
+        "output": "duster"
+    },
+    {
+        "input": "painting, cobra, us",
+        "output": "painting"
+    },
+    {
+        "input": "query, grapefruit, pomegranate",
+        "output": "query"
+    },
+    {
+        "input": "giraffe, kill, owl",
+        "output": "giraffe"
+    },
+    {
+        "input": "moth, beneath, airplane",
+        "output": "moth"
+    },
+    {
+        "input": "perform, tangerine, ball",
+        "output": "perform"
+    },
+    {
+        "input": "motorcycle, chipmunk, talented",
+        "output": "motorcycle"
+    },
+    {
+        "input": "koala, bat, pigeon",
+        "output": "koala"
+    },
+    {
+        "input": "perform, over, red",
+        "output": "perform"
+    },
+    {
+        "input": "butterfly, gather, out",
+        "output": "butterfly"
+    },
+    {
+        "input": "modest, develop, strawberry",
+        "output": "modest"
+    },
+    {
+        "input": "release, unite, yacht",
+        "output": "release"
+    },
+    {
+        "input": "date, myself, nourish",
+        "output": "date"
+    },
+    {
+        "input": "goat, alligator, reflect",
+        "output": "goat"
+    },
+    {
+        "input": "youthful, warmhearted, skates",
+        "output": "youthful"
+    },
+    {
+        "input": "yield, naughty, listen",
+        "output": "yield"
+    },
+    {
+        "input": "carrot, xerox, eager",
+        "output": "carrot"
+    },
+    {
+        "input": "mantis, manage, spider",
+        "output": "mantis"
+    },
+    {
+        "input": "wolverine, zap, plan",
+        "output": "wolverine"
+    },
+    {
+        "input": "discover, to, bitter",
+        "output": "discover"
+    },
+    {
+        "input": "create, bowl, chipmunk",
+        "output": "create"
+    },
+    {
+        "input": "calculate, sculpture, ruler",
+        "output": "calculate"
+    },
+    {
+        "input": "gooseberry, up, earmuffs",
+        "output": "gooseberry"
+    },
+    {
+        "input": "lemon, diligent, it",
+        "output": "lemon"
+    },
+    {
+        "input": "boomerang, house, octopus",
+        "output": "boomerang"
+    },
+    {
+        "input": "moose, itself, camera",
+        "output": "moose"
+    },
+    {
+        "input": "otter, affable, overcome",
+        "output": "otter"
+    },
+    {
+        "input": "cat, zap, aardvark",
+        "output": "cat"
+    },
+    {
+        "input": "sweet, papaya, despite",
+        "output": "sweet"
+    },
+    {
+        "input": "of, chimpanzee, zealous",
+        "output": "of"
+    },
+    {
+        "input": "rabbit, natural, resolute",
+        "output": "rabbit"
+    },
+    {
+        "input": "sensitive, coral, passionate",
+        "output": "sensitive"
+    },
+    {
+        "input": "duck, below, jacket",
+        "output": "duck"
+    },
+    {
+        "input": "strawberry, vase, he",
+        "output": "strawberry"
+    },
+    {
+        "input": "fan, banana, uncover",
+        "output": "fan"
+    },
+    {
+        "input": "treat, knot, out",
+        "output": "treat"
+    },
+    {
+        "input": "discover, myself, juggle",
+        "output": "discover"
+    },
+    {
+        "input": "hippopotamus, save, achieve",
+        "output": "hippopotamus"
+    },
+    {
+        "input": "young, white, picture",
+        "output": "young"
+    },
+    {
+        "input": "around, up, eager",
+        "output": "around"
+    },
+    {
+        "input": "swan, treat, jubilant",
+        "output": "swan"
+    },
+    {
+        "input": "tangerine, knife, envelope",
+        "output": "tangerine"
+    },
+    {
+        "input": "gentle, panda, date",
+        "output": "gentle"
+    },
+    {
+        "input": "macaw, friendly, up",
+        "output": "macaw"
+    },
+    {
+        "input": "wolf, paintbrush, who",
+        "output": "wolf"
+    },
+    {
+        "input": "exuberant, down, trustworthy",
+        "output": "exuberant"
+    },
+    {
+        "input": "race, solve, validate",
+        "output": "race"
+    },
+    {
+        "input": "analyze, laughing, finish",
+        "output": "analyze"
+    },
+    {
+        "input": "warm, ecstatic, light",
+        "output": "warm"
+    },
+    {
+        "input": "accordion, paper, zipper",
+        "output": "accordion"
+    },
+    {
+        "input": "finish, harmonious, train",
+        "output": "finish"
+    },
+    {
+        "input": "lemur, badger, dog",
+        "output": "lemur"
+    },
+    {
+        "input": "mild, silver, enjoy",
+        "output": "mild"
+    },
+    {
+        "input": "keen, pepper, banana",
+        "output": "keen"
+    },
+    {
+        "input": "chair, recruit, date",
+        "output": "chair"
+    },
+    {
+        "input": "navy, race, alpaca",
+        "output": "navy"
+    },
+    {
+        "input": "bountiful, paint, hornet",
+        "output": "bountiful"
+    }
+]

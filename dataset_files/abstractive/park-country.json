@@ -1,0 +1,2998 @@
+[
+  {
+    "input": "Band-e Amir National Park",
+    "output": "Afghanistan"
+  },
+  {
+    "input": "Wakhan National Park",
+    "output": "Afghanistan"
+  },
+  {
+    "input": "Band-e Gulbahar National Park",
+    "output": "Afghanistan"
+  },
+  {
+    "input": "Butrint National Park",
+    "output": "Albania"
+  },
+  {
+    "input": "Divjaka-Karavasta National Park",
+    "output": "Albania"
+  },
+  {
+    "input": "Llogara National Park",
+    "output": "Albania"
+  },
+  {
+    "input": "Shebenik-Jabllanice National Park",
+    "output": "Albania"
+  },
+  {
+    "input": "Prespa National Park",
+    "output": "Albania"
+  },
+  {
+    "input": "Dajti National Park",
+    "output": "Albania"
+  },
+  {
+    "input": "Karaburun-Sazan National Marine Park",
+    "output": "Albania"
+  },
+  {
+    "input": "Tassili n'Ajjer National Park",
+    "output": "Algeria"
+  },
+  {
+    "input": "Djurdjura National Park",
+    "output": "Algeria"
+  },
+  {
+    "input": "Gouraya National Park",
+    "output": "Algeria"
+  },
+  {
+    "input": "El Kala National Park",
+    "output": "Algeria"
+  },
+  {
+    "input": "Tlemcen National Park",
+    "output": "Algeria"
+  },
+  {
+    "input": "Belezma National Park",
+    "output": "Algeria"
+  },
+  {
+    "input": "Taza National Park",
+    "output": "Algeria"
+  },
+  {
+    "input": "Comapedrosa National Park",
+    "output": "Andorra"
+  },
+  {
+    "input": "Quiçama National Park",
+    "output": "Angola"
+  },
+  {
+    "input": "Cangandala National Park",
+    "output": "Angola"
+  },
+  {
+    "input": "Nelson's Dockyard National Park",
+    "output": "Antigua and Barbuda"
+  },
+  {
+    "input": "Codrington Lagoon National Park",
+    "output": "Antigua and Barbuda"
+  },
+  {
+    "input": "Los Glaciares National Park",
+    "output": "Argentina"
+  },
+  {
+    "input": "Iguazu National Park",
+    "output": "Argentina"
+  },
+  {
+    "input": "Tierra del Fuego National Park",
+    "output": "Argentina"
+  },
+  {
+    "input": "Nahuel Huapi National Park",
+    "output": "Argentina"
+  },
+  {
+    "input": "El Palmar National Park",
+    "output": "Argentina"
+  },
+  {
+    "input": "Talampaya National Park",
+    "output": "Argentina"
+  },
+  {
+    "input": "Monte León National Park",
+    "output": "Argentina"
+  },
+  {
+    "input": "Lago Puelo National Park",
+    "output": "Argentina"
+  },
+  {
+    "input": "Ischigualasto Provincial Park",
+    "output": "Argentina"
+  },
+  {
+    "input": "El Leoncito National Park",
+    "output": "Argentina"
+  },
+  {
+    "input": "Khosrov Forest State Reserve",
+    "output": "Armenia"
+  },
+  {
+    "input": "Dilijan National Park",
+    "output": "Armenia"
+  },
+  {
+    "input": "Sevan National Park",
+    "output": "Armenia"
+  },
+  {
+    "input": "Arevik National Park",
+    "output": "Armenia"
+  },
+  {
+    "input": "Lake Arpi National Park",
+    "output": "Armenia"
+  },
+  {
+    "input": "Uluru-Kata Tjuta National Park",
+    "output": "Australia"
+  },
+  {
+    "input": "Kakadu National Park",
+    "output": "Australia"
+  },
+  {
+    "input": "Purnululu National Park",
+    "output": "Australia"
+  },
+  {
+    "input": "Great Barrier Reef Marine Park",
+    "output": "Australia"
+  },
+  {
+    "input": "Karijini National Park",
+    "output": "Australia"
+  },
+  {
+    "input": "Booderee National Park",
+    "output": "Australia"
+  },
+  {
+    "input": "Litchfield National Park",
+    "output": "Australia"
+  },
+  {
+    "input": "Grampians National Park",
+    "output": "Australia"
+  },
+  {
+    "input": "Blue Mountains National Park",
+    "output": "Australia"
+  },
+  {
+    "input": "Hohe Tauern National Park",
+    "output": "Austria"
+  },
+  {
+    "input": "Neusiedler See National Park",
+    "output": "Austria"
+  },
+  {
+    "input": "Thayatal National Park",
+    "output": "Austria"
+  },
+  {
+    "input": "Gesäuse National Park",
+    "output": "Austria"
+  },
+  {
+    "input": "Donau-Auen National Park",
+    "output": "Austria"
+  },
+  {
+    "input": "Nockberge National Park",
+    "output": "Austria"
+  },
+  {
+    "input": "Shirvan National Park",
+    "output": "Azerbaijan"
+  },
+  {
+    "input": "Goygol National Park",
+    "output": "Azerbaijan"
+  },
+  {
+    "input": "Hirkan National Park",
+    "output": "Azerbaijan"
+  },
+  {
+    "input": "Altyaghach National Park",
+    "output": "Azerbaijan"
+  },
+  {
+    "input": "Absheron National Park",
+    "output": "Azerbaijan"
+  },
+  {
+    "input": "Gizilagaj National Park",
+    "output": "Azerbaijan"
+  },
+  {
+    "input": "Shakhdag National Park",
+    "output": "Azerbaijan"
+  },
+  {
+    "input": "Lucayan National Park",
+    "output": "Bahamas"
+  },
+  {
+    "input": "Exuma Cays Land and Sea Park",
+    "output": "Bahamas"
+  },
+  {
+    "input": "Inagua National Park",
+    "output": "Bahamas"
+  },
+  {
+    "input": "Abaco National Park",
+    "output": "Bahamas"
+  },
+  {
+    "input": "Bimini National Park",
+    "output": "Bahamas"
+  },
+  {
+    "input": "Black Sound Cay National Park",
+    "output": "Bahamas"
+  },
+  {
+    "input": "Fowl Cays National Park",
+    "output": "Bahamas"
+  },
+  {
+    "input": "Moriah Harbour Cay National Park",
+    "output": "Bahamas"
+  },
+  {
+    "input": "Al Areen Wildlife Park",
+    "output": "Bahrain"
+  },
+  {
+    "input": "Lawachara National Park",
+    "output": "Bangladesh"
+  },
+  {
+    "input": "Satchari National Park",
+    "output": "Bangladesh"
+  },
+  {
+    "input": "Madhupur National Park",
+    "output": "Bangladesh"
+  },
+  {
+    "input": "Kaptai National Park",
+    "output": "Bangladesh"
+  },
+  {
+    "input": "Nijhum Dwip National Park",
+    "output": "Bangladesh"
+  },
+  {
+    "input": "Farley Hill National Park",
+    "output": "Barbados"
+  },
+  {
+    "input": "Belovezhskaya Pushcha National Park",
+    "output": "Belarus"
+  },
+  {
+    "input": "Braslav Lakes National Park",
+    "output": "Belarus"
+  },
+  {
+    "input": "Hoge Kempen National Park",
+    "output": "Belgium"
+  },
+  {
+    "input": "Eifel National Park",
+    "output": "Belgium"
+  },
+  {
+    "input": "Blue Hole National Park",
+    "output": "Belize"
+  },
+  {
+    "input": "Tapir Mountain Nature Reserve",
+    "output": "Belize"
+  },
+  {
+    "input": "St. Herman's Blue Hole National Park",
+    "output": "Belize"
+  },
+  {
+    "input": "Bacalar Chico National Park and Marine Reserve",
+    "output": "Belize"
+  },
+  {
+    "input": "Glover's Reef Marine Reserve",
+    "output": "Belize"
+  },
+  {
+    "input": "Laughing Bird Caye National Park",
+    "output": "Belize"
+  },
+  {
+    "input": "Pendjari National Park",
+    "output": "Benin"
+  },
+  {
+    "input": "Jigme Dorji National Park",
+    "output": "Bhutan"
+  },
+  {
+    "input": "Royal Manas National Park",
+    "output": "Bhutan"
+  },
+  {
+    "input": "Phrumsengla National Park",
+    "output": "Bhutan"
+  },
+  {
+    "input": "Bumdeling Wildlife Sanctuary",
+    "output": "Bhutan"
+  },
+  {
+    "input": "Sakteng Wildlife Sanctuary",
+    "output": "Bhutan"
+  },
+  {
+    "input": "Wangchuck Centennial National Park",
+    "output": "Bhutan"
+  },
+  {
+    "input": "Phibsoo Wildlife Sanctuary",
+    "output": "Bhutan"
+  },
+  {
+    "input": "Madidi National Park",
+    "output": "Bolivia"
+  },
+  {
+    "input": "Amboro National Park",
+    "output": "Bolivia"
+  },
+  {
+    "input": "Noel Kempff Mercado National Park",
+    "output": "Bolivia"
+  },
+  {
+    "input": "Sajama National Park",
+    "output": "Bolivia"
+  },
+  {
+    "input": "Carrasco National Park",
+    "output": "Bolivia"
+  },
+  {
+    "input": "Isiboro Secure National Park",
+    "output": "Bolivia"
+  },
+  {
+    "input": "Cotapata National Park",
+    "output": "Bolivia"
+  },
+  {
+    "input": "Sutjeska National Park",
+    "output": "Bosnia and Herzegovina"
+  },
+  {
+    "input": "Kozara National Park",
+    "output": "Bosnia and Herzegovina"
+  },
+  {
+    "input": "Una National Park",
+    "output": "Bosnia and Herzegovina"
+  },
+  {
+    "input": "Chobe National Park",
+    "output": "Botswana"
+  },
+  {
+    "input": "Moremi Game Reserve",
+    "output": "Botswana"
+  },
+  {
+    "input": "Central Kalahari Game Reserve",
+    "output": "Botswana"
+  },
+  {
+    "input": "Nxai Pan National Park",
+    "output": "Botswana"
+  },
+  {
+    "input": "Khutse Game Reserve",
+    "output": "Botswana"
+  },
+  {
+    "input": "Makgadikgadi Pan National Park",
+    "output": "Botswana"
+  },
+  {
+    "input": "Chapada dos Veadeiros National Park",
+    "output": "Brazil"
+  },
+  {
+    "input": "Iguaçu National Park",
+    "output": "Brazil"
+  },
+  {
+    "input": "Fernando de Noronha Marine National Park",
+    "output": "Brazil"
+  },
+  {
+    "input": "Tijuca National Park",
+    "output": "Brazil"
+  },
+  {
+    "input": "Jericoacoara National Park",
+    "output": "Brazil"
+  },
+  {
+    "input": "Itatiaia National Park",
+    "output": "Brazil"
+  },
+  {
+    "input": "Lençóis Maranhenses National Park",
+    "output": "Brazil"
+  },
+  {
+    "input": "Serra da Capivara National Park",
+    "output": "Brazil"
+  },
+  {
+    "input": "Serra da Bocaina National Park",
+    "output": "Brazil"
+  },
+  {
+    "input": "Serra do Divisor National Park",
+    "output": "Brazil"
+  },
+  {
+    "input": "Ulu Temburong National Park",
+    "output": "Brunei"
+  },
+  {
+    "input": "Pirin National Park",
+    "output": "Bulgaria"
+  },
+  {
+    "input": "Rila National Park",
+    "output": "Bulgaria"
+  },
+  {
+    "input": "Central Balkan National Park",
+    "output": "Bulgaria"
+  },
+  {
+    "input": "Srebarna Nature Reserve",
+    "output": "Bulgaria"
+  },
+  {
+    "input": "Vitosha Nature Park",
+    "output": "Bulgaria"
+  },
+  {
+    "input": "Strandzha Nature Park",
+    "output": "Bulgaria"
+  },
+  {
+    "input": "Rusenski Lom Nature Park",
+    "output": "Bulgaria"
+  },
+  {
+    "input": "Belasitsa Nature Park",
+    "output": "Bulgaria"
+  },
+  {
+    "input": "Vratsa Balkan Nature Park",
+    "output": "Bulgaria"
+  },
+  {
+    "input": "Sinite Kamani Nature Park",
+    "output": "Bulgaria"
+  },
+  {
+    "input": "Arli National Park",
+    "output": "Burkina Faso"
+  },
+  {
+    "input": "Kaboré Tambi National Park",
+    "output": "Burkina Faso"
+  },
+  {
+    "input": "Kibira National Park",
+    "output": "Burundi"
+  },
+  {
+    "input": "Ruvubu National Park",
+    "output": "Burundi"
+  },
+  {
+    "input": "Rusizi National Park",
+    "output": "Burundi"
+  },
+  {
+    "input": "Serra Malagueta National Park",
+    "output": "Cabo Verde"
+  },
+  {
+    "input": "Monte Fogo National Park",
+    "output": "Cabo Verde"
+  },
+  {
+    "input": "Kirirom National Park",
+    "output": "Cambodia"
+  },
+  {
+    "input": "Ream National Park",
+    "output": "Cambodia"
+  },
+  {
+    "input": "Virachey National Park",
+    "output": "Cambodia"
+  },
+  {
+    "input": "Preah Monivong National Park",
+    "output": "Cambodia"
+  },
+  {
+    "input": "Waza National Park",
+    "output": "Cameroon"
+  },
+  {
+    "input": "Bouba Ndjida National Park",
+    "output": "Cameroon"
+  },
+  {
+    "input": "Korup National Park",
+    "output": "Cameroon"
+  },
+  {
+    "input": "Bouba Njida National Park",
+    "output": "Cameroon"
+  },
+  {
+    "input": "Faro National Park",
+    "output": "Cameroon"
+  },
+  {
+    "input": "Bénoué National Park",
+    "output": "Cameroon"
+  },
+  {
+    "input": "Nki National Park",
+    "output": "Cameroon"
+  },
+  {
+    "input": "Takamanda National Park",
+    "output": "Cameroon"
+  },
+  {
+    "input": "Banff National Park",
+    "output": "Canada"
+  },
+  {
+    "input": "Jasper National Park",
+    "output": "Canada"
+  },
+  {
+    "input": "Gros Morne National Park",
+    "output": "Canada"
+  },
+  {
+    "input": "Kluane National Park and Reserve",
+    "output": "Canada"
+  },
+  {
+    "input": "Riding Mountain National Park",
+    "output": "Canada"
+  },
+  {
+    "input": "Bruce Peninsula National Park",
+    "output": "Canada"
+  },
+  {
+    "input": "La Mauricie National Park",
+    "output": "Canada"
+  },
+  {
+    "input": "Kouchibouguac National Park",
+    "output": "Canada"
+  },
+  {
+    "input": "Auyuittuq National Park",
+    "output": "Canada"
+  },
+  {
+    "input": "Bamingui-Bangoran National Park",
+    "output": "Central African Republic"
+  },
+  {
+    "input": "Manovo-Gounda St Floris National Park",
+    "output": "Central African Republic"
+  },
+  {
+    "input": "Dzanga-Ndoki National Park",
+    "output": "Central African Republic"
+  },
+  {
+    "input": "Zakouma National Park",
+    "output": "Chad"
+  },
+  {
+    "input": "Torres del Paine National Park",
+    "output": "Chile"
+  },
+  {
+    "input": "Lauca National Park",
+    "output": "Chile"
+  },
+  {
+    "input": "Rapa Nui National Park",
+    "output": "Chile"
+  },
+  {
+    "input": "Bernardo O'Higgins National Park",
+    "output": "Chile"
+  },
+  {
+    "input": "Juan Fernández Archipelago National Park",
+    "output": "Chile"
+  },
+  {
+    "input": "Kawésqar National Park",
+    "output": "Chile"
+  },
+  {
+    "input": "Puyehue National Park",
+    "output": "Chile"
+  },
+  {
+    "input": "Laguna San Rafael National Park",
+    "output": "Chile"
+  },
+  {
+    "input": "Isla Magdalena National Park",
+    "output": "Chile"
+  },
+  {
+    "input": "Huangshan National Park",
+    "output": "China"
+  },
+  {
+    "input": "Yading Nature Reserve",
+    "output": "China"
+  },
+  {
+    "input": "Zhangjiajie National Forest Park",
+    "output": "China"
+  },
+  {
+    "input": "Mount Sanqingshan National Park",
+    "output": "China"
+  },
+  {
+    "input": "Tayrona National Park",
+    "output": "Colombia"
+  },
+  {
+    "input": "Los Nevados National Park",
+    "output": "Colombia"
+  },
+  {
+    "input": "Chingaza National Park",
+    "output": "Colombia"
+  },
+  {
+    "input": "Purace National Park",
+    "output": "Colombia"
+  },
+  {
+    "input": "Sierra Nevada de Santa Marta National Park",
+    "output": "Colombia"
+  },
+  {
+    "input": "Amacayacu National Park",
+    "output": "Colombia"
+  },
+  {
+    "input": "Iguaque National Park",
+    "output": "Colombia"
+  },
+  {
+    "input": "La Paya National Park",
+    "output": "Colombia"
+  },
+  {
+    "input": "El Cocuy National Park",
+    "output": "Colombia"
+  },
+  {
+    "input": "Los Katíos National Park",
+    "output": "Colombia"
+  },
+  {
+    "input": "Moheli Marine Park",
+    "output": "Comoros"
+  },
+  {
+    "input": "Garamba National Park",
+    "output": "Congo"
+  },
+  {
+    "input": "Kahuzi-Biega National Park",
+    "output": "Congo"
+  },
+  {
+    "input": "Salonga National Park",
+    "output": "Congo"
+  },
+  {
+    "input": "Upemba National Park",
+    "output": "Congo"
+  },
+  {
+    "input": "Virunga National Park",
+    "output": "Congo"
+  },
+  {
+    "input": "Odzala-Kokoua National Park",
+    "output": "Congo"
+  },
+  {
+    "input": "Corcovado National Park",
+    "output": "Costa Rica"
+  },
+  {
+    "input": "Tortuguero National Park",
+    "output": "Costa Rica"
+  },
+  {
+    "input": "Manuel Antonio National Park",
+    "output": "Costa Rica"
+  },
+  {
+    "input": "Arenal Volcano National Park",
+    "output": "Costa Rica"
+  },
+  {
+    "input": "Santa Rosa National Park",
+    "output": "Costa Rica"
+  },
+  {
+    "input": "Cahuita National Park",
+    "output": "Costa Rica"
+  },
+  {
+    "input": "Monteverde Cloud Forest Reserve",
+    "output": "Costa Rica"
+  },
+  {
+    "input": "Barra Honda National Park",
+    "output": "Costa Rica"
+  },
+  {
+    "input": "La Amistad International Park",
+    "output": "Costa Rica"
+  },
+  {
+    "input": "Comoé National Park",
+    "output": "Cote d'Ivoire"
+  },
+  {
+    "input": "Taï National Park",
+    "output": "Cote d'Ivoire"
+  },
+  {
+    "input": "Marahoué National Park",
+    "output": "Cote d'Ivoire"
+  },
+  {
+    "input": "Mont Sangbé National Park",
+    "output": "Cote d'Ivoire"
+  },
+  {
+    "input": "Plitvice Lakes National Park",
+    "output": "Croatia"
+  },
+  {
+    "input": "Krka National Park",
+    "output": "Croatia"
+  },
+  {
+    "input": "Paklenica National Park",
+    "output": "Croatia"
+  },
+  {
+    "input": "Mljet National Park",
+    "output": "Croatia"
+  },
+  {
+    "input": "Risnjak National Park",
+    "output": "Croatia"
+  },
+  {
+    "input": "Sjeverni Velebit National Park",
+    "output": "Croatia"
+  },
+  {
+    "input": "Kornati National Park",
+    "output": "Croatia"
+  },
+  {
+    "input": "Brijuni National Park",
+    "output": "Croatia"
+  },
+  {
+    "input": "Alejandro de Humboldt National Park",
+    "output": "Cuba"
+  },
+  {
+    "input": "Desembarco del Granma National Park",
+    "output": "Cuba"
+  },
+  {
+    "input": "Guanahacabibes National Park",
+    "output": "Cuba"
+  },
+  {
+    "input": "Turquino National Park",
+    "output": "Cuba"
+  },
+  {
+    "input": "Akamas National Park",
+    "output": "Cyprus"
+  },
+  {
+    "input": "Cape Greco National Park",
+    "output": "Cyprus"
+  },
+  {
+    "input": "Athalassa National Park",
+    "output": "Cyprus"
+  },
+  {
+    "input": "Bohemian Switzerland National Park",
+    "output": "Czech Republic"
+  },
+  {
+    "input": "Krkonose National Park",
+    "output": "Czech Republic"
+  },
+  {
+    "input": "Podyji National Park",
+    "output": "Czech Republic"
+  },
+  {
+    "input": "Sumava National Park",
+    "output": "Czech Republic"
+  },
+  {
+    "input": "Mols Bjerge National Park",
+    "output": "Denmark"
+  },
+  {
+    "input": "Wadden Sea National Park",
+    "output": "Denmark"
+  },
+  {
+    "input": "Skjoldungernes Land National Park",
+    "output": "Denmark"
+  },
+  {
+    "input": "Djibouti National Park",
+    "output": "Djibouti"
+  },
+  {
+    "input": "Galapagos National Park",
+    "output": "Ecuador"
+  },
+  {
+    "input": "Cotopaxi National Park",
+    "output": "Ecuador"
+  },
+  {
+    "input": "Yasuni National Park",
+    "output": "Ecuador"
+  },
+  {
+    "input": "Cajas National Park",
+    "output": "Ecuador"
+  },
+  {
+    "input": "Podocarpus National Park",
+    "output": "Ecuador"
+  },
+  {
+    "input": "El Cóndor Biosphere Reserve",
+    "output": "Ecuador"
+  },
+  {
+    "input": "Sumaco Napo-Galeras National Park",
+    "output": "Ecuador"
+  },
+  {
+    "input": "Machalilla National Park",
+    "output": "Ecuador"
+  },
+  {
+    "input": "Llanganates National Park",
+    "output": "Ecuador"
+  },
+  {
+    "input": "Ras Mohammed National Park",
+    "output": "Egypt"
+  },
+  {
+    "input": "Gebel Elba National Park",
+    "output": "Egypt"
+  },
+  {
+    "input": "Wadi El Gemal National Park",
+    "output": "Egypt"
+  },
+  {
+    "input": "Wadi El Hitan Protected Area",
+    "output": "Egypt"
+  },
+  {
+    "input": "El Imposible National Park",
+    "output": "El Salvador"
+  },
+  {
+    "input": "Montecristo National Park",
+    "output": "El Salvador"
+  },
+  {
+    "input": "Cerro Verde National Park",
+    "output": "El Salvador"
+  },
+  {
+    "input": "El Boqueron National Park",
+    "output": "El Salvador"
+  },
+  {
+    "input": "Gash-Barka National Park",
+    "output": "Eritrea"
+  },
+  {
+    "input": "Dahlak Marine National Park",
+    "output": "Eritrea"
+  },
+  {
+    "input": "Semenawi Bahri National Park",
+    "output": "Eritrea"
+  },
+  {
+    "input": "Soomaa National Park",
+    "output": "Estonia"
+  },
+  {
+    "input": "Karula National Park",
+    "output": "Estonia"
+  },
+  {
+    "input": "Vilsandi National Park",
+    "output": "Estonia"
+  },
+  {
+    "input": "Matsalu National Park",
+    "output": "Estonia"
+  },
+  {
+    "input": "Hlane Royal National Park",
+    "output": "Eswatini"
+  },
+  {
+    "input": "Simien Mountains National Park",
+    "output": "Ethiopia"
+  },
+  {
+    "input": "Awash National Park",
+    "output": "Ethiopia"
+  },
+  {
+    "input": "Bale Mountains National Park",
+    "output": "Ethiopia"
+  },
+  {
+    "input": "Omo National Park",
+    "output": "Ethiopia"
+  },
+  {
+    "input": "Abijata-Shalla Lakes National Park",
+    "output": "Ethiopia"
+  },
+  {
+    "input": "Nechisar National Park",
+    "output": "Ethiopia"
+  },
+  {
+    "input": "Mago National Park",
+    "output": "Ethiopia"
+  },
+  {
+    "input": "Yangudi Rassa National Park",
+    "output": "Ethiopia"
+  },
+  {
+    "input": "Gambela National Park",
+    "output": "Ethiopia"
+  },
+  {
+    "input": "Alitash National Park",
+    "output": "Ethiopia"
+  },
+  {
+    "input": "Colo-i-Suva Forest Park",
+    "output": "Fiji"
+  },
+  {
+    "input": "Bouma National Heritage Park",
+    "output": "Fiji"
+  },
+  {
+    "input": "Koroyanitu National Heritage Park",
+    "output": "Fiji"
+  },
+  {
+    "input": "Pyha-Hakki National Park",
+    "output": "Finland"
+  },
+  {
+    "input": "Linnansaari National Park",
+    "output": "Finland"
+  },
+  {
+    "input": "Oulanka National Park",
+    "output": "Finland"
+  },
+  {
+    "input": "Riisitunturi National Park",
+    "output": "Finland"
+  },
+  {
+    "input": "Pallas-Yllastunturi National Park",
+    "output": "Finland"
+  },
+  {
+    "input": "Syote National Park",
+    "output": "Finland"
+  },
+  {
+    "input": "Urho Kekkonen National Park",
+    "output": "Finland"
+  },
+  {
+    "input": "Lemmenjoki National Park",
+    "output": "Finland"
+  },
+  {
+    "input": "Calanques National Park",
+    "output": "France"
+  },
+  {
+    "input": "Ecrins National Park",
+    "output": "France"
+  },
+  {
+    "input": "Port-Cros National Park",
+    "output": "France"
+  },
+  {
+    "input": "Mercantour National Park",
+    "output": "France"
+  },
+  {
+    "input": "Cévennes National Park",
+    "output": "France"
+  },
+  {
+    "input": "Loango National Park",
+    "output": "Gabon"
+  },
+  {
+    "input": "Ivindo National Park",
+    "output": "Gabon"
+  },
+  {
+    "input": "Moukalaba-Doudou National Park",
+    "output": "Gabon"
+  },
+  {
+    "input": "Lopé National Park",
+    "output": "Gabon"
+  },
+  {
+    "input": "Pongara National Park",
+    "output": "Gabon"
+  },
+  {
+    "input": "Mayumba National Park",
+    "output": "Gabon"
+  },
+  {
+    "input": "Mtirala National Park",
+    "output": "Georgia"
+  },
+  {
+    "input": "Bavarian Forest National Park",
+    "output": "Germany"
+  },
+  {
+    "input": "Jasmund National Park",
+    "output": "Germany"
+  },
+  {
+    "input": "Harz National Park",
+    "output": "Germany"
+  },
+  {
+    "input": "Hainich National Park",
+    "output": "Germany"
+  },
+  {
+    "input": "Black Forest National Park",
+    "output": "Germany"
+  },
+  {
+    "input": "Kellerwald-Edersee National Park",
+    "output": "Germany"
+  },
+  {
+    "input": "Mole National Park",
+    "output": "Ghana"
+  },
+  {
+    "input": "Kakum National Park",
+    "output": "Ghana"
+  },
+  {
+    "input": "Digya National Park",
+    "output": "Ghana"
+  },
+  {
+    "input": "Nini-Suhien National Park",
+    "output": "Ghana"
+  },
+  {
+    "input": "Mount Olympus National Park",
+    "output": "Greece"
+  },
+  {
+    "input": "Samaria Gorge National Park",
+    "output": "Greece"
+  },
+  {
+    "input": "Mount Parnassus National Park",
+    "output": "Greece"
+  },
+  {
+    "input": "Vikos-Aoos National Park",
+    "output": "Greece"
+  },
+  {
+    "input": "Dadia National Park",
+    "output": "Greece"
+  },
+  {
+    "input": "Alonnisos Marine Park",
+    "output": "Greece"
+  },
+  {
+    "input": "Grand Etang National Park",
+    "output": "Grenada"
+  },
+  {
+    "input": "Levera National Park",
+    "output": "Grenada"
+  },
+  {
+    "input": "Tikal National Park",
+    "output": "Guatemala"
+  },
+  {
+    "input": "Laguna del Tigre National Park",
+    "output": "Guatemala"
+  },
+  {
+    "input": "Cantanhez National Park",
+    "output": "Guinea-Bissau"
+  },
+  {
+    "input": "João Vieira-Poilão Marine National Park",
+    "output": "Guinea-Bissau"
+  },
+  {
+    "input": "Cacheu River National Park",
+    "output": "Guinea-Bissau"
+  },
+  {
+    "input": "Kanuku Mountains National Park",
+    "output": "Guyana"
+  },
+  {
+    "input": "Kaieteur National Park",
+    "output": "Guyana"
+  },
+  {
+    "input": "La Visite National Park",
+    "output": "Haiti"
+  },
+  {
+    "input": "Pic Macaya National Park",
+    "output": "Haiti"
+  },
+  {
+    "input": "Pico Bonito National Park",
+    "output": "Honduras"
+  },
+  {
+    "input": "Cusuco National Park",
+    "output": "Honduras"
+  },
+  {
+    "input": "Río Plátano Biosphere Reserve",
+    "output": "Honduras"
+  },
+  {
+    "input": "Cerro Azul Meambar National Park",
+    "output": "Honduras"
+  },
+  {
+    "input": "La Tigra National Park",
+    "output": "Honduras"
+  },
+  {
+    "input": "Hortobágy National Park",
+    "output": "Hungary"
+  },
+  {
+    "input": "Kiskunság National Park",
+    "output": "Hungary"
+  },
+  {
+    "input": "Aggtelek National Park",
+    "output": "Hungary"
+  },
+  {
+    "input": "Fertő-Hanság National Park",
+    "output": "Hungary"
+  },
+  {
+    "input": "Bükki National Park",
+    "output": "Hungary"
+  },
+  {
+    "input": "Danube-Ipoly National Park",
+    "output": "Hungary"
+  },
+  {
+    "input": "Duna-Dráva National Park",
+    "output": "Hungary"
+  },
+  {
+    "input": "Őrség National Park",
+    "output": "Hungary"
+  },
+  {
+    "input": "Balaton-felvidéki National Park",
+    "output": "Hungary"
+  },
+  {
+    "input": "Vatnajökull National Park",
+    "output": "Iceland"
+  },
+  {
+    "input": "Þingvellir National Park",
+    "output": "Iceland"
+  },
+  {
+    "input": "Snæfellsjökull National Park",
+    "output": "Iceland"
+  },
+  {
+    "input": "Skaftafell National Park",
+    "output": "Iceland"
+  },
+  {
+    "input": "Jim Corbett National Park, Uttarakhand",
+    "output": "India"
+  },
+  {
+    "input": "Kaziranga National Park, Assam",
+    "output": "India"
+  },
+  {
+    "input": "Bandhavgarh National Park, Madhya Pradesh",
+    "output": "India"
+  },
+  {
+    "input": "Ranthambore National Park, Rajasthan",
+    "output": "India"
+  },
+  {
+    "input": "Sunderbans National Park, West Bengal",
+    "output": "India"
+  },
+  {
+    "input": "Gir National Park, Gujarat",
+    "output": "India"
+  },
+  {
+    "input": "Kanha National Park, Madhya Pradesh",
+    "output": "India"
+  },
+  {
+    "input": "Great Himalayan National Park, Himachal Pradesh",
+    "output": "India"
+  },
+  {
+    "input": "Nanda Devi National Park, Uttarakhand",
+    "output": "India"
+  },
+  {
+    "input": "Keoladeo National Park, Rajasthan",
+    "output": "India"
+  },
+  {
+    "input": "Bromo Tengger Semeru National Park",
+    "output": "Indonesia"
+  },
+  {
+    "input": "Komodo National Park",
+    "output": "Indonesia"
+  },
+  {
+    "input": "Lorentz National Park",
+    "output": "Indonesia"
+  },
+  {
+    "input": "Ujung Kulon National Park",
+    "output": "Indonesia"
+  },
+  {
+    "input": "Gunung Leuser National Park",
+    "output": "Indonesia"
+  },
+  {
+    "input": "Tanjung Puting National Park",
+    "output": "Indonesia"
+  },
+  {
+    "input": "Kerinci Seblat National Park",
+    "output": "Indonesia"
+  },
+  {
+    "input": "Baluran National Park",
+    "output": "Indonesia"
+  },
+  {
+    "input": "Wakatobi National Park",
+    "output": "Indonesia"
+  },
+  {
+    "input": "Gunung Rinjani National Park",
+    "output": "Indonesia"
+  },
+  {
+    "input": "Golestan National Park",
+    "output": "Iran"
+  },
+  {
+    "input": "Kavir National Park",
+    "output": "Iran"
+  },
+  {
+    "input": "Tandooreh National Park",
+    "output": "Iran"
+  },
+  {
+    "input": "Lar National Park",
+    "output": "Iran"
+  },
+  {
+    "input": "Halgurd Sakran National Park",
+    "output": "Iraq"
+  },
+  {
+    "input": "Killarney National Park",
+    "output": "Ireland"
+  },
+  {
+    "input": "Connemara National Park",
+    "output": "Ireland"
+  },
+  {
+    "input": "Glenveagh National Park",
+    "output": "Ireland"
+  },
+  {
+    "input": "Burren National Park",
+    "output": "Ireland"
+  },
+  {
+    "input": "Wicklow Mountains National Park",
+    "output": "Ireland"
+  },
+  {
+    "input": "Ballycroy National Park",
+    "output": "Ireland"
+  },
+  {
+    "input": "Wild Nephin National Park",
+    "output": "Ireland"
+  },
+  {
+    "input": "Masada National Park",
+    "output": "Israel"
+  },
+  {
+    "input": "Ein Gedi Nature Reserve",
+    "output": "Israel"
+  },
+  {
+    "input": "Caesarea National Park",
+    "output": "Israel"
+  },
+  {
+    "input": "Nahal Me'arot Nature Reserve",
+    "output": "Israel"
+  },
+  {
+    "input": "Banias Nature Reserve",
+    "output": "Israel"
+  },
+  {
+    "input": "Mount Hermon Nature Reserve",
+    "output": "Israel"
+  },
+  {
+    "input": "Tel Dan Nature Reserve",
+    "output": "Israel"
+  },
+  {
+    "input": "Ein Avdat National Park",
+    "output": "Israel"
+  },
+  {
+    "input": "Gran Paradiso National Park",
+    "output": "Italy"
+  },
+  {
+    "input": "Cinque Terre National Park",
+    "output": "Italy"
+  },
+  {
+    "input": "Pollino National Park",
+    "output": "Italy"
+  },
+  {
+    "input": "Circeo National Park",
+    "output": "Italy"
+  },
+  {
+    "input": "Abruzzo National Park",
+    "output": "Italy"
+  },
+  {
+    "input": "Gargano National Park",
+    "output": "Italy"
+  },
+  {
+    "input": "Stelvio National Park",
+    "output": "Italy"
+  },
+  {
+    "input": "Gran Sasso e Monti della Laga National Park",
+    "output": "Italy"
+  },
+  {
+    "input": "Vesuvius National Park",
+    "output": "Italy"
+  },
+  {
+    "input": "Blue and John Crow Mountains National Park",
+    "output": "Jamaica"
+  },
+  {
+    "input": "Daisetsuzan National Park",
+    "output": "Japan"
+  },
+  {
+    "input": "Yakushima National Park",
+    "output": "Japan"
+  },
+  {
+    "input": "Shiretoko National Park",
+    "output": "Japan"
+  },
+  {
+    "input": "Ogasawara National Park",
+    "output": "Japan"
+  },
+  {
+    "input": "Chubu-Sangaku National Park",
+    "output": "Japan"
+  },
+  {
+    "input": "Aso-Kuju National Park",
+    "output": "Japan"
+  },
+  {
+    "input": "Nikko National Park",
+    "output": "Japan"
+  },
+  {
+    "input": "Fuji-Hakone-Izu National Park",
+    "output": "Japan"
+  },
+  {
+    "input": "Wadi Rum Protected Area",
+    "output": "Jordan"
+  },
+  {
+    "input": "Ajloun Forest Reserve",
+    "output": "Jordan"
+  },
+  {
+    "input": "Altyn-Emel National Park",
+    "output": "Kazakhstan"
+  },
+  {
+    "input": "Kolsay Lakes National Park",
+    "output": "Kazakhstan"
+  },
+  {
+    "input": "Ile-Alatau National Park",
+    "output": "Kazakhstan"
+  },
+  {
+    "input": "Bayanaul National Park",
+    "output": "Kazakhstan"
+  },
+  {
+    "input": "Tsavo East National Park",
+    "output": "Kenya"
+  },
+  {
+    "input": "Amboseli National Park",
+    "output": "Kenya"
+  },
+  {
+    "input": "Lake Nakuru National Park",
+    "output": "Kenya"
+  },
+  {
+    "input": "Meru National Park",
+    "output": "Kenya"
+  },
+  {
+    "input": "Hell's Gate National Park",
+    "output": "Kenya"
+  },
+  {
+    "input": "Mount Kenya National Park",
+    "output": "Kenya"
+  },
+  {
+    "input": "Nairobi National Park",
+    "output": "Kenya"
+  },
+  {
+    "input": "Aberdare National Park",
+    "output": "Kenya"
+  },
+  {
+    "input": "Bjeshkët e Nemuna National Park",
+    "output": "Kosovo"
+  },
+  {
+    "input": "Sharr Mountains National Park",
+    "output": "Kosovo"
+  },
+  {
+    "input": "Šar Mountains National Park",
+    "output": "Kosovo"
+  },
+  {
+    "input": "Ala-Archa National Park",
+    "output": "Kyrgyzstan"
+  },
+  {
+    "input": "Phou Khao Khouay National Park",
+    "output": "Laos"
+  },
+  {
+    "input": "Gauja National Park",
+    "output": "Latvia"
+  },
+  {
+    "input": "Slītere National Park",
+    "output": "Latvia"
+  },
+  {
+    "input": "Ķemeri National Park",
+    "output": "Latvia"
+  },
+  {
+    "input": "Al Shouf Cedar Nature Reserve",
+    "output": "Lebanon"
+  },
+  {
+    "input": "Sehlabathebe National Park",
+    "output": "Lesotho"
+  },
+  {
+    "input": "Ts'ehlanyane National Park",
+    "output": "Lesotho"
+  },
+  {
+    "input": "Sapo National Park",
+    "output": "Liberia"
+  },
+  {
+    "input": "Lofa-Mano National Park",
+    "output": "Liberia"
+  },
+  {
+    "input": "El-Kouf National Park",
+    "output": "Libya"
+  },
+  {
+    "input": "Abughilan National Park",
+    "output": "Libya"
+  },
+  {
+    "input": "Sabratha National Park",
+    "output": "Libya"
+  },
+  {
+    "input": "Aukštaitija National Park",
+    "output": "Lithuania"
+  },
+  {
+    "input": "Dzūkija National Park",
+    "output": "Lithuania"
+  },
+  {
+    "input": "Žemaitija National Park",
+    "output": "Lithuania"
+  },
+  {
+    "input": "Trakai Historical National Park",
+    "output": "Lithuania"
+  },
+  {
+    "input": "Isalo National Park",
+    "output": "Madagascar"
+  },
+  {
+    "input": "Tsingy de Bemaraha National Park",
+    "output": "Madagascar"
+  },
+  {
+    "input": "Ranomafana National Park",
+    "output": "Madagascar"
+  },
+  {
+    "input": "Ankarafantsika National Park",
+    "output": "Madagascar"
+  },
+  {
+    "input": "Masoala National Park",
+    "output": "Madagascar"
+  },
+  {
+    "input": "Zahamena National Park",
+    "output": "Madagascar"
+  },
+  {
+    "input": "Marojejy National Park",
+    "output": "Madagascar"
+  },
+  {
+    "input": "Liwonde National Park",
+    "output": "Malawi"
+  },
+  {
+    "input": "Lengwe National Park",
+    "output": "Malawi"
+  },
+  {
+    "input": "Kasungu National Park",
+    "output": "Malawi"
+  },
+  {
+    "input": "Taman Negara National Park",
+    "output": "Malaysia"
+  },
+  {
+    "input": "Kinabalu National Park",
+    "output": "Malaysia"
+  },
+  {
+    "input": "Gunung Mulu National Park",
+    "output": "Malaysia"
+  },
+  {
+    "input": "Bako National Park",
+    "output": "Malaysia"
+  },
+  {
+    "input": "Gunung Gading National Park",
+    "output": "Malaysia"
+  },
+  {
+    "input": "Endau-Rompin National Park",
+    "output": "Malaysia"
+  },
+  {
+    "input": "Ta'Qali National Park",
+    "output": "Mali"
+  },
+  {
+    "input": "Banc d'Arguin National Park",
+    "output": "Mauritania"
+  },
+  {
+    "input": "Black River Gorges National Park",
+    "output": "Mauritius"
+  },
+  {
+    "input": "Sierra de San Pedro Mártir National Park",
+    "output": "Mexico"
+  },
+  {
+    "input": "Sumidero Canyon National Park",
+    "output": "Mexico"
+  },
+  {
+    "input": "Lagunas de Chacahua National Park",
+    "output": "Mexico"
+  },
+  {
+    "input": "El Chico National Park",
+    "output": "Mexico"
+  },
+  {
+    "input": "Sierra de Órganos National Park",
+    "output": "Mexico"
+  },
+  {
+    "input": "Orhei National Park",
+    "output": "Moldova"
+  },
+  {
+    "input": "Gorkhi-Terelj National Park",
+    "output": "Mongolia"
+  },
+  {
+    "input": "Gobi Gurvansaikhan National Park",
+    "output": "Mongolia"
+  },
+  {
+    "input": "Tarvagatai Nuruu National Park",
+    "output": "Mongolia"
+  },
+  {
+    "input": "Khangai Nuruu National Park",
+    "output": "Mongolia"
+  },
+  {
+    "input": "Biogradska Gora National Park",
+    "output": "Montenegro"
+  },
+  {
+    "input": "Durmitor National Park",
+    "output": "Montenegro"
+  },
+  {
+    "input": "Lovcen National Park",
+    "output": "Montenegro"
+  },
+  {
+    "input": "Skadar Lake National Park",
+    "output": "Montenegro"
+  },
+  {
+    "input": "Toubkal National Park",
+    "output": "Morocco"
+  },
+  {
+    "input": "Souss-Massa National Park",
+    "output": "Morocco"
+  },
+  {
+    "input": "Talassemtane National Park",
+    "output": "Morocco"
+  },
+  {
+    "input": "Al Hoceima National Park",
+    "output": "Morocco"
+  },
+  {
+    "input": "Tazekka National Park",
+    "output": "Morocco"
+  },
+  {
+    "input": "Ifrane National Park",
+    "output": "Morocco"
+  },
+  {
+    "input": "Aït Bouguemez National Park",
+    "output": "Morocco"
+  },
+  {
+    "input": "Gorongosa National Park",
+    "output": "Mozambique"
+  },
+  {
+    "input": "Quirimbas National Park",
+    "output": "Mozambique"
+  },
+  {
+    "input": "Zinave National Park",
+    "output": "Mozambique"
+  },
+  {
+    "input": "Banhine National Park",
+    "output": "Mozambique"
+  },
+  {
+    "input": "Natma Taung National Park",
+    "output": "Myanmar"
+  },
+  {
+    "input": "Alaungdaw Kathapa National Park",
+    "output": "Myanmar"
+  },
+  {
+    "input": "Hlawga National Park",
+    "output": "Myanmar"
+  },
+  {
+    "input": "Etosha National Park",
+    "output": "Namibia"
+  },
+  {
+    "input": "Skeleton Coast National Park",
+    "output": "Namibia"
+  },
+  {
+    "input": "Khaudum National Park",
+    "output": "Namibia"
+  },
+  {
+    "input": "Waterberg Plateau Park",
+    "output": "Namibia"
+  },
+  {
+    "input": "Mudumu National Park",
+    "output": "Namibia"
+  },
+  {
+    "input": "Bwabwata National Park",
+    "output": "Namibia"
+  },
+  {
+    "input": "Sagarmatha National Park",
+    "output": "Nepal"
+  },
+  {
+    "input": "Chitwan National Park",
+    "output": "Nepal"
+  },
+  {
+    "input": "Bardya National Park",
+    "output": "Nepal"
+  },
+  {
+    "input": "Khaptad National Park",
+    "output": "Nepal"
+  },
+  {
+    "input": "Shey-Phoksundo National Park",
+    "output": "Nepal"
+  },
+  {
+    "input": "Rara National Park",
+    "output": "Nepal"
+  },
+  {
+    "input": "Makalu Barun National Park",
+    "output": "Nepal"
+  },
+  {
+    "input": "Langtang National Park",
+    "output": "Nepal"
+  },
+  {
+    "input": "Shivapuri Nagarjun National Park",
+    "output": "Nepal"
+  },
+  {
+    "input": "Hoge Veluwe National Park",
+    "output": "Netherlands"
+  },
+  {
+    "input": "De Biesbosch National Park",
+    "output": "Netherlands"
+  },
+  {
+    "input": "Dwingelderveld National Park",
+    "output": "Netherlands"
+  },
+  {
+    "input": "Lauwersmeer National Park",
+    "output": "Netherlands"
+  },
+  {
+    "input": "Oosterschelde National Park",
+    "output": "Netherlands"
+  },
+  {
+    "input": "Schiermonnikoog National Park",
+    "output": "Netherlands"
+  },
+  {
+    "input": "De Maasduinen National Park",
+    "output": "Netherlands"
+  },
+  {
+    "input": "De Groote Peel National Park",
+    "output": "Netherlands"
+  },
+  {
+    "input": "Abel Tasman National Park",
+    "output": "New Zealand"
+  },
+  {
+    "input": "Fiordland National Park",
+    "output": "New Zealand"
+  },
+  {
+    "input": "Tongariro National Park",
+    "output": "New Zealand"
+  },
+  {
+    "input": "Paparoa National Park",
+    "output": "New Zealand"
+  },
+  {
+    "input": "Aoraki/Mount Cook National Park",
+    "output": "New Zealand"
+  },
+  {
+    "input": "Westland Tai Poutini National Park",
+    "output": "New Zealand"
+  },
+  {
+    "input": "Nelson Lakes National Park",
+    "output": "New Zealand"
+  },
+  {
+    "input": "Kahurangi National Park",
+    "output": "New Zealand"
+  },
+  {
+    "input": "Mount Aspiring National Park",
+    "output": "New Zealand"
+  },
+  {
+    "input": "Rakiura National Park",
+    "output": "New Zealand"
+  },
+  {
+    "input": "Volcan Masaya National Park",
+    "output": "Nicaragua"
+  },
+  {
+    "input": "Pendjari National Park",
+    "output": "Niger"
+  },
+  {
+    "input": "Cross River National Park",
+    "output": "Nigeria"
+  },
+  {
+    "input": "Yankari National Park",
+    "output": "Nigeria"
+  },
+  {
+    "input": "Gashaka-Gumti National Park",
+    "output": "Nigeria"
+  },
+  {
+    "input": "Kainji Lake National Park",
+    "output": "Nigeria"
+  },
+  {
+    "input": "Chad Basin National Park",
+    "output": "Nigeria"
+  },
+  {
+    "input": "Kamuku National Park",
+    "output": "Nigeria"
+  },
+  {
+    "input": "Old Oyo National Park",
+    "output": "Nigeria"
+  },
+  {
+    "input": "Okomu National Park",
+    "output": "Nigeria"
+  },
+  {
+    "input": "Mount Kumgang National Park",
+    "output": "North Korea"
+  },
+  {
+    "input": "Mount Myohyang National Park",
+    "output": "North Korea"
+  },
+  {
+    "input": "Mavrovo National Park",
+    "output": "North Macedonia"
+  },
+  {
+    "input": "Pelister National Park",
+    "output": "North Macedonia"
+  },
+  {
+    "input": "Galicica National Park",
+    "output": "North Macedonia"
+  },
+  {
+    "input": "Sar Mountains National Park",
+    "output": "North Macedonia"
+  },
+  {
+    "input": "Galichica National Park",
+    "output": "North Macedonia"
+  },
+  {
+    "input": "Jotunheimen National Park",
+    "output": "Norway"
+  },
+  {
+    "input": "Hardangervidda National Park",
+    "output": "Norway"
+  },
+  {
+    "input": "Dovrefjell-Sunndalsfjella National Park",
+    "output": "Norway"
+  },
+  {
+    "input": "Breheimen National Park",
+    "output": "Norway"
+  },
+  {
+    "input": "Ånderdalen National Park",
+    "output": "Norway"
+  },
+  {
+    "input": "Børgefjell National Park",
+    "output": "Norway"
+  },
+  {
+    "input": "Øvre Dividal National Park",
+    "output": "Norway"
+  },
+  {
+    "input": "Forollhogna National Park",
+    "output": "Norway"
+  },
+  {
+    "input": "Al Saleel National Park",
+    "output": "Oman"
+  },
+  {
+    "input": "Deosai National Park",
+    "output": "Pakistan"
+  },
+  {
+    "input": "Chitral Gol National Park",
+    "output": "Pakistan"
+  },
+  {
+    "input": "Ayub National Park",
+    "output": "Pakistan"
+  },
+  {
+    "input": "Kirthar National Park",
+    "output": "Pakistan"
+  },
+  {
+    "input": "Hingol National Park",
+    "output": "Pakistan"
+  },
+  {
+    "input": "Soberania National Park",
+    "output": "Panama"
+  },
+  {
+    "input": "Chagres National Park",
+    "output": "Panama"
+  },
+  {
+    "input": "Cerro Cora National Park",
+    "output": "Paraguay"
+  },
+  {
+    "input": "Ybycuí National Park",
+    "output": "Paraguay"
+  },
+  {
+    "input": "Huascarán National Park",
+    "output": "Peru"
+  },
+  {
+    "input": "Manú National Park",
+    "output": "Peru"
+  },
+  {
+    "input": "Bahuaja-Sonene National Park",
+    "output": "Peru"
+  },
+  {
+    "input": "Yanachaga-Chemillén National Park",
+    "output": "Peru"
+  },
+  {
+    "input": "Sierra del Divisor National Park",
+    "output": "Peru"
+  },
+  {
+    "input": "Lomas de Lachay National Reserve",
+    "output": "Peru"
+  },
+  {
+    "input": "Puerto Princesa Subterranean River National Park",
+    "output": "Philippines"
+  },
+  {
+    "input": "Hundred Islands National Park",
+    "output": "Philippines"
+  },
+  {
+    "input": "Białowieża National Park",
+    "output": "Poland"
+  },
+  {
+    "input": "Babia Góra National Park",
+    "output": "Poland"
+  },
+  {
+    "input": "Ojców National Park",
+    "output": "Poland"
+  },
+  {
+    "input": "Kampinos National Park",
+    "output": "Poland"
+  },
+  {
+    "input": "Bieszczady National Park",
+    "output": "Poland"
+  },
+  {
+    "input": "Pieniny National Park",
+    "output": "Poland"
+  },
+  {
+    "input": "Wigry National Park",
+    "output": "Poland"
+  },
+  {
+    "input": "Polesie National Park",
+    "output": "Poland"
+  },
+  {
+    "input": "Peneda-Gerês National Park",
+    "output": "Portugal"
+  },
+  {
+    "input": "Retezat National Park",
+    "output": "Romania"
+  },
+  {
+    "input": "Piatra Craiului Mountains National Park",
+    "output": "Romania"
+  },
+  {
+    "input": "Domogled-Valea Cernei National Park",
+    "output": "Romania"
+  },
+  {
+    "input": "Kodar National Park",
+    "output": "Russia"
+  },
+  {
+    "input": "Bashkiriya National Park",
+    "output": "Russia"
+  },
+  {
+    "input": "Akagera National Park",
+    "output": "Rwanda"
+  },
+  {
+    "input": "Nyungwe National Park",
+    "output": "Rwanda"
+  },
+  {
+    "input": "Brimstone Hill Fortress National Park",
+    "output": "Saint Kitts and Nevis"
+  },
+  {
+    "input": "Central Forest Reserve National Park",
+    "output": "Saint Kitts and Nevis"
+  },
+  {
+    "input": "Pigeon Island National Park",
+    "output": "Saint Lucia"
+  },
+  {
+    "input": "Prince National Park",
+    "output": "Sao Tome and Principe"
+  },
+  {
+    "input": "Obo National Park",
+    "output": "Sao Tome and Principe"
+  },
+  {
+    "input": "Asir National Park",
+    "output": "Saudi Arabia"
+  },
+  {
+    "input": "Niokolo-Koba National Park",
+    "output": "Senegal"
+  },
+  {
+    "input": "Saloum Delta National Park",
+    "output": "Senegal"
+  },
+  {
+    "input": "Basse Casamance National Park",
+    "output": "Senegal"
+  },
+  {
+    "input": "Djerdap National Park",
+    "output": "Serbia"
+  },
+  {
+    "input": "Kopaonik National Park",
+    "output": "Serbia"
+  },
+  {
+    "input": "Tara National Park",
+    "output": "Serbia"
+  },
+  {
+    "input": "Fruška Gora National Park",
+    "output": "Serbia"
+  },
+  {
+    "input": "Silhouette National Park",
+    "output": "Seychelles"
+  },
+  {
+    "input": "Morne Seychelles National Park",
+    "output": "Seychelles"
+  },
+  {
+    "input": "Outamba-Kilimi National Park",
+    "output": "Sierra Leone"
+  },
+  {
+    "input": "Slovak Paradise National Park",
+    "output": "Slovakia"
+  },
+  {
+    "input": "Low Tatras National Park",
+    "output": "Slovakia"
+  },
+  {
+    "input": "Slovak Karst National Park",
+    "output": "Slovakia"
+  },
+  {
+    "input": "Poloniny National Park",
+    "output": "Slovakia"
+  },
+  {
+    "input": "Veľká Fatra National Park",
+    "output": "Slovakia"
+  },
+  {
+    "input": "Malá Fatra National Park",
+    "output": "Slovakia"
+  },
+  {
+    "input": "Triglav National Park",
+    "output": "Slovenia"
+  },
+  {
+    "input": "Kismayo National Park",
+    "output": "Somalia"
+  },
+  {
+    "input": "Jilib National Park",
+    "output": "Somalia"
+  },
+  {
+    "input": "Kruger National Park",
+    "output": "South Africa"
+  },
+  {
+    "input": "Table Mountain National Park",
+    "output": "South Africa"
+  },
+  {
+    "input": "Addo Elephant National Park",
+    "output": "South Africa"
+  },
+  {
+    "input": "Mountain Zebra National Park",
+    "output": "South Africa"
+  },
+  {
+    "input": "Golden Gate Highlands National Park",
+    "output": "South Africa"
+  },
+  {
+    "input": "Augrabies Falls National Park",
+    "output": "South Africa"
+  },
+  {
+    "input": "Mapungubwe National Park",
+    "output": "South Africa"
+  },
+  {
+    "input": "Marakele National Park",
+    "output": "South Africa"
+  },
+  {
+    "input": "Bontebok National Park",
+    "output": "South Africa"
+  },
+  {
+    "input": "Seoraksan National Park",
+    "output": "South Korea"
+  },
+  {
+    "input": "Naejangsan National Park",
+    "output": "South Korea"
+  },
+  {
+    "input": "Gayasan National Park",
+    "output": "South Korea"
+  },
+  {
+    "input": "Jirisan National Park",
+    "output": "South Korea"
+  },
+  {
+    "input": "Odaesan National Park",
+    "output": "South Korea"
+  },
+  {
+    "input": "Bukhansan National Park",
+    "output": "South Korea"
+  },
+  {
+    "input": "Dadohaehaesang National Park",
+    "output": "South Korea"
+  },
+  {
+    "input": "Sobaeksan National Park",
+    "output": "South Korea"
+  },
+  {
+    "input": "Woraksan National Park",
+    "output": "South Korea"
+  },
+  {
+    "input": "Badingilo National Park",
+    "output": "South Sudan"
+  },
+  {
+    "input": "Nimule National Park",
+    "output": "South Sudan"
+  },
+  {
+    "input": "Bandingilo National Park",
+    "output": "South Sudan"
+  },
+  {
+    "input": "Teide National Park",
+    "output": "Spain"
+  },
+  {
+    "input": "Doñana National Park",
+    "output": "Spain"
+  },
+  {
+    "input": "Picos de Europa National Park",
+    "output": "Spain"
+  },
+  {
+    "input": "Ordesa y Monte Perdido National Park",
+    "output": "Spain"
+  },
+  {
+    "input": "Garajonay National Park",
+    "output": "Spain"
+  },
+  {
+    "input": "Aigüestortes i Estany de Sant Maurici National Park",
+    "output": "Spain"
+  },
+  {
+    "input": "Monfragüe National Park",
+    "output": "Spain"
+  },
+  {
+    "input": "Timanfaya National Park",
+    "output": "Spain"
+  },
+  {
+    "input": "Yala National Park",
+    "output": "Sri Lanka"
+  },
+  {
+    "input": "Wilpattu National Park",
+    "output": "Sri Lanka"
+  },
+  {
+    "input": "Horton Plains National Park",
+    "output": "Sri Lanka"
+  },
+  {
+    "input": "Gal Oya National Park",
+    "output": "Sri Lanka"
+  },
+  {
+    "input": "Bundala National Park",
+    "output": "Sri Lanka"
+  },
+  {
+    "input": "Wasgomuwa National Park",
+    "output": "Sri Lanka"
+  },
+  {
+    "input": "Lahugala Kitulana National Park",
+    "output": "Sri Lanka"
+  },
+  {
+    "input": "Boma National Park",
+    "output": "Sudan"
+  },
+  {
+    "input": "Sarek National Park",
+    "output": "Sweden"
+  },
+  {
+    "input": "Abisko National Park",
+    "output": "Sweden"
+  },
+  {
+    "input": "Stenshuvud National Park",
+    "output": "Sweden"
+  },
+  {
+    "input": "Tyresta National Park",
+    "output": "Sweden"
+  },
+  {
+    "input": "Muddus National Park",
+    "output": "Sweden"
+  },
+  {
+    "input": "Padjelanta National Park",
+    "output": "Sweden"
+  },
+  {
+    "input": "Skuleskogen National Park",
+    "output": "Sweden"
+  },
+  {
+    "input": "Stora Sjofallet National Park",
+    "output": "Sweden"
+  },
+  {
+    "input": "Fulufjallet National Park",
+    "output": "Sweden"
+  },
+  {
+    "input": "Tiveden National Park",
+    "output": "Sweden"
+  },
+  {
+    "input": "Swiss National Park",
+    "output": "Switzerland"
+  },
+  {
+    "input": "Pieljekaise National Park",
+    "output": "Switzerland"
+  },
+  {
+    "input": "Store Mosse National Park",
+    "output": "Switzerland"
+  },
+  {
+    "input": "Taroko National Park",
+    "output": "Taiwan"
+  },
+  {
+    "input": "Kenting National Park",
+    "output": "Taiwan"
+  },
+  {
+    "input": "Yangmingshan National Park",
+    "output": "Taiwan"
+  },
+  {
+    "input": "Shei-Pa National Park",
+    "output": "Taiwan"
+  },
+  {
+    "input": "Kinmen National Park",
+    "output": "Taiwan"
+  },
+  {
+    "input": "Gigas National Park",
+    "output": "Tajikistan"
+  },
+  {
+    "input": "Shirkent National Park",
+    "output": "Tajikistan"
+  },
+  {
+    "input": "Tajik National Park",
+    "output": "Tajikistan"
+  },
+  {
+    "input": "Serengeti National Park",
+    "output": "Tanzania"
+  },
+  {
+    "input": "Ruaha National Park",
+    "output": "Tanzania"
+  },
+  {
+    "input": "Katavi National Park",
+    "output": "Tanzania"
+  },
+  {
+    "input": "Gombe Stream National Park",
+    "output": "Tanzania"
+  },
+  {
+    "input": "Mikumi National Park",
+    "output": "Tanzania"
+  },
+  {
+    "input": "Mahale Mountains National Park",
+    "output": "Tanzania"
+  },
+  {
+    "input": "Saadani National Park",
+    "output": "Tanzania"
+  },
+  {
+    "input": "Tarangire National Park",
+    "output": "Tanzania"
+  },
+  {
+    "input": "Lake Manyara National Park",
+    "output": "Tanzania"
+  },
+  {
+    "input": "Khao Yai National Park",
+    "output": "Thailand"
+  },
+  {
+    "input": "Doi Inthanon National Park",
+    "output": "Thailand"
+  },
+  {
+    "input": "Khao Sok National Park",
+    "output": "Thailand"
+  },
+  {
+    "input": "Erawan National Park",
+    "output": "Thailand"
+  },
+  {
+    "input": "Khao Sam Roi Yot National Park",
+    "output": "Thailand"
+  },
+  {
+    "input": "Phu Kradueng National Park",
+    "output": "Thailand"
+  },
+  {
+    "input": "Kaeng Krachan National Park",
+    "output": "Thailand"
+  },
+  {
+    "input": "Mu Ko Ang Thong National Park",
+    "output": "Thailand"
+  },
+  {
+    "input": "Tarutao National Park",
+    "output": "Thailand"
+  },
+  {
+    "input": "Nino Konis Santana National Park",
+    "output": "Timor-Leste"
+  },
+  {
+    "input": "Fazao-Malfakassa National Park",
+    "output": "Togo"
+  },
+  {
+    "input": "Tofua National Park",
+    "output": "Tonga"
+  },
+  {
+    "input": "Kao National Park",
+    "output": "Tonga"
+  },
+  {
+    "input": "Mount Talau National Park",
+    "output": "Tonga"
+  },
+  {
+    "input": "'Eua Island National Park",
+    "output": "Tonga"
+  },
+  {
+    "input": "The Prince of Moruga National Park",
+    "output": "Trinidad and Tobago"
+  },
+  {
+    "input": "Ichkeul National Park",
+    "output": "Tunisia"
+  },
+  {
+    "input": "El Feija National Park",
+    "output": "Tunisia"
+  },
+  {
+    "input": "Jebel Chitane National Park",
+    "output": "Tunisia"
+  },
+  {
+    "input": "Jebel Zaghouan National Park",
+    "output": "Tunisia"
+  },
+  {
+    "input": "Göreme National Park",
+    "output": "Turkey"
+  },
+  {
+    "input": "Köprülü Canyon National Park",
+    "output": "Turkey"
+  },
+  {
+    "input": "Mount Nemrut National Park",
+    "output": "Turkey"
+  },
+  {
+    "input": "Yedigöller National Park",
+    "output": "Turkey"
+  },
+  {
+    "input": "Kaçkar Mountains National Park",
+    "output": "Turkey"
+  },
+  {
+    "input": "Murchison Falls National Park",
+    "output": "Uganda"
+  },
+  {
+    "input": "Kibale National Park",
+    "output": "Uganda"
+  },
+  {
+    "input": "Queen Elizabeth National Park",
+    "output": "Uganda"
+  },
+  {
+    "input": "Mount Elgon National Park",
+    "output": "Uganda"
+  },
+  {
+    "input": "Lake Mburo National Park",
+    "output": "Uganda"
+  },
+  {
+    "input": "Mgahinga Gorilla National Park",
+    "output": "Uganda"
+  },
+  {
+    "input": "Rwenzori Mountains National Park",
+    "output": "Uganda"
+  },
+  {
+    "input": "Shatsky National Nature Park",
+    "output": "Ukraine"
+  },
+  {
+    "input": "Khotyn National Nature Park",
+    "output": "Ukraine"
+  },
+  {
+    "input": "Jabal Hafeet National Park",
+    "output": "United Arab Emirates"
+  },
+  {
+    "input": "The Lake District National Park",
+    "output": "United Kingdom"
+  },
+  {
+    "input": "Snowdonia National Park",
+    "output": "United Kingdom"
+  },
+  {
+    "input": "North York Moors National Park",
+    "output": "United Kingdom"
+  },
+  {
+    "input": "Peak District National Park",
+    "output": "United Kingdom"
+  },
+  {
+    "input": "Yorkshire Dales National Park",
+    "output": "United Kingdom"
+  },
+  {
+    "input": "New Forest National Park",
+    "output": "United Kingdom"
+  },
+  {
+    "input": "Pembrokeshire Coast National Park",
+    "output": "United Kingdom"
+  },
+  {
+    "input": "Dartmoor National Park",
+    "output": "United Kingdom"
+  },
+  {
+    "input": "Exmoor National Park",
+    "output": "United Kingdom"
+  },
+  {
+    "input": "Northumberland National Park",
+    "output": "United Kingdom"
+  },
+  {
+    "input": "Yellowstone National Park",
+    "output": "United States of America"
+  },
+  {
+    "input": "Grand Canyon National Park",
+    "output": "United States of America"
+  },
+  {
+    "input": "Yosemite National Park",
+    "output": "United States of America"
+  },
+  {
+    "input": "Rocky Mountain National Park",
+    "output": "United States of America"
+  },
+  {
+    "input": "Acadia National Park",
+    "output": "United States of America"
+  },
+  {
+    "input": "Grand Teton National Park",
+    "output": "United States of America"
+  },
+  {
+    "input": "Zion National Park",
+    "output": "United States of America"
+  },
+  {
+    "input": "Great Smoky Mountains National Park",
+    "output": "United States of America"
+  },
+  {
+    "input": "Glacier National Park",
+    "output": "United States of America"
+  },
+  {
+    "input": "Olympic National Park",
+    "output": "United States of America"
+  },
+  {
+    "input": "Santa Teresa National Park",
+    "output": "Uruguay"
+  },
+  {
+    "input": "Ugam-Chatkal National Park",
+    "output": "Uzbekistan"
+  },
+  {
+    "input": "Zaamin National Park",
+    "output": "Uzbekistan"
+  },
+  {
+    "input": "Canaima National Park",
+    "output": "Venezuela"
+  },
+  {
+    "input": "Morrocoy National Park",
+    "output": "Venezuela"
+  },
+  {
+    "input": "Sierra de La Culata National Park",
+    "output": "Venezuela"
+  },
+  {
+    "input": "El Avila National Park",
+    "output": "Venezuela"
+  },
+  {
+    "input": "Henri Pittier National Park",
+    "output": "Venezuela"
+  },
+  {
+    "input": "Mochima National Park",
+    "output": "Venezuela"
+  },
+  {
+    "input": "Yurubí National Park",
+    "output": "Venezuela"
+  },
+  {
+    "input": "Médanos de Coro National Park",
+    "output": "Venezuela"
+  },
+  {
+    "input": "Laguna de La Restinga National Park",
+    "output": "Venezuela"
+  },
+  {
+    "input": "Guatopo National Park",
+    "output": "Venezuela"
+  },
+  {
+    "input": "Phong Nha-Ke Bang National Park",
+    "output": "Vietnam"
+  },
+  {
+    "input": "Cuc Phuong National Park",
+    "output": "Vietnam"
+  },
+  {
+    "input": "Ba Be National Park",
+    "output": "Vietnam"
+  },
+  {
+    "input": "Cat Ba National Park",
+    "output": "Vietnam"
+  },
+  {
+    "input": "Con Dao National Park",
+    "output": "Vietnam"
+  },
+  {
+    "input": "Xuan Thuy National Park",
+    "output": "Vietnam"
+  },
+  {
+    "input": "Pu Mat National Park",
+    "output": "Vietnam"
+  },
+  {
+    "input": "Bach Ma National Park",
+    "output": "Vietnam"
+  },
+  {
+    "input": "Hoang Lien National Park",
+    "output": "Vietnam"
+  },
+  {
+    "input": "Yok Don National Park",
+    "output": "Vietnam"
+  },
+  {
+    "input": "South Luangwa National Park",
+    "output": "Zambia"
+  },
+  {
+    "input": "Lower Zambezi National Park",
+    "output": "Zambia"
+  },
+  {
+    "input": "Kafue National Park",
+    "output": "Zambia"
+  },
+  {
+    "input": "North Luangwa National Park",
+    "output": "Zambia"
+  },
+  {
+    "input": "Liuwa Plain National Park",
+    "output": "Zambia"
+  },
+  {
+    "input": "Mosi-oa-Tunya National Park",
+    "output": "Zambia"
+  },
+  {
+    "input": "Sioma Ngwezi National Park",
+    "output": "Zambia"
+  },
+  {
+    "input": "Isangano National Park",
+    "output": "Zambia"
+  },
+  {
+    "input": "Hwange National Park",
+    "output": "Zimbabwe"
+  },
+  {
+    "input": "Mana Pools National Park",
+    "output": "Zimbabwe"
+  },
+  {
+    "input": "Matobo National Park",
+    "output": "Zimbabwe"
+  },
+  {
+    "input": "Chimanimani National Park",
+    "output": "Zimbabwe"
+  },
+  {
+    "input": "Victoria Falls National Park",
+    "output": "Zimbabwe"
+  },
+  {
+    "input": "Gonarezhou National Park",
+    "output": "Zimbabwe"
+  },
+  {
+    "input": "Nyanga National Park",
+    "output": "Zimbabwe"
+  },
+  {
+    "input": "Chizarira National Park",
+    "output": "Zimbabwe"
+  },
+  {
+    "input": "Lake Kariba National Park",
+    "output": "Zimbabwe"
+  },
+  {
+    "input": "Matusadona National Park",
+    "output": "Zimbabwe"
+  }
+]

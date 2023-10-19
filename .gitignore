@@ -1,0 +1,29 @@
+# Cache and Checkpoints
+.ipynb_checkpoints
+*.ipynb_checkpoints
+__pycache__
+*__pycache__
+
+# Results and Figures
+*results
+results/*
+*figures
+
+# External Data/Repositories
+*/generate/AntSynNET
+
+# Weights
+*.pth
+*.npz
+*.npy
+*.pt
+
+# Environments
+.env
+.venv
+.vscode/
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
