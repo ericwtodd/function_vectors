@@ -121,7 +121,7 @@ def add_function_vector(edit_layer, fv_vector, device, idx=-1):
 def function_vector_intervention(sentence, target, edit_layer, function_vector, model, model_config, tokenizer, compute_nll=False,
                                   generate_str=False):
     """
-    Runs the model on the sentence and adds the function_vector to the output of edit_layer as a model intervention. 
+    Runs the model on the sentence and adds the function_vector to the output of edit_layer as a model intervention, predicting a single token.
     Returns the output of the model with and without intervention.
 
     Parameters:
@@ -183,6 +183,7 @@ def function_vector_intervention(sentence, target, edit_layer, function_vector, 
 
 def fv_intervention_natural_text(sentence, edit_layer, function_vector, model, model_config, tokenizer, max_new_tokens=16, num_interv_tokens=None, do_sample=False):
     """
+    Allows for intervention in natural text where we generate and intervene on several tokens in a row.
 
     Parameters:
     sentence: sentence to intervene on with the FV

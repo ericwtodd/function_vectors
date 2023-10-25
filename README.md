@@ -1,7 +1,7 @@
 # Function Vectors in Large Language Models
 ### [Project Website](https://functions.baulab.info)
 
-This repository contains data and code for paper: "Function Vectors in Large Language Models".
+This repository contains data and code for the paper: [Function Vectors in Large Language Models](https://arxiv.org/abs/2310.15213).
 <!-- 
 <p align="center">
 <img src="fv_overview.png" style="width:80%;"/>
@@ -17,9 +17,23 @@ conda env create -f fv_environment.yml
 conda activate fv
 ```
 
+## Demo Notebook
+Checkout `notebooks/fv_demo.ipynb` for a jupyter notebook with a demo of how to create a function vector and use it in different contexts.
 
+## Data
+The datasets used in our project can be found in the `dataset_files` folder.
 
-<!-- ## Citing our work
+## Code
+Our main evaluation scripts are contained in the `src` directory with sample script wrappers in `src/eval_scripts`.
+
+Other main code is split into various util files:
+- `eval_utils.py` contains code for evaluating function vectors in a variety of contexts
+- `extract_utils.py`  contains functions for extracting function vectors and other relevant model activations.
+- `intervention_utils.py` contains main functionality for intervening with function vectors during inference
+- `model_utils.py` contains helpful functions for loading models & tokenizers from huggingface
+- `prompt_utils.py` contains data loading and prompt creation functionality
+
+## Citing our work
 The preprint can be cited as follows
 
 ```bibtex
@@ -27,7 +41,7 @@ The preprint can be cited as follows
     title={Function Vectors in Large Language Models}, 
     author={Eric Todd and Millicent L. Li and Arnab Sen Sharma and Aaron Mueller and Byron C. Wallace and David Bau},
     year={2023},
-    eprint={},
+    eprint={2310.15213},
     archivePrefix={arXiv},
     primaryClass={cs.CL}
-} -->
+}
