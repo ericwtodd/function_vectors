@@ -4,7 +4,7 @@
 This repository contains data and code for the paper: [Function Vectors in Large Language Models](https://arxiv.org/abs/2310.15213).
 
 <p align="left">
-<img src="https://functions.baulab.info/images/Paper/fv-new-overview.png" style="width:80%;"/>
+<img src="https://functions.baulab.info/images/Paper/fv-new-overview.png" style="width:100%;"/>
 </p> 
 
 ## Setup
