@@ -76,6 +76,33 @@ def decode_to_vocab(prob_dist, tokenizer, k=5) -> list:
 
     return [(tokenizer.decode(x),round(y.item(), 5)) for x,y in zip(get_topk(prob_dist,k).indices[0],get_topk(prob_dist,k).values[0])]
 
+def fv_to_vocab(function_vector, model, model_config, tokenizer, n_tokens=10):
+    """
+    Decodes a provided function vector into the model's vocabulary embedding space.
+
+    Parameters:
+    function_vector: torch vector extracted from ICL contexts that represents a particular function
+    model: huggingface model
+    model_config: dict with model information - n_layers, n_heads, etc.
+    tokenizer: huggingface tokenizer
+    n_tokens: number of top tokens to include in the decoding
+
+    Returns:
+    decoded_tokens: list of tuples of the form [(token, probability), ...]
+    """
+
+    if 'gpt-j' in model_config['name_or_path']:
+        decoder = torch.nn.Sequential(model.transformer.ln_f, model.lm_head, torch.nn.Softmax(dim=-1))
+    elif 'llama' in model_config['name_or_path']:
+        decoder = torch.nn.Sequential(model.model.norm, model.lm_head, torch.nn.Softmax(dim=-1))
+    else:
+        raise ValueError("Model not yet supported")
+    
+    d_out = decoder(function_vector.reshape(1,1,model_config['resid_dim']).to(model.device))
+
+    vals, inds = torch.topk(d_out, k=n_tokens,largest=True)
+    decoded_tokens = [(tokenizer.decode(x),round(y.item(), 4)) for x,y in zip(inds.squeeze(), vals.squeeze())]
+    return decoded_tokens
 
 def compute_dataset_baseline(dataset, model, model_config, tokenizer, n_shots=10, seed=42, generate_str=False, metric=None) -> dict:
     """

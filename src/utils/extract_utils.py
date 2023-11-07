@@ -182,21 +182,20 @@ def get_mean_layer_activations(dataset, model, model_config, tokenizer, n_icl_ex
     return mean_activations
 
 # Attention Weights
-def get_value_weighted_attention(sentence, model, model_config, tokenizer, device='cuda'):
+def get_value_weighted_attention(sentence, model, model_config, tokenizer):
     """
 
     Parameters:
-    sentence: 
-    model: 
-    model_config:
-    tokenizer:
-    device:
+    sentence: sentence to extract attention patterns for
+    model: huggingface model
+    model_config: dict with model information - n_layers, n_heads, etc.
+    tokenizer: huggingface tokenizer
 
     Returns:
-    attentions:
-    value_weighted_attn:
+    attentions: attention heatmaps
+    value_weighted_attn: value-weighted attention heatmaps
     """    
-    inputs = tokenizer(sentence, return_tensors='pt').to(device)
+    inputs = tokenizer(sentence, return_tensors='pt').to(model.device)
     output = model(**inputs, output_attentions=True) # batch_size x n_tokens x vocab_size, only want last token prediction
     attentions = torch.vstack(output.attentions) # (layers, heads, tokens, tokens)
     values = torch.vstack([output.past_key_values[i][1] for i in range(model_config['n_layers'])]) # (layers, heads, tokens, head_dim)
@@ -207,18 +206,18 @@ def get_token_averaged_attention(dataset, model, model_config, tokenizer, n_shot
     """
 
     Parameters:
-    dataset:
-    model:
-    model_config:
-    tokenizer:
-    n_shots:
-    storage_max:
-    filter_set:
+    dataset: ICL dataset
+    model: huggingface model
+    model_config: dict with model information - n_layers, n_heads, etc.
+    tokenizer: huggingface tokenizer
+    n_shots: number of ICL example pairs to use for each prompt
+    storage_max: max number of sentences to average attention pattern over
+    filter_set: list of ints to filter to desired dataset instances
 
     Returns:
-    attn_storage:
-    vw_attn_storage:
-    token_labels:
+    attn_storage: attention heatmaps
+    vw_attn_storage: value-weighted attention heatmaps
+    token_labels: sample token labels for an n-shot prompt
     """
     if filter_set is not None:
         storage_size = min(len(filter_set), storage_max)
@@ -274,6 +273,32 @@ def get_token_averaged_attention(dataset, model, model_config, tokenizer, n_shot
         vw_attn_storage[ind] = token_avgd_vw_attention
 
     return attn_storage, vw_attn_storage, token_labels
+
+def prefix_matching_score(model, model_config, min_token_idx=1000, max_token_idx=10000, seq_len=100, batch_size=4):
+    """
+    Computes the prefix matching score - part of checking whether an attention head is a traditional "induction head"
+    
+    Parameters:
+    model: huggingface model
+    model_config: dict with model information - n_layers, n_heads, etc.
+    min_token_idx: vocabulary token index lower bound
+    max_token_idx: vocabulary token index upper bound
+    seq_len: length of sequence to be duplicated
+    batch_size: number of sequences to test
+    
+    Returns:
+    score_per_head: prefix-matching score for each head in the model of size (n_layers, n_heads)
+    """
+    rand_tokens = torch.randint(min_token_idx, max_token_idx, (batch_size, seq_len))
+    rand_tokens_repeat =  torch.concat((rand_tokens, rand_tokens), dim=1).to(model.device)
+
+    output = model(rand_tokens_repeat, output_attentions = True)
+    attentions = torch.vstack(output.attentions) # (n_layers, n_heads, tokens, tokens)
+
+    score = attentions.diagonal(1-seq_len, dim1=-2, dim2=-1)
+    score_per_head = score.reshape(model_config['n_layers'],batch_size,model_config['n_heads'],-1).mean(axis=-1).mean(axis=1).cpu().T
+    
+    return score_per_head
 
 def compute_function_vector(mean_activations, indirect_effect, model, model_config, n_top_heads = 10, token_class_idx=-1):
     """
