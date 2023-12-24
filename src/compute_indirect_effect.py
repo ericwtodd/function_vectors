@@ -156,7 +156,7 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser()
 
     parser.add_argument('--dataset_name', help='Name of the dataset to be loaded', type=str, required=True)
-    parser.add_argument('--model_name', help='Name of model to be loaded', type=str, required=False, default='EleutherAI/gpt-j-6b')
+    parser.add_argument('--model_name', help='Name of model to be loaded', type=str, required=False, default='/data/public_models/llama/llama_hf_weights/llama-7b')
     parser.add_argument('--root_data_dir', help='Root directory of data files', type=str, required=False, default='../dataset_files')
     parser.add_argument('--save_path_root', help='File path to save indirect effect to', type=str, required=False, default='../results')
     parser.add_argument('--seed', help='Randomized seed', type=int, required=False, default=42)

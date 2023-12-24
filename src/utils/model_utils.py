@@ -78,9 +78,8 @@ def load_gpt_model_and_tokenizer(model_name:str, device='cuda'):
             )
         else:
             if '7b' in model_name.lower():
-                model_dtype = torch.float32
-            else: #half precision for bigger llama models
                 model_dtype = torch.float16
+                
             tokenizer = LlamaTokenizer.from_pretrained(model_name)
             model = LlamaForCausalLM.from_pretrained(model_name, torch_dtype=model_dtype).to(device)
 
