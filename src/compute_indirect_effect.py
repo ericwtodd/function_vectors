@@ -11,7 +11,7 @@ from utils.model_utils import *
 from utils.extract_utils import *
 
 
-def activation_replacement_per_class_intervention(prompt_data, avg_activations, dummy_labels, model, model_config, tokenizer, last_token_only=True):
+def activation_replacement_per_class_intervention(prompt_data, avg_activations, dummy_labels, model, model_config, tokenizer, last_token_only=True, instruction_ablation="none"):
     """
     Experiment to determine top intervention locations through avg activation replacement. 
     Performs a systematic sweep over attention heads (layer, head) to track their causal influence on probs of key tokens.
@@ -35,7 +35,11 @@ def activation_replacement_per_class_intervention(prompt_data, avg_activations, 
 
     query = query_target_pair['input']
     token_labels, prompt_string = get_token_meta_labels(prompt_data, tokenizer, query=query)
-
+    
+    if instruction_ablation != "mean":
+        token_labels, prompt_string = generate_prompt_with_corrupted_instruction(
+            prompt_data, token_labels, prompt_string, tokenizer, instruction_ablation)
+        
     idx_map, idx_avg = compute_duplicated_labels(token_labels, dummy_labels)
     idx_map = update_idx_map(idx_map, idx_avg)
       
@@ -53,7 +57,7 @@ def activation_replacement_per_class_intervention(prompt_data, avg_activations, 
         token_id_of_interest = tokenizer(tokens_of_interest).input_ids[0][:1]
         
     inputs = tokenizer(sentences, return_tensors='pt').to(device)
-
+            
     # Speed up computation by only computing causal effect at last token
     if last_token_only:
         token_classes = ['query_predictive']
@@ -69,7 +73,11 @@ def activation_replacement_per_class_intervention(prompt_data, avg_activations, 
     indirect_effect_storage = torch.zeros(model_config['n_layers'], model_config['n_heads'],len(token_classes))
 
     # Clean Run of Baseline:
-    clean_output = model(**inputs).logits[:,-1,:]
+    if instruction_ablation == "mean":
+        ablated_inputs_embeds = generate_prompt_with_mean_representation(token_labels=token_labels, inputs=inputs, model=model, tokenizer=tokenizer)
+        clean_output = model(inputs_embeds=ablated_inputs_embeds, attention_mask=inputs["attention_mask"]).logits[:,-1,:]
+    else:
+        clean_output = model(**inputs).logits[:,-1,:]
     clean_probs = torch.softmax(clean_output[0], dim=-1)
 
     # For every layer, head, token combination perform the replacement & track the change in meaningful tokens
@@ -90,12 +98,13 @@ def activation_replacement_per_class_intervention(prompt_data, avg_activations, 
                 
                 # TRACK probs of tokens of interest
                 intervention_probs = torch.softmax(output, dim=-1) # convert to probability distribution
+                
                 indirect_effect_storage[layer,head_n,i] = (intervention_probs-clean_probs).index_select(1, torch.LongTensor(token_id_of_interest).to(device).squeeze()).squeeze()
 
     return indirect_effect_storage
 
 
-def compute_indirect_effect(dataset, mean_activations, model, model_config, tokenizer, n_shots=10, n_trials=25, last_token_only=True, prefixes=None, separators=None, filter_set=None):
+def compute_indirect_effect(dataset, mean_activations, model, model_config, tokenizer, n_shots=10, n_trials=25, last_token_only=True, prefixes=None, separators=None, filter_set=None, instruction_ablation="none"):
     """
     Computes Indirect Effect of each head in the model
 
@@ -145,7 +154,7 @@ def compute_indirect_effect(dataset, mean_activations, model, model_config, toke
                                                                     avg_activations = mean_activations, 
                                                                     dummy_labels=dummy_gt_labels, 
                                                                     model=model, model_config=model_config, tokenizer=tokenizer, 
-                                                                    last_token_only=last_token_only)
+                                                                    last_token_only=last_token_only, instruction_ablation=instruction_ablation)
         indirect_effect[i] = ind_effects.squeeze()
 
     return indirect_effect
@@ -156,9 +165,12 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser()
 
     parser.add_argument('--dataset_name', help='Name of the dataset to be loaded', type=str, required=True)
-    parser.add_argument('--model_name', help='Name of model to be loaded', type=str, required=False, default='/data/public_models/llama/llama_hf_weights/llama-7b')
+    parser.add_argument('--model_name', help='Name of model to be loaded', type=str, required=False, default='../flan-llama-7b')
     parser.add_argument('--root_data_dir', help='Root directory of data files', type=str, required=False, default='../dataset_files')
-    parser.add_argument('--save_path_root', help='File path to save indirect effect to', type=str, required=False, default='../results')
+    parser.add_argument('--save_path_root', help='File path to save indirect effect to', type=str, required=False, default='../flan-instruction-cie')
+    
+    parser.add_argument('--instruction_ablation', help='Method to ablate the the instruction', required=False, type=str, default="none", choices=["none", "mean", "random", "unknown"])
+    
     parser.add_argument('--seed', help='Randomized seed', type=int, required=False, default=42)
     parser.add_argument('--n_shots', help="Number of shots in each in-context prompt", type =int, required=False, default=10)
     parser.add_argument('--n_trials', help="Number of in-context prompts to average over", type=int, required=False, default=25)
@@ -166,8 +178,8 @@ if __name__ == "__main__":
     parser.add_argument('--device', help='Device to run on',type=str, required=False, default='cuda' if torch.cuda.is_available() else 'cpu')
     parser.add_argument('--mean_activations_path', help='Path to mean activations file used for intervention', required=False, type=str, default=None)
     parser.add_argument('--last_token_only', help='Whether to compute indirect effect for heads at only the final token position, or for all token classes', required=False, type=bool, default=True)
-    parser.add_argument('--prefixes', help='Prompt template prefixes to be used', type=json.loads, required=False, default={"input":"Q:", "output":"A:", "instructions":""})
-    parser.add_argument('--separators', help='Prompt template separators to be used', type=json.loads, required=False, default={"input":"\n", "output":"\n\n", "instructions":""})    
+    parser.add_argument('--prefixes', help='Prompt template prefixes to be used', required=False, default={"input":"Q:", "output":"A:", "instructions":""})
+    parser.add_argument('--separators', help='Prompt template separators to be used', required=False, default={"input":"\n", "output":"\n\n", "instructions":""})    
         
     args = parser.parse_args()
 
@@ -182,9 +194,15 @@ if __name__ == "__main__":
     device = args.device
     mean_activations_path = args.mean_activations_path
     last_token_only = args.last_token_only
-    prefixes = args.prefixes
-    separators = args.separators
-
+    
+    prefixes = load_prefixes_or_separators(args.prefixes)
+    separators = load_prefixes_or_separators(args.separators)
+    
+    instruction_ablation = args.instruction_ablation
+    
+    if instruction_ablation == "none":
+        assert last_token_only, "instruction_ablation='none' only works when last_token_only=True"
+    
 
     # Load Model & Tokenizer
     torch.set_grad_enabled(False)
@@ -211,11 +229,13 @@ if __name__ == "__main__":
         print("Computing Mean Activations")
         mean_activations = get_mean_head_activations(dataset, model=model, model_config=model_config, tokenizer=tokenizer, 
                                                      n_icl_examples=n_shots, N_TRIALS=n_trials, prefixes=prefixes, separators=separators)
+        
         torch.save(mean_activations, f'{save_path_root}/{dataset_name}_mean_head_activations.pt')
 
     print("Computing Indirect Effect")
     indirect_effect = compute_indirect_effect(dataset, mean_activations, model=model, model_config=model_config, tokenizer=tokenizer, 
-                                              n_shots=n_shots, n_trials=n_trials, last_token_only=last_token_only, prefixes=prefixes, separators=separators)
+                                              n_shots=n_shots, n_trials=n_trials, last_token_only=last_token_only, prefixes=prefixes, 
+                                              separators=separators, instruction_ablation=instruction_ablation)
 
     # Write args to file
     args.save_path_root = save_path_root

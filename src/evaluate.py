@@ -13,12 +13,12 @@ if __name__ == "__main__":
     
     parser = argparse.ArgumentParser()
 
-    parser.add_argument('--dataset_name', help='Name of the dataset to be loaded', type=str, required=True)
-    parser.add_argument('--model_name', help='Name of model to be loaded', type=str, required=False, default='/data/public_models/llama/llama_hf_weights/llama-7b')
+    parser.add_argument('--dataset_name', help='Name of the dataset to be loaded', type=str, required=True, default="antonym")
+    parser.add_argument('--model_name', help='Name of model to be loaded', type=str, required=False, default='../flan-llama-7b')
     parser.add_argument('--root_data_dir', help='Root directory of data files', type=str, required=False, default='../dataset_files')
-    parser.add_argument('--save_path_root', help='File path to save mean activations to', type=str, required=False, default='../results/llama-7b')
+    parser.add_argument('--save_path_root', help='File path to save mean activations to', type=str, required=False, default='../results/flan-llama-7b-INST')
     parser.add_argument('--seed', help='Randomized seed', type=int, required=False, default=42)
-    parser.add_argument('--n_shots', help="Number of shots in each in-context prompt", required=False, default=10)
+    parser.add_argument('--n_shots', help="Number of shots in each in-context prompt", required=False, default=0)
     parser.add_argument('--test_split', help="Percentage corresponding to test set split size", required=False, default=0.3)
     parser.add_argument('--device', help='Device to run on', required=False, default='cuda' if torch.cuda.is_available() else 'cpu')
     parser.add_argument('--prefixes', help='Prompt template prefixes to be used', type=json.loads, required=False, default={"input":"Q:", "output":"A:", "instructions":""})
@@ -35,10 +35,11 @@ if __name__ == "__main__":
     n_shots = args.n_shots
     test_split = args.test_split
     device = args.device
-    prefixes = args.prefixes
-    separators = args.separators
-    metric = args.metric
     
+    prefixes = load_prefixes_or_separators(args.prefixes) 
+    separators = load_prefixes_or_separators(args.separators)
+    
+    metric = args.metric
     
     # Load Model & Tokenizer
     torch.set_grad_enabled(False)
@@ -54,7 +55,7 @@ if __name__ == "__main__":
     if not os.path.exists(save_path_root):
         os.makedirs(save_path_root)
     
-    results = n_shot_eval_no_intervention(dataset=dataset, n_shots=10, model=model, tokenizer=tokenizer, model_config=model_config, prefixes=prefixes, separators=separators, metric=metric)
+    results = n_shot_eval_no_intervention(dataset=dataset, n_shots=n_shots, model=model, tokenizer=tokenizer, model_config=model_config, prefixes=prefixes, separators=separators, metric=metric)
     
     json.dump(results, open(os.path.join(save_path_root, f"{metric}_results.json"), 'w'))
     print(f"Results saved to {save_path_root}")

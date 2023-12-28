@@ -47,8 +47,8 @@ if __name__ == "__main__":
     n_shots = args.n_shots
     n_trials = args.n_trials
 
-    prefixes = args.prefixes 
-    separators = args.separators
+    prefixes = load_prefixes_or_separators(args.prefixes) 
+    separators = load_prefixes_or_separators(args.separators)
     
     n_eval_templates = args.n_eval_templates
 

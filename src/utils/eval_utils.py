@@ -321,7 +321,7 @@ def n_shot_eval(dataset, fv_vector, edit_layer: int, n_shots: int, model, model_
 # Evaluate few-shot dataset w/o intervention
 def n_shot_eval_no_intervention(dataset, n_shots, model, model_config, tokenizer, compute_ppl=True, generate_str=False,
                                 shuffle_labels=False, prefixes=None, separators=None, pred_filepath=None,
-                                metric="f1_score", test_split='test'):
+                                metric="f1_score", test_split='test', prepend_space=True):
     """
     Evaluate a model (without any interventions) on the provided ICL dataset.
 
@@ -367,9 +367,9 @@ def n_shot_eval_no_intervention(dataset, n_shots, model, model_config, tokenizer
         word_pairs_test = dataset[test_split][j]
         if prefixes is not None and separators is not None:
             prompt_data = word_pairs_to_prompt_data(word_pairs, query_target_pair = word_pairs_test, prepend_bos_token=prepend_bos, 
-                                                    shuffle_labels=shuffle_labels, prefixes=prefixes, separators=separators)
+                                                    shuffle_labels=shuffle_labels, prefixes=prefixes, separators=separators, prepend_space=prepend_space)
         else:
-            prompt_data = word_pairs_to_prompt_data(word_pairs, query_target_pair = word_pairs_test, prepend_bos_token=prepend_bos, shuffle_labels=shuffle_labels)
+            prompt_data = word_pairs_to_prompt_data(word_pairs, query_target_pair = word_pairs_test, prepend_bos_token=prepend_bos, shuffle_labels=shuffle_labels, prepend_space=prepend_space)
             
         # Get relevant parts of the Prompt
         query, target = prompt_data['query_target']['input'], prompt_data['query_target']['output']

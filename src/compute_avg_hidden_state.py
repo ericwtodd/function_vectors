@@ -37,8 +37,9 @@ if __name__ == "__main__":
     n_trials = args.n_trials
     test_split = args.test_split
     device = args.device
-    prefixes = args.prefixes
-    separators = args.separators
+    
+    prefixes = load_prefixes_or_separators(args.prefixes)
+    separators = load_prefixes_or_separators(args.separators)
     
 
     # Load Model & Tokenizer

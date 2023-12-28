@@ -9,22 +9,20 @@ from utils.model_utils import *
 from utils.extract_utils import *
 
 
-
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
 
     parser.add_argument('--dataset_name', help='Name of the dataset to be loaded', type=str, required=True)
     parser.add_argument('--model_name', help='Name of model to be loaded', type=str, required=False, default='/data/public_models/llama/llama_hf_weights/llama-7b')
     parser.add_argument('--root_data_dir', help='Root directory of data files', type=str, required=False, default='../dataset_files')
-    parser.add_argument('--save_path_root', help='File path to save mean activations to', type=str, required=False, default='../results')
+    parser.add_argument('--save_path_root', help='File path to save mean activations to', type=str, required=False, default='../test')
     parser.add_argument('--seed', help='Randomized seed', type=int, required=False, default=42)
     parser.add_argument('--n_shots', help="Number of shots in each in-context prompt", required=False, default=10)
     parser.add_argument('--n_trials', help="Number of in-context prompts to average over", required=False, default=100)
     parser.add_argument('--test_split', help="Percentage corresponding to test set split size", required=False, default=0.3)
     parser.add_argument('--device', help='Device to run on', required=False, default='cuda' if torch.cuda.is_available() else 'cpu')
-    parser.add_argument('--prefixes', help='Prompt template prefixes to be used', type=json.loads, required=False, default={"input":"Q:", "output":"A:", "instructions":""})
-    parser.add_argument('--separators', help='Prompt template separators to be used', type=json.loads, required=False, default={"input":"\n", "output":"\n\n", "instructions":""})    
-        
+    parser.add_argument('--prefixes', help='Prompt template prefixes to be used', required=False, default={"input":"Q:", "output":"A:", "instructions":""})
+    parser.add_argument('--separators', help='Prompt template separators to be used', required=False, default={"input":"\n", "output":"\n\n", "instructions":""})    
     
     args = parser.parse_args()
     
@@ -37,9 +35,9 @@ if __name__ == "__main__":
     n_trials = args.n_trials
     test_split = args.test_split
     device = args.device
-    prefixes = args.prefixes
-    separators = args.separators
     
+    prefixes = load_prefixes_or_separators(args.prefixes)
+    separators = load_prefixes_or_separators(args.separators)
 
     # Load Model & Tokenizer
     torch.set_grad_enabled(False)

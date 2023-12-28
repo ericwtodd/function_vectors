@@ -1,6 +1,8 @@
 import numpy as np
 import pandas as pd
 from pathlib import Path
+import torch
+import json
 import os
 from typing import *
 from sklearn.model_selection import train_test_split
@@ -118,11 +120,11 @@ def get_prompt_parts_and_labels(prompt_data, query_sentence=None):
     assemble_icl_example = lambda example, prompt_data: [prompt_data['prefixes']['input'], example['input'], prompt_data['separators']['input'], prompt_data['prefixes']['output'], example['output'], prompt_data['separators']['output']]
     assemble_icl_query = lambda query, prompt_data: [prompt_data['prefixes']['input'], query, prompt_data['separators']['input'], prompt_data['prefixes']['output']]
 
-    prompt_instructions = [prompt_data['prefixes']['instructions'], prompt_data['instructions'], prompt_data['separators']['instructions']] 
+    prompt_instructions = [prompt_data['prefixes']['instructions'], prompt_data['separators']['instructions']] 
     prompt_icl_examples = [assemble_icl_example(prompt_data['examples'][i], prompt_data) for i in range(n_examples)]
     prompt_icl_query = [assemble_icl_query(query_sentence, prompt_data)]
 
-    prompt_instructions_labels = ['bos_token', 'instructions_token', 'separator_token']
+    prompt_instructions_labels = ['instructions_token', 'separator_token']
     prompt_icl_examples_labels = [['structural_token', f'demonstration_{i+1}_token', 'separator_token', 'structural_token', f'demonstration_{i+1}_label_token', 'separator_token'] for i in range(n_examples)]
     prompt_icl_query_labels = [['query_structural_token', 'query_demonstration_token', 'query_separator_token', 'query_structural_token']]
 
@@ -196,7 +198,6 @@ def extend_labels_llama(sentence_parts, text_labels, tokenizer):
     prompt_builder = ''
     final_labels = ['bos_token']
     for i,(word,label) in enumerate(zip(sentence_parts, text_labels)):
-        
         if isinstance(word, list):
             for j, (word2,label2) in enumerate(zip(word,label)):
                 if len(word2) == 0:
@@ -236,7 +237,9 @@ def extend_labels_llama(sentence_parts, text_labels, tokenizer):
             n_tokens = tokenizer(word, return_length=True).length -1
             actual_tokens = post-pre
             if n_tokens != actual_tokens and n_tokens < actual_tokens:
-                    final_labels.append(final_labels[-1]*(actual_tokens - n_tokens))
+                final_labels.append(final_labels[-1]*(actual_tokens - n_tokens))
+            else:
+                n_tokens = min(actual_tokens, n_tokens)
             final_labels.extend([label] * (n_tokens))
 
     return final_labels
@@ -286,7 +289,7 @@ def get_token_meta_labels(prompt_data, tokenizer, query=None):
     prompt_parts, prompt_part_labels = get_prompt_parts_and_labels(prompt_data, query_sentence=query)
     token_meta_labels = tokenize_labels(prompt_parts, prompt_part_labels, tokenizer)
     prompt_string = create_prompt(prompt_data=prompt_data, sentence=query)
-    tokens = [tokenizer.decode(x) for x in tokenizer(prompt_string).input_ids]
+    tokens = [tokenizer.decode(x, clean_up_tokenization_spaces=False) for x in tokenizer(prompt_string).input_ids]
     token_labels = list(zip(np.arange(len(tokens)), tokens, token_meta_labels))
 
     return token_labels, prompt_string
@@ -507,3 +510,86 @@ def load_dataset(task_name: str,
     dataset = split_icl_dataset(dataset, test_size=test_size, seed=seed)
 
     return dataset
+
+
+def generate_prompt_with_corrupted_instruction(prompt_data, token_labels, prompt_string, tokenizer, ablation_mode="unknown"):
+    """
+    Generates a random prompt of length n_tokens
+
+    Parameters:
+    n_tokens: number of tokens in the prompt
+    tokenizer: huggingface tokenizer
+
+    Returns:
+    prompt: random prompt of length n_tokens
+    """
+    assert len(token_labels) == len(tokenizer(prompt_string).input_ids), "Error! token_labels and prompt_string should have the same length"
+    
+    if ablation_mode == "none":
+        return token_labels, prompt_string
+    
+    old_prompt_length = len(token_labels)
+    instruction_token_idxs = []
+    instruction_tokens = []
+    for idxs, token, token_class in token_labels:
+        if token_class == 'instructions_token':
+            instruction_token_idxs.append(idxs)
+            instruction_tokens.append(token)
+            
+    if ablation_mode == "unknown":
+        for idx in instruction_token_idxs:
+            token_labels[idx] = (idx, tokenizer.unk_token, 'instructions_token')
+            prompt_string = prompt_string.replace(prompt_data["prefixes"]["instructions"], " ".join([tokenizer.unk_token]*len(instruction_token_idxs)))
+        
+    elif ablation_mode == "random":
+        random_token_range = [i for i in range(len(tokenizer)) if i not in [tokenizer.bos_token_id, tokenizer.eos_token_id, tokenizer.pad_token_id, tokenizer.unk_token_id]]
+        new_instruction_tokens = np.random.choice(random_token_range, len(instruction_tokens), replace=True).tolist()
+        for idx, token in zip(instruction_token_idxs, new_instruction_tokens):
+            token_labels[idx] = (idx, tokenizer.decode(token), 'instructions_token')
+            prompt_string = prompt_string.replace(prompt_data["prefixes"]["instructions"], tokenizer.decode(token))
+    else:
+        raise ValueError(f"ablation_mode={ablation_mode} not supported. Expected one of: [unknown, random, none]")
+    
+    assert len(token_labels) == old_prompt_length, "Error! token_labels and prompt_string should have the same length"
+    return token_labels, prompt_string
+
+
+def generate_prompt_with_mean_representation(token_labels, inputs, model, tokenizer):
+    instruction_token_idxs = []
+    for idxs, _, token_class in token_labels:
+        if token_class == 'instructions_token':
+            instruction_token_idxs.append(idxs)
+    
+    mean_noise = torch.mean(model.model.embed_tokens.weight, dim=0)
+    embedding = model.model.embed_tokens(inputs.input_ids)
+    
+    for idx in instruction_token_idxs:
+        embedding[:, idx, :] = mean_noise.detach().clone()
+    
+    return embedding
+
+
+def load_prefixes_or_separators(prefixes_or_separators):
+    
+    if type(prefixes_or_separators) == dict:
+        assert "input" in prefixes_or_separators.keys(), "Error! prefixes_or_separators must contain 'input' key"
+        assert "output" in prefixes_or_separators.keys(), "Error! prefixes_or_separators must contain 'output' key"
+        assert "instructions" in prefixes_or_separators.keys(), "Error! prefixes_or_separators must contain 'instructions' key"
+        return prefixes_or_separators
+    elif type(prefixes_or_separators) == str:
+        if not os.path.exists(prefixes_or_separators) or not prefixes_or_separators.endswith(".json"):
+            raise ValueError(f"Error! prefixes_or_separators={prefixes_or_separators} is not a valid path to a json file")
+        
+        with open(prefixes_or_separators, 'r') as f:
+            prefixes_or_separators = json.load(f)
+            f.close()
+        assert "input" in prefixes_or_separators.keys(), "Error! prefixes_or_separators must contain 'input' key"
+        assert "output" in prefixes_or_separators.keys(), "Error! prefixes_or_separators must contain 'output' key"
+        assert "instructions" in prefixes_or_separators.keys(), "Error! prefixes_or_separators must contain 'instructions' key"
+        return prefixes_or_separators
+    else:
+        raise ValueError(f"Error! prefixes_or_separators={prefixes_or_separators} is not a valid type. Expected one of: [dict, str]")
+    
+
+    
+    
