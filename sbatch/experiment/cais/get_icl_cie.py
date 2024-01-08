@@ -4,7 +4,7 @@ import json
 
 if __name__ == "__main__":
     
-    model_path = "/data/jiuding_sun/function_vectors/flan-llama-7b"
+    model_path = "/data/public_models/llama/llama_hf_weights/llama-7b"
     flan_model_path = "/data/jiuding_sun/function_vectors/flan-llama-7b"
     
     save_path = "/data/jiuding_sun/function_vectors/results/ICL"
@@ -42,23 +42,27 @@ if __name__ == "__main__":
             f.write(f"#SBATCH --output={experiment_name}-{dataset_name}.out\n")
             f.write("#SBATCH --nodes=1\n")
             f.write("#SBATCH --gpus-per-node=1\n")
-            f.write("#SBATCH --mem=80GB\n")
-            f.write("#SBATCH --time=12:00:00\n")
+            f.write("#SBATCH --mem=32GB\n")
+            f.write("#SBATCH --time=8:00:00\n")
             f.write("\n\n")
             f.write("source /data/jiuding_sun/.bashrc\n")
             f.write("cd /data/jiuding_sun/function_vectors/src\n")
             f.write("conda activate fv\n")
             f.write("\n\n")
+            
             f.write(f"python compute_indirect_effect.py ")
             f.write(f"--dataset_name {dataset_name} ")
             f.write(f"--model_name {model_path} ")
             f.write(f"--save_path_root {llama_cie_save_path} ")
+            f.write(f"--instruction_ablation none ")
             f.write(f"&&\n")
             f.write(f"python compute_indirect_effect.py ")
             f.write(f"--dataset_name {dataset_name} ")
             f.write(f"--model_name {flan_model_path} ")
             f.write(f"--save_path_root {flan_cie_save_path} ")
+            f.write(f"--instruction_ablation none ")
             f.write(f"&&\n")
+            
             f.write(f"python evaluate_function_vector.py ")
             f.write(f"--dataset_name {dataset_name} ")
             f.write(f"--model_name {model_path} ")
@@ -71,21 +75,22 @@ if __name__ == "__main__":
             f.write(f"--model_name {flan_model_path} ")
             f.write(f"--save_path_root {flan_fv_save_path} ")
             f.write(f"--mean_activations_path {flan_mean_activations_path} ")
-            f.write(f"--indirect_effect_path {flan_indirect_effect_path} ")            
+            f.write(f"--indirect_effect_path {flan_indirect_effect_path} ")
             f.write(f"&&\n")
+            f.write(f"python evaluate_function_vector.py ")
             f.write(f"--dataset_name {dataset_name} ")
             f.write(f"--model_name {flan_model_path} ")
             f.write(f"--save_path_root {flan_with_llama_fv_save_path} ")
             f.write(f"--mean_activations_path {llama_mean_activations_path} ")
             f.write(f"--indirect_effect_path {llama_indirect_effect_path} ")            
             f.write(f"&&\n")
+            f.write(f"python evaluate_function_vector.py ")
             f.write(f"--dataset_name {dataset_name} ")
             f.write(f"--model_name {flan_model_path} ")
             f.write(f"--save_path_root {flan_with_llama_ie_save_path} ")
             f.write(f"--mean_activations_path {flan_mean_activations_path} ")
-            f.write(f"--indirect_effect_path {llama_indirect_effect_path} ")            
-            f.write(f"&&\n")
-            
+            f.write(f"--indirect_effect_path {llama_indirect_effect_path} ")  
+                               
             f.close()
             
         all_sbatch_files.append(f"../../scripts/{experiment_name}/{dataset_name}.sh")

@@ -6,8 +6,11 @@ import json
 import os
 from typing import *
 from sklearn.model_selection import train_test_split
+import transformers
+import copy
 
 
+IGNORE_INDEX = -100
 
 def create_fewshot_primer(prompt_data) -> str:
     """Creates the primer string for GPT in-context learning
@@ -569,6 +572,21 @@ def generate_prompt_with_mean_representation(token_labels, inputs, model, tokeni
     return embedding
 
 
+def generate_prompt_with_gaussian_noise(token_labels, inputs, model, tokenizer, v=3):
+    instruction_token_idxs = []
+    for idxs, _, token_class in token_labels:
+        if token_class == 'instructions_token':
+            instruction_token_idxs.append(idxs)
+    
+    emb_std = torch.std(model.model.embed_tokens.weight, dim=0)
+    
+    embedding = model.model.embed_tokens(inputs.input_ids)
+    
+    for idx in instruction_token_idxs:
+        embedding[:, idx, :] = embedding[:, idx, :] + torch.randn_like(embedding[:, idx, :]) * emb_std * v
+    
+    return embedding
+
 def load_prefixes_or_separators(prefixes_or_separators):
     
     if type(prefixes_or_separators) == dict:
@@ -589,7 +607,51 @@ def load_prefixes_or_separators(prefixes_or_separators):
         return prefixes_or_separators
     else:
         raise ValueError(f"Error! prefixes_or_separators={prefixes_or_separators} is not a valid type. Expected one of: [dict, str]")
-    
 
+
+def _tokenize_fn(strings: Sequence[str], tokenizer: transformers.PreTrainedTokenizer) -> Dict:
+    """Tokenize a list of strings."""
+    tokenized_list = [
+        tokenizer(
+            text,
+            return_tensors="pt",
+            padding="longest",
+            max_length=tokenizer.model_max_length,
+            truncation=True,
+        )
+        for text in strings
+    ]
+    input_ids = labels = [tokenized.input_ids[0] for tokenized in tokenized_list]
+    input_ids_lens = labels_lens = [
+        tokenized.input_ids.ne(tokenizer.pad_token_id).sum().item() for tokenized in tokenized_list
+    ]
+    return dict(
+        input_ids=input_ids,
+        labels=labels,
+        input_ids_lens=input_ids_lens,
+        labels_lens=labels_lens,
+    )
+
+
+def preprocess(
+    sources: Sequence[str],
+    targets: Sequence[str],
+    tokenizer: transformers.PreTrainedTokenizer,
+) -> Dict:
+    """Preprocess the data by tokenizing."""
+    examples = [s + t for s, t in zip(sources, targets)]
+    examples_tokenized, sources_tokenized = [_tokenize_fn(strings, tokenizer) for strings in (examples, sources)]
+    input_ids = examples_tokenized["input_ids"]
     
+    labels = copy.deepcopy(input_ids)
     
+    input_ids = [ids[:-1] for ids in input_ids] # remove the last token
+    labels = [label[1:] for label in labels]    # remove the first token
+    
+    for label, source_len in zip(labels, sources_tokenized["input_ids_lens"]):
+        label[:source_len] = IGNORE_INDEX
+        
+    if len(sources) == len(targets) == 1: 
+        return dict(input_ids=input_ids[0], labels=labels[0])
+    else:
+        return dict(input_ids=input_ids, labels=labels)

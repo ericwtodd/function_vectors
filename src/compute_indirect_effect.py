@@ -36,7 +36,7 @@ def activation_replacement_per_class_intervention(prompt_data, avg_activations, 
     query = query_target_pair['input']
     token_labels, prompt_string = get_token_meta_labels(prompt_data, tokenizer, query=query)
     
-    if instruction_ablation != "mean":
+    if instruction_ablation not in ["mean", "gaussian"]:
         token_labels, prompt_string = generate_prompt_with_corrupted_instruction(
             prompt_data, token_labels, prompt_string, tokenizer, instruction_ablation)
         
@@ -75,6 +75,9 @@ def activation_replacement_per_class_intervention(prompt_data, avg_activations, 
     # Clean Run of Baseline:
     if instruction_ablation == "mean":
         ablated_inputs_embeds = generate_prompt_with_mean_representation(token_labels=token_labels, inputs=inputs, model=model, tokenizer=tokenizer)
+        clean_output = model(inputs_embeds=ablated_inputs_embeds, attention_mask=inputs["attention_mask"]).logits[:,-1,:]
+    elif instruction_ablation == "gaussian":
+        ablated_inputs_embeds = generate_prompt_with_gaussian_noise(token_labels=token_labels, inputs=inputs, model=model, tokenizer=tokenizer)
         clean_output = model(inputs_embeds=ablated_inputs_embeds, attention_mask=inputs["attention_mask"]).logits[:,-1,:]
     else:
         clean_output = model(**inputs).logits[:,-1,:]
@@ -169,7 +172,7 @@ if __name__ == "__main__":
     parser.add_argument('--root_data_dir', help='Root directory of data files', type=str, required=False, default='../dataset_files')
     parser.add_argument('--save_path_root', help='File path to save indirect effect to', type=str, required=False, default='../flan-instruction-cie')
     
-    parser.add_argument('--instruction_ablation', help='Method to ablate the the instruction', required=False, type=str, default="none", choices=["none", "mean", "random", "unknown"])
+    parser.add_argument('--instruction_ablation', help='Method to ablate the the instruction', required=False, type=str, default="none", choices=["none", "mean", "random", "unknown", "gaussian"])
     
     parser.add_argument('--seed', help='Randomized seed', type=int, required=False, default=42)
     parser.add_argument('--n_shots', help="Number of shots in each in-context prompt", type =int, required=False, default=10)

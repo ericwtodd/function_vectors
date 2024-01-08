@@ -19,12 +19,12 @@ if __name__ == "__main__":
     parser.add_argument('--edit_layer', help='Layer for intervention. If -1, sweep over all layers', type=int, required=False, default=-1) # 
     parser.add_argument('--model_name', help='Name of model to be loaded', type=str, required=False, default='../flan-llama-7b')
     parser.add_argument('--root_data_dir', help='Root directory of data files', type=str, required=False, default='../dataset_files')
-    parser.add_argument('--save_path_root', help='File path to save to', type=str, required=False, default='../test_itself')
-    parser.add_argument('--ie_path_root', help='File path to load indirect effects from', type=str, required=False, default="../ins-mean/")
+    parser.add_argument('--save_path_root', help='File path to save to', type=str, required=False, default="../debug")
+    parser.add_argument('--ie_path_root', help='File path to load indirect effects from', type=str, required=False, default="../")
     parser.add_argument('--seed', help='Randomized seed', type=int, required=False, default=42)
     parser.add_argument('--device', help='Device to run on',type=str, required=False, default='cuda' if torch.cuda.is_available() else 'cpu')
-    parser.add_argument('--mean_activations_path', help='Path to file containing mean_head_activations for the specified task', required=False, type=str, default="../ins-mean/antonym/antonym_mean_head_activations.pt")
-    parser.add_argument('--indirect_effect_path', help='Path to file containing indirect_effect scores for the specified task', required=False, type=str, default="../ins-mean/antonym/antonym_indirect_effect.pt")    
+    parser.add_argument('--mean_activations_path', help='Path to file containing mean_head_activations for the specified task', required=False, type=str, default="../results/INS/CIE/flan-llama-7b/Prompt1/antonym/antonym_mean_head_activations.pt")
+    parser.add_argument('--indirect_effect_path', help='Path to file containing indirect_effect scores for the specified task', required=False, type=str, default="../results/INS/CIE/flan-llama-7b/Prompt1/antonym/antonym_indirect_effect.pt")    
     parser.add_argument('--test_split', help="Percentage corresponding to test set split size", required=False, default=0.3)    
     parser.add_argument('--n_shots', help="Number of shots in each in-context prompt", type=int, required=False, default=10)
     parser.add_argument('--n_trials', help="Number of in-context prompts to average over for indirect_effect", type=int, required=False, default=25)
@@ -36,6 +36,7 @@ if __name__ == "__main__":
     parser.add_argument("--universal_set", help="Flag for whether to evaluate using the univeral set of heads", action="store_true", required=False)
     
     
+    parser.add_argument("--filter_by_inference", help="Flag for whether to evaluate using the univeral set of heads", type=bool, required=False, default=False)
     parser.add_argument('--no_instruction', help='Whether to remove instruction for clean performance', type=bool, required=False, default=True)
         
     args = parser.parse_args()  
@@ -61,15 +62,12 @@ if __name__ == "__main__":
     
     no_instruction = args.no_instruction
     
-    if no_instruction:
-        prefixes["instructions"] = ""
-        separators["instructions"] = ""
-    
     compute_baseline = args.compute_baseline
 
     generate_str = args.generate_str
     metric = args.metric
     universal_set = args.universal_set
+    filter_by_inference = args.filter_by_inference
 
     print(args)
 
@@ -103,25 +101,29 @@ if __name__ == "__main__":
         filter_set_validation = None
     elif generate_str:
         set_seed(seed+42)
-        fs_results_validation = n_shot_eval_no_intervention(dataset=dataset, n_shots=n_shots, model=model, model_config=model_config, tokenizer=tokenizer, compute_ppl=False,
+        fs_results_validation = n_shot_eval_no_intervention(dataset=dataset, n_shots=n_shots, model=model, model_config=model_config, tokenizer=tokenizer, prefixes=prefixes, separators=separators, ompute_ppl=False,
                                                  generate_str=True, metric=metric, test_split='valid')
         filter_set_validation = np.where(np.array(fs_results_validation['score']) == 1)[0]
         set_seed(seed)
-        fs_results = n_shot_eval_no_intervention(dataset=dataset, n_shots=n_shots, model=model, model_config=model_config, tokenizer=tokenizer, compute_ppl=False,
+        fs_results = n_shot_eval_no_intervention(dataset=dataset, n_shots=n_shots, model=model, model_config=model_config, tokenizer=tokenizer, prefixes=prefixes, separators=separators, compute_ppl=False,
                                                  generate_str=True, metric=metric)
         filter_set = np.where(np.array(fs_results['score']) == 1)[0]
     else:
         set_seed(seed+42)
-        fs_results_validation = n_shot_eval_no_intervention(dataset=dataset, n_shots=n_shots, model=model, model_config=model_config, tokenizer=tokenizer, compute_ppl=True, test_split='valid')
+        fs_results_validation = n_shot_eval_no_intervention(dataset=dataset, n_shots=n_shots, model=model, model_config=model_config, tokenizer=tokenizer, prefixes=prefixes, separators=separators, compute_ppl=True, test_split='valid')
         filter_set_validation = np.where(np.array(fs_results_validation['clean_rank_list']) == 0)[0]
         set_seed(seed)
-        fs_results = n_shot_eval_no_intervention(dataset=dataset, n_shots=n_shots, model=model, model_config=model_config, tokenizer=tokenizer, compute_ppl=True)
+        fs_results = n_shot_eval_no_intervention(dataset=dataset, n_shots=n_shots, model=model, model_config=model_config, tokenizer=tokenizer, prefixes=prefixes, separators=separators, compute_ppl=True)
         filter_set = np.where(np.array(fs_results['clean_rank_list']) == 0)[0]
+    
+    if not filter_by_inference:
+        filter_set = None
+        filter_set_validation = None
     
     args.fs_results_file_name = fs_results_file_name
     with open(fs_results_file_name, 'w') as results_file:
         json.dump(fs_results, results_file, indent=2)
-
+        
     set_seed(seed)
     # Load or Re-Compute mean_head_activations
     if mean_activations_path is not None and os.path.exists(mean_activations_path):
@@ -157,6 +159,10 @@ if __name__ == "__main__":
     else:
         fv, top_heads = compute_function_vector(mean_activations, indirect_effect, model, model_config=model_config, n_top_heads=n_top_heads)   
     
+    if no_instruction:
+        prefixes["instructions"] = ""
+        separators["instructions"] = ""
+        
     # Run Evaluation
     if isinstance(eval_edit_layer, int):
         print(f"Running ZS Eval with edit_layer={eval_edit_layer}")
@@ -164,11 +170,12 @@ if __name__ == "__main__":
         if generate_str:
             pred_filepath = f"{save_path_root}/preds/{model_config['name_or_path'].replace('/', '_')}_ZS_intervention_layer{eval_edit_layer}.txt"
             zs_results = n_shot_eval(dataset=dataset, fv_vector=fv, edit_layer=eval_edit_layer, n_shots=0,
-                                     model=model, model_config=model_config, tokenizer=tokenizer, filter_set=filter_set,
+                                     model=model, model_config=model_config, tokenizer=tokenizer, prefixes=prefixes, separators=separators, filter_set=filter_set,
                                      generate_str=generate_str, metric=metric, pred_filepath=pred_filepath)
         else:
             zs_results = n_shot_eval(dataset=dataset, fv_vector=fv, edit_layer=eval_edit_layer, n_shots=0,
-                                    model=model, model_config=model_config, tokenizer=tokenizer, filter_set=filter_set)
+                                    model=model, model_config=model_config, tokenizer=tokenizer, prefixes=prefixes, separators=separators, 
+                                    filter_set=filter_set)
         zs_results_file_suffix = f'_editlayer_{eval_edit_layer}.json'   
 
 
@@ -177,11 +184,12 @@ if __name__ == "__main__":
         if generate_str:
             pred_filepath = f"{save_path_root}/preds/{model_config['name_or_path'].replace('/', '_')}_{n_shots}shots_shuffled_intervention_layer{eval_edit_layer}.txt"
             fs_shuffled_results = n_shot_eval(dataset=dataset, fv_vector=fv, edit_layer=eval_edit_layer, n_shots=n_shots, 
-                                              model=model, model_config=model_config, tokenizer=tokenizer, filter_set=filter_set, shuffle_labels=True,
+                                              model=model, model_config=model_config, tokenizer=tokenizer, prefixes=prefixes, separators=separators, filter_set=filter_set, shuffle_labels=True,
                                               generate_str=generate_str, metric=metric, pred_filepath=pred_filepath)
         else:
             fs_shuffled_results = n_shot_eval(dataset=dataset, fv_vector=fv, edit_layer=eval_edit_layer, n_shots=n_shots, 
-                                              model=model, model_config=model_config, tokenizer=tokenizer, filter_set=filter_set, shuffle_labels=True)
+                                              model=model, model_config=model_config, tokenizer=tokenizer, prefixes=prefixes, separators=separators, 
+                                              filter_set=filter_set, shuffle_labels=True)
         fs_shuffled_results_file_suffix = f'_editlayer_{eval_edit_layer}.json'   
         
     else:
@@ -192,19 +200,21 @@ if __name__ == "__main__":
             set_seed(seed)
             if generate_str:
                 zs_results[edit_layer] = n_shot_eval(dataset=dataset, fv_vector=fv, edit_layer=edit_layer, n_shots=0, 
-                                                    model=model, model_config=model_config, tokenizer=tokenizer, filter_set=filter_set,
-                                                    generate_str=generate_str, metric=metric)
+                                                    model=model, model_config=model_config, tokenizer=tokenizer, prefixes=prefixes, separators=separators, 
+                                                    filter_set=filter_set, generate_str=generate_str, metric=metric)
             else:
                 zs_results[edit_layer] = n_shot_eval(dataset=dataset, fv_vector=fv, edit_layer=edit_layer, n_shots=0, 
-                                                    model=model, model_config=model_config, tokenizer=tokenizer, filter_set=filter_set)
+                                                    model=model, model_config=model_config, tokenizer=tokenizer, prefixes=prefixes, separators=separators, 
+                                                    filter_set=filter_set)
             set_seed(seed)
             if generate_str:
                 fs_shuffled_results[edit_layer] = n_shot_eval(dataset=dataset, fv_vector=fv, edit_layer=edit_layer, n_shots=n_shots, 
-                                                    model=model, model_config=model_config, tokenizer=tokenizer, filter_set = filter_set,
+                                                    model=model, model_config=model_config, tokenizer=tokenizer, prefixes=prefixes, separators=separators, filter_set = filter_set,
                                                     generate_str=generate_str, metric=metric, shuffle_labels=True)
             else:
                 fs_shuffled_results[edit_layer] = n_shot_eval(dataset=dataset, fv_vector=fv, edit_layer=edit_layer, n_shots=n_shots, 
-                                                    model=model, model_config=model_config, tokenizer=tokenizer, filter_set = filter_set, shuffle_labels=True)
+                                                    model=model, model_config=model_config, tokenizer=tokenizer, prefixes=prefixes, separators=separators, 
+                                                    filter_set=filter_set, shuffle_labels=True)
         zs_results_file_suffix = '_layer_sweep.json'
         fs_shuffled_results_file_suffix = '_layer_sweep.json'
 
