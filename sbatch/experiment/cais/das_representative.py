@@ -5,7 +5,7 @@ import json
 if __name__ == "__main__":
     all_datasets = ["antonym", "capitalize", "country-currency", "english-french", "present-past", "singular-plural"]
     
-    all_layers = list(range(0, 32, 3))
+    all_layers = list(range(0, 32))
     
     experiment_name = "DAS_ICL"
     
@@ -21,7 +21,7 @@ if __name__ == "__main__":
             with open(f"../../scripts/{experiment_name}/{dataset_name}_{layer}.sh", 'w') as f:
                 f.write("#!/bin/bash\n")
                 f.write(f"#SBATCH --job-name={experiment_name}\n")
-                f.write(f"#SBATCH --output={experiment_name}-{dataset_name}.out\n")
+                f.write(f"#SBATCH --output={experiment_name}-{dataset_name}-{layer}.out\n")
                 f.write("#SBATCH --nodes=1\n")
                 f.write("#SBATCH --gpus-per-node=1\n")
                 f.write("#SBATCH --mem=32GB\n")

@@ -36,8 +36,8 @@ if __name__ == "__main__":
     parser.add_argument("--universal_set", help="Flag for whether to evaluate using the univeral set of heads", action="store_true", required=False)
     
     
-    parser.add_argument("--filter_by_inference", help="Flag for whether to evaluate using the univeral set of heads", type=bool, required=False, default=False)
-    parser.add_argument('--no_instruction', help='Whether to remove instruction for clean performance', type=bool, required=False, default=True)
+    parser.add_argument("--filter_by_inference", help="Flag for whether to evaluate using the univeral set of heads", type=bool, required=False, default=True)
+    parser.add_argument('--no_instruction', help='Whether to remove instruction for clean performance', type=bool, required=False, default=False)
         
     args = parser.parse_args()  
 
