@@ -225,7 +225,7 @@ if __name__ == "__main__":
     
     parser.add_argument('--dataset_name', help='Name of the dataset to be loaded', type=str, required=True)
     parser.add_argument('--edit_layer', help='Layer for intervention.', type=int, required=False, default=16)
-    parser.add_argument('--model_name', help='Name of model to be loaded', type=str, required=False, default='/data/public_models/llama/llama_hf_weights/llama-7b/')
+    parser.add_argument('--model_name', help='Name of model to be loaded', type=str, required=False, default='/work/frink/models/llama_7b')
     parser.add_argument('--root_data_dir', help='Root directory of data files', type=str, required=False, default='../dataset_files')
     parser.add_argument('--save_path_root', help='File path to save to', type=str, required=False, default="../results/ICL-DAS/llama-7b")
     parser.add_argument('--seed', help='Randomized seed', type=int, required=False, default=42)
@@ -580,7 +580,8 @@ if __name__ == "__main__":
                 pred_test_labels = [outputs.logits[i][idx].argmax(dim=-1) for idx in left_shifted_idxs]
                 
                 correct = (actual_test_labels==pred_test_labels)
-
+                
+                print(tokenizer.decode(actual_test_labels), tokenizer.decode(pred_test_labels))
                 total_count += 1
                 if correct:
                     correct_count += 1
