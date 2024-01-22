@@ -644,12 +644,12 @@ def preprocess(
     input_ids = examples_tokenized["input_ids"]
     
     labels = copy.deepcopy(input_ids)
-    
+        
     input_ids = [ids[:-1] for ids in input_ids] # remove the last token
     labels = [label[1:] for label in labels]    # remove the first token
     
     for label, source_len in zip(labels, sources_tokenized["input_ids_lens"]):
-        label[:source_len] = IGNORE_INDEX
+        label[:source_len - 1] = IGNORE_INDEX
         
     if len(sources) == len(targets) == 1: 
         return dict(input_ids=input_ids[0], labels=labels[0])

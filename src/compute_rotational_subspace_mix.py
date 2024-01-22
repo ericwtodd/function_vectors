@@ -31,11 +31,11 @@ if __name__ == "__main__":
     
     parser = argparse.ArgumentParser()
     
-    parser.add_argument('--dataset_name', help='Name of the dataset to be loaded', type=str, required=True)
+    parser.add_argument('--dataset_names', help='Name of the datasets to be loaded', type=list, required=False, default=["antonym", "capitalize", "country-currency", "english-french", "present-past", "singular-plural"])
     parser.add_argument('--edit_layer', help='Layer for intervention.', type=int, required=False, default=16)
     parser.add_argument('--model_name', help='Name of model to be loaded', type=str, required=False, default='/work/frink/models/llama_7b')
     parser.add_argument('--root_data_dir', help='Root directory of data files', type=str, required=False, default='../dataset_files')
-    parser.add_argument('--save_path_root', help='File path to save to', type=str, required=False, default="../debug")
+    parser.add_argument('--save_path_root', help='File path to save to', type=str, required=False, default="../results/Aggregate-Two")
     parser.add_argument('--intervention_path_root', help='Path to the trained intervention model', type=str, required=False, default=None)
     parser.add_argument('--seed', help='Randomized seed', type=int, required=False, default=42)
     parser.add_argument('--device', help='Device to run on',type=str, required=False, default='cuda' if torch.cuda.is_available() else 'cpu')
@@ -50,7 +50,7 @@ if __name__ == "__main__":
     # Intervention hyperparameters
     parser.add_argument('--batch_size', help='Batch size of inference and training intervention', type=int, required=False, default=32)
     parser.add_argument('--gradient_accumulation_steps', help='Batch size of inference and training intervention', type=int, required=False, default=1)
-    parser.add_argument('--epochs', help='Batch size of inference and training intervention', type=int, required=False, default=15)
+    parser.add_argument('--epochs', help='Batch size of inference and training intervention', type=int, required=False, default=35)
     parser.add_argument('--warnup_ratio', help='Batch size of inference and training intervention', type=float, required=False, default=0.1)
     parser.add_argument('--rotate_lr', help='Batch size of inference and training intervention', type=float, required=False, default=1e-3)
     parser.add_argument('--boundary_lr', help='Batch size of inference and training intervention', type=float, required=False, default=1e-2)
@@ -62,11 +62,11 @@ if __name__ == "__main__":
     
     args = parser.parse_args()
     
-    dataset_name = args.dataset_name
+    dataset_names = args.dataset_names
     edit_layer = args.edit_layer
     model_name = args.model_name
     root_data_dir = args.root_data_dir
-    save_path_root = f"{args.save_path_root}/{dataset_name}/L{str(edit_layer)}"
+    save_path_root = f"{args.save_path_root}/L{str(edit_layer)}"
     
     intervention_path_root = args.intervention_path_root
     seed = args.seed
@@ -180,23 +180,27 @@ if __name__ == "__main__":
     # Load the dataset
     print("Loading Dataset")
     set_seed(seed)
-    dataset = load_dataset(dataset_name, root_data_dir=root_data_dir, test_size=test_split, seed=seed)
+    datasets = [load_dataset(dataset_name, root_data_dir=root_data_dir, test_size=test_split, seed=seed) for dataset_name in dataset_names]
     
     if not os.path.exists(save_path_root):
         os.makedirs(save_path_root)
         
     print("Processing Dataloaders")
     
-    eval_no_intervention_dataloader = process_dataloader(dataset, model_config, tokenizer, batch_size, n_shots, "valid", prefixes, separators, intervention_collate_fn, ablation_method="zero_shot")
+    eval_no_intervention_dataloader = process_mixed_dataloader(datasets, model_config, tokenizer, batch_size, n_shots, "valid", prefixes, separators, intervention_collate_fn, ablation_method="zero_shot")
     if training_method == "both":
-        noninformative_dataset = process_dataset(dataset, model_config, tokenizer, n_shots, "train", prefixes, separators, n_trials=n_trials, ablation_method="noninformative")
-        zeroshot_dataset = process_dataset(dataset, model_config, tokenizer, n_shots, "train", prefixes, separators, n_trials=n_trials, ablation_method="zero_shot")
-        train_dataset = concatenate_datasets([noninformative_dataset, zeroshot_dataset])
+        
+        all_datasets = []
+        for method in ["zero_shot", "noninformative"]:
+            for dataset in datasets:
+                all_datasets.append(process_dataset(dataset, model_config, tokenizer, n_shots, "train", prefixes, separators, n_trials=n_trials, ablation_method=method))
+        train_dataset = concatenate_datasets(all_datasets)
         train_dataloader = DataLoader(train_dataset, batch_size=batch_size, shuffle=True, collate_fn=intervention_collate_fn)
     else:
-        train_dataloader = process_dataloader(dataset, model_config, tokenizer, batch_size, n_shots, "train", prefixes, separators, intervention_collate_fn, n_trials=n_trials, ablation_method=training_method)
-    fs_eval_dataloader = process_dataloader(dataset, model_config, tokenizer, batch_size, n_shots, "valid", prefixes, separators, intervention_collate_fn, ablation_method="noninformative")
-    zs_eval_dataloader = process_dataloader(dataset, model_config, tokenizer, batch_size, n_shots, "valid", prefixes, separators, intervention_collate_fn, ablation_method="zero_shot")
+        train_dataloader = process_mixed_dataloader(datasets, model_config, tokenizer, batch_size, n_shots, "train", prefixes, separators, intervention_collate_fn, n_trials=n_trials, ablation_method=training_method)
+        
+    fs_eval_dataloader = process_mixed_dataloader(datasets, model_config, tokenizer, batch_size, n_shots, "valid", prefixes, separators, intervention_collate_fn, ablation_method="noninformative")
+    zs_eval_dataloader = process_mixed_dataloader(datasets, model_config, tokenizer, batch_size, n_shots, "valid", prefixes, separators, intervention_collate_fn, ablation_method="zero_shot")
     
     print(f"Evaluating the model {n_shots}-shots without intervention...")
     eval_accuracy = evaluate(intervenable, eval_no_intervention_dataloader, device=model.device, intervene=False, corrupt=False)
@@ -352,39 +356,4 @@ if __name__ == "__main__":
             
     intervenable.save(f"{save_path_root}/intervention_model")
     print("Done!")
-    
-    
-    
-    
-    
-    
-        
-        
-        
-            
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
     
