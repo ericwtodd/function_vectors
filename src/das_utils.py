@@ -168,8 +168,11 @@ def process_dataset(dataset, model_config, tokenizer, n_shots, data_split, prefi
                 base_word_pairs = dataset['train'][np.random.choice(len(dataset['train']), n_shots, replace=False)]
             else:
                 raise ValueError(f"ablation_method {ablation_method} is not supported.")
+            
+            ablation_prefixes = {"input": prefixes["input"], "output": prefixes["output"], "instructions": ""}
+            ablation_separators = {"input": separators["input"], "output": separators["output"], "instructions": ""}
 
-            base_prompt_data = word_pairs_to_prompt_data(base_word_pairs, query_target_pair=word_pairs_test, prepend_bos_token=prepend_bos, shuffle_labels=True, prefixes=prefixes, separators=separators)
+            base_prompt_data = word_pairs_to_prompt_data(base_word_pairs, query_target_pair=word_pairs_test, prepend_bos_token=prepend_bos, shuffle_labels=True, prefixes=ablation_prefixes, separators=ablation_separators)
             token_labels, base_prompt_string = get_token_meta_labels(base_prompt_data, tokenizer, query)
             
             base_batch = preprocess([base_prompt_string], [target], tokenizer)
@@ -204,3 +207,30 @@ def process_mixed_dataloader(datasets, model_config, tokenizer, batch_size, n_sh
     all_dataset = concatenate_datasets(all_dataset)
     torch_dataloader = DataLoader(all_dataset, batch_size=batch_size, shuffle=True, collate_fn=collate_fn)
     return torch_dataloader
+
+
+def load_intervention_weight(intervenable, intervenable_from):
+        
+    assert len(intervenable_from.interventions.keys()) == len(intervenable.interventions.keys()) == 1
+
+    source_key = list(intervenable_from.interventions.keys())[0]
+    target_key = list(intervenable.interventions.keys())[0]
+
+    source_intervention = intervenable_from.interventions[source_key][0]
+
+    temp_weight = source_intervention.temperature.data
+    intervention_population_weight = source_intervention.intervention_population.data
+    intervention_boundaries_weight = source_intervention.intervention_boundaries.data
+
+    matrix_weight = source_intervention.rotate_layer.weight
+
+    intervenable.interventions[target_key][0].temperature.data = temp_weight.clone().detach()
+    intervenable.interventions[target_key][0].intervention_population.data = intervention_population_weight.clone().detach()
+    intervenable.interventions[target_key][0].intervention_boundaries.data = intervention_boundaries_weight.clone().detach()
+    intervenable.interventions[target_key][0].rotate_layer.weight = matrix_weight.clone().detach()
+    
+    return intervenable
+
+    
+    
+    

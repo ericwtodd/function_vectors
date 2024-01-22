@@ -3,6 +3,7 @@ from datasets import Dataset, concatenate_datasets
 import sys
 sys.path.append("../..")
 
+import re
 import torch
 import seaborn as sns
 from tqdm import tqdm, trange
@@ -32,17 +33,17 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser()
     
     parser.add_argument('--dataset_name', help='Name of the dataset to be loaded', type=str, required=True)
-    parser.add_argument('--edit_layer', help='Layer for intervention.', type=int, required=False, default=16)
-    parser.add_argument('--model_name', help='Name of model to be loaded', type=str, required=False, default='/work/frink/models/llama_7b')
+    parser.add_argument('--edit_layer', help='Layer for intervention.', type=int, required=False, default=15)
+    parser.add_argument('--model_name', help='Name of model to be loaded', type=str, required=False, default='/work/frink/sun.jiu/flan-llama-7b')
     parser.add_argument('--root_data_dir', help='Root directory of data files', type=str, required=False, default='../dataset_files')
     parser.add_argument('--save_path_root', help='File path to save to', type=str, required=False, default="../debug")
-    parser.add_argument('--intervention_path_root', help='Path to the trained intervention model', type=str, required=False, default=None)
+    parser.add_argument('--intervention_path', help='Path to the trained intervention model', type=str, required=False, default="../results/Aggregate-Two/L15/checkpoints/epoch_20")
     parser.add_argument('--seed', help='Randomized seed', type=int, required=False, default=42)
     parser.add_argument('--device', help='Device to run on',type=str, required=False, default='cuda' if torch.cuda.is_available() else 'cpu')
     parser.add_argument('--test_split', help="Percentage corresponding to test set split size", required=False, default=0.3)    
-    parser.add_argument('--n_shots', help="Number of shots in each in-context prompt", type=int, required=False, default=10)
+    parser.add_argument('--n_shots', help="Number of shots in each in-context prompt", type=int, required=False, default=0)
     parser.add_argument('--n_trials', help="Number of in-context prompts to average over for indirect_effect", type=int, required=False, default=512)
-    parser.add_argument('--prefixes', help='Prompt template prefixes to be used', required=False, default={"input":"Q:", "output":"A:", "instructions":""})
+    parser.add_argument('--prefixes', help='Prompt template prefixes to be used', required=False, default={"input":"Input:", "output":"Output:", "instructions":"What is the antonym of the given word?"})
     parser.add_argument('--separators', help='Prompt template separators to be used', required=False, default={"input":"\n", "output":"\n\n", "instructions":""})
     
     parser.add_argument('--training_method',type=str, required=False, default='both', choices=['noninformative', 'zero_shot', 'both'])
@@ -68,7 +69,7 @@ if __name__ == "__main__":
     root_data_dir = args.root_data_dir
     save_path_root = f"{args.save_path_root}/{dataset_name}/L{str(edit_layer)}"
     
-    intervention_path_root = args.intervention_path_root
+    intervention_path = args.intervention_path
     seed = args.seed
     device = args.device
 
@@ -106,9 +107,25 @@ if __name__ == "__main__":
     
     assert edit_layer < model_config["n_layers"], f"Edit layer {edit_layer} is out of range for model with {model_config['n_layers']} layers."
     
-    if intervention_path_root is not None:
-        print(f"Loading the intervention model from {intervention_path_root}/intervention_model...")
-        intervenable = IntervenableModel.load(f"{intervention_path_root}/intervention_model", model=model)
+    if intervention_path is not None:
+        print(f"Loading the intervention model from {intervention_path}...")
+        intervenable_from = IntervenableModel.load(intervention_path, model=model)
+        
+        assert len(intervenable_from.interventions.keys()) == 1, "No interventions found in the loaded model."
+        
+        intervention_key = list(intervenable_from.interventions.keys())[0]
+        layer_num = re.findall(r'(?<=layer.)\d+', intervention_key)
+        assert layer_num is not None and len(layer_num) == 1, "No layer number found in the loaded model."
+        layer_num = int(layer_num[0])
+        
+        if layer_num != edit_layer:
+            print(f"WARNING: The loaded intervention model is for layer {layer_num} but you are running for layer {edit_layer}.")
+            print("Loading the weight")
+            intervenable_config = simple_boundless_das_position_config(type(model), "block_output", edit_layer)
+            intervenable = IntervenableModel(intervenable_config, model)
+            intervenable = load_intervention_weight(intervenable, intervenable_from)
+        else:
+            intervenable = intervenable_from
     else:
         intervenable_config = simple_boundless_das_position_config(type(model), "block_output", edit_layer)
         intervenable = IntervenableModel(intervenable_config, model)
@@ -240,7 +257,7 @@ if __name__ == "__main__":
     
     training_log_dicts = None
     
-    if intervention_path_root is None:
+    if intervention_path is None:
         
         os.makedirs(os.path.join(save_path_root, "checkpoints"), exist_ok=True)
         
