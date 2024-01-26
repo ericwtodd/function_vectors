@@ -1,0 +1,849 @@
+Loading:  EleutherAI/gpt-j-6b
+Shuffled ICL Prompt:
+ '<|endoftext|>Q: hardware\nA: democracy\n\nQ: fascism\nA: software\n\nQ: incompatible\nA: ignore\n\nQ: illness\nA: health\n\nQ: notice\nA: compatible\n\nQ: increase\nA:' 
+
+
+Input Sentence: '<|endoftext|>Q: hardware\nA: democracy\n\nQ: fascism\nA: software\n\nQ: incompatible\nA: ignore\n\nQ: illness\nA: health\n\nQ: notice\nA: compatible\n\nQ: increase\nA:' 
+
+Input Query: 'increase', Target: 'decrease'
+
+---------------------0---------------------
+At Layer 0, the answer "decrease" is at position 30349
+At Layer 0, Top 20 Vocab Probs: [' invention', ' also', ' Phys', 'signed', 'depend', 'name', 'commit', ' Copyright', ' still', 'FUN', ' sensory', '++)', 'pc', ' name', 'return', ' SPD', 'using', ' role', ' Cir', ' Applied']
+At Layer 1, the answer "decrease" is at position 39556
+At Layer 1, Top 20 Vocab Probs: [' Phys', ' SPD', ' role', ' chill', ' Ultimate', ' genes', ' roles', ' invention', ' name', ' sometimes', ' also', ' Savage', ' present', ' way', ' world', ' often', ' always', ' Lost', ' integration', ' expression']
+At Layer 2, the answer "decrease" is at position 41255
+At Layer 2, Top 20 Vocab Probs: [' Phys', ' Bren', ' role', ' Ess', ' Included', ' All', ' Simply', ' chill', ' Savage', ' Created', ' roles', ' Madd', ' genes', ' Physical', ' Fun', ' wrong', ' Birth', ' always', ' selling', ' Math']
+At Layer 3, the answer "decrease" is at position 26630
+At Layer 3, Top 20 Vocab Probs: [' Phys', ' who', ' wealth', ' often', ' "', ' ', ' respective', ' also', ' role', ' Physical', ' roles', ' invention', ' e', ' embodiment', ' founding', ' rest', ' physical', 'aging', ' wheelchair', ' author']
+At Layer 4, the answer "decrease" is at position 18570
+At Layer 4, Top 20 Vocab Probs: [' who', ' role', ' also', ' e', ' Phys', ' name', ' is', ' function', ' know', ' same', ' if', ' "', ' most', ' was', ' wealth', ' âĢ', ' ', ' use', ' rest', ' link']
+At Layer 5, the answer "decrease" is at position 10461
+At Layer 5, Top 20 Vocab Probs: [' name', ' same', ' role', ' link', ' need', ' mean', ' invention', ' ?', ' Phys', ' development', ' best', ' %', ' purpose', ' The', ' rate', ' benefits', ' growth', ' present', ' wealth', ' property']
+At Layer 6, the answer "decrease" is at position 5008
+At Layer 6, Top 20 Vocab Probs: [' name', ' same', ' "', ' not', ' money', ' other', ' link', ' more', ' ?', ' role', ' protein', ' invention', ' ', ' mean', ' true', ' function', ' number', '.', ' yes', ' is']
+At Layer 7, the answer "decrease" is at position 2354
+At Layer 7, Top 20 Vocab Probs: [' same', ' name', ' fire', ' invention', ' other', ' money', ' link', ' birth', ' carry', ' social', ' correct', ' concentration', ' role', ' description', ' center', ' protein', ' opportunity', ' store', ' process', ' focus']
+At Layer 8, the answer "decrease" is at position 2709
+At Layer 8, Top 20 Vocab Probs: [' same', ' The', ' name', ' invention', ' money', ' description', ' next', ' "', ' social', ' car', ' link', ' not', ' birth', ' other', ' concentration', ' search', ' definition', ' world', ' protein', ' role']
+At Layer 9, the answer "decrease" is at position 1255
+At Layer 9, Top 20 Vocab Probs: [' same', ' fire', ' money', ' "', ' link', ' invention', ' social', ' The', ' water', ' Car', ' state', ' the', ' power', ' $', ' car', ' name', ' ', ' not', ' other', ' birth']
+At Layer 10, the answer "decrease" is at position 504
+At Layer 10, Top 20 Vocab Probs: [' "', ' same', ' $', ' money', ' The', ' other', ' cancer', ' time', ' the', ' car', ' water', ' ', ' protein', ' social', ' *', ' no', ' age', ' life', ' c', " '"]
+At Layer 11, the answer "decrease" is at position 731
+At Layer 11, Top 20 Vocab Probs: [' "', ' same', ' health', ' time', ' normal', ' data', ' state', ' power', ' car', ' natural', ' no', ' not', ' $', ' world', ' community', ' protein', ' N', ' *', ' correct', ' energy']
+At Layer 12, the answer "decrease" is at position 318
+At Layer 12, Top 20 Vocab Probs: [' data', ' time', ' water', ' energy', ' health', ' money', ' power', ' $', ' world', ' state', ' same', ' good', ' food', ' life', ' motor', ' natural', ' the', ' car', ' human', ' social']
+At Layer 13, the answer "decrease" is at position 3
+At Layer 13, Top 20 Vocab Probs: [' increase', ' growth', ' change', ' decrease', ' increased', ' increasing', ' energy', ' data', ' function', ' improvement', ' improve', ' expansion', 'incre', ' increases', ' wealth', ' difference', ' evolution', ' enhance', ' higher', ' pressure']
+At Layer 14, the answer "decrease" is at position 1
+At Layer 14, Top 20 Vocab Probs: [' increase', ' decrease', ' growth', ' increased', ' change', ' increasing', ' increases', ' function', ' rate', ' expansion', 'incre', ' size', ' data', ' speed', ' higher', ' number', ' evolution', ' time', ' Increase', ' natural']
+At Layer 15, the answer "decrease" is at position 1
+At Layer 15, Top 20 Vocab Probs: [' increase', ' decrease', ' growth', ' change', ' function', ' data', ' rate', ' time', ' increased', ' evolution', ' energy', ' power', ' higher', ' speed', ' size', ' fire', ' new', ' increasing', ' life', ' increases']
+At Layer 16, the answer "decrease" is at position 0
+At Layer 16, Top 20 Vocab Probs: [' decrease', ' increase', ' change', ' growth', ' data', ' function', ' time', ' evolution', ' reduction', ' decline', ' power', ' energy', ' new', ' "', ' speed', ' fire', ' small', ' rate', ' life', ' low']
+At Layer 17, the answer "decrease" is at position 0
+At Layer 17, Top 20 Vocab Probs: [' decrease', ' increase', ' growth', ' change', ' data', ' software', ' function', ' evolution', ' decline', ' reduction', ' new', ' power', ' time', ' fire', ' decreasing', ' computer', ' "', ' decreased', ' speed', ' life']
+At Layer 18, the answer "decrease" is at position 0
+At Layer 18, Top 20 Vocab Probs: [' decrease', ' increase', ' change', ' growth', ' decline', ' data', ' software', ' improvement', ' new', ' improve', ' function', ' power', ' time', ' fire', ' reduction', ' value', ' update', ' evolution', ' decreased', ' size']
+At Layer 19, the answer "decrease" is at position 0
+At Layer 19, Top 20 Vocab Probs: [' decrease', ' increase', ' reduction', ' decreased', ' change', ' increased', ' decreasing', ' decreases', ' decline', ' reduce', ' growth', ' increasing', ' increases', ' improvement', ' improve', 'incre', ' data', ' software', ' Increase', ' Decre']
+At Layer 20, the answer "decrease" is at position 0
+At Layer 20, Top 20 Vocab Probs: [' decrease', ' increase', ' change', ' reduction', ' decreased', ' increased', ' decline', ' growth', ' decreases', ' decreasing', ' reduce', ' increasing', ' software', ' increases', ' data', ' improvement', ' new', ' improve', ' time', ' function']
+At Layer 21, the answer "decrease" is at position 0
+At Layer 21, Top 20 Vocab Probs: [' decrease', ' increase', ' growth', ' reduction', ' change', ' decline', ' software', ' decreased', ' data', ' new', ' reduce', ' decreases', ' decreasing', ' time', 'Ċ', ' "', ' improvement', ' increased', ' power', ' function']
+At Layer 22, the answer "decrease" is at position 0
+At Layer 22, Top 20 Vocab Probs: [' decrease', ' increase', ' growth', ' decline', ' change', ' reduction', ' new', ' software', ' data', ' decreased', ' reduce', ' health', 'Ċ', ' decreasing', ' "', ' time', ' decreases', ' increased', ' improve', ' power']
+At Layer 23, the answer "decrease" is at position 0
+At Layer 23, Top 20 Vocab Probs: [' decrease', ' increase', ' growth', ' software', ' decline', ' change', ' data', ' new', ' health', 'Ċ', ' reduction', ' power', ' hardware', ' time', ' "', ' the', ' computer', ' a', ' size', ' decreased']
+At Layer 24, the answer "decrease" is at position 0
+At Layer 24, Top 20 Vocab Probs: [' decrease', ' increase', ' growth', ' health', ' software', ' data', ' change', ' new', ' decline', ' power', 'Ċ', ' reduce', ' the', ' time', ' reduction', ' high', ' a', ' work', ' hardware', ' size']
+At Layer 25, the answer "decrease" is at position 0
+At Layer 25, Top 20 Vocab Probs: [' decrease', ' increase', ' growth', ' the', ' data', ' health', ' new', ' software', 'Ċ', ' a', ' change', ' power', '-', ' time', ' work', ' in', ' high', ' decline', ' "', ' size']
+At Layer 26, the answer "decrease" is at position 0
+At Layer 26, Top 20 Vocab Probs: [' decrease', ' the', ' increase', ' growth', ' new', ' software', ' a', 'Ċ', ' data', ' high', ' health', ' time', ' in', ' more', ' change', ' low', ' power', ' un', ' work', '-']
+At Layer 27, the answer "decrease" is at position 16
+At Layer 27, Top 20 Vocab Probs: [' the', ' a', 'Ċ', ' new', ' "', ' more', ' time', ' data', ' in', ' growth', ' high', ' un', ' use', ' p', ' (', ' ', ' decrease', ' work', ' good', ' number']
+---------------------1---------------------
+At Layer 1, the answer "decrease" is at position 39556
+At Layer 1, Top 20 Vocab Probs: [' Phys', ' SPD', ' role', ' chill', ' Ultimate', ' genes', ' roles', ' invention', ' name', ' sometimes', ' also', ' Savage', ' present', ' way', ' world', ' often', ' always', ' Lost', ' integration', ' expression']
+At Layer 2, the answer "decrease" is at position 41255
+At Layer 2, Top 20 Vocab Probs: [' Phys', ' Bren', ' role', ' Ess', ' Included', ' All', ' Simply', ' chill', ' Savage', ' Created', ' roles', ' Madd', ' genes', ' Physical', ' Fun', ' wrong', ' Birth', ' always', ' selling', ' Math']
+At Layer 3, the answer "decrease" is at position 26630
+At Layer 3, Top 20 Vocab Probs: [' Phys', ' who', ' wealth', ' often', ' "', ' ', ' respective', ' also', ' role', ' Physical', ' roles', ' invention', ' e', ' embodiment', ' founding', ' rest', ' physical', 'aging', ' wheelchair', ' author']
+At Layer 4, the answer "decrease" is at position 18570
+At Layer 4, Top 20 Vocab Probs: [' who', ' role', ' also', ' e', ' Phys', ' name', ' is', ' function', ' know', ' same', ' if', ' "', ' most', ' was', ' wealth', ' âĢ', ' ', ' use', ' rest', ' link']
+At Layer 5, the answer "decrease" is at position 10461
+At Layer 5, Top 20 Vocab Probs: [' name', ' same', ' role', ' link', ' need', ' mean', ' invention', ' ?', ' Phys', ' development', ' best', ' %', ' purpose', ' The', ' rate', ' benefits', ' growth', ' present', ' wealth', ' property']
+At Layer 6, the answer "decrease" is at position 5008
+At Layer 6, Top 20 Vocab Probs: [' name', ' same', ' "', ' not', ' money', ' other', ' link', ' more', ' ?', ' role', ' protein', ' invention', ' ', ' mean', ' true', ' function', ' number', '.', ' yes', ' is']
+At Layer 7, the answer "decrease" is at position 2354
+At Layer 7, Top 20 Vocab Probs: [' same', ' name', ' fire', ' invention', ' other', ' money', ' link', ' birth', ' carry', ' social', ' correct', ' concentration', ' role', ' description', ' center', ' protein', ' opportunity', ' store', ' process', ' focus']
+At Layer 8, the answer "decrease" is at position 2709
+At Layer 8, Top 20 Vocab Probs: [' same', ' The', ' name', ' invention', ' money', ' description', ' next', ' "', ' social', ' car', ' link', ' not', ' birth', ' other', ' concentration', ' search', ' definition', ' world', ' protein', ' role']
+At Layer 9, the answer "decrease" is at position 1255
+At Layer 9, Top 20 Vocab Probs: [' same', ' fire', ' money', ' "', ' link', ' invention', ' social', ' The', ' water', ' Car', ' state', ' the', ' power', ' $', ' car', ' name', ' ', ' not', ' other', ' birth']
+At Layer 10, the answer "decrease" is at position 504
+At Layer 10, Top 20 Vocab Probs: [' "', ' same', ' $', ' money', ' The', ' other', ' cancer', ' time', ' the', ' car', ' water', ' ', ' protein', ' social', ' *', ' no', ' age', ' life', ' c', " '"]
+At Layer 11, the answer "decrease" is at position 731
+At Layer 11, Top 20 Vocab Probs: [' "', ' same', ' health', ' time', ' normal', ' data', ' state', ' power', ' car', ' natural', ' no', ' not', ' $', ' world', ' community', ' protein', ' N', ' *', ' correct', ' energy']
+At Layer 12, the answer "decrease" is at position 318
+At Layer 12, Top 20 Vocab Probs: [' data', ' time', ' water', ' energy', ' health', ' money', ' power', ' $', ' world', ' state', ' same', ' good', ' food', ' life', ' motor', ' natural', ' the', ' car', ' human', ' social']
+At Layer 13, the answer "decrease" is at position 3
+At Layer 13, Top 20 Vocab Probs: [' increase', ' growth', ' change', ' decrease', ' increased', ' increasing', ' energy', ' data', ' function', ' improvement', ' improve', ' expansion', 'incre', ' increases', ' wealth', ' difference', ' evolution', ' enhance', ' higher', ' pressure']
+At Layer 14, the answer "decrease" is at position 1
+At Layer 14, Top 20 Vocab Probs: [' increase', ' decrease', ' growth', ' increased', ' change', ' increasing', ' increases', ' function', ' rate', ' expansion', 'incre', ' size', ' data', ' speed', ' higher', ' number', ' evolution', ' time', ' Increase', ' natural']
+At Layer 15, the answer "decrease" is at position 1
+At Layer 15, Top 20 Vocab Probs: [' increase', ' decrease', ' growth', ' change', ' function', ' data', ' rate', ' time', ' increased', ' evolution', ' energy', ' power', ' higher', ' speed', ' size', ' fire', ' new', ' increasing', ' life', ' increases']
+At Layer 16, the answer "decrease" is at position 0
+At Layer 16, Top 20 Vocab Probs: [' decrease', ' increase', ' change', ' growth', ' data', ' function', ' time', ' evolution', ' reduction', ' decline', ' power', ' energy', ' new', ' "', ' speed', ' fire', ' small', ' rate', ' life', ' low']
+At Layer 17, the answer "decrease" is at position 0
+At Layer 17, Top 20 Vocab Probs: [' decrease', ' increase', ' growth', ' change', ' data', ' software', ' function', ' evolution', ' decline', ' reduction', ' new', ' power', ' time', ' fire', ' decreasing', ' computer', ' "', ' decreased', ' speed', ' life']
+At Layer 18, the answer "decrease" is at position 0
+At Layer 18, Top 20 Vocab Probs: [' decrease', ' increase', ' change', ' growth', ' decline', ' data', ' software', ' improvement', ' new', ' improve', ' function', ' power', ' time', ' fire', ' reduction', ' value', ' update', ' evolution', ' decreased', ' size']
+At Layer 19, the answer "decrease" is at position 0
+At Layer 19, Top 20 Vocab Probs: [' decrease', ' increase', ' reduction', ' decreased', ' change', ' increased', ' decreasing', ' decreases', ' decline', ' reduce', ' growth', ' increasing', ' increases', ' improvement', ' improve', 'incre', ' data', ' software', ' Increase', ' Decre']
+At Layer 20, the answer "decrease" is at position 0
+At Layer 20, Top 20 Vocab Probs: [' decrease', ' increase', ' change', ' reduction', ' decreased', ' increased', ' decline', ' growth', ' decreases', ' decreasing', ' reduce', ' increasing', ' software', ' increases', ' data', ' improvement', ' new', ' improve', ' time', ' function']
+At Layer 21, the answer "decrease" is at position 0
+At Layer 21, Top 20 Vocab Probs: [' decrease', ' increase', ' growth', ' reduction', ' change', ' decline', ' software', ' decreased', ' data', ' new', ' reduce', ' decreases', ' decreasing', ' time', 'Ċ', ' "', ' improvement', ' increased', ' power', ' function']
+At Layer 22, the answer "decrease" is at position 0
+At Layer 22, Top 20 Vocab Probs: [' decrease', ' increase', ' growth', ' decline', ' change', ' reduction', ' new', ' software', ' data', ' decreased', ' reduce', ' health', 'Ċ', ' decreasing', ' "', ' time', ' decreases', ' increased', ' improve', ' power']
+At Layer 23, the answer "decrease" is at position 0
+At Layer 23, Top 20 Vocab Probs: [' decrease', ' increase', ' growth', ' software', ' decline', ' change', ' data', ' new', ' health', 'Ċ', ' reduction', ' power', ' hardware', ' time', ' "', ' the', ' computer', ' a', ' size', ' decreased']
+At Layer 24, the answer "decrease" is at position 0
+At Layer 24, Top 20 Vocab Probs: [' decrease', ' increase', ' growth', ' health', ' software', ' data', ' change', ' new', ' decline', ' power', 'Ċ', ' reduce', ' the', ' time', ' reduction', ' high', ' a', ' work', ' hardware', ' size']
+At Layer 25, the answer "decrease" is at position 0
+At Layer 25, Top 20 Vocab Probs: [' decrease', ' increase', ' growth', ' the', ' data', ' health', ' new', ' software', 'Ċ', ' a', ' change', ' power', '-', ' time', ' work', ' in', ' high', ' decline', ' "', ' size']
+At Layer 26, the answer "decrease" is at position 0
+At Layer 26, Top 20 Vocab Probs: [' decrease', ' the', ' increase', ' growth', ' new', ' software', ' a', 'Ċ', ' data', ' high', ' health', ' time', ' in', ' more', ' change', ' low', ' power', ' un', ' work', '-']
+At Layer 27, the answer "decrease" is at position 16
+At Layer 27, Top 20 Vocab Probs: [' the', ' a', 'Ċ', ' new', ' "', ' more', ' time', ' data', ' in', ' growth', ' high', ' un', ' use', ' p', ' (', ' ', ' decrease', ' work', ' good', ' number']
+---------------------2---------------------
+At Layer 2, the answer "decrease" is at position 41255
+At Layer 2, Top 20 Vocab Probs: [' Phys', ' Bren', ' role', ' Ess', ' Included', ' All', ' Simply', ' chill', ' Savage', ' Created', ' roles', ' Madd', ' genes', ' Physical', ' Fun', ' wrong', ' Birth', ' always', ' selling', ' Math']
+At Layer 3, the answer "decrease" is at position 26630
+At Layer 3, Top 20 Vocab Probs: [' Phys', ' who', ' wealth', ' often', ' "', ' ', ' respective', ' also', ' role', ' Physical', ' roles', ' invention', ' e', ' embodiment', ' founding', ' rest', ' physical', 'aging', ' wheelchair', ' author']
+At Layer 4, the answer "decrease" is at position 18570
+At Layer 4, Top 20 Vocab Probs: [' who', ' role', ' also', ' e', ' Phys', ' name', ' is', ' function', ' know', ' same', ' if', ' "', ' most', ' was', ' wealth', ' âĢ', ' ', ' use', ' rest', ' link']
+At Layer 5, the answer "decrease" is at position 10461
+At Layer 5, Top 20 Vocab Probs: [' name', ' same', ' role', ' link', ' need', ' mean', ' invention', ' ?', ' Phys', ' development', ' best', ' %', ' purpose', ' The', ' rate', ' benefits', ' growth', ' present', ' wealth', ' property']
+At Layer 6, the answer "decrease" is at position 5008
+At Layer 6, Top 20 Vocab Probs: [' name', ' same', ' "', ' not', ' money', ' other', ' link', ' more', ' ?', ' role', ' protein', ' invention', ' ', ' mean', ' true', ' function', ' number', '.', ' yes', ' is']
+At Layer 7, the answer "decrease" is at position 2354
+At Layer 7, Top 20 Vocab Probs: [' same', ' name', ' fire', ' invention', ' other', ' money', ' link', ' birth', ' carry', ' social', ' correct', ' concentration', ' role', ' description', ' center', ' protein', ' opportunity', ' store', ' process', ' focus']
+At Layer 8, the answer "decrease" is at position 2709
+At Layer 8, Top 20 Vocab Probs: [' same', ' The', ' name', ' invention', ' money', ' description', ' next', ' "', ' social', ' car', ' link', ' not', ' birth', ' other', ' concentration', ' search', ' definition', ' world', ' protein', ' role']
+At Layer 9, the answer "decrease" is at position 1255
+At Layer 9, Top 20 Vocab Probs: [' same', ' fire', ' money', ' "', ' link', ' invention', ' social', ' The', ' water', ' Car', ' state', ' the', ' power', ' $', ' car', ' name', ' ', ' not', ' other', ' birth']
+At Layer 10, the answer "decrease" is at position 504
+At Layer 10, Top 20 Vocab Probs: [' "', ' same', ' $', ' money', ' The', ' other', ' cancer', ' time', ' the', ' car', ' water', ' ', ' protein', ' social', ' *', ' no', ' age', ' life', ' c', " '"]
+At Layer 11, the answer "decrease" is at position 731
+At Layer 11, Top 20 Vocab Probs: [' "', ' same', ' health', ' time', ' normal', ' data', ' state', ' power', ' car', ' natural', ' no', ' not', ' $', ' world', ' community', ' protein', ' N', ' *', ' correct', ' energy']
+At Layer 12, the answer "decrease" is at position 318
+At Layer 12, Top 20 Vocab Probs: [' data', ' time', ' water', ' energy', ' health', ' money', ' power', ' $', ' world', ' state', ' same', ' good', ' food', ' life', ' motor', ' natural', ' the', ' car', ' human', ' social']
+At Layer 13, the answer "decrease" is at position 3
+At Layer 13, Top 20 Vocab Probs: [' increase', ' growth', ' change', ' decrease', ' increased', ' increasing', ' energy', ' data', ' function', ' improvement', ' improve', ' expansion', 'incre', ' increases', ' wealth', ' difference', ' evolution', ' enhance', ' higher', ' pressure']
+At Layer 14, the answer "decrease" is at position 1
+At Layer 14, Top 20 Vocab Probs: [' increase', ' decrease', ' growth', ' increased', ' change', ' increasing', ' increases', ' function', ' rate', ' expansion', 'incre', ' size', ' data', ' speed', ' higher', ' number', ' evolution', ' time', ' Increase', ' natural']
+At Layer 15, the answer "decrease" is at position 1
+At Layer 15, Top 20 Vocab Probs: [' increase', ' decrease', ' growth', ' change', ' function', ' data', ' rate', ' time', ' increased', ' evolution', ' energy', ' power', ' higher', ' speed', ' size', ' fire', ' new', ' increasing', ' life', ' increases']
+At Layer 16, the answer "decrease" is at position 0
+At Layer 16, Top 20 Vocab Probs: [' decrease', ' increase', ' change', ' growth', ' data', ' function', ' time', ' evolution', ' reduction', ' decline', ' power', ' energy', ' new', ' "', ' speed', ' fire', ' small', ' rate', ' life', ' low']
+At Layer 17, the answer "decrease" is at position 0
+At Layer 17, Top 20 Vocab Probs: [' decrease', ' increase', ' growth', ' change', ' data', ' software', ' function', ' evolution', ' decline', ' reduction', ' new', ' power', ' time', ' fire', ' decreasing', ' computer', ' "', ' decreased', ' speed', ' life']
+At Layer 18, the answer "decrease" is at position 0
+At Layer 18, Top 20 Vocab Probs: [' decrease', ' increase', ' change', ' growth', ' decline', ' data', ' software', ' improvement', ' new', ' improve', ' function', ' power', ' time', ' fire', ' reduction', ' value', ' update', ' evolution', ' decreased', ' size']
+At Layer 19, the answer "decrease" is at position 0
+At Layer 19, Top 20 Vocab Probs: [' decrease', ' increase', ' reduction', ' decreased', ' change', ' increased', ' decreasing', ' decreases', ' decline', ' reduce', ' growth', ' increasing', ' increases', ' improvement', ' improve', 'incre', ' data', ' software', ' Increase', ' Decre']
+At Layer 20, the answer "decrease" is at position 0
+At Layer 20, Top 20 Vocab Probs: [' decrease', ' increase', ' change', ' reduction', ' decreased', ' increased', ' decline', ' growth', ' decreases', ' decreasing', ' reduce', ' increasing', ' software', ' increases', ' data', ' improvement', ' new', ' improve', ' time', ' function']
+At Layer 21, the answer "decrease" is at position 0
+At Layer 21, Top 20 Vocab Probs: [' decrease', ' increase', ' growth', ' reduction', ' change', ' decline', ' software', ' decreased', ' data', ' new', ' reduce', ' decreases', ' decreasing', ' time', 'Ċ', ' "', ' improvement', ' increased', ' power', ' function']
+At Layer 22, the answer "decrease" is at position 0
+At Layer 22, Top 20 Vocab Probs: [' decrease', ' increase', ' growth', ' decline', ' change', ' reduction', ' new', ' software', ' data', ' decreased', ' reduce', ' health', 'Ċ', ' decreasing', ' "', ' time', ' decreases', ' increased', ' improve', ' power']
+At Layer 23, the answer "decrease" is at position 0
+At Layer 23, Top 20 Vocab Probs: [' decrease', ' increase', ' growth', ' software', ' decline', ' change', ' data', ' new', ' health', 'Ċ', ' reduction', ' power', ' hardware', ' time', ' "', ' the', ' computer', ' a', ' size', ' decreased']
+At Layer 24, the answer "decrease" is at position 0
+At Layer 24, Top 20 Vocab Probs: [' decrease', ' increase', ' growth', ' health', ' software', ' data', ' change', ' new', ' decline', ' power', 'Ċ', ' reduce', ' the', ' time', ' reduction', ' high', ' a', ' work', ' hardware', ' size']
+At Layer 25, the answer "decrease" is at position 0
+At Layer 25, Top 20 Vocab Probs: [' decrease', ' increase', ' growth', ' the', ' data', ' health', ' new', ' software', 'Ċ', ' a', ' change', ' power', '-', ' time', ' work', ' in', ' high', ' decline', ' "', ' size']
+At Layer 26, the answer "decrease" is at position 0
+At Layer 26, Top 20 Vocab Probs: [' decrease', ' the', ' increase', ' growth', ' new', ' software', ' a', 'Ċ', ' data', ' high', ' health', ' time', ' in', ' more', ' change', ' low', ' power', ' un', ' work', '-']
+At Layer 27, the answer "decrease" is at position 16
+At Layer 27, Top 20 Vocab Probs: [' the', ' a', 'Ċ', ' new', ' "', ' more', ' time', ' data', ' in', ' growth', ' high', ' un', ' use', ' p', ' (', ' ', ' decrease', ' work', ' good', ' number']
+---------------------3---------------------
+At Layer 3, the answer "decrease" is at position 26630
+At Layer 3, Top 20 Vocab Probs: [' Phys', ' who', ' wealth', ' often', ' "', ' ', ' respective', ' also', ' role', ' Physical', ' roles', ' invention', ' e', ' embodiment', ' founding', ' rest', ' physical', 'aging', ' wheelchair', ' author']
+At Layer 4, the answer "decrease" is at position 18570
+At Layer 4, Top 20 Vocab Probs: [' who', ' role', ' also', ' e', ' Phys', ' name', ' is', ' function', ' know', ' same', ' if', ' "', ' most', ' was', ' wealth', ' âĢ', ' ', ' use', ' rest', ' link']
+At Layer 5, the answer "decrease" is at position 10461
+At Layer 5, Top 20 Vocab Probs: [' name', ' same', ' role', ' link', ' need', ' mean', ' invention', ' ?', ' Phys', ' development', ' best', ' %', ' purpose', ' The', ' rate', ' benefits', ' growth', ' present', ' wealth', ' property']
+At Layer 6, the answer "decrease" is at position 5008
+At Layer 6, Top 20 Vocab Probs: [' name', ' same', ' "', ' not', ' money', ' other', ' link', ' more', ' ?', ' role', ' protein', ' invention', ' ', ' mean', ' true', ' function', ' number', '.', ' yes', ' is']
+At Layer 7, the answer "decrease" is at position 2354
+At Layer 7, Top 20 Vocab Probs: [' same', ' name', ' fire', ' invention', ' other', ' money', ' link', ' birth', ' carry', ' social', ' correct', ' concentration', ' role', ' description', ' center', ' protein', ' opportunity', ' store', ' process', ' focus']
+At Layer 8, the answer "decrease" is at position 2709
+At Layer 8, Top 20 Vocab Probs: [' same', ' The', ' name', ' invention', ' money', ' description', ' next', ' "', ' social', ' car', ' link', ' not', ' birth', ' other', ' concentration', ' search', ' definition', ' world', ' protein', ' role']
+At Layer 9, the answer "decrease" is at position 1255
+At Layer 9, Top 20 Vocab Probs: [' same', ' fire', ' money', ' "', ' link', ' invention', ' social', ' The', ' water', ' Car', ' state', ' the', ' power', ' $', ' car', ' name', ' ', ' not', ' other', ' birth']
+At Layer 10, the answer "decrease" is at position 504
+At Layer 10, Top 20 Vocab Probs: [' "', ' same', ' $', ' money', ' The', ' other', ' cancer', ' time', ' the', ' car', ' water', ' ', ' protein', ' social', ' *', ' no', ' age', ' life', ' c', " '"]
+At Layer 11, the answer "decrease" is at position 731
+At Layer 11, Top 20 Vocab Probs: [' "', ' same', ' health', ' time', ' normal', ' data', ' state', ' power', ' car', ' natural', ' no', ' not', ' $', ' world', ' community', ' protein', ' N', ' *', ' correct', ' energy']
+At Layer 12, the answer "decrease" is at position 318
+At Layer 12, Top 20 Vocab Probs: [' data', ' time', ' water', ' energy', ' health', ' money', ' power', ' $', ' world', ' state', ' same', ' good', ' food', ' life', ' motor', ' natural', ' the', ' car', ' human', ' social']
+At Layer 13, the answer "decrease" is at position 3
+At Layer 13, Top 20 Vocab Probs: [' increase', ' growth', ' change', ' decrease', ' increased', ' increasing', ' energy', ' data', ' function', ' improvement', ' improve', ' expansion', 'incre', ' increases', ' wealth', ' difference', ' evolution', ' enhance', ' higher', ' pressure']
+At Layer 14, the answer "decrease" is at position 1
+At Layer 14, Top 20 Vocab Probs: [' increase', ' decrease', ' growth', ' increased', ' change', ' increasing', ' increases', ' function', ' rate', ' expansion', 'incre', ' size', ' data', ' speed', ' higher', ' number', ' evolution', ' time', ' Increase', ' natural']
+At Layer 15, the answer "decrease" is at position 1
+At Layer 15, Top 20 Vocab Probs: [' increase', ' decrease', ' growth', ' change', ' function', ' data', ' rate', ' time', ' increased', ' evolution', ' energy', ' power', ' higher', ' speed', ' size', ' fire', ' new', ' increasing', ' life', ' increases']
+At Layer 16, the answer "decrease" is at position 0
+At Layer 16, Top 20 Vocab Probs: [' decrease', ' increase', ' change', ' growth', ' data', ' function', ' time', ' evolution', ' reduction', ' decline', ' power', ' energy', ' new', ' "', ' speed', ' fire', ' small', ' rate', ' life', ' low']
+At Layer 17, the answer "decrease" is at position 0
+At Layer 17, Top 20 Vocab Probs: [' decrease', ' increase', ' growth', ' change', ' data', ' software', ' function', ' evolution', ' decline', ' reduction', ' new', ' power', ' time', ' fire', ' decreasing', ' computer', ' "', ' decreased', ' speed', ' life']
+At Layer 18, the answer "decrease" is at position 0
+At Layer 18, Top 20 Vocab Probs: [' decrease', ' increase', ' change', ' growth', ' decline', ' data', ' software', ' improvement', ' new', ' improve', ' function', ' power', ' time', ' fire', ' reduction', ' value', ' update', ' evolution', ' decreased', ' size']
+At Layer 19, the answer "decrease" is at position 0
+At Layer 19, Top 20 Vocab Probs: [' decrease', ' increase', ' reduction', ' decreased', ' change', ' increased', ' decreasing', ' decreases', ' decline', ' reduce', ' growth', ' increasing', ' increases', ' improvement', ' improve', 'incre', ' data', ' software', ' Increase', ' Decre']
+At Layer 20, the answer "decrease" is at position 0
+At Layer 20, Top 20 Vocab Probs: [' decrease', ' increase', ' change', ' reduction', ' decreased', ' increased', ' decline', ' growth', ' decreases', ' decreasing', ' reduce', ' increasing', ' software', ' increases', ' data', ' improvement', ' new', ' improve', ' time', ' function']
+At Layer 21, the answer "decrease" is at position 0
+At Layer 21, Top 20 Vocab Probs: [' decrease', ' increase', ' growth', ' reduction', ' change', ' decline', ' software', ' decreased', ' data', ' new', ' reduce', ' decreases', ' decreasing', ' time', 'Ċ', ' "', ' improvement', ' increased', ' power', ' function']
+At Layer 22, the answer "decrease" is at position 0
+At Layer 22, Top 20 Vocab Probs: [' decrease', ' increase', ' growth', ' decline', ' change', ' reduction', ' new', ' software', ' data', ' decreased', ' reduce', ' health', 'Ċ', ' decreasing', ' "', ' time', ' decreases', ' increased', ' improve', ' power']
+At Layer 23, the answer "decrease" is at position 0
+At Layer 23, Top 20 Vocab Probs: [' decrease', ' increase', ' growth', ' software', ' decline', ' change', ' data', ' new', ' health', 'Ċ', ' reduction', ' power', ' hardware', ' time', ' "', ' the', ' computer', ' a', ' size', ' decreased']
+At Layer 24, the answer "decrease" is at position 0
+At Layer 24, Top 20 Vocab Probs: [' decrease', ' increase', ' growth', ' health', ' software', ' data', ' change', ' new', ' decline', ' power', 'Ċ', ' reduce', ' the', ' time', ' reduction', ' high', ' a', ' work', ' hardware', ' size']
+At Layer 25, the answer "decrease" is at position 0
+At Layer 25, Top 20 Vocab Probs: [' decrease', ' increase', ' growth', ' the', ' data', ' health', ' new', ' software', 'Ċ', ' a', ' change', ' power', '-', ' time', ' work', ' in', ' high', ' decline', ' "', ' size']
+At Layer 26, the answer "decrease" is at position 0
+At Layer 26, Top 20 Vocab Probs: [' decrease', ' the', ' increase', ' growth', ' new', ' software', ' a', 'Ċ', ' data', ' high', ' health', ' time', ' in', ' more', ' change', ' low', ' power', ' un', ' work', '-']
+At Layer 27, the answer "decrease" is at position 16
+At Layer 27, Top 20 Vocab Probs: [' the', ' a', 'Ċ', ' new', ' "', ' more', ' time', ' data', ' in', ' growth', ' high', ' un', ' use', ' p', ' (', ' ', ' decrease', ' work', ' good', ' number']
+---------------------4---------------------
+At Layer 4, the answer "decrease" is at position 18570
+At Layer 4, Top 20 Vocab Probs: [' who', ' role', ' also', ' e', ' Phys', ' name', ' is', ' function', ' know', ' same', ' if', ' "', ' most', ' was', ' wealth', ' âĢ', ' ', ' use', ' rest', ' link']
+At Layer 5, the answer "decrease" is at position 10461
+At Layer 5, Top 20 Vocab Probs: [' name', ' same', ' role', ' link', ' need', ' mean', ' invention', ' ?', ' Phys', ' development', ' best', ' %', ' purpose', ' The', ' rate', ' benefits', ' growth', ' present', ' wealth', ' property']
+At Layer 6, the answer "decrease" is at position 5008
+At Layer 6, Top 20 Vocab Probs: [' name', ' same', ' "', ' not', ' money', ' other', ' link', ' more', ' ?', ' role', ' protein', ' invention', ' ', ' mean', ' true', ' function', ' number', '.', ' yes', ' is']
+At Layer 7, the answer "decrease" is at position 2354
+At Layer 7, Top 20 Vocab Probs: [' same', ' name', ' fire', ' invention', ' other', ' money', ' link', ' birth', ' carry', ' social', ' correct', ' concentration', ' role', ' description', ' center', ' protein', ' opportunity', ' store', ' process', ' focus']
+At Layer 8, the answer "decrease" is at position 2709
+At Layer 8, Top 20 Vocab Probs: [' same', ' The', ' name', ' invention', ' money', ' description', ' next', ' "', ' social', ' car', ' link', ' not', ' birth', ' other', ' concentration', ' search', ' definition', ' world', ' protein', ' role']
+At Layer 9, the answer "decrease" is at position 1255
+At Layer 9, Top 20 Vocab Probs: [' same', ' fire', ' money', ' "', ' link', ' invention', ' social', ' The', ' water', ' Car', ' state', ' the', ' power', ' $', ' car', ' name', ' ', ' not', ' other', ' birth']
+At Layer 10, the answer "decrease" is at position 504
+At Layer 10, Top 20 Vocab Probs: [' "', ' same', ' $', ' money', ' The', ' other', ' cancer', ' time', ' the', ' car', ' water', ' ', ' protein', ' social', ' *', ' no', ' age', ' life', ' c', " '"]
+At Layer 11, the answer "decrease" is at position 731
+At Layer 11, Top 20 Vocab Probs: [' "', ' same', ' health', ' time', ' normal', ' data', ' state', ' power', ' car', ' natural', ' no', ' not', ' $', ' world', ' community', ' protein', ' N', ' *', ' correct', ' energy']
+At Layer 12, the answer "decrease" is at position 318
+At Layer 12, Top 20 Vocab Probs: [' data', ' time', ' water', ' energy', ' health', ' money', ' power', ' $', ' world', ' state', ' same', ' good', ' food', ' life', ' motor', ' natural', ' the', ' car', ' human', ' social']
+At Layer 13, the answer "decrease" is at position 3
+At Layer 13, Top 20 Vocab Probs: [' increase', ' growth', ' change', ' decrease', ' increased', ' increasing', ' energy', ' data', ' function', ' improvement', ' improve', ' expansion', 'incre', ' increases', ' wealth', ' difference', ' evolution', ' enhance', ' higher', ' pressure']
+At Layer 14, the answer "decrease" is at position 1
+At Layer 14, Top 20 Vocab Probs: [' increase', ' decrease', ' growth', ' increased', ' change', ' increasing', ' increases', ' function', ' rate', ' expansion', 'incre', ' size', ' data', ' speed', ' higher', ' number', ' evolution', ' time', ' Increase', ' natural']
+At Layer 15, the answer "decrease" is at position 1
+At Layer 15, Top 20 Vocab Probs: [' increase', ' decrease', ' growth', ' change', ' function', ' data', ' rate', ' time', ' increased', ' evolution', ' energy', ' power', ' higher', ' speed', ' size', ' fire', ' new', ' increasing', ' life', ' increases']
+At Layer 16, the answer "decrease" is at position 0
+At Layer 16, Top 20 Vocab Probs: [' decrease', ' increase', ' change', ' growth', ' data', ' function', ' time', ' evolution', ' reduction', ' decline', ' power', ' energy', ' new', ' "', ' speed', ' fire', ' small', ' rate', ' life', ' low']
+At Layer 17, the answer "decrease" is at position 0
+At Layer 17, Top 20 Vocab Probs: [' decrease', ' increase', ' growth', ' change', ' data', ' software', ' function', ' evolution', ' decline', ' reduction', ' new', ' power', ' time', ' fire', ' decreasing', ' computer', ' "', ' decreased', ' speed', ' life']
+At Layer 18, the answer "decrease" is at position 0
+At Layer 18, Top 20 Vocab Probs: [' decrease', ' increase', ' change', ' growth', ' decline', ' data', ' software', ' improvement', ' new', ' improve', ' function', ' power', ' time', ' fire', ' reduction', ' value', ' update', ' evolution', ' decreased', ' size']
+At Layer 19, the answer "decrease" is at position 0
+At Layer 19, Top 20 Vocab Probs: [' decrease', ' increase', ' reduction', ' decreased', ' change', ' increased', ' decreasing', ' decreases', ' decline', ' reduce', ' growth', ' increasing', ' increases', ' improvement', ' improve', 'incre', ' data', ' software', ' Increase', ' Decre']
+At Layer 20, the answer "decrease" is at position 0
+At Layer 20, Top 20 Vocab Probs: [' decrease', ' increase', ' change', ' reduction', ' decreased', ' increased', ' decline', ' growth', ' decreases', ' decreasing', ' reduce', ' increasing', ' software', ' increases', ' data', ' improvement', ' new', ' improve', ' time', ' function']
+At Layer 21, the answer "decrease" is at position 0
+At Layer 21, Top 20 Vocab Probs: [' decrease', ' increase', ' growth', ' reduction', ' change', ' decline', ' software', ' decreased', ' data', ' new', ' reduce', ' decreases', ' decreasing', ' time', 'Ċ', ' "', ' improvement', ' increased', ' power', ' function']
+At Layer 22, the answer "decrease" is at position 0
+At Layer 22, Top 20 Vocab Probs: [' decrease', ' increase', ' growth', ' decline', ' change', ' reduction', ' new', ' software', ' data', ' decreased', ' reduce', ' health', 'Ċ', ' decreasing', ' "', ' time', ' decreases', ' increased', ' improve', ' power']
+At Layer 23, the answer "decrease" is at position 0
+At Layer 23, Top 20 Vocab Probs: [' decrease', ' increase', ' growth', ' software', ' decline', ' change', ' data', ' new', ' health', 'Ċ', ' reduction', ' power', ' hardware', ' time', ' "', ' the', ' computer', ' a', ' size', ' decreased']
+At Layer 24, the answer "decrease" is at position 0
+At Layer 24, Top 20 Vocab Probs: [' decrease', ' increase', ' growth', ' health', ' software', ' data', ' change', ' new', ' decline', ' power', 'Ċ', ' reduce', ' the', ' time', ' reduction', ' high', ' a', ' work', ' hardware', ' size']
+At Layer 25, the answer "decrease" is at position 0
+At Layer 25, Top 20 Vocab Probs: [' decrease', ' increase', ' growth', ' the', ' data', ' health', ' new', ' software', 'Ċ', ' a', ' change', ' power', '-', ' time', ' work', ' in', ' high', ' decline', ' "', ' size']
+At Layer 26, the answer "decrease" is at position 0
+At Layer 26, Top 20 Vocab Probs: [' decrease', ' the', ' increase', ' growth', ' new', ' software', ' a', 'Ċ', ' data', ' high', ' health', ' time', ' in', ' more', ' change', ' low', ' power', ' un', ' work', '-']
+At Layer 27, the answer "decrease" is at position 16
+At Layer 27, Top 20 Vocab Probs: [' the', ' a', 'Ċ', ' new', ' "', ' more', ' time', ' data', ' in', ' growth', ' high', ' un', ' use', ' p', ' (', ' ', ' decrease', ' work', ' good', ' number']
+---------------------5---------------------
+At Layer 5, the answer "decrease" is at position 10461
+At Layer 5, Top 20 Vocab Probs: [' name', ' same', ' role', ' link', ' need', ' mean', ' invention', ' ?', ' Phys', ' development', ' best', ' %', ' purpose', ' The', ' rate', ' benefits', ' growth', ' present', ' wealth', ' property']
+At Layer 6, the answer "decrease" is at position 5008
+At Layer 6, Top 20 Vocab Probs: [' name', ' same', ' "', ' not', ' money', ' other', ' link', ' more', ' ?', ' role', ' protein', ' invention', ' ', ' mean', ' true', ' function', ' number', '.', ' yes', ' is']
+At Layer 7, the answer "decrease" is at position 2354
+At Layer 7, Top 20 Vocab Probs: [' same', ' name', ' fire', ' invention', ' other', ' money', ' link', ' birth', ' carry', ' social', ' correct', ' concentration', ' role', ' description', ' center', ' protein', ' opportunity', ' store', ' process', ' focus']
+At Layer 8, the answer "decrease" is at position 2709
+At Layer 8, Top 20 Vocab Probs: [' same', ' The', ' name', ' invention', ' money', ' description', ' next', ' "', ' social', ' car', ' link', ' not', ' birth', ' other', ' concentration', ' search', ' definition', ' world', ' protein', ' role']
+At Layer 9, the answer "decrease" is at position 1255
+At Layer 9, Top 20 Vocab Probs: [' same', ' fire', ' money', ' "', ' link', ' invention', ' social', ' The', ' water', ' Car', ' state', ' the', ' power', ' $', ' car', ' name', ' ', ' not', ' other', ' birth']
+At Layer 10, the answer "decrease" is at position 504
+At Layer 10, Top 20 Vocab Probs: [' "', ' same', ' $', ' money', ' The', ' other', ' cancer', ' time', ' the', ' car', ' water', ' ', ' protein', ' social', ' *', ' no', ' age', ' life', ' c', " '"]
+At Layer 11, the answer "decrease" is at position 731
+At Layer 11, Top 20 Vocab Probs: [' "', ' same', ' health', ' time', ' normal', ' data', ' state', ' power', ' car', ' natural', ' no', ' not', ' $', ' world', ' community', ' protein', ' N', ' *', ' correct', ' energy']
+At Layer 12, the answer "decrease" is at position 318
+At Layer 12, Top 20 Vocab Probs: [' data', ' time', ' water', ' energy', ' health', ' money', ' power', ' $', ' world', ' state', ' same', ' good', ' food', ' life', ' motor', ' natural', ' the', ' car', ' human', ' social']
+At Layer 13, the answer "decrease" is at position 3
+At Layer 13, Top 20 Vocab Probs: [' increase', ' growth', ' change', ' decrease', ' increased', ' increasing', ' energy', ' data', ' function', ' improvement', ' improve', ' expansion', 'incre', ' increases', ' wealth', ' difference', ' evolution', ' enhance', ' higher', ' pressure']
+At Layer 14, the answer "decrease" is at position 1
+At Layer 14, Top 20 Vocab Probs: [' increase', ' decrease', ' growth', ' increased', ' change', ' increasing', ' increases', ' function', ' rate', ' expansion', 'incre', ' size', ' data', ' speed', ' higher', ' number', ' evolution', ' time', ' Increase', ' natural']
+At Layer 15, the answer "decrease" is at position 1
+At Layer 15, Top 20 Vocab Probs: [' increase', ' decrease', ' growth', ' change', ' function', ' data', ' rate', ' time', ' increased', ' evolution', ' energy', ' power', ' higher', ' speed', ' size', ' fire', ' new', ' increasing', ' life', ' increases']
+At Layer 16, the answer "decrease" is at position 0
+At Layer 16, Top 20 Vocab Probs: [' decrease', ' increase', ' change', ' growth', ' data', ' function', ' time', ' evolution', ' reduction', ' decline', ' power', ' energy', ' new', ' "', ' speed', ' fire', ' small', ' rate', ' life', ' low']
+At Layer 17, the answer "decrease" is at position 0
+At Layer 17, Top 20 Vocab Probs: [' decrease', ' increase', ' growth', ' change', ' data', ' software', ' function', ' evolution', ' decline', ' reduction', ' new', ' power', ' time', ' fire', ' decreasing', ' computer', ' "', ' decreased', ' speed', ' life']
+At Layer 18, the answer "decrease" is at position 0
+At Layer 18, Top 20 Vocab Probs: [' decrease', ' increase', ' change', ' growth', ' decline', ' data', ' software', ' improvement', ' new', ' improve', ' function', ' power', ' time', ' fire', ' reduction', ' value', ' update', ' evolution', ' decreased', ' size']
+At Layer 19, the answer "decrease" is at position 0
+At Layer 19, Top 20 Vocab Probs: [' decrease', ' increase', ' reduction', ' decreased', ' change', ' increased', ' decreasing', ' decreases', ' decline', ' reduce', ' growth', ' increasing', ' increases', ' improvement', ' improve', 'incre', ' data', ' software', ' Increase', ' Decre']
+At Layer 20, the answer "decrease" is at position 0
+At Layer 20, Top 20 Vocab Probs: [' decrease', ' increase', ' change', ' reduction', ' decreased', ' increased', ' decline', ' growth', ' decreases', ' decreasing', ' reduce', ' increasing', ' software', ' increases', ' data', ' improvement', ' new', ' improve', ' time', ' function']
+At Layer 21, the answer "decrease" is at position 0
+At Layer 21, Top 20 Vocab Probs: [' decrease', ' increase', ' growth', ' reduction', ' change', ' decline', ' software', ' decreased', ' data', ' new', ' reduce', ' decreases', ' decreasing', ' time', 'Ċ', ' "', ' improvement', ' increased', ' power', ' function']
+At Layer 22, the answer "decrease" is at position 0
+At Layer 22, Top 20 Vocab Probs: [' decrease', ' increase', ' growth', ' decline', ' change', ' reduction', ' new', ' software', ' data', ' decreased', ' reduce', ' health', 'Ċ', ' decreasing', ' "', ' time', ' decreases', ' increased', ' improve', ' power']
+At Layer 23, the answer "decrease" is at position 0
+At Layer 23, Top 20 Vocab Probs: [' decrease', ' increase', ' growth', ' software', ' decline', ' change', ' data', ' new', ' health', 'Ċ', ' reduction', ' power', ' hardware', ' time', ' "', ' the', ' computer', ' a', ' size', ' decreased']
+At Layer 24, the answer "decrease" is at position 0
+At Layer 24, Top 20 Vocab Probs: [' decrease', ' increase', ' growth', ' health', ' software', ' data', ' change', ' new', ' decline', ' power', 'Ċ', ' reduce', ' the', ' time', ' reduction', ' high', ' a', ' work', ' hardware', ' size']
+At Layer 25, the answer "decrease" is at position 0
+At Layer 25, Top 20 Vocab Probs: [' decrease', ' increase', ' growth', ' the', ' data', ' health', ' new', ' software', 'Ċ', ' a', ' change', ' power', '-', ' time', ' work', ' in', ' high', ' decline', ' "', ' size']
+At Layer 26, the answer "decrease" is at position 0
+At Layer 26, Top 20 Vocab Probs: [' decrease', ' the', ' increase', ' growth', ' new', ' software', ' a', 'Ċ', ' data', ' high', ' health', ' time', ' in', ' more', ' change', ' low', ' power', ' un', ' work', '-']
+At Layer 27, the answer "decrease" is at position 16
+At Layer 27, Top 20 Vocab Probs: [' the', ' a', 'Ċ', ' new', ' "', ' more', ' time', ' data', ' in', ' growth', ' high', ' un', ' use', ' p', ' (', ' ', ' decrease', ' work', ' good', ' number']
+---------------------6---------------------
+At Layer 6, the answer "decrease" is at position 5008
+At Layer 6, Top 20 Vocab Probs: [' name', ' same', ' "', ' not', ' money', ' other', ' link', ' more', ' ?', ' role', ' protein', ' invention', ' ', ' mean', ' true', ' function', ' number', '.', ' yes', ' is']
+At Layer 7, the answer "decrease" is at position 2354
+At Layer 7, Top 20 Vocab Probs: [' same', ' name', ' fire', ' invention', ' other', ' money', ' link', ' birth', ' carry', ' social', ' correct', ' concentration', ' role', ' description', ' center', ' protein', ' opportunity', ' store', ' process', ' focus']
+At Layer 8, the answer "decrease" is at position 2709
+At Layer 8, Top 20 Vocab Probs: [' same', ' The', ' name', ' invention', ' money', ' description', ' next', ' "', ' social', ' car', ' link', ' not', ' birth', ' other', ' concentration', ' search', ' definition', ' world', ' protein', ' role']
+At Layer 9, the answer "decrease" is at position 1255
+At Layer 9, Top 20 Vocab Probs: [' same', ' fire', ' money', ' "', ' link', ' invention', ' social', ' The', ' water', ' Car', ' state', ' the', ' power', ' $', ' car', ' name', ' ', ' not', ' other', ' birth']
+At Layer 10, the answer "decrease" is at position 504
+At Layer 10, Top 20 Vocab Probs: [' "', ' same', ' $', ' money', ' The', ' other', ' cancer', ' time', ' the', ' car', ' water', ' ', ' protein', ' social', ' *', ' no', ' age', ' life', ' c', " '"]
+At Layer 11, the answer "decrease" is at position 731
+At Layer 11, Top 20 Vocab Probs: [' "', ' same', ' health', ' time', ' normal', ' data', ' state', ' power', ' car', ' natural', ' no', ' not', ' $', ' world', ' community', ' protein', ' N', ' *', ' correct', ' energy']
+At Layer 12, the answer "decrease" is at position 318
+At Layer 12, Top 20 Vocab Probs: [' data', ' time', ' water', ' energy', ' health', ' money', ' power', ' $', ' world', ' state', ' same', ' good', ' food', ' life', ' motor', ' natural', ' the', ' car', ' human', ' social']
+At Layer 13, the answer "decrease" is at position 3
+At Layer 13, Top 20 Vocab Probs: [' increase', ' growth', ' change', ' decrease', ' increased', ' increasing', ' energy', ' data', ' function', ' improvement', ' improve', ' expansion', 'incre', ' increases', ' wealth', ' difference', ' evolution', ' enhance', ' higher', ' pressure']
+At Layer 14, the answer "decrease" is at position 1
+At Layer 14, Top 20 Vocab Probs: [' increase', ' decrease', ' growth', ' increased', ' change', ' increasing', ' increases', ' function', ' rate', ' expansion', 'incre', ' size', ' data', ' speed', ' higher', ' number', ' evolution', ' time', ' Increase', ' natural']
+At Layer 15, the answer "decrease" is at position 1
+At Layer 15, Top 20 Vocab Probs: [' increase', ' decrease', ' growth', ' change', ' function', ' data', ' rate', ' time', ' increased', ' evolution', ' energy', ' power', ' higher', ' speed', ' size', ' fire', ' new', ' increasing', ' life', ' increases']
+At Layer 16, the answer "decrease" is at position 0
+At Layer 16, Top 20 Vocab Probs: [' decrease', ' increase', ' change', ' growth', ' data', ' function', ' time', ' evolution', ' reduction', ' decline', ' power', ' energy', ' new', ' "', ' speed', ' fire', ' small', ' rate', ' life', ' low']
+At Layer 17, the answer "decrease" is at position 0
+At Layer 17, Top 20 Vocab Probs: [' decrease', ' increase', ' growth', ' change', ' data', ' software', ' function', ' evolution', ' decline', ' reduction', ' new', ' power', ' time', ' fire', ' decreasing', ' computer', ' "', ' decreased', ' speed', ' life']
+At Layer 18, the answer "decrease" is at position 0
+At Layer 18, Top 20 Vocab Probs: [' decrease', ' increase', ' change', ' growth', ' decline', ' data', ' software', ' improvement', ' new', ' improve', ' function', ' power', ' time', ' fire', ' reduction', ' value', ' update', ' evolution', ' decreased', ' size']
+At Layer 19, the answer "decrease" is at position 0
+At Layer 19, Top 20 Vocab Probs: [' decrease', ' increase', ' reduction', ' decreased', ' change', ' increased', ' decreasing', ' decreases', ' decline', ' reduce', ' growth', ' increasing', ' increases', ' improvement', ' improve', 'incre', ' data', ' software', ' Increase', ' Decre']
+At Layer 20, the answer "decrease" is at position 0
+At Layer 20, Top 20 Vocab Probs: [' decrease', ' increase', ' change', ' reduction', ' decreased', ' increased', ' decline', ' growth', ' decreases', ' decreasing', ' reduce', ' increasing', ' software', ' increases', ' data', ' improvement', ' new', ' improve', ' time', ' function']
+At Layer 21, the answer "decrease" is at position 0
+At Layer 21, Top 20 Vocab Probs: [' decrease', ' increase', ' growth', ' reduction', ' change', ' decline', ' software', ' decreased', ' data', ' new', ' reduce', ' decreases', ' decreasing', ' time', 'Ċ', ' "', ' improvement', ' increased', ' power', ' function']
+At Layer 22, the answer "decrease" is at position 0
+At Layer 22, Top 20 Vocab Probs: [' decrease', ' increase', ' growth', ' decline', ' change', ' reduction', ' new', ' software', ' data', ' decreased', ' reduce', ' health', 'Ċ', ' decreasing', ' "', ' time', ' decreases', ' increased', ' improve', ' power']
+At Layer 23, the answer "decrease" is at position 0
+At Layer 23, Top 20 Vocab Probs: [' decrease', ' increase', ' growth', ' software', ' decline', ' change', ' data', ' new', ' health', 'Ċ', ' reduction', ' power', ' hardware', ' time', ' "', ' the', ' computer', ' a', ' size', ' decreased']
+At Layer 24, the answer "decrease" is at position 0
+At Layer 24, Top 20 Vocab Probs: [' decrease', ' increase', ' growth', ' health', ' software', ' data', ' change', ' new', ' decline', ' power', 'Ċ', ' reduce', ' the', ' time', ' reduction', ' high', ' a', ' work', ' hardware', ' size']
+At Layer 25, the answer "decrease" is at position 0
+At Layer 25, Top 20 Vocab Probs: [' decrease', ' increase', ' growth', ' the', ' data', ' health', ' new', ' software', 'Ċ', ' a', ' change', ' power', '-', ' time', ' work', ' in', ' high', ' decline', ' "', ' size']
+At Layer 26, the answer "decrease" is at position 0
+At Layer 26, Top 20 Vocab Probs: [' decrease', ' the', ' increase', ' growth', ' new', ' software', ' a', 'Ċ', ' data', ' high', ' health', ' time', ' in', ' more', ' change', ' low', ' power', ' un', ' work', '-']
+At Layer 27, the answer "decrease" is at position 16
+At Layer 27, Top 20 Vocab Probs: [' the', ' a', 'Ċ', ' new', ' "', ' more', ' time', ' data', ' in', ' growth', ' high', ' un', ' use', ' p', ' (', ' ', ' decrease', ' work', ' good', ' number']
+---------------------7---------------------
+At Layer 7, the answer "decrease" is at position 2354
+At Layer 7, Top 20 Vocab Probs: [' same', ' name', ' fire', ' invention', ' other', ' money', ' link', ' birth', ' carry', ' social', ' correct', ' concentration', ' role', ' description', ' center', ' protein', ' opportunity', ' store', ' process', ' focus']
+At Layer 8, the answer "decrease" is at position 2709
+At Layer 8, Top 20 Vocab Probs: [' same', ' The', ' name', ' invention', ' money', ' description', ' next', ' "', ' social', ' car', ' link', ' not', ' birth', ' other', ' concentration', ' search', ' definition', ' world', ' protein', ' role']
+At Layer 9, the answer "decrease" is at position 1255
+At Layer 9, Top 20 Vocab Probs: [' same', ' fire', ' money', ' "', ' link', ' invention', ' social', ' The', ' water', ' Car', ' state', ' the', ' power', ' $', ' car', ' name', ' ', ' not', ' other', ' birth']
+At Layer 10, the answer "decrease" is at position 504
+At Layer 10, Top 20 Vocab Probs: [' "', ' same', ' $', ' money', ' The', ' other', ' cancer', ' time', ' the', ' car', ' water', ' ', ' protein', ' social', ' *', ' no', ' age', ' life', ' c', " '"]
+At Layer 11, the answer "decrease" is at position 731
+At Layer 11, Top 20 Vocab Probs: [' "', ' same', ' health', ' time', ' normal', ' data', ' state', ' power', ' car', ' natural', ' no', ' not', ' $', ' world', ' community', ' protein', ' N', ' *', ' correct', ' energy']
+At Layer 12, the answer "decrease" is at position 318
+At Layer 12, Top 20 Vocab Probs: [' data', ' time', ' water', ' energy', ' health', ' money', ' power', ' $', ' world', ' state', ' same', ' good', ' food', ' life', ' motor', ' natural', ' the', ' car', ' human', ' social']
+At Layer 13, the answer "decrease" is at position 3
+At Layer 13, Top 20 Vocab Probs: [' increase', ' growth', ' change', ' decrease', ' increased', ' increasing', ' energy', ' data', ' function', ' improvement', ' improve', ' expansion', 'incre', ' increases', ' wealth', ' difference', ' evolution', ' enhance', ' higher', ' pressure']
+At Layer 14, the answer "decrease" is at position 1
+At Layer 14, Top 20 Vocab Probs: [' increase', ' decrease', ' growth', ' increased', ' change', ' increasing', ' increases', ' function', ' rate', ' expansion', 'incre', ' size', ' data', ' speed', ' higher', ' number', ' evolution', ' time', ' Increase', ' natural']
+At Layer 15, the answer "decrease" is at position 1
+At Layer 15, Top 20 Vocab Probs: [' increase', ' decrease', ' growth', ' change', ' function', ' data', ' rate', ' time', ' increased', ' evolution', ' energy', ' power', ' higher', ' speed', ' size', ' fire', ' new', ' increasing', ' life', ' increases']
+At Layer 16, the answer "decrease" is at position 0
+At Layer 16, Top 20 Vocab Probs: [' decrease', ' increase', ' change', ' growth', ' data', ' function', ' time', ' evolution', ' reduction', ' decline', ' power', ' energy', ' new', ' "', ' speed', ' fire', ' small', ' rate', ' life', ' low']
+At Layer 17, the answer "decrease" is at position 0
+At Layer 17, Top 20 Vocab Probs: [' decrease', ' increase', ' growth', ' change', ' data', ' software', ' function', ' evolution', ' decline', ' reduction', ' new', ' power', ' time', ' fire', ' decreasing', ' computer', ' "', ' decreased', ' speed', ' life']
+At Layer 18, the answer "decrease" is at position 0
+At Layer 18, Top 20 Vocab Probs: [' decrease', ' increase', ' change', ' growth', ' decline', ' data', ' software', ' improvement', ' new', ' improve', ' function', ' power', ' time', ' fire', ' reduction', ' value', ' update', ' evolution', ' decreased', ' size']
+At Layer 19, the answer "decrease" is at position 0
+At Layer 19, Top 20 Vocab Probs: [' decrease', ' increase', ' reduction', ' decreased', ' change', ' increased', ' decreasing', ' decreases', ' decline', ' reduce', ' growth', ' increasing', ' increases', ' improvement', ' improve', 'incre', ' data', ' software', ' Increase', ' Decre']
+At Layer 20, the answer "decrease" is at position 0
+At Layer 20, Top 20 Vocab Probs: [' decrease', ' increase', ' change', ' reduction', ' decreased', ' increased', ' decline', ' growth', ' decreases', ' decreasing', ' reduce', ' increasing', ' software', ' increases', ' data', ' improvement', ' new', ' improve', ' time', ' function']
+At Layer 21, the answer "decrease" is at position 0
+At Layer 21, Top 20 Vocab Probs: [' decrease', ' increase', ' growth', ' reduction', ' change', ' decline', ' software', ' decreased', ' data', ' new', ' reduce', ' decreases', ' decreasing', ' time', 'Ċ', ' "', ' improvement', ' increased', ' power', ' function']
+At Layer 22, the answer "decrease" is at position 0
+At Layer 22, Top 20 Vocab Probs: [' decrease', ' increase', ' growth', ' decline', ' change', ' reduction', ' new', ' software', ' data', ' decreased', ' reduce', ' health', 'Ċ', ' decreasing', ' "', ' time', ' decreases', ' increased', ' improve', ' power']
+At Layer 23, the answer "decrease" is at position 0
+At Layer 23, Top 20 Vocab Probs: [' decrease', ' increase', ' growth', ' software', ' decline', ' change', ' data', ' new', ' health', 'Ċ', ' reduction', ' power', ' hardware', ' time', ' "', ' the', ' computer', ' a', ' size', ' decreased']
+At Layer 24, the answer "decrease" is at position 0
+At Layer 24, Top 20 Vocab Probs: [' decrease', ' increase', ' growth', ' health', ' software', ' data', ' change', ' new', ' decline', ' power', 'Ċ', ' reduce', ' the', ' time', ' reduction', ' high', ' a', ' work', ' hardware', ' size']
+At Layer 25, the answer "decrease" is at position 0
+At Layer 25, Top 20 Vocab Probs: [' decrease', ' increase', ' growth', ' the', ' data', ' health', ' new', ' software', 'Ċ', ' a', ' change', ' power', '-', ' time', ' work', ' in', ' high', ' decline', ' "', ' size']
+At Layer 26, the answer "decrease" is at position 0
+At Layer 26, Top 20 Vocab Probs: [' decrease', ' the', ' increase', ' growth', ' new', ' software', ' a', 'Ċ', ' data', ' high', ' health', ' time', ' in', ' more', ' change', ' low', ' power', ' un', ' work', '-']
+At Layer 27, the answer "decrease" is at position 16
+At Layer 27, Top 20 Vocab Probs: [' the', ' a', 'Ċ', ' new', ' "', ' more', ' time', ' data', ' in', ' growth', ' high', ' un', ' use', ' p', ' (', ' ', ' decrease', ' work', ' good', ' number']
+---------------------8---------------------
+At Layer 8, the answer "decrease" is at position 2709
+At Layer 8, Top 20 Vocab Probs: [' same', ' The', ' name', ' invention', ' money', ' description', ' next', ' "', ' social', ' car', ' link', ' not', ' birth', ' other', ' concentration', ' search', ' definition', ' world', ' protein', ' role']
+At Layer 9, the answer "decrease" is at position 1255
+At Layer 9, Top 20 Vocab Probs: [' same', ' fire', ' money', ' "', ' link', ' invention', ' social', ' The', ' water', ' Car', ' state', ' the', ' power', ' $', ' car', ' name', ' ', ' not', ' other', ' birth']
+At Layer 10, the answer "decrease" is at position 504
+At Layer 10, Top 20 Vocab Probs: [' "', ' same', ' $', ' money', ' The', ' other', ' cancer', ' time', ' the', ' car', ' water', ' ', ' protein', ' social', ' *', ' no', ' age', ' life', ' c', " '"]
+At Layer 11, the answer "decrease" is at position 731
+At Layer 11, Top 20 Vocab Probs: [' "', ' same', ' health', ' time', ' normal', ' data', ' state', ' power', ' car', ' natural', ' no', ' not', ' $', ' world', ' community', ' protein', ' N', ' *', ' correct', ' energy']
+At Layer 12, the answer "decrease" is at position 318
+At Layer 12, Top 20 Vocab Probs: [' data', ' time', ' water', ' energy', ' health', ' money', ' power', ' $', ' world', ' state', ' same', ' good', ' food', ' life', ' motor', ' natural', ' the', ' car', ' human', ' social']
+At Layer 13, the answer "decrease" is at position 3
+At Layer 13, Top 20 Vocab Probs: [' increase', ' growth', ' change', ' decrease', ' increased', ' increasing', ' energy', ' data', ' function', ' improvement', ' improve', ' expansion', 'incre', ' increases', ' wealth', ' difference', ' evolution', ' enhance', ' higher', ' pressure']
+At Layer 14, the answer "decrease" is at position 1
+At Layer 14, Top 20 Vocab Probs: [' increase', ' decrease', ' growth', ' increased', ' change', ' increasing', ' increases', ' function', ' rate', ' expansion', 'incre', ' size', ' data', ' speed', ' higher', ' number', ' evolution', ' time', ' Increase', ' natural']
+At Layer 15, the answer "decrease" is at position 1
+At Layer 15, Top 20 Vocab Probs: [' increase', ' decrease', ' growth', ' change', ' function', ' data', ' rate', ' time', ' increased', ' evolution', ' energy', ' power', ' higher', ' speed', ' size', ' fire', ' new', ' increasing', ' life', ' increases']
+At Layer 16, the answer "decrease" is at position 0
+At Layer 16, Top 20 Vocab Probs: [' decrease', ' increase', ' change', ' growth', ' data', ' function', ' time', ' evolution', ' reduction', ' decline', ' power', ' energy', ' new', ' "', ' speed', ' fire', ' small', ' rate', ' life', ' low']
+At Layer 17, the answer "decrease" is at position 0
+At Layer 17, Top 20 Vocab Probs: [' decrease', ' increase', ' growth', ' change', ' data', ' software', ' function', ' evolution', ' decline', ' reduction', ' new', ' power', ' time', ' fire', ' decreasing', ' computer', ' "', ' decreased', ' speed', ' life']
+At Layer 18, the answer "decrease" is at position 0
+At Layer 18, Top 20 Vocab Probs: [' decrease', ' increase', ' change', ' growth', ' decline', ' data', ' software', ' improvement', ' new', ' improve', ' function', ' power', ' time', ' fire', ' reduction', ' value', ' update', ' evolution', ' decreased', ' size']
+At Layer 19, the answer "decrease" is at position 0
+At Layer 19, Top 20 Vocab Probs: [' decrease', ' increase', ' reduction', ' decreased', ' change', ' increased', ' decreasing', ' decreases', ' decline', ' reduce', ' growth', ' increasing', ' increases', ' improvement', ' improve', 'incre', ' data', ' software', ' Increase', ' Decre']
+At Layer 20, the answer "decrease" is at position 0
+At Layer 20, Top 20 Vocab Probs: [' decrease', ' increase', ' change', ' reduction', ' decreased', ' increased', ' decline', ' growth', ' decreases', ' decreasing', ' reduce', ' increasing', ' software', ' increases', ' data', ' improvement', ' new', ' improve', ' time', ' function']
+At Layer 21, the answer "decrease" is at position 0
+At Layer 21, Top 20 Vocab Probs: [' decrease', ' increase', ' growth', ' reduction', ' change', ' decline', ' software', ' decreased', ' data', ' new', ' reduce', ' decreases', ' decreasing', ' time', 'Ċ', ' "', ' improvement', ' increased', ' power', ' function']
+At Layer 22, the answer "decrease" is at position 0
+At Layer 22, Top 20 Vocab Probs: [' decrease', ' increase', ' growth', ' decline', ' change', ' reduction', ' new', ' software', ' data', ' decreased', ' reduce', ' health', 'Ċ', ' decreasing', ' "', ' time', ' decreases', ' increased', ' improve', ' power']
+At Layer 23, the answer "decrease" is at position 0
+At Layer 23, Top 20 Vocab Probs: [' decrease', ' increase', ' growth', ' software', ' decline', ' change', ' data', ' new', ' health', 'Ċ', ' reduction', ' power', ' hardware', ' time', ' "', ' the', ' computer', ' a', ' size', ' decreased']
+At Layer 24, the answer "decrease" is at position 0
+At Layer 24, Top 20 Vocab Probs: [' decrease', ' increase', ' growth', ' health', ' software', ' data', ' change', ' new', ' decline', ' power', 'Ċ', ' reduce', ' the', ' time', ' reduction', ' high', ' a', ' work', ' hardware', ' size']
+At Layer 25, the answer "decrease" is at position 0
+At Layer 25, Top 20 Vocab Probs: [' decrease', ' increase', ' growth', ' the', ' data', ' health', ' new', ' software', 'Ċ', ' a', ' change', ' power', '-', ' time', ' work', ' in', ' high', ' decline', ' "', ' size']
+At Layer 26, the answer "decrease" is at position 0
+At Layer 26, Top 20 Vocab Probs: [' decrease', ' the', ' increase', ' growth', ' new', ' software', ' a', 'Ċ', ' data', ' high', ' health', ' time', ' in', ' more', ' change', ' low', ' power', ' un', ' work', '-']
+At Layer 27, the answer "decrease" is at position 16
+At Layer 27, Top 20 Vocab Probs: [' the', ' a', 'Ċ', ' new', ' "', ' more', ' time', ' data', ' in', ' growth', ' high', ' un', ' use', ' p', ' (', ' ', ' decrease', ' work', ' good', ' number']
+---------------------9---------------------
+At Layer 9, the answer "decrease" is at position 1255
+At Layer 9, Top 20 Vocab Probs: [' same', ' fire', ' money', ' "', ' link', ' invention', ' social', ' The', ' water', ' Car', ' state', ' the', ' power', ' $', ' car', ' name', ' ', ' not', ' other', ' birth']
+At Layer 10, the answer "decrease" is at position 504
+At Layer 10, Top 20 Vocab Probs: [' "', ' same', ' $', ' money', ' The', ' other', ' cancer', ' time', ' the', ' car', ' water', ' ', ' protein', ' social', ' *', ' no', ' age', ' life', ' c', " '"]
+At Layer 11, the answer "decrease" is at position 731
+At Layer 11, Top 20 Vocab Probs: [' "', ' same', ' health', ' time', ' normal', ' data', ' state', ' power', ' car', ' natural', ' no', ' not', ' $', ' world', ' community', ' protein', ' N', ' *', ' correct', ' energy']
+At Layer 12, the answer "decrease" is at position 318
+At Layer 12, Top 20 Vocab Probs: [' data', ' time', ' water', ' energy', ' health', ' money', ' power', ' $', ' world', ' state', ' same', ' good', ' food', ' life', ' motor', ' natural', ' the', ' car', ' human', ' social']
+At Layer 13, the answer "decrease" is at position 3
+At Layer 13, Top 20 Vocab Probs: [' increase', ' growth', ' change', ' decrease', ' increased', ' increasing', ' energy', ' data', ' function', ' improvement', ' improve', ' expansion', 'incre', ' increases', ' wealth', ' difference', ' evolution', ' enhance', ' higher', ' pressure']
+At Layer 14, the answer "decrease" is at position 1
+At Layer 14, Top 20 Vocab Probs: [' increase', ' decrease', ' growth', ' increased', ' change', ' increasing', ' increases', ' function', ' rate', ' expansion', 'incre', ' size', ' data', ' speed', ' higher', ' number', ' evolution', ' time', ' Increase', ' natural']
+At Layer 15, the answer "decrease" is at position 1
+At Layer 15, Top 20 Vocab Probs: [' increase', ' decrease', ' growth', ' change', ' function', ' data', ' rate', ' time', ' increased', ' evolution', ' energy', ' power', ' higher', ' speed', ' size', ' fire', ' new', ' increasing', ' life', ' increases']
+At Layer 16, the answer "decrease" is at position 0
+At Layer 16, Top 20 Vocab Probs: [' decrease', ' increase', ' change', ' growth', ' data', ' function', ' time', ' evolution', ' reduction', ' decline', ' power', ' energy', ' new', ' "', ' speed', ' fire', ' small', ' rate', ' life', ' low']
+At Layer 17, the answer "decrease" is at position 0
+At Layer 17, Top 20 Vocab Probs: [' decrease', ' increase', ' growth', ' change', ' data', ' software', ' function', ' evolution', ' decline', ' reduction', ' new', ' power', ' time', ' fire', ' decreasing', ' computer', ' "', ' decreased', ' speed', ' life']
+At Layer 18, the answer "decrease" is at position 0
+At Layer 18, Top 20 Vocab Probs: [' decrease', ' increase', ' change', ' growth', ' decline', ' data', ' software', ' improvement', ' new', ' improve', ' function', ' power', ' time', ' fire', ' reduction', ' value', ' update', ' evolution', ' decreased', ' size']
+At Layer 19, the answer "decrease" is at position 0
+At Layer 19, Top 20 Vocab Probs: [' decrease', ' increase', ' reduction', ' decreased', ' change', ' increased', ' decreasing', ' decreases', ' decline', ' reduce', ' growth', ' increasing', ' increases', ' improvement', ' improve', 'incre', ' data', ' software', ' Increase', ' Decre']
+At Layer 20, the answer "decrease" is at position 0
+At Layer 20, Top 20 Vocab Probs: [' decrease', ' increase', ' change', ' reduction', ' decreased', ' increased', ' decline', ' growth', ' decreases', ' decreasing', ' reduce', ' increasing', ' software', ' increases', ' data', ' improvement', ' new', ' improve', ' time', ' function']
+At Layer 21, the answer "decrease" is at position 0
+At Layer 21, Top 20 Vocab Probs: [' decrease', ' increase', ' growth', ' reduction', ' change', ' decline', ' software', ' decreased', ' data', ' new', ' reduce', ' decreases', ' decreasing', ' time', 'Ċ', ' "', ' improvement', ' increased', ' power', ' function']
+At Layer 22, the answer "decrease" is at position 0
+At Layer 22, Top 20 Vocab Probs: [' decrease', ' increase', ' growth', ' decline', ' change', ' reduction', ' new', ' software', ' data', ' decreased', ' reduce', ' health', 'Ċ', ' decreasing', ' "', ' time', ' decreases', ' increased', ' improve', ' power']
+At Layer 23, the answer "decrease" is at position 0
+At Layer 23, Top 20 Vocab Probs: [' decrease', ' increase', ' growth', ' software', ' decline', ' change', ' data', ' new', ' health', 'Ċ', ' reduction', ' power', ' hardware', ' time', ' "', ' the', ' computer', ' a', ' size', ' decreased']
+At Layer 24, the answer "decrease" is at position 0
+At Layer 24, Top 20 Vocab Probs: [' decrease', ' increase', ' growth', ' health', ' software', ' data', ' change', ' new', ' decline', ' power', 'Ċ', ' reduce', ' the', ' time', ' reduction', ' high', ' a', ' work', ' hardware', ' size']
+At Layer 25, the answer "decrease" is at position 0
+At Layer 25, Top 20 Vocab Probs: [' decrease', ' increase', ' growth', ' the', ' data', ' health', ' new', ' software', 'Ċ', ' a', ' change', ' power', '-', ' time', ' work', ' in', ' high', ' decline', ' "', ' size']
+At Layer 26, the answer "decrease" is at position 0
+At Layer 26, Top 20 Vocab Probs: [' decrease', ' the', ' increase', ' growth', ' new', ' software', ' a', 'Ċ', ' data', ' high', ' health', ' time', ' in', ' more', ' change', ' low', ' power', ' un', ' work', '-']
+At Layer 27, the answer "decrease" is at position 16
+At Layer 27, Top 20 Vocab Probs: [' the', ' a', 'Ċ', ' new', ' "', ' more', ' time', ' data', ' in', ' growth', ' high', ' un', ' use', ' p', ' (', ' ', ' decrease', ' work', ' good', ' number']
+---------------------10---------------------
+At Layer 10, the answer "decrease" is at position 504
+At Layer 10, Top 20 Vocab Probs: [' "', ' same', ' $', ' money', ' The', ' other', ' cancer', ' time', ' the', ' car', ' water', ' ', ' protein', ' social', ' *', ' no', ' age', ' life', ' c', " '"]
+At Layer 11, the answer "decrease" is at position 731
+At Layer 11, Top 20 Vocab Probs: [' "', ' same', ' health', ' time', ' normal', ' data', ' state', ' power', ' car', ' natural', ' no', ' not', ' $', ' world', ' community', ' protein', ' N', ' *', ' correct', ' energy']
+At Layer 12, the answer "decrease" is at position 318
+At Layer 12, Top 20 Vocab Probs: [' data', ' time', ' water', ' energy', ' health', ' money', ' power', ' $', ' world', ' state', ' same', ' good', ' food', ' life', ' motor', ' natural', ' the', ' car', ' human', ' social']
+At Layer 13, the answer "decrease" is at position 3
+At Layer 13, Top 20 Vocab Probs: [' increase', ' growth', ' change', ' decrease', ' increased', ' increasing', ' energy', ' data', ' function', ' improvement', ' improve', ' expansion', 'incre', ' increases', ' wealth', ' difference', ' evolution', ' enhance', ' higher', ' pressure']
+At Layer 14, the answer "decrease" is at position 1
+At Layer 14, Top 20 Vocab Probs: [' increase', ' decrease', ' growth', ' increased', ' change', ' increasing', ' increases', ' function', ' rate', ' expansion', 'incre', ' size', ' data', ' speed', ' higher', ' number', ' evolution', ' time', ' Increase', ' natural']
+At Layer 15, the answer "decrease" is at position 1
+At Layer 15, Top 20 Vocab Probs: [' increase', ' decrease', ' growth', ' change', ' function', ' data', ' rate', ' time', ' increased', ' evolution', ' energy', ' power', ' higher', ' speed', ' size', ' fire', ' new', ' increasing', ' life', ' increases']
+At Layer 16, the answer "decrease" is at position 0
+At Layer 16, Top 20 Vocab Probs: [' decrease', ' increase', ' change', ' growth', ' data', ' function', ' time', ' evolution', ' reduction', ' decline', ' power', ' energy', ' new', ' "', ' speed', ' fire', ' small', ' rate', ' life', ' low']
+At Layer 17, the answer "decrease" is at position 0
+At Layer 17, Top 20 Vocab Probs: [' decrease', ' increase', ' growth', ' change', ' data', ' software', ' function', ' evolution', ' decline', ' reduction', ' new', ' power', ' time', ' fire', ' decreasing', ' computer', ' "', ' decreased', ' speed', ' life']
+At Layer 18, the answer "decrease" is at position 0
+At Layer 18, Top 20 Vocab Probs: [' decrease', ' increase', ' change', ' growth', ' decline', ' data', ' software', ' improvement', ' new', ' improve', ' function', ' power', ' time', ' fire', ' reduction', ' value', ' update', ' evolution', ' decreased', ' size']
+At Layer 19, the answer "decrease" is at position 0
+At Layer 19, Top 20 Vocab Probs: [' decrease', ' increase', ' reduction', ' decreased', ' change', ' increased', ' decreasing', ' decreases', ' decline', ' reduce', ' growth', ' increasing', ' increases', ' improvement', ' improve', 'incre', ' data', ' software', ' Increase', ' Decre']
+At Layer 20, the answer "decrease" is at position 0
+At Layer 20, Top 20 Vocab Probs: [' decrease', ' increase', ' change', ' reduction', ' decreased', ' increased', ' decline', ' growth', ' decreases', ' decreasing', ' reduce', ' increasing', ' software', ' increases', ' data', ' improvement', ' new', ' improve', ' time', ' function']
+At Layer 21, the answer "decrease" is at position 0
+At Layer 21, Top 20 Vocab Probs: [' decrease', ' increase', ' growth', ' reduction', ' change', ' decline', ' software', ' decreased', ' data', ' new', ' reduce', ' decreases', ' decreasing', ' time', 'Ċ', ' "', ' improvement', ' increased', ' power', ' function']
+At Layer 22, the answer "decrease" is at position 0
+At Layer 22, Top 20 Vocab Probs: [' decrease', ' increase', ' growth', ' decline', ' change', ' reduction', ' new', ' software', ' data', ' decreased', ' reduce', ' health', 'Ċ', ' decreasing', ' "', ' time', ' decreases', ' increased', ' improve', ' power']
+At Layer 23, the answer "decrease" is at position 0
+At Layer 23, Top 20 Vocab Probs: [' decrease', ' increase', ' growth', ' software', ' decline', ' change', ' data', ' new', ' health', 'Ċ', ' reduction', ' power', ' hardware', ' time', ' "', ' the', ' computer', ' a', ' size', ' decreased']
+At Layer 24, the answer "decrease" is at position 0
+At Layer 24, Top 20 Vocab Probs: [' decrease', ' increase', ' growth', ' health', ' software', ' data', ' change', ' new', ' decline', ' power', 'Ċ', ' reduce', ' the', ' time', ' reduction', ' high', ' a', ' work', ' hardware', ' size']
+At Layer 25, the answer "decrease" is at position 0
+At Layer 25, Top 20 Vocab Probs: [' decrease', ' increase', ' growth', ' the', ' data', ' health', ' new', ' software', 'Ċ', ' a', ' change', ' power', '-', ' time', ' work', ' in', ' high', ' decline', ' "', ' size']
+At Layer 26, the answer "decrease" is at position 0
+At Layer 26, Top 20 Vocab Probs: [' decrease', ' the', ' increase', ' growth', ' new', ' software', ' a', 'Ċ', ' data', ' high', ' health', ' time', ' in', ' more', ' change', ' low', ' power', ' un', ' work', '-']
+At Layer 27, the answer "decrease" is at position 16
+At Layer 27, Top 20 Vocab Probs: [' the', ' a', 'Ċ', ' new', ' "', ' more', ' time', ' data', ' in', ' growth', ' high', ' un', ' use', ' p', ' (', ' ', ' decrease', ' work', ' good', ' number']
+---------------------11---------------------
+At Layer 11, the answer "decrease" is at position 731
+At Layer 11, Top 20 Vocab Probs: [' "', ' same', ' health', ' time', ' normal', ' data', ' state', ' power', ' car', ' natural', ' no', ' not', ' $', ' world', ' community', ' protein', ' N', ' *', ' correct', ' energy']
+At Layer 12, the answer "decrease" is at position 318
+At Layer 12, Top 20 Vocab Probs: [' data', ' time', ' water', ' energy', ' health', ' money', ' power', ' $', ' world', ' state', ' same', ' good', ' food', ' life', ' motor', ' natural', ' the', ' car', ' human', ' social']
+At Layer 13, the answer "decrease" is at position 3
+At Layer 13, Top 20 Vocab Probs: [' increase', ' growth', ' change', ' decrease', ' increased', ' increasing', ' energy', ' data', ' function', ' improvement', ' improve', ' expansion', 'incre', ' increases', ' wealth', ' difference', ' evolution', ' enhance', ' higher', ' pressure']
+At Layer 14, the answer "decrease" is at position 1
+At Layer 14, Top 20 Vocab Probs: [' increase', ' decrease', ' growth', ' increased', ' change', ' increasing', ' increases', ' function', ' rate', ' expansion', 'incre', ' size', ' data', ' speed', ' higher', ' number', ' evolution', ' time', ' Increase', ' natural']
+At Layer 15, the answer "decrease" is at position 1
+At Layer 15, Top 20 Vocab Probs: [' increase', ' decrease', ' growth', ' change', ' function', ' data', ' rate', ' time', ' increased', ' evolution', ' energy', ' power', ' higher', ' speed', ' size', ' fire', ' new', ' increasing', ' life', ' increases']
+At Layer 16, the answer "decrease" is at position 0
+At Layer 16, Top 20 Vocab Probs: [' decrease', ' increase', ' change', ' growth', ' data', ' function', ' time', ' evolution', ' reduction', ' decline', ' power', ' energy', ' new', ' "', ' speed', ' fire', ' small', ' rate', ' life', ' low']
+At Layer 17, the answer "decrease" is at position 0
+At Layer 17, Top 20 Vocab Probs: [' decrease', ' increase', ' growth', ' change', ' data', ' software', ' function', ' evolution', ' decline', ' reduction', ' new', ' power', ' time', ' fire', ' decreasing', ' computer', ' "', ' decreased', ' speed', ' life']
+At Layer 18, the answer "decrease" is at position 0
+At Layer 18, Top 20 Vocab Probs: [' decrease', ' increase', ' change', ' growth', ' decline', ' data', ' software', ' improvement', ' new', ' improve', ' function', ' power', ' time', ' fire', ' reduction', ' value', ' update', ' evolution', ' decreased', ' size']
+At Layer 19, the answer "decrease" is at position 0
+At Layer 19, Top 20 Vocab Probs: [' decrease', ' increase', ' reduction', ' decreased', ' change', ' increased', ' decreasing', ' decreases', ' decline', ' reduce', ' growth', ' increasing', ' increases', ' improvement', ' improve', 'incre', ' data', ' software', ' Increase', ' Decre']
+At Layer 20, the answer "decrease" is at position 0
+At Layer 20, Top 20 Vocab Probs: [' decrease', ' increase', ' change', ' reduction', ' decreased', ' increased', ' decline', ' growth', ' decreases', ' decreasing', ' reduce', ' increasing', ' software', ' increases', ' data', ' improvement', ' new', ' improve', ' time', ' function']
+At Layer 21, the answer "decrease" is at position 0
+At Layer 21, Top 20 Vocab Probs: [' decrease', ' increase', ' growth', ' reduction', ' change', ' decline', ' software', ' decreased', ' data', ' new', ' reduce', ' decreases', ' decreasing', ' time', 'Ċ', ' "', ' improvement', ' increased', ' power', ' function']
+At Layer 22, the answer "decrease" is at position 0
+At Layer 22, Top 20 Vocab Probs: [' decrease', ' increase', ' growth', ' decline', ' change', ' reduction', ' new', ' software', ' data', ' decreased', ' reduce', ' health', 'Ċ', ' decreasing', ' "', ' time', ' decreases', ' increased', ' improve', ' power']
+At Layer 23, the answer "decrease" is at position 0
+At Layer 23, Top 20 Vocab Probs: [' decrease', ' increase', ' growth', ' software', ' decline', ' change', ' data', ' new', ' health', 'Ċ', ' reduction', ' power', ' hardware', ' time', ' "', ' the', ' computer', ' a', ' size', ' decreased']
+At Layer 24, the answer "decrease" is at position 0
+At Layer 24, Top 20 Vocab Probs: [' decrease', ' increase', ' growth', ' health', ' software', ' data', ' change', ' new', ' decline', ' power', 'Ċ', ' reduce', ' the', ' time', ' reduction', ' high', ' a', ' work', ' hardware', ' size']
+At Layer 25, the answer "decrease" is at position 0
+At Layer 25, Top 20 Vocab Probs: [' decrease', ' increase', ' growth', ' the', ' data', ' health', ' new', ' software', 'Ċ', ' a', ' change', ' power', '-', ' time', ' work', ' in', ' high', ' decline', ' "', ' size']
+At Layer 26, the answer "decrease" is at position 0
+At Layer 26, Top 20 Vocab Probs: [' decrease', ' the', ' increase', ' growth', ' new', ' software', ' a', 'Ċ', ' data', ' high', ' health', ' time', ' in', ' more', ' change', ' low', ' power', ' un', ' work', '-']
+At Layer 27, the answer "decrease" is at position 16
+At Layer 27, Top 20 Vocab Probs: [' the', ' a', 'Ċ', ' new', ' "', ' more', ' time', ' data', ' in', ' growth', ' high', ' un', ' use', ' p', ' (', ' ', ' decrease', ' work', ' good', ' number']
+---------------------12---------------------
+At Layer 12, the answer "decrease" is at position 318
+At Layer 12, Top 20 Vocab Probs: [' data', ' time', ' water', ' energy', ' health', ' money', ' power', ' $', ' world', ' state', ' same', ' good', ' food', ' life', ' motor', ' natural', ' the', ' car', ' human', ' social']
+At Layer 13, the answer "decrease" is at position 3
+At Layer 13, Top 20 Vocab Probs: [' increase', ' growth', ' change', ' decrease', ' increased', ' increasing', ' energy', ' data', ' function', ' improvement', ' improve', ' expansion', 'incre', ' increases', ' wealth', ' difference', ' evolution', ' enhance', ' higher', ' pressure']
+At Layer 14, the answer "decrease" is at position 1
+At Layer 14, Top 20 Vocab Probs: [' increase', ' decrease', ' growth', ' increased', ' change', ' increasing', ' increases', ' function', ' rate', ' expansion', 'incre', ' size', ' data', ' speed', ' higher', ' number', ' evolution', ' time', ' Increase', ' natural']
+At Layer 15, the answer "decrease" is at position 1
+At Layer 15, Top 20 Vocab Probs: [' increase', ' decrease', ' growth', ' change', ' function', ' data', ' rate', ' time', ' increased', ' evolution', ' energy', ' power', ' higher', ' speed', ' size', ' fire', ' new', ' increasing', ' life', ' increases']
+At Layer 16, the answer "decrease" is at position 0
+At Layer 16, Top 20 Vocab Probs: [' decrease', ' increase', ' change', ' growth', ' data', ' function', ' time', ' evolution', ' reduction', ' decline', ' power', ' energy', ' new', ' "', ' speed', ' fire', ' small', ' rate', ' life', ' low']
+At Layer 17, the answer "decrease" is at position 0
+At Layer 17, Top 20 Vocab Probs: [' decrease', ' increase', ' growth', ' change', ' data', ' software', ' function', ' evolution', ' decline', ' reduction', ' new', ' power', ' time', ' fire', ' decreasing', ' computer', ' "', ' decreased', ' speed', ' life']
+At Layer 18, the answer "decrease" is at position 0
+At Layer 18, Top 20 Vocab Probs: [' decrease', ' increase', ' change', ' growth', ' decline', ' data', ' software', ' improvement', ' new', ' improve', ' function', ' power', ' time', ' fire', ' reduction', ' value', ' update', ' evolution', ' decreased', ' size']
+At Layer 19, the answer "decrease" is at position 0
+At Layer 19, Top 20 Vocab Probs: [' decrease', ' increase', ' reduction', ' decreased', ' change', ' increased', ' decreasing', ' decreases', ' decline', ' reduce', ' growth', ' increasing', ' increases', ' improvement', ' improve', 'incre', ' data', ' software', ' Increase', ' Decre']
+At Layer 20, the answer "decrease" is at position 0
+At Layer 20, Top 20 Vocab Probs: [' decrease', ' increase', ' change', ' reduction', ' decreased', ' increased', ' decline', ' growth', ' decreases', ' decreasing', ' reduce', ' increasing', ' software', ' increases', ' data', ' improvement', ' new', ' improve', ' time', ' function']
+At Layer 21, the answer "decrease" is at position 0
+At Layer 21, Top 20 Vocab Probs: [' decrease', ' increase', ' growth', ' reduction', ' change', ' decline', ' software', ' decreased', ' data', ' new', ' reduce', ' decreases', ' decreasing', ' time', 'Ċ', ' "', ' improvement', ' increased', ' power', ' function']
+At Layer 22, the answer "decrease" is at position 0
+At Layer 22, Top 20 Vocab Probs: [' decrease', ' increase', ' growth', ' decline', ' change', ' reduction', ' new', ' software', ' data', ' decreased', ' reduce', ' health', 'Ċ', ' decreasing', ' "', ' time', ' decreases', ' increased', ' improve', ' power']
+At Layer 23, the answer "decrease" is at position 0
+At Layer 23, Top 20 Vocab Probs: [' decrease', ' increase', ' growth', ' software', ' decline', ' change', ' data', ' new', ' health', 'Ċ', ' reduction', ' power', ' hardware', ' time', ' "', ' the', ' computer', ' a', ' size', ' decreased']
+At Layer 24, the answer "decrease" is at position 0
+At Layer 24, Top 20 Vocab Probs: [' decrease', ' increase', ' growth', ' health', ' software', ' data', ' change', ' new', ' decline', ' power', 'Ċ', ' reduce', ' the', ' time', ' reduction', ' high', ' a', ' work', ' hardware', ' size']
+At Layer 25, the answer "decrease" is at position 0
+At Layer 25, Top 20 Vocab Probs: [' decrease', ' increase', ' growth', ' the', ' data', ' health', ' new', ' software', 'Ċ', ' a', ' change', ' power', '-', ' time', ' work', ' in', ' high', ' decline', ' "', ' size']
+At Layer 26, the answer "decrease" is at position 0
+At Layer 26, Top 20 Vocab Probs: [' decrease', ' the', ' increase', ' growth', ' new', ' software', ' a', 'Ċ', ' data', ' high', ' health', ' time', ' in', ' more', ' change', ' low', ' power', ' un', ' work', '-']
+At Layer 27, the answer "decrease" is at position 16
+At Layer 27, Top 20 Vocab Probs: [' the', ' a', 'Ċ', ' new', ' "', ' more', ' time', ' data', ' in', ' growth', ' high', ' un', ' use', ' p', ' (', ' ', ' decrease', ' work', ' good', ' number']
+---------------------13---------------------
+At Layer 13, the answer "decrease" is at position 3
+At Layer 13, Top 20 Vocab Probs: [' increase', ' growth', ' change', ' decrease', ' increased', ' increasing', ' energy', ' data', ' function', ' improvement', ' improve', ' expansion', 'incre', ' increases', ' wealth', ' difference', ' evolution', ' enhance', ' higher', ' pressure']
+At Layer 14, the answer "decrease" is at position 1
+At Layer 14, Top 20 Vocab Probs: [' increase', ' decrease', ' growth', ' increased', ' change', ' increasing', ' increases', ' function', ' rate', ' expansion', 'incre', ' size', ' data', ' speed', ' higher', ' number', ' evolution', ' time', ' Increase', ' natural']
+At Layer 15, the answer "decrease" is at position 1
+At Layer 15, Top 20 Vocab Probs: [' increase', ' decrease', ' growth', ' change', ' function', ' data', ' rate', ' time', ' increased', ' evolution', ' energy', ' power', ' higher', ' speed', ' size', ' fire', ' new', ' increasing', ' life', ' increases']
+At Layer 16, the answer "decrease" is at position 0
+At Layer 16, Top 20 Vocab Probs: [' decrease', ' increase', ' change', ' growth', ' data', ' function', ' time', ' evolution', ' reduction', ' decline', ' power', ' energy', ' new', ' "', ' speed', ' fire', ' small', ' rate', ' life', ' low']
+At Layer 17, the answer "decrease" is at position 0
+At Layer 17, Top 20 Vocab Probs: [' decrease', ' increase', ' growth', ' change', ' data', ' software', ' function', ' evolution', ' decline', ' reduction', ' new', ' power', ' time', ' fire', ' decreasing', ' computer', ' "', ' decreased', ' speed', ' life']
+At Layer 18, the answer "decrease" is at position 0
+At Layer 18, Top 20 Vocab Probs: [' decrease', ' increase', ' change', ' growth', ' decline', ' data', ' software', ' improvement', ' new', ' improve', ' function', ' power', ' time', ' fire', ' reduction', ' value', ' update', ' evolution', ' decreased', ' size']
+At Layer 19, the answer "decrease" is at position 0
+At Layer 19, Top 20 Vocab Probs: [' decrease', ' increase', ' reduction', ' decreased', ' change', ' increased', ' decreasing', ' decreases', ' decline', ' reduce', ' growth', ' increasing', ' increases', ' improvement', ' improve', 'incre', ' data', ' software', ' Increase', ' Decre']
+At Layer 20, the answer "decrease" is at position 0
+At Layer 20, Top 20 Vocab Probs: [' decrease', ' increase', ' change', ' reduction', ' decreased', ' increased', ' decline', ' growth', ' decreases', ' decreasing', ' reduce', ' increasing', ' software', ' increases', ' data', ' improvement', ' new', ' improve', ' time', ' function']
+At Layer 21, the answer "decrease" is at position 0
+At Layer 21, Top 20 Vocab Probs: [' decrease', ' increase', ' growth', ' reduction', ' change', ' decline', ' software', ' decreased', ' data', ' new', ' reduce', ' decreases', ' decreasing', ' time', 'Ċ', ' "', ' improvement', ' increased', ' power', ' function']
+At Layer 22, the answer "decrease" is at position 0
+At Layer 22, Top 20 Vocab Probs: [' decrease', ' increase', ' growth', ' decline', ' change', ' reduction', ' new', ' software', ' data', ' decreased', ' reduce', ' health', 'Ċ', ' decreasing', ' "', ' time', ' decreases', ' increased', ' improve', ' power']
+At Layer 23, the answer "decrease" is at position 0
+At Layer 23, Top 20 Vocab Probs: [' decrease', ' increase', ' growth', ' software', ' decline', ' change', ' data', ' new', ' health', 'Ċ', ' reduction', ' power', ' hardware', ' time', ' "', ' the', ' computer', ' a', ' size', ' decreased']
+At Layer 24, the answer "decrease" is at position 0
+At Layer 24, Top 20 Vocab Probs: [' decrease', ' increase', ' growth', ' health', ' software', ' data', ' change', ' new', ' decline', ' power', 'Ċ', ' reduce', ' the', ' time', ' reduction', ' high', ' a', ' work', ' hardware', ' size']
+At Layer 25, the answer "decrease" is at position 0
+At Layer 25, Top 20 Vocab Probs: [' decrease', ' increase', ' growth', ' the', ' data', ' health', ' new', ' software', 'Ċ', ' a', ' change', ' power', '-', ' time', ' work', ' in', ' high', ' decline', ' "', ' size']
+At Layer 26, the answer "decrease" is at position 0
+At Layer 26, Top 20 Vocab Probs: [' decrease', ' the', ' increase', ' growth', ' new', ' software', ' a', 'Ċ', ' data', ' high', ' health', ' time', ' in', ' more', ' change', ' low', ' power', ' un', ' work', '-']
+At Layer 27, the answer "decrease" is at position 16
+At Layer 27, Top 20 Vocab Probs: [' the', ' a', 'Ċ', ' new', ' "', ' more', ' time', ' data', ' in', ' growth', ' high', ' un', ' use', ' p', ' (', ' ', ' decrease', ' work', ' good', ' number']
+---------------------14---------------------
+At Layer 14, the answer "decrease" is at position 1
+At Layer 14, Top 20 Vocab Probs: [' increase', ' decrease', ' growth', ' increased', ' change', ' increasing', ' increases', ' function', ' rate', ' expansion', 'incre', ' size', ' data', ' speed', ' higher', ' number', ' evolution', ' time', ' Increase', ' natural']
+At Layer 15, the answer "decrease" is at position 1
+At Layer 15, Top 20 Vocab Probs: [' increase', ' decrease', ' growth', ' change', ' function', ' data', ' rate', ' time', ' increased', ' evolution', ' energy', ' power', ' higher', ' speed', ' size', ' fire', ' new', ' increasing', ' life', ' increases']
+At Layer 16, the answer "decrease" is at position 0
+At Layer 16, Top 20 Vocab Probs: [' decrease', ' increase', ' change', ' growth', ' data', ' function', ' time', ' evolution', ' reduction', ' decline', ' power', ' energy', ' new', ' "', ' speed', ' fire', ' small', ' rate', ' life', ' low']
+At Layer 17, the answer "decrease" is at position 0
+At Layer 17, Top 20 Vocab Probs: [' decrease', ' increase', ' growth', ' change', ' data', ' software', ' function', ' evolution', ' decline', ' reduction', ' new', ' power', ' time', ' fire', ' decreasing', ' computer', ' "', ' decreased', ' speed', ' life']
+At Layer 18, the answer "decrease" is at position 0
+At Layer 18, Top 20 Vocab Probs: [' decrease', ' increase', ' change', ' growth', ' decline', ' data', ' software', ' improvement', ' new', ' improve', ' function', ' power', ' time', ' fire', ' reduction', ' value', ' update', ' evolution', ' decreased', ' size']
+At Layer 19, the answer "decrease" is at position 0
+At Layer 19, Top 20 Vocab Probs: [' decrease', ' increase', ' reduction', ' decreased', ' change', ' increased', ' decreasing', ' decreases', ' decline', ' reduce', ' growth', ' increasing', ' increases', ' improvement', ' improve', 'incre', ' data', ' software', ' Increase', ' Decre']
+At Layer 20, the answer "decrease" is at position 0
+At Layer 20, Top 20 Vocab Probs: [' decrease', ' increase', ' change', ' reduction', ' decreased', ' increased', ' decline', ' growth', ' decreases', ' decreasing', ' reduce', ' increasing', ' software', ' increases', ' data', ' improvement', ' new', ' improve', ' time', ' function']
+At Layer 21, the answer "decrease" is at position 0
+At Layer 21, Top 20 Vocab Probs: [' decrease', ' increase', ' growth', ' reduction', ' change', ' decline', ' software', ' decreased', ' data', ' new', ' reduce', ' decreases', ' decreasing', ' time', 'Ċ', ' "', ' improvement', ' increased', ' power', ' function']
+At Layer 22, the answer "decrease" is at position 0
+At Layer 22, Top 20 Vocab Probs: [' decrease', ' increase', ' growth', ' decline', ' change', ' reduction', ' new', ' software', ' data', ' decreased', ' reduce', ' health', 'Ċ', ' decreasing', ' "', ' time', ' decreases', ' increased', ' improve', ' power']
+At Layer 23, the answer "decrease" is at position 0
+At Layer 23, Top 20 Vocab Probs: [' decrease', ' increase', ' growth', ' software', ' decline', ' change', ' data', ' new', ' health', 'Ċ', ' reduction', ' power', ' hardware', ' time', ' "', ' the', ' computer', ' a', ' size', ' decreased']
+At Layer 24, the answer "decrease" is at position 0
+At Layer 24, Top 20 Vocab Probs: [' decrease', ' increase', ' growth', ' health', ' software', ' data', ' change', ' new', ' decline', ' power', 'Ċ', ' reduce', ' the', ' time', ' reduction', ' high', ' a', ' work', ' hardware', ' size']
+At Layer 25, the answer "decrease" is at position 0
+At Layer 25, Top 20 Vocab Probs: [' decrease', ' increase', ' growth', ' the', ' data', ' health', ' new', ' software', 'Ċ', ' a', ' change', ' power', '-', ' time', ' work', ' in', ' high', ' decline', ' "', ' size']
+At Layer 26, the answer "decrease" is at position 0
+At Layer 26, Top 20 Vocab Probs: [' decrease', ' the', ' increase', ' growth', ' new', ' software', ' a', 'Ċ', ' data', ' high', ' health', ' time', ' in', ' more', ' change', ' low', ' power', ' un', ' work', '-']
+At Layer 27, the answer "decrease" is at position 16
+At Layer 27, Top 20 Vocab Probs: [' the', ' a', 'Ċ', ' new', ' "', ' more', ' time', ' data', ' in', ' growth', ' high', ' un', ' use', ' p', ' (', ' ', ' decrease', ' work', ' good', ' number']
+---------------------15---------------------
+At Layer 15, the answer "decrease" is at position 1
+At Layer 15, Top 20 Vocab Probs: [' increase', ' decrease', ' growth', ' change', ' function', ' data', ' rate', ' time', ' increased', ' evolution', ' energy', ' power', ' higher', ' speed', ' size', ' fire', ' new', ' increasing', ' life', ' increases']
+At Layer 16, the answer "decrease" is at position 0
+At Layer 16, Top 20 Vocab Probs: [' decrease', ' increase', ' change', ' growth', ' data', ' function', ' time', ' evolution', ' reduction', ' decline', ' power', ' energy', ' new', ' "', ' speed', ' fire', ' small', ' rate', ' life', ' low']
+At Layer 17, the answer "decrease" is at position 0
+At Layer 17, Top 20 Vocab Probs: [' decrease', ' increase', ' growth', ' change', ' data', ' software', ' function', ' evolution', ' decline', ' reduction', ' new', ' power', ' time', ' fire', ' decreasing', ' computer', ' "', ' decreased', ' speed', ' life']
+At Layer 18, the answer "decrease" is at position 0
+At Layer 18, Top 20 Vocab Probs: [' decrease', ' increase', ' change', ' growth', ' decline', ' data', ' software', ' improvement', ' new', ' improve', ' function', ' power', ' time', ' fire', ' reduction', ' value', ' update', ' evolution', ' decreased', ' size']
+At Layer 19, the answer "decrease" is at position 0
+At Layer 19, Top 20 Vocab Probs: [' decrease', ' increase', ' reduction', ' decreased', ' change', ' increased', ' decreasing', ' decreases', ' decline', ' reduce', ' growth', ' increasing', ' increases', ' improvement', ' improve', 'incre', ' data', ' software', ' Increase', ' Decre']
+At Layer 20, the answer "decrease" is at position 0
+At Layer 20, Top 20 Vocab Probs: [' decrease', ' increase', ' change', ' reduction', ' decreased', ' increased', ' decline', ' growth', ' decreases', ' decreasing', ' reduce', ' increasing', ' software', ' increases', ' data', ' improvement', ' new', ' improve', ' time', ' function']
+At Layer 21, the answer "decrease" is at position 0
+At Layer 21, Top 20 Vocab Probs: [' decrease', ' increase', ' growth', ' reduction', ' change', ' decline', ' software', ' decreased', ' data', ' new', ' reduce', ' decreases', ' decreasing', ' time', 'Ċ', ' "', ' improvement', ' increased', ' power', ' function']
+At Layer 22, the answer "decrease" is at position 0
+At Layer 22, Top 20 Vocab Probs: [' decrease', ' increase', ' growth', ' decline', ' change', ' reduction', ' new', ' software', ' data', ' decreased', ' reduce', ' health', 'Ċ', ' decreasing', ' "', ' time', ' decreases', ' increased', ' improve', ' power']
+At Layer 23, the answer "decrease" is at position 0
+At Layer 23, Top 20 Vocab Probs: [' decrease', ' increase', ' growth', ' software', ' decline', ' change', ' data', ' new', ' health', 'Ċ', ' reduction', ' power', ' hardware', ' time', ' "', ' the', ' computer', ' a', ' size', ' decreased']
+At Layer 24, the answer "decrease" is at position 0
+At Layer 24, Top 20 Vocab Probs: [' decrease', ' increase', ' growth', ' health', ' software', ' data', ' change', ' new', ' decline', ' power', 'Ċ', ' reduce', ' the', ' time', ' reduction', ' high', ' a', ' work', ' hardware', ' size']
+At Layer 25, the answer "decrease" is at position 0
+At Layer 25, Top 20 Vocab Probs: [' decrease', ' increase', ' growth', ' the', ' data', ' health', ' new', ' software', 'Ċ', ' a', ' change', ' power', '-', ' time', ' work', ' in', ' high', ' decline', ' "', ' size']
+At Layer 26, the answer "decrease" is at position 0
+At Layer 26, Top 20 Vocab Probs: [' decrease', ' the', ' increase', ' growth', ' new', ' software', ' a', 'Ċ', ' data', ' high', ' health', ' time', ' in', ' more', ' change', ' low', ' power', ' un', ' work', '-']
+At Layer 27, the answer "decrease" is at position 16
+At Layer 27, Top 20 Vocab Probs: [' the', ' a', 'Ċ', ' new', ' "', ' more', ' time', ' data', ' in', ' growth', ' high', ' un', ' use', ' p', ' (', ' ', ' decrease', ' work', ' good', ' number']
+---------------------16---------------------
+At Layer 16, the answer "decrease" is at position 0
+At Layer 16, Top 20 Vocab Probs: [' decrease', ' increase', ' change', ' growth', ' data', ' function', ' time', ' evolution', ' reduction', ' decline', ' power', ' energy', ' new', ' "', ' speed', ' fire', ' small', ' rate', ' life', ' low']
+At Layer 17, the answer "decrease" is at position 0
+At Layer 17, Top 20 Vocab Probs: [' decrease', ' increase', ' growth', ' change', ' data', ' software', ' function', ' evolution', ' decline', ' reduction', ' new', ' power', ' time', ' fire', ' decreasing', ' computer', ' "', ' decreased', ' speed', ' life']
+At Layer 18, the answer "decrease" is at position 0
+At Layer 18, Top 20 Vocab Probs: [' decrease', ' increase', ' change', ' growth', ' decline', ' data', ' software', ' improvement', ' new', ' improve', ' function', ' power', ' time', ' fire', ' reduction', ' value', ' update', ' evolution', ' decreased', ' size']
+At Layer 19, the answer "decrease" is at position 0
+At Layer 19, Top 20 Vocab Probs: [' decrease', ' increase', ' reduction', ' decreased', ' change', ' increased', ' decreasing', ' decreases', ' decline', ' reduce', ' growth', ' increasing', ' increases', ' improvement', ' improve', 'incre', ' data', ' software', ' Increase', ' Decre']
+At Layer 20, the answer "decrease" is at position 0
+At Layer 20, Top 20 Vocab Probs: [' decrease', ' increase', ' change', ' reduction', ' decreased', ' increased', ' decline', ' growth', ' decreases', ' decreasing', ' reduce', ' increasing', ' software', ' increases', ' data', ' improvement', ' new', ' improve', ' time', ' function']
+At Layer 21, the answer "decrease" is at position 0
+At Layer 21, Top 20 Vocab Probs: [' decrease', ' increase', ' growth', ' reduction', ' change', ' decline', ' software', ' decreased', ' data', ' new', ' reduce', ' decreases', ' decreasing', ' time', 'Ċ', ' "', ' improvement', ' increased', ' power', ' function']
+At Layer 22, the answer "decrease" is at position 0
+At Layer 22, Top 20 Vocab Probs: [' decrease', ' increase', ' growth', ' decline', ' change', ' reduction', ' new', ' software', ' data', ' decreased', ' reduce', ' health', 'Ċ', ' decreasing', ' "', ' time', ' decreases', ' increased', ' improve', ' power']
+At Layer 23, the answer "decrease" is at position 0
+At Layer 23, Top 20 Vocab Probs: [' decrease', ' increase', ' growth', ' software', ' decline', ' change', ' data', ' new', ' health', 'Ċ', ' reduction', ' power', ' hardware', ' time', ' "', ' the', ' computer', ' a', ' size', ' decreased']
+At Layer 24, the answer "decrease" is at position 0
+At Layer 24, Top 20 Vocab Probs: [' decrease', ' increase', ' growth', ' health', ' software', ' data', ' change', ' new', ' decline', ' power', 'Ċ', ' reduce', ' the', ' time', ' reduction', ' high', ' a', ' work', ' hardware', ' size']
+At Layer 25, the answer "decrease" is at position 0
+At Layer 25, Top 20 Vocab Probs: [' decrease', ' increase', ' growth', ' the', ' data', ' health', ' new', ' software', 'Ċ', ' a', ' change', ' power', '-', ' time', ' work', ' in', ' high', ' decline', ' "', ' size']
+At Layer 26, the answer "decrease" is at position 0
+At Layer 26, Top 20 Vocab Probs: [' decrease', ' the', ' increase', ' growth', ' new', ' software', ' a', 'Ċ', ' data', ' high', ' health', ' time', ' in', ' more', ' change', ' low', ' power', ' un', ' work', '-']
+At Layer 27, the answer "decrease" is at position 16
+At Layer 27, Top 20 Vocab Probs: [' the', ' a', 'Ċ', ' new', ' "', ' more', ' time', ' data', ' in', ' growth', ' high', ' un', ' use', ' p', ' (', ' ', ' decrease', ' work', ' good', ' number']
+---------------------17---------------------
+At Layer 17, the answer "decrease" is at position 0
+At Layer 17, Top 20 Vocab Probs: [' decrease', ' increase', ' growth', ' change', ' data', ' software', ' function', ' evolution', ' decline', ' reduction', ' new', ' power', ' time', ' fire', ' decreasing', ' computer', ' "', ' decreased', ' speed', ' life']
+At Layer 18, the answer "decrease" is at position 0
+At Layer 18, Top 20 Vocab Probs: [' decrease', ' increase', ' change', ' growth', ' decline', ' data', ' software', ' improvement', ' new', ' improve', ' function', ' power', ' time', ' fire', ' reduction', ' value', ' update', ' evolution', ' decreased', ' size']
+At Layer 19, the answer "decrease" is at position 0
+At Layer 19, Top 20 Vocab Probs: [' decrease', ' increase', ' reduction', ' decreased', ' change', ' increased', ' decreasing', ' decreases', ' decline', ' reduce', ' growth', ' increasing', ' increases', ' improvement', ' improve', 'incre', ' data', ' software', ' Increase', ' Decre']
+At Layer 20, the answer "decrease" is at position 0
+At Layer 20, Top 20 Vocab Probs: [' decrease', ' increase', ' change', ' reduction', ' decreased', ' increased', ' decline', ' growth', ' decreases', ' decreasing', ' reduce', ' increasing', ' software', ' increases', ' data', ' improvement', ' new', ' improve', ' time', ' function']
+At Layer 21, the answer "decrease" is at position 0
+At Layer 21, Top 20 Vocab Probs: [' decrease', ' increase', ' growth', ' reduction', ' change', ' decline', ' software', ' decreased', ' data', ' new', ' reduce', ' decreases', ' decreasing', ' time', 'Ċ', ' "', ' improvement', ' increased', ' power', ' function']
+At Layer 22, the answer "decrease" is at position 0
+At Layer 22, Top 20 Vocab Probs: [' decrease', ' increase', ' growth', ' decline', ' change', ' reduction', ' new', ' software', ' data', ' decreased', ' reduce', ' health', 'Ċ', ' decreasing', ' "', ' time', ' decreases', ' increased', ' improve', ' power']
+At Layer 23, the answer "decrease" is at position 0
+At Layer 23, Top 20 Vocab Probs: [' decrease', ' increase', ' growth', ' software', ' decline', ' change', ' data', ' new', ' health', 'Ċ', ' reduction', ' power', ' hardware', ' time', ' "', ' the', ' computer', ' a', ' size', ' decreased']
+At Layer 24, the answer "decrease" is at position 0
+At Layer 24, Top 20 Vocab Probs: [' decrease', ' increase', ' growth', ' health', ' software', ' data', ' change', ' new', ' decline', ' power', 'Ċ', ' reduce', ' the', ' time', ' reduction', ' high', ' a', ' work', ' hardware', ' size']
+At Layer 25, the answer "decrease" is at position 0
+At Layer 25, Top 20 Vocab Probs: [' decrease', ' increase', ' growth', ' the', ' data', ' health', ' new', ' software', 'Ċ', ' a', ' change', ' power', '-', ' time', ' work', ' in', ' high', ' decline', ' "', ' size']
+At Layer 26, the answer "decrease" is at position 0
+At Layer 26, Top 20 Vocab Probs: [' decrease', ' the', ' increase', ' growth', ' new', ' software', ' a', 'Ċ', ' data', ' high', ' health', ' time', ' in', ' more', ' change', ' low', ' power', ' un', ' work', '-']
+At Layer 27, the answer "decrease" is at position 16
+At Layer 27, Top 20 Vocab Probs: [' the', ' a', 'Ċ', ' new', ' "', ' more', ' time', ' data', ' in', ' growth', ' high', ' un', ' use', ' p', ' (', ' ', ' decrease', ' work', ' good', ' number']
+---------------------18---------------------
+At Layer 18, the answer "decrease" is at position 0
+At Layer 18, Top 20 Vocab Probs: [' decrease', ' increase', ' change', ' growth', ' decline', ' data', ' software', ' improvement', ' new', ' improve', ' function', ' power', ' time', ' fire', ' reduction', ' value', ' update', ' evolution', ' decreased', ' size']
+At Layer 19, the answer "decrease" is at position 0
+At Layer 19, Top 20 Vocab Probs: [' decrease', ' increase', ' reduction', ' decreased', ' change', ' increased', ' decreasing', ' decreases', ' decline', ' reduce', ' growth', ' increasing', ' increases', ' improvement', ' improve', 'incre', ' data', ' software', ' Increase', ' Decre']
+At Layer 20, the answer "decrease" is at position 0
+At Layer 20, Top 20 Vocab Probs: [' decrease', ' increase', ' change', ' reduction', ' decreased', ' increased', ' decline', ' growth', ' decreases', ' decreasing', ' reduce', ' increasing', ' software', ' increases', ' data', ' improvement', ' new', ' improve', ' time', ' function']
+At Layer 21, the answer "decrease" is at position 0
+At Layer 21, Top 20 Vocab Probs: [' decrease', ' increase', ' growth', ' reduction', ' change', ' decline', ' software', ' decreased', ' data', ' new', ' reduce', ' decreases', ' decreasing', ' time', 'Ċ', ' "', ' improvement', ' increased', ' power', ' function']
+At Layer 22, the answer "decrease" is at position 0
+At Layer 22, Top 20 Vocab Probs: [' decrease', ' increase', ' growth', ' decline', ' change', ' reduction', ' new', ' software', ' data', ' decreased', ' reduce', ' health', 'Ċ', ' decreasing', ' "', ' time', ' decreases', ' increased', ' improve', ' power']
+At Layer 23, the answer "decrease" is at position 0
+At Layer 23, Top 20 Vocab Probs: [' decrease', ' increase', ' growth', ' software', ' decline', ' change', ' data', ' new', ' health', 'Ċ', ' reduction', ' power', ' hardware', ' time', ' "', ' the', ' computer', ' a', ' size', ' decreased']
+At Layer 24, the answer "decrease" is at position 0
+At Layer 24, Top 20 Vocab Probs: [' decrease', ' increase', ' growth', ' health', ' software', ' data', ' change', ' new', ' decline', ' power', 'Ċ', ' reduce', ' the', ' time', ' reduction', ' high', ' a', ' work', ' hardware', ' size']
+At Layer 25, the answer "decrease" is at position 0
+At Layer 25, Top 20 Vocab Probs: [' decrease', ' increase', ' growth', ' the', ' data', ' health', ' new', ' software', 'Ċ', ' a', ' change', ' power', '-', ' time', ' work', ' in', ' high', ' decline', ' "', ' size']
+At Layer 26, the answer "decrease" is at position 0
+At Layer 26, Top 20 Vocab Probs: [' decrease', ' the', ' increase', ' growth', ' new', ' software', ' a', 'Ċ', ' data', ' high', ' health', ' time', ' in', ' more', ' change', ' low', ' power', ' un', ' work', '-']
+At Layer 27, the answer "decrease" is at position 16
+At Layer 27, Top 20 Vocab Probs: [' the', ' a', 'Ċ', ' new', ' "', ' more', ' time', ' data', ' in', ' growth', ' high', ' un', ' use', ' p', ' (', ' ', ' decrease', ' work', ' good', ' number']
+---------------------19---------------------
+At Layer 19, the answer "decrease" is at position 0
+At Layer 19, Top 20 Vocab Probs: [' decrease', ' increase', ' reduction', ' decreased', ' change', ' increased', ' decreasing', ' decreases', ' decline', ' reduce', ' growth', ' increasing', ' increases', ' improvement', ' improve', 'incre', ' data', ' software', ' Increase', ' Decre']
+At Layer 20, the answer "decrease" is at position 0
+At Layer 20, Top 20 Vocab Probs: [' decrease', ' increase', ' change', ' reduction', ' decreased', ' increased', ' decline', ' growth', ' decreases', ' decreasing', ' reduce', ' increasing', ' software', ' increases', ' data', ' improvement', ' new', ' improve', ' time', ' function']
+At Layer 21, the answer "decrease" is at position 0
+At Layer 21, Top 20 Vocab Probs: [' decrease', ' increase', ' growth', ' reduction', ' change', ' decline', ' software', ' decreased', ' data', ' new', ' reduce', ' decreases', ' decreasing', ' time', 'Ċ', ' "', ' improvement', ' increased', ' power', ' function']
+At Layer 22, the answer "decrease" is at position 0
+At Layer 22, Top 20 Vocab Probs: [' decrease', ' increase', ' growth', ' decline', ' change', ' reduction', ' new', ' software', ' data', ' decreased', ' reduce', ' health', 'Ċ', ' decreasing', ' "', ' time', ' decreases', ' increased', ' improve', ' power']
+At Layer 23, the answer "decrease" is at position 0
+At Layer 23, Top 20 Vocab Probs: [' decrease', ' increase', ' growth', ' software', ' decline', ' change', ' data', ' new', ' health', 'Ċ', ' reduction', ' power', ' hardware', ' time', ' "', ' the', ' computer', ' a', ' size', ' decreased']
+At Layer 24, the answer "decrease" is at position 0
+At Layer 24, Top 20 Vocab Probs: [' decrease', ' increase', ' growth', ' health', ' software', ' data', ' change', ' new', ' decline', ' power', 'Ċ', ' reduce', ' the', ' time', ' reduction', ' high', ' a', ' work', ' hardware', ' size']
+At Layer 25, the answer "decrease" is at position 0
+At Layer 25, Top 20 Vocab Probs: [' decrease', ' increase', ' growth', ' the', ' data', ' health', ' new', ' software', 'Ċ', ' a', ' change', ' power', '-', ' time', ' work', ' in', ' high', ' decline', ' "', ' size']
+At Layer 26, the answer "decrease" is at position 0
+At Layer 26, Top 20 Vocab Probs: [' decrease', ' the', ' increase', ' growth', ' new', ' software', ' a', 'Ċ', ' data', ' high', ' health', ' time', ' in', ' more', ' change', ' low', ' power', ' un', ' work', '-']
+At Layer 27, the answer "decrease" is at position 16
+At Layer 27, Top 20 Vocab Probs: [' the', ' a', 'Ċ', ' new', ' "', ' more', ' time', ' data', ' in', ' growth', ' high', ' un', ' use', ' p', ' (', ' ', ' decrease', ' work', ' good', ' number']
+---------------------20---------------------
+At Layer 20, the answer "decrease" is at position 0
+At Layer 20, Top 20 Vocab Probs: [' decrease', ' increase', ' change', ' reduction', ' decreased', ' increased', ' decline', ' growth', ' decreases', ' decreasing', ' reduce', ' increasing', ' software', ' increases', ' data', ' improvement', ' new', ' improve', ' time', ' function']
+At Layer 21, the answer "decrease" is at position 0
+At Layer 21, Top 20 Vocab Probs: [' decrease', ' increase', ' growth', ' reduction', ' change', ' decline', ' software', ' decreased', ' data', ' new', ' reduce', ' decreases', ' decreasing', ' time', 'Ċ', ' "', ' improvement', ' increased', ' power', ' function']
+At Layer 22, the answer "decrease" is at position 0
+At Layer 22, Top 20 Vocab Probs: [' decrease', ' increase', ' growth', ' decline', ' change', ' reduction', ' new', ' software', ' data', ' decreased', ' reduce', ' health', 'Ċ', ' decreasing', ' "', ' time', ' decreases', ' increased', ' improve', ' power']
+At Layer 23, the answer "decrease" is at position 0
+At Layer 23, Top 20 Vocab Probs: [' decrease', ' increase', ' growth', ' software', ' decline', ' change', ' data', ' new', ' health', 'Ċ', ' reduction', ' power', ' hardware', ' time', ' "', ' the', ' computer', ' a', ' size', ' decreased']
+At Layer 24, the answer "decrease" is at position 0
+At Layer 24, Top 20 Vocab Probs: [' decrease', ' increase', ' growth', ' health', ' software', ' data', ' change', ' new', ' decline', ' power', 'Ċ', ' reduce', ' the', ' time', ' reduction', ' high', ' a', ' work', ' hardware', ' size']
+At Layer 25, the answer "decrease" is at position 0
+At Layer 25, Top 20 Vocab Probs: [' decrease', ' increase', ' growth', ' the', ' data', ' health', ' new', ' software', 'Ċ', ' a', ' change', ' power', '-', ' time', ' work', ' in', ' high', ' decline', ' "', ' size']
+At Layer 26, the answer "decrease" is at position 0
+At Layer 26, Top 20 Vocab Probs: [' decrease', ' the', ' increase', ' growth', ' new', ' software', ' a', 'Ċ', ' data', ' high', ' health', ' time', ' in', ' more', ' change', ' low', ' power', ' un', ' work', '-']
+At Layer 27, the answer "decrease" is at position 16
+At Layer 27, Top 20 Vocab Probs: [' the', ' a', 'Ċ', ' new', ' "', ' more', ' time', ' data', ' in', ' growth', ' high', ' un', ' use', ' p', ' (', ' ', ' decrease', ' work', ' good', ' number']
+---------------------21---------------------
+At Layer 21, the answer "decrease" is at position 0
+At Layer 21, Top 20 Vocab Probs: [' decrease', ' increase', ' growth', ' reduction', ' change', ' decline', ' software', ' decreased', ' data', ' new', ' reduce', ' decreases', ' decreasing', ' time', 'Ċ', ' "', ' improvement', ' increased', ' power', ' function']
+At Layer 22, the answer "decrease" is at position 0
+At Layer 22, Top 20 Vocab Probs: [' decrease', ' increase', ' growth', ' decline', ' change', ' reduction', ' new', ' software', ' data', ' decreased', ' reduce', ' health', 'Ċ', ' decreasing', ' "', ' time', ' decreases', ' increased', ' improve', ' power']
+At Layer 23, the answer "decrease" is at position 0
+At Layer 23, Top 20 Vocab Probs: [' decrease', ' increase', ' growth', ' software', ' decline', ' change', ' data', ' new', ' health', 'Ċ', ' reduction', ' power', ' hardware', ' time', ' "', ' the', ' computer', ' a', ' size', ' decreased']
+At Layer 24, the answer "decrease" is at position 0
+At Layer 24, Top 20 Vocab Probs: [' decrease', ' increase', ' growth', ' health', ' software', ' data', ' change', ' new', ' decline', ' power', 'Ċ', ' reduce', ' the', ' time', ' reduction', ' high', ' a', ' work', ' hardware', ' size']
+At Layer 25, the answer "decrease" is at position 0
+At Layer 25, Top 20 Vocab Probs: [' decrease', ' increase', ' growth', ' the', ' data', ' health', ' new', ' software', 'Ċ', ' a', ' change', ' power', '-', ' time', ' work', ' in', ' high', ' decline', ' "', ' size']
+At Layer 26, the answer "decrease" is at position 0
+At Layer 26, Top 20 Vocab Probs: [' decrease', ' the', ' increase', ' growth', ' new', ' software', ' a', 'Ċ', ' data', ' high', ' health', ' time', ' in', ' more', ' change', ' low', ' power', ' un', ' work', '-']
+At Layer 27, the answer "decrease" is at position 16
+At Layer 27, Top 20 Vocab Probs: [' the', ' a', 'Ċ', ' new', ' "', ' more', ' time', ' data', ' in', ' growth', ' high', ' un', ' use', ' p', ' (', ' ', ' decrease', ' work', ' good', ' number']
+---------------------22---------------------
+At Layer 22, the answer "decrease" is at position 0
+At Layer 22, Top 20 Vocab Probs: [' decrease', ' increase', ' growth', ' decline', ' change', ' reduction', ' new', ' software', ' data', ' decreased', ' reduce', ' health', 'Ċ', ' decreasing', ' "', ' time', ' decreases', ' increased', ' improve', ' power']
+At Layer 23, the answer "decrease" is at position 0
+At Layer 23, Top 20 Vocab Probs: [' decrease', ' increase', ' growth', ' software', ' decline', ' change', ' data', ' new', ' health', 'Ċ', ' reduction', ' power', ' hardware', ' time', ' "', ' the', ' computer', ' a', ' size', ' decreased']
+At Layer 24, the answer "decrease" is at position 0
+At Layer 24, Top 20 Vocab Probs: [' decrease', ' increase', ' growth', ' health', ' software', ' data', ' change', ' new', ' decline', ' power', 'Ċ', ' reduce', ' the', ' time', ' reduction', ' high', ' a', ' work', ' hardware', ' size']
+At Layer 25, the answer "decrease" is at position 0
+At Layer 25, Top 20 Vocab Probs: [' decrease', ' increase', ' growth', ' the', ' data', ' health', ' new', ' software', 'Ċ', ' a', ' change', ' power', '-', ' time', ' work', ' in', ' high', ' decline', ' "', ' size']
+At Layer 26, the answer "decrease" is at position 0
+At Layer 26, Top 20 Vocab Probs: [' decrease', ' the', ' increase', ' growth', ' new', ' software', ' a', 'Ċ', ' data', ' high', ' health', ' time', ' in', ' more', ' change', ' low', ' power', ' un', ' work', '-']
+At Layer 27, the answer "decrease" is at position 16
+At Layer 27, Top 20 Vocab Probs: [' the', ' a', 'Ċ', ' new', ' "', ' more', ' time', ' data', ' in', ' growth', ' high', ' un', ' use', ' p', ' (', ' ', ' decrease', ' work', ' good', ' number']
+---------------------23---------------------
+At Layer 23, the answer "decrease" is at position 0
+At Layer 23, Top 20 Vocab Probs: [' decrease', ' increase', ' growth', ' software', ' decline', ' change', ' data', ' new', ' health', 'Ċ', ' reduction', ' power', ' hardware', ' time', ' "', ' the', ' computer', ' a', ' size', ' decreased']
+At Layer 24, the answer "decrease" is at position 0
+At Layer 24, Top 20 Vocab Probs: [' decrease', ' increase', ' growth', ' health', ' software', ' data', ' change', ' new', ' decline', ' power', 'Ċ', ' reduce', ' the', ' time', ' reduction', ' high', ' a', ' work', ' hardware', ' size']
+At Layer 25, the answer "decrease" is at position 0
+At Layer 25, Top 20 Vocab Probs: [' decrease', ' increase', ' growth', ' the', ' data', ' health', ' new', ' software', 'Ċ', ' a', ' change', ' power', '-', ' time', ' work', ' in', ' high', ' decline', ' "', ' size']
+At Layer 26, the answer "decrease" is at position 0
+At Layer 26, Top 20 Vocab Probs: [' decrease', ' the', ' increase', ' growth', ' new', ' software', ' a', 'Ċ', ' data', ' high', ' health', ' time', ' in', ' more', ' change', ' low', ' power', ' un', ' work', '-']
+At Layer 27, the answer "decrease" is at position 16
+At Layer 27, Top 20 Vocab Probs: [' the', ' a', 'Ċ', ' new', ' "', ' more', ' time', ' data', ' in', ' growth', ' high', ' un', ' use', ' p', ' (', ' ', ' decrease', ' work', ' good', ' number']
+---------------------24---------------------
+At Layer 24, the answer "decrease" is at position 0
+At Layer 24, Top 20 Vocab Probs: [' decrease', ' increase', ' growth', ' health', ' software', ' data', ' change', ' new', ' decline', ' power', 'Ċ', ' reduce', ' the', ' time', ' reduction', ' high', ' a', ' work', ' hardware', ' size']
+At Layer 25, the answer "decrease" is at position 0
+At Layer 25, Top 20 Vocab Probs: [' decrease', ' increase', ' growth', ' the', ' data', ' health', ' new', ' software', 'Ċ', ' a', ' change', ' power', '-', ' time', ' work', ' in', ' high', ' decline', ' "', ' size']
+At Layer 26, the answer "decrease" is at position 0
+At Layer 26, Top 20 Vocab Probs: [' decrease', ' the', ' increase', ' growth', ' new', ' software', ' a', 'Ċ', ' data', ' high', ' health', ' time', ' in', ' more', ' change', ' low', ' power', ' un', ' work', '-']
+At Layer 27, the answer "decrease" is at position 16
+At Layer 27, Top 20 Vocab Probs: [' the', ' a', 'Ċ', ' new', ' "', ' more', ' time', ' data', ' in', ' growth', ' high', ' un', ' use', ' p', ' (', ' ', ' decrease', ' work', ' good', ' number']
+---------------------25---------------------
+At Layer 25, the answer "decrease" is at position 0
+At Layer 25, Top 20 Vocab Probs: [' decrease', ' increase', ' growth', ' the', ' data', ' health', ' new', ' software', 'Ċ', ' a', ' change', ' power', '-', ' time', ' work', ' in', ' high', ' decline', ' "', ' size']
+At Layer 26, the answer "decrease" is at position 0
+At Layer 26, Top 20 Vocab Probs: [' decrease', ' the', ' increase', ' growth', ' new', ' software', ' a', 'Ċ', ' data', ' high', ' health', ' time', ' in', ' more', ' change', ' low', ' power', ' un', ' work', '-']
+At Layer 27, the answer "decrease" is at position 16
+At Layer 27, Top 20 Vocab Probs: [' the', ' a', 'Ċ', ' new', ' "', ' more', ' time', ' data', ' in', ' growth', ' high', ' un', ' use', ' p', ' (', ' ', ' decrease', ' work', ' good', ' number']
+---------------------26---------------------
+At Layer 26, the answer "decrease" is at position 0
+At Layer 26, Top 20 Vocab Probs: [' decrease', ' the', ' increase', ' growth', ' new', ' software', ' a', 'Ċ', ' data', ' high', ' health', ' time', ' in', ' more', ' change', ' low', ' power', ' un', ' work', '-']
+At Layer 27, the answer "decrease" is at position 16
+At Layer 27, Top 20 Vocab Probs: [' the', ' a', 'Ċ', ' new', ' "', ' more', ' time', ' data', ' in', ' growth', ' high', ' un', ' use', ' p', ' (', ' ', ' decrease', ' work', ' good', ' number']
+---------------------27---------------------
+At Layer 27, the answer "decrease" is at position 16
+At Layer 27, Top 20 Vocab Probs: [' the', ' a', 'Ċ', ' new', ' "', ' more', ' time', ' data', ' in', ' growth', ' high', ' un', ' use', ' p', ' (', ' ', ' decrease', ' work', ' good', ' number']

@@ -1,0 +1,93 @@
+Loading:  EleutherAI/gpt-j-6b
+Shuffled ICL Prompt:
+ '<|endoftext|>Q: hardware\nA: compatible\n\nQ: fascism\nA: health\n\nQ: incompatible\nA: ignore\n\nQ: illness\nA: democracy\n\nQ: notice\nA: software\n\nQ: increase\nA:' 
+
+
+Input Sentence: '<|endoftext|>Q: hardware\nA: compatible\n\nQ: fascism\nA: health\n\nQ: incompatible\nA: ignore\n\nQ: illness\nA: democracy\n\nQ: notice\nA: software\n\nQ: increase\nA:' 
+
+Input Query: 'increase', Target: 'decrease'
+
+---------------------0---------------------
+At Layer 0, the answer "decrease" is at position 30363
+At Layer 0, Top 20 Vocab Probs: [' invention', ' also', ' Phys', 'depend', 'signed', 'name', 'commit', ' still', ' Copyright', 'FUN', '++)', 'pc', ' sensory', ' name', 'return', 'using', ' SPD', ' role', ' Cir', ' Applied']
+---------------------1---------------------
+At Layer 1, the answer "decrease" is at position 38774
+At Layer 1, Top 20 Vocab Probs: [' Phys', ' SPD', ' role', ' chill', ' genes', ' Ultimate', ' invention', ' roles', ' sometimes', ' also', ' present', ' name', ' way', ' Savage', ' often', ' world', ' always', ' expression', ' integration', ' Lost']
+---------------------2---------------------
+At Layer 2, the answer "decrease" is at position 40597
+At Layer 2, Top 20 Vocab Probs: [' Phys', ' Bren', ' role', ' Ess', ' Included', ' All', ' Madd', ' chill', ' Simply', ' Savage', ' roles', ' Created', ' Math', ' Fun', ' genes', ' Birth', ' Physical', ' wealth', ' always', ' selling']
+---------------------3---------------------
+At Layer 3, the answer "decrease" is at position 28109
+At Layer 3, Top 20 Vocab Probs: [' Phys', ' wealth', ' "', ' who', ' often', ' invention', ' respective', ' role', ' also', ' ', ' founding', ' embodiment', ' roles', ' Physical', ' e', ' author', 'aging', ' chill', ' including', ' various']
+---------------------4---------------------
+At Layer 4, the answer "decrease" is at position 21066
+At Layer 4, Top 20 Vocab Probs: [' who', ' role', ' also', ' Phys', ' e', ' is', ' was', ' most', ' "', ' wealth', ' know', ' if', ' same', ' ', ' name', ' link', ' function', ' Copyright', ' best', ' roles']
+---------------------5---------------------
+At Layer 5, the answer "decrease" is at position 11500
+At Layer 5, Top 20 Vocab Probs: [' name', ' best', ' same', ' role', ' invention', ' Phys', ' link', ' mean', ' need', ' Copyright', ' development', ' purpose', ' money', ' wealth', ' The', ' uh', ' was', ' rate', ' ?', ' fact']
+---------------------6---------------------
+At Layer 6, the answer "decrease" is at position 6210
+At Layer 6, Top 20 Vocab Probs: [' name', ' same', ' money', ' invention', ' other', ' "', ' not', ' link', ' protein', ' development', ' uh', ' role', ' more', ' ?', ' purpose', ' best', ' social', ' is', ' rate', ' href']
+---------------------7---------------------
+At Layer 7, the answer "decrease" is at position 2779
+At Layer 7, Top 20 Vocab Probs: [' same', ' name', ' invention', ' money', ' fire', ' other', ' link', ' birth', ' concentration', ' social', ' carry', ' role', ' heart', ' is', ' development', ' talk', ' The', ' physical', ' growth', ' focus']
+---------------------8---------------------
+At Layer 8, the answer "decrease" is at position 1507
+At Layer 8, Top 20 Vocab Probs: [' invention', ' same', ' money', ' The', ' social', ' other', ' name', ' development', ' next', ' link', ' description', ' function', ' concentration', ' role', ' state', ' protein', ' uh', ' life', ' water', ' power']
+---------------------9---------------------
+At Layer 9, the answer "decrease" is at position 870
+At Layer 9, Top 20 Vocab Probs: [' social', ' same', ' money', ' invention', ' fire', ' power', ' growth', ' birth', ' water', ' economic', ' public', ' nuclear', ' the', ' cancer', ' The', ' human', ' "', ' link', ' society', ' other']
+---------------------10---------------------
+At Layer 10, the answer "decrease" is at position 409
+At Layer 10, Top 20 Vocab Probs: [' same', ' $', ' social', ' money', ' cancer', ' age', ' time', ' health', ' car', ' life', ' The', ' "', ' invention', ' water', ' study', ' public', ' Car', ' the', ' fire', ' mean']
+---------------------11---------------------
+At Layer 11, the answer "decrease" is at position 543
+At Layer 11, Top 20 Vocab Probs: [' health', ' same', ' social', ' "', ' public', ' state', ' human', ' car', ' motor', ' time', ' nuclear', ' $', ' power', ' study', ' target', ' money', ' *', ' government', ' age', ' population']
+---------------------12---------------------
+At Layer 12, the answer "decrease" is at position 283
+At Layer 12, Top 20 Vocab Probs: [' health', ' food', ' human', ' $', ' social', ' time', ' same', ' good', ' freedom', ' world', ' state', ' heart', ' public', ' money', ' water', ' data', ' car', ' natural', ' life', ' theory']
+---------------------13---------------------
+At Layer 13, the answer "decrease" is at position 501
+At Layer 13, Top 20 Vocab Probs: [' health', ' technology', ' food', ' world', ' theory', ' time', ' data', ' money', ' heart', ' medical', ' good', ' human', ' water', ' growth', ' car', ' science', ' energy', ' public', ' cell', ' state']
+---------------------14---------------------
+At Layer 14, the answer "decrease" is at position 227
+At Layer 14, Top 20 Vocab Probs: [' health', ' money', ' food', ' technology', ' time', ' world', ' medicine', ' human', ' data', ' water', ' speed', ' growth', ' public', ' theory', ' fire', ' life', ' good', ' medical', ' science', ' state']
+---------------------15---------------------
+At Layer 15, the answer "decrease" is at position 324
+At Layer 15, Top 20 Vocab Probs: [' money', ' technology', ' health', ' food', ' politics', ' time', ' data', ' science', ' fire', ' energy', ' software', ' power', ' medicine', ' speed', ' life', ' hardware', ' world', ' growth', ' religion', ' invention']
+---------------------16---------------------
+At Layer 16, the answer "decrease" is at position 146
+At Layer 16, Top 20 Vocab Probs: [' money', ' hardware', ' health', ' data', ' time', ' human', ' world', ' politics', ' food', ' technology', ' software', ' energy', ' science', ' social', ' fire', ' medicine', ' education', ' life', ' power', ' growth']
+---------------------17---------------------
+At Layer 17, the answer "decrease" is at position 163
+At Layer 17, Top 20 Vocab Probs: [' hardware', ' software', ' money', ' data', ' health', ' human', ' food', ' time', ' fire', ' power', ' politics', ' technology', ' computer', ' world', ' science', ' government', ' life', ' people', ' energy', ' social']
+---------------------18---------------------
+At Layer 18, the answer "decrease" is at position 168
+At Layer 18, Top 20 Vocab Probs: [' hardware', ' money', ' data', ' health', ' time', ' software', ' technology', ' politics', ' human', ' food', ' fire', ' science', ' power', ' life', ' religion', ' people', ' love', ' music', ' death', ' social']
+---------------------19---------------------
+At Layer 19, the answer "decrease" is at position 2
+At Layer 19, Top 20 Vocab Probs: [' hardware', ' increase', ' decrease', ' software', ' technology', ' health', ' data', ' time', ' money', ' human', ' food', ' people', ' computer', ' fire', ' power', ' water', ' science', ' social', ' music', ' change']
+---------------------20---------------------
+At Layer 20, the answer "decrease" is at position 7
+At Layer 20, Top 20 Vocab Probs: [' hardware', ' software', ' data', ' increase', ' money', ' time', ' technology', ' decrease', ' health', ' people', ' human', ' computer', ' food', ' government', ' power', ' new', ' life', ' fire', ' science', ' water']
+---------------------21---------------------
+At Layer 21, the answer "decrease" is at position 12
+At Layer 21, Top 20 Vocab Probs: [' hardware', ' software', ' money', ' technology', ' data', ' time', ' health', ' computer', ' people', ' government', ' power', ' social', ' decrease', ' new', ' human', ' science', ' food', ' increase', ' life', 'Ċ']
+---------------------22---------------------
+At Layer 22, the answer "decrease" is at position 23
+At Layer 22, Top 20 Vocab Probs: [' health', ' hardware', ' technology', ' software', ' money', ' data', ' time', ' government', ' computer', ' people', ' politics', ' new', ' human', ' science', ' social', ' power', ' life', 'Ċ', ' food', ' democracy']
+---------------------23---------------------
+At Layer 23, the answer "decrease" is at position 23
+At Layer 23, Top 20 Vocab Probs: [' software', ' hardware', ' health', ' technology', ' data', ' computer', ' money', ' time', ' government', ' power', ' science', ' people', ' politics', ' new', ' social', 'Ċ', ' increase', ' life', ' human', ' food']
+---------------------24---------------------
+At Layer 24, the answer "decrease" is at position 32
+At Layer 24, Top 20 Vocab Probs: [' health', ' hardware', ' software', ' data', ' technology', ' money', ' time', ' power', ' human', ' science', ' computer', ' government', ' social', ' life', ' people', ' new', ' increase', ' food', ' disease', 'Ċ']
+---------------------25---------------------
+At Layer 25, the answer "decrease" is at position 45
+At Layer 25, Top 20 Vocab Probs: [' health', ' data', ' hardware', ' software', ' time', ' the', ' power', ' new', ' human', 'Ċ', ' a', ' work', ' life', ' people', ' technology', ' social', ' system', ' money', ' government', ' increase']
+---------------------26---------------------
+At Layer 26, the answer "decrease" is at position 111
+At Layer 26, Top 20 Vocab Probs: [' health', ' the', ' software', ' data', ' time', ' hardware', ' a', 'Ċ', ' new', ' work', ' human', ' power', ' life', ' people', ' technology', ' computer', ' p', ' social', ' in', ' "']
+---------------------27---------------------
+At Layer 27, the answer "decrease" is at position 209
+At Layer 27, Top 20 Vocab Probs: [' the', ' a', ' time', ' new', 'Ċ', ' "', ' data', ' p', ' work', ' people', ' health', ' more', ' human', ' in', ' life', ' software', ' un', ' power', ' m', ' ']

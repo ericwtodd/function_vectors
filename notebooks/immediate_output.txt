@@ -1,0 +1,93 @@
+Loading:  EleutherAI/gpt-j-6b
+Shuffled ICL Prompt:
+ '<|endoftext|>Q: hardware\nA: software\n\nQ: fascism\nA: democracy\n\nQ: incompatible\nA: ignore\n\nQ: illness\nA: health\n\nQ: notice\nA: compatible\n\nQ: increase\nA:' 
+
+
+Input Sentence: '<|endoftext|>Q: hardware\nA: software\n\nQ: fascism\nA: democracy\n\nQ: incompatible\nA: ignore\n\nQ: illness\nA: health\n\nQ: notice\nA: compatible\n\nQ: increase\nA:' 
+
+Input Query: 'increase', Target: 'decrease'
+
+---------------------0---------------------
+At Layer 0, the answer "decrease" is at position 8350
+At Layer 0, Top 20 Vocab Probs: [' lesser', 'wrong', ' others', ' forget', ' wrong', ' other', 'delete', ' delete', ' evil', ' peaceful', 'destroy', ' treason', ' ignore', 'dis', ' invention', 'replace', 'other', 'neutral', ' counterpart', ' nonexistent']
+---------------------1---------------------
+At Layer 1, the answer "decrease" is at position 12416
+At Layer 1, Top 20 Vocab Probs: [' wrong', ' lesser', 'wrong', ' peaceful', ' evil', ' forget', ' others', ' treason', ' chill', ' delete', ' other', ' nonexistent', ' ignore', ' counterpart', ' birth', ' chaos', ' invention', ' corpse', ' less', ' traitor']
+---------------------2---------------------
+At Layer 2, the answer "decrease" is at position 13158
+At Layer 2, Top 20 Vocab Probs: [' wrong', 'wrong', ' lesser', ' evil', ' forget', ' chill', ' peaceful', ' nonexistent', ' less', ' counterpart', ' false', ' delete', ' treason', ' others', ' neutrality', ' envy', ' ignore', ' other', ' incorrect', ' birth']
+---------------------3---------------------
+At Layer 3, the answer "decrease" is at position 8241
+At Layer 3, Top 20 Vocab Probs: [' wrong', 'wrong', ' others', ' other', ' lesser', ' forget', ' peaceful', ' chill', ' evil', ' envy', ' birth', ' incorrect', ' less', ' invention', ' dance', ' death', ' unc', ' ignore', ' wealth', ' false']
+---------------------4---------------------
+At Layer 4, the answer "decrease" is at position 7449
+At Layer 4, Top 20 Vocab Probs: [' wrong', ' other', ' forget', ' dance', ' delete', ' others', ' chill', ' invention', ' peaceful', ' evil', ' ignore', 'wrong', ' wealth', ' mean', ' original', ' envy', ' false', ' enjoy', ' birth', ' center']
+---------------------5---------------------
+At Layer 5, the answer "decrease" is at position 4678
+At Layer 5, Top 20 Vocab Probs: [' other', ' others', ' wrong', ' birth', ' invention', ' mean', ' forget', ' false', ' money', ' truth', ' delete', 'rogen', ' mystery', ' destiny', ' ignore', ' infinity', ' economy', ' lesser', ' name', ' death']
+---------------------6---------------------
+At Layer 6, the answer "decrease" is at position 2662
+At Layer 6, Top 20 Vocab Probs: [' other', ' others', ' wrong', ' truth', ' money', ' unc', ' birth', ' not', ' invention', ' false', ' same', ' delete', ' name', ' mean', ' infinity', ' Other', ' true', ' lesser', ' center', ' protein']
+---------------------7---------------------
+At Layer 7, the answer "decrease" is at position 1477
+At Layer 7, Top 20 Vocab Probs: [' other', ' wrong', ' birth', ' same', ' invention', ' money', ' name', ' center', ' fire', ' unc', ' others', ' destination', ' concentration', ' delete', ' ignore', ' carry', ' infinity', ' correct', ' inverse', ' false']
+---------------------8---------------------
+At Layer 8, the answer "decrease" is at position 1535
+At Layer 8, Top 20 Vocab Probs: [' other', ' invention', ' birth', ' money', ' same', ' wrong', ' truth', ' name', ' lesser', ' middle', ' original', ' not', ' car', ' concentration', ' others', ' center', ' base', ' currency', ' hide', ' world']
+---------------------9---------------------
+At Layer 9, the answer "decrease" is at position 679
+At Layer 9, Top 20 Vocab Probs: [' other', ' invention', ' same', ' money', ' birth', ' wrong', ' fire', ' electricity', ' death', ' center', ' power', ' normal', ' car', ' female', ' not', ' water', ' reverse', ' mean', ' energy', ' human']
+---------------------10---------------------
+At Layer 10, the answer "decrease" is at position 326
+At Layer 10, Top 20 Vocab Probs: [' other', ' money', ' death', ' cancer', ' same', ' car', ' normal', ' invention', ' birth', ' female', ' protein', ' mean', ' healthy', ' return', ' electricity', ' water', ' disease', ' wrong', ' words', ' false']
+---------------------11---------------------
+At Layer 11, the answer "decrease" is at position 425
+At Layer 11, Top 20 Vocab Probs: [' healthy', ' other', ' normal', ' health', ' wrong', ' human', ' disease', ' birth', ' not', ' false', ' correct', ' power', ' money', ' car', ' same', ' non', ' cancer', ' world', ' original', ' female']
+---------------------12---------------------
+At Layer 12, the answer "decrease" is at position 124
+At Layer 12, Top 20 Vocab Probs: [' other', ' money', ' energy', ' healthy', ' others', ' water', ' motor', ' human', ' love', ' health', ' food', ' life', ' disease', ' death', ' car', ' normal', ' false', ' power', ' world', ' non']
+---------------------13---------------------
+At Layer 13, the answer "decrease" is at position 1
+At Layer 13, Top 20 Vocab Probs: [' increase', ' decrease', ' change', ' growth', ' other', ' increased', ' energy', ' promote', ' improve', 'incre', ' enhance', ' money', ' modify', ' increasing', ' wealth', ' higher', ' improvement', ' expansion', ' pressure', ' control']
+---------------------14---------------------
+At Layer 14, the answer "decrease" is at position 1
+At Layer 14, Top 20 Vocab Probs: [' increase', ' decrease', ' growth', ' change', ' increased', ' multiplication', ' higher', ' reduce', ' height', 'incre', ' decay', ' decline', ' decreased', ' increasing', ' smaller', ' promote', ' enhance', ' rate', ' improve', ' decreasing']
+---------------------15---------------------
+At Layer 15, the answer "decrease" is at position 1
+At Layer 15, Top 20 Vocab Probs: [' increase', ' decrease', ' change', ' growth', ' rate', ' higher', ' modify', ' decline', ' reduce', ' power', ' other', ' energy', ' evolution', ' destroy', ' function', ' improve', ' remove', ' lesser', ' reduction', ' height']
+---------------------16---------------------
+At Layer 16, the answer "decrease" is at position 0
+At Layer 16, Top 20 Vocab Probs: [' decrease', ' increase', ' change', ' growth', ' decline', ' reduction', ' lower', ' decreased', ' reduce', ' decreasing', ' decay', ' low', ' decreases', ' small', ' lesser', ' power', ' other', ' function', ' energy', ' evolution']
+---------------------17---------------------
+At Layer 17, the answer "decrease" is at position 0
+At Layer 17, Top 20 Vocab Probs: [' decrease', ' increase', ' change', ' growth', ' decline', ' reduce', ' reduction', ' decreasing', ' decreased', ' lower', ' decay', ' delete', ' decreases', ' power', ' evolution', ' small', ' improve', ' low', ' remove', ' lesser']
+---------------------18---------------------
+At Layer 18, the answer "decrease" is at position 0
+At Layer 18, Top 20 Vocab Probs: [' decrease', ' increase', ' change', ' decline', ' growth', ' improve', ' reduce', ' reduction', ' decreased', ' improvement', ' decreasing', ' lower', ' decreases', ' decay', ' power', ' modify', ' shrink', ' loss', ' delete', ' destroy']
+---------------------19---------------------
+At Layer 19, the answer "decrease" is at position 0
+At Layer 19, Top 20 Vocab Probs: [' decrease', ' increase', ' decreased', ' reduction', ' reduce', ' decreasing', ' decreases', ' decline', ' change', ' increased', ' improve', 'Decre', ' increases', ' improvement', 'incre', ' growth', ' increasing', ' Decre', ' Increase', 'Increase']
+---------------------20---------------------
+At Layer 20, the answer "decrease" is at position 0
+At Layer 20, Top 20 Vocab Probs: [' decrease', ' increase', ' decreased', ' reduction', ' decreases', ' decline', ' change', ' decreasing', ' reduce', ' increased', ' growth', ' increases', ' improve', ' increasing', 'incre', 'Decre', ' improvement', ' Decre', ' lower', ' decay']
+---------------------21---------------------
+At Layer 21, the answer "decrease" is at position 0
+At Layer 21, Top 20 Vocab Probs: [' decrease', ' increase', ' reduction', ' decline', ' decreased', ' reduce', ' decreases', ' change', ' decreasing', ' growth', ' improve', ' increased', ' lower', ' improvement', 'Decre', ' Decre', ' shrink', ' reduced', ' decay', ' rise']
+---------------------22---------------------
+At Layer 22, the answer "decrease" is at position 0
+At Layer 22, Top 20 Vocab Probs: [' decrease', ' increase', ' decline', ' reduce', ' decreased', ' reduction', ' growth', ' change', ' decreases', ' decreasing', ' improve', ' shrink', ' increased', ' lower', ' reduced', ' improvement', ' Decre', ' new', ' rise', ' decay']
+---------------------23---------------------
+At Layer 23, the answer "decrease" is at position 0
+At Layer 23, Top 20 Vocab Probs: [' decrease', ' increase', ' decline', ' growth', ' change', ' reduce', ' reduction', ' decreased', ' decreasing', ' decreases', ' lower', ' improve', ' shrink', ' low', ' new', ' decay', 'Ċ', ' improvement', ' a', ' rise']
+---------------------24---------------------
+At Layer 24, the answer "decrease" is at position 0
+At Layer 24, Top 20 Vocab Probs: [' decrease', ' increase', ' growth', ' decline', ' reduce', ' change', ' reduction', ' decreased', ' lower', ' low', ' decreasing', ' high', ' new', ' shrink', ' improve', ' a', ' decreases', 'Ċ', ' loss', ' the']
+---------------------25---------------------
+At Layer 25, the answer "decrease" is at position 0
+At Layer 25, Top 20 Vocab Probs: [' decrease', ' increase', ' growth', ' reduce', ' decline', ' change', ' reduction', ' the', ' lower', ' a', 'Ċ', ' new', ' low', '-', ' in', ' decreased', ' high', ' data', ' loss', ' ']
+---------------------26---------------------
+At Layer 26, the answer "decrease" is at position 0
+At Layer 26, Top 20 Vocab Probs: [' decrease', ' increase', ' growth', ' the', ' a', 'Ċ', ' change', ' high', ' lower', ' low', ' new', ' decline', ' reduce', ' reduction', ' in', ' more', ' dec', ' un', ',', ' small']
+---------------------27---------------------
+At Layer 27, the answer "decrease" is at position 2
+At Layer 27, Top 20 Vocab Probs: [' a', ' the', ' decrease', 'Ċ', ' new', ' growth', ' more', ' in', ' high', ' increase', ' "', ' not', ' no', ' change', ' ', ' time', ' low', ' un', ' is', ' (']

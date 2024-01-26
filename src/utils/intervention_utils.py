@@ -2,6 +2,7 @@ from baukit import TraceDict, get_module
 import torch
 import re
 import bitsandbytes as bnb
+from fancy_einsum import einsum
 
 def get_module(model, name):
     """
@@ -92,7 +93,7 @@ def replace_activation_w_avg(layer_head_token_pairs, avg_activations, model, mod
 
     return rep_act
 
-def add_function_vector(edit_layer, fv_vector, device, idx=-1):
+def add_function_vector(model, tokenizer, edit_layer, fv_vector, device, idx=-1):
     """
     Adds a vector to the output of a specified layer in the model
 
@@ -107,13 +108,40 @@ def add_function_vector(edit_layer, fv_vector, device, idx=-1):
     """
     def add_act(output, layer_name):
         current_layer = int(layer_name.split(".")[2])
+        #copy the same thing, and find the position for decrease
         if current_layer == edit_layer:
             if isinstance(output, tuple):
-                output[0][:, idx] += fv_vector.to(device)
+                # output[0][:, idx] += fv_vector.to(device)
+                W_U = model.lm_head.weight.T
+                vocab_proj = einsum(
+                    "batch d_model, d_model d_vocab --> batch d_vocab",
+                    output[0][:,idx],
+                    W_U,
+                )
+                probs = vocab_proj.softmax(dim=-1)
+                vocab_top = probs.topk(20).indices.tolist()
+                sorted_word = probs.sort(descending=True).indices
+                pos=torch.where(sorted_word[0]==10070)[0].item()
+                print(f"---------------------{current_layer}---------------------")
+                print(f'At Layer {current_layer}, the answer "decrease" is at position {pos}')
+                print(f"At Layer {current_layer}, Top 20 Vocab Probs: {tokenizer.convert_ids_to_tokens(vocab_top[0])}")
                 return output
             else:
                 return output
         else:
+            if (current_layer > edit_layer):
+                W_U = model.lm_head.weight.T
+                vocab_proj = einsum(
+                    "batch d_model, d_model d_vocab --> batch d_vocab",
+                    output[0][:,idx],
+                    W_U,
+                )
+                probs = vocab_proj.softmax(dim=-1)
+                vocab_top = probs.topk(20).indices.tolist()
+                sorted_word = probs.sort(descending=True).indices
+                pos=torch.where(sorted_word[0]==10070)[0].item()
+                print(f'At Layer {current_layer}, the answer "decrease" is at position {pos}')
+                print(f"At Layer {current_layer}, Top 20 Vocab Probs: {tokenizer.convert_ids_to_tokens(vocab_top[0])}")
             return output
 
     return add_act
@@ -161,7 +189,7 @@ def function_vector_intervention(sentence, target, edit_layer, function_vector, 
         clean_output = model(**inputs).logits[:,-1,:]
 
     # Perform Intervention
-    intervention_fn = add_function_vector(edit_layer, function_vector.reshape(1, model_config['resid_dim']), model.device)
+    intervention_fn = add_function_vector(model, tokenizer, edit_layer, function_vector.reshape(1, model_config['resid_dim']), model.device)
     with TraceDict(model, layers=model_config['layer_hook_names'], edit_output=intervention_fn):     
         if compute_nll:
             output = model(**nll_inputs, labels=nll_targets)
