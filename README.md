@@ -1,5 +1,5 @@
 # Function Vectors in Large Language Models
-### [Project Website](https://functions.baulab.info)
+### [Project Website](https://functions.baulab.info) | [Arxiv Preprint](https://arxiv.org/abs/2310.15213)
 
 This repository contains data and code for the paper: [Function Vectors in Large Language Models](https://arxiv.org/abs/2310.15213).
 
@@ -34,14 +34,12 @@ Other main code is split into various util files:
 - `prompt_utils.py` contains data loading and prompt creation functionality
 
 ## Citing our work
-The preprint can be cited as follows
+This work appeared at ICLR 2024. The paper can be cited as follows:
 
 ```bibtex
-@article{todd2023function,
+@inproceedings{todd2024function,
     title={Function Vectors in Large Language Models}, 
     author={Eric Todd and Millicent L. Li and Arnab Sen Sharma and Aaron Mueller and Byron C. Wallace and David Bau},
-    year={2023},
-    eprint={2310.15213},
-    archivePrefix={arXiv},
-    primaryClass={cs.CL}
+    booktitle={Proceedings of the 2024 International Conference on Learning Representations},
+    year={2024},
 }
