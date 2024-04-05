@@ -356,6 +356,7 @@ def compute_function_vector(mean_activations, indirect_effect, model, model_conf
         function_vector += d_out
     
     function_vector = function_vector.to(model.dtype)
+    function_vector = function_vector.reshape(1, model_resid_dim)
 
     return function_vector, top_heads
 
