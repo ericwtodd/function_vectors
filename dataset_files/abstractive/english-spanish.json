@@ -8157,7 +8157,7 @@
     },
     {
         "input": "garcia",
-        "output": "Garc\u00eda (This is a common Spanish surname, it doesn't have"
+        "output": "Garc\u00eda"
     },
     {
         "input": "friends",
@@ -9217,7 +9217,7 @@
     },
     {
         "input": "the",
-        "output": "el/la/los/las (depending on the gender and number of"
+        "output": "el"
     },
     {
         "input": "script",
@@ -9437,7 +9437,7 @@
     },
     {
         "input": "tissue",
-        "output": "tejido or pa\u00f1uelo (if referring to a tissue paper"
+        "output": "tejido"
     },
     {
         "input": "sentenced",
@@ -10325,7 +10325,7 @@
     },
     {
         "input": "self",
-        "output": "yo mismo (for male) / yo misma (for female)"
+        "output": "mismo"
     },
     {
         "input": "watts",
@@ -11461,7 +11461,7 @@
     },
     {
         "input": "your",
-        "output": "tu or su (depending on the level of formality)"
+        "output": "tu"
     },
     {
         "input": "tomb",
@@ -11701,7 +11701,7 @@
     },
     {
         "input": "tackles",
-        "output": "taclea or placajes (in the context of sports)"
+        "output": "placajes"
     },
     {
         "input": "investors",
@@ -13329,7 +13329,7 @@
     },
     {
         "input": "right",
-        "output": "derecho (direction) or correcto (correct)"
+        "output": "derecho"
     },
     {
         "input": "massacre",
@@ -15089,7 +15089,7 @@
     },
     {
         "input": "cover",
-        "output": "cubrir or tapa (for book cover)"
+        "output": "cubrir"
     },
     {
         "input": "match",
@@ -15497,7 +15497,7 @@
     },
     {
         "input": "quarter",
-        "output": "cuarto or veinticinco centavos (for a quarter"
+        "output": "cuarto"
     },
     {
         "input": "desert",

@@ -3789,7 +3789,7 @@
     },
     {
         "input": "plays",
-        "output": "pi\u00e8ces (in"
+        "output": "pi\u00e8ces"
     },
     {
         "input": "times",
@@ -5101,7 +5101,7 @@
     },
     {
         "input": "ltd",
-        "output": "sarl (Soci"
+        "output": "sarl"
     },
     {
         "input": "discography",
@@ -5869,7 +5869,7 @@
     },
     {
         "input": "nato",
-        "output": "OTAN (Organisation"
+        "output": "OTAN"
     },
     {
         "input": "number",
@@ -12057,7 +12057,7 @@
     },
     {
         "input": "aug",
-        "output": "ao\u00fbt (This is"
+        "output": "ao\u00fbt"
     },
     {
         "input": "hundreds",
@@ -13097,7 +13097,7 @@
     },
     {
         "input": "apr",
-        "output": "avril (This is"
+        "output": "avril"
     },
     {
         "input": "nicknamed",
@@ -14861,7 +14861,7 @@
     },
     {
         "input": "imo",
-        "output": "\u00e0 mon avis (in"
+        "output": "\u00e0 mon avis"
     },
     {
         "input": "challenge",

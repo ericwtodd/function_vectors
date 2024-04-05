@@ -7457,7 +7457,7 @@
     },
     {
         "input": "hello",
-        "output": "hallo (in German)"
+        "output": "hallo"
     },
     {
         "input": "compensation",
