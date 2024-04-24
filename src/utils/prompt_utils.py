@@ -287,7 +287,7 @@ def word_pairs_to_prompt_data(word_pairs : dict,
                               prefixes: dict = {"input":"Q:", "output":"A:","instructions":""},
                               separators: dict = {"input":"\n", "output":"\n\n", "instructions":""},
                               query_target_pair: dict = None, prepend_bos_token=False,
-                              shuffle_labels=False, prepend_space=False) -> dict:
+                              shuffle_labels=False, prepend_space=True) -> dict:
     """Takes a dataset of word pairs, and constructs a prompt_data dict with additional information to construct an ICL prompt.
     Parameters:
     word_pairs: dict of the form {'word1':['a', 'b', ...], 'word2':['c', 'd', ...]}
