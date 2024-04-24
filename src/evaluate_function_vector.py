@@ -94,18 +94,18 @@ if __name__ == "__main__":
     elif generate_str:
         set_seed(seed+42)
         fs_results_validation = n_shot_eval_no_intervention(dataset=dataset, n_shots=n_shots, model=model, model_config=model_config, tokenizer=tokenizer, compute_ppl=False,
-                                                 generate_str=True, metric=metric, test_split='valid')
+                                                 generate_str=True, metric=metric, test_split='valid', prefixes=prefixes, separators=separators)
         filter_set_validation = np.where(np.array(fs_results_validation['score']) == 1)[0]
         set_seed(seed)
         fs_results = n_shot_eval_no_intervention(dataset=dataset, n_shots=n_shots, model=model, model_config=model_config, tokenizer=tokenizer, compute_ppl=False,
-                                                 generate_str=True, metric=metric)
+                                                 generate_str=True, metric=metric, prefixes=prefixes, separators=separators)
         filter_set = np.where(np.array(fs_results['score']) == 1)[0]
     else:
         set_seed(seed+42)
-        fs_results_validation = n_shot_eval_no_intervention(dataset=dataset, n_shots=n_shots, model=model, model_config=model_config, tokenizer=tokenizer, compute_ppl=True, test_split='valid')
+        fs_results_validation = n_shot_eval_no_intervention(dataset=dataset, n_shots=n_shots, model=model, model_config=model_config, tokenizer=tokenizer, compute_ppl=True, test_split='valid', prefixes=prefixes, separators=separators)
         filter_set_validation = np.where(np.array(fs_results_validation['clean_rank_list']) == 0)[0]
         set_seed(seed)
-        fs_results = n_shot_eval_no_intervention(dataset=dataset, n_shots=n_shots, model=model, model_config=model_config, tokenizer=tokenizer, compute_ppl=True)
+        fs_results = n_shot_eval_no_intervention(dataset=dataset, n_shots=n_shots, model=model, model_config=model_config, tokenizer=tokenizer, compute_ppl=True, prefixes=prefixes, separators=separators)
         filter_set = np.where(np.array(fs_results['clean_rank_list']) == 0)[0]
     
     args.fs_results_file_name = fs_results_file_name
@@ -155,10 +155,10 @@ if __name__ == "__main__":
             pred_filepath = f"{save_path_root}/preds/{model_config['name_or_path'].replace('/', '_')}_ZS_intervention_layer{eval_edit_layer}.txt"
             zs_results = n_shot_eval(dataset=dataset, fv_vector=fv, edit_layer=eval_edit_layer, n_shots=0,
                                      model=model, model_config=model_config, tokenizer=tokenizer, filter_set=filter_set,
-                                     generate_str=generate_str, metric=metric, pred_filepath=pred_filepath)
+                                     generate_str=generate_str, metric=metric, pred_filepath=pred_filepath, prefixes=prefixes, separators=separators)
         else:
             zs_results = n_shot_eval(dataset=dataset, fv_vector=fv, edit_layer=eval_edit_layer, n_shots=0,
-                                    model=model, model_config=model_config, tokenizer=tokenizer, filter_set=filter_set)
+                                    model=model, model_config=model_config, tokenizer=tokenizer, filter_set=filter_set, prefixes=prefixes, separators=separators)
         zs_results_file_suffix = f'_editlayer_{eval_edit_layer}.json'   
 
 
@@ -168,10 +168,10 @@ if __name__ == "__main__":
             pred_filepath = f"{save_path_root}/preds/{model_config['name_or_path'].replace('/', '_')}_{n_shots}shots_shuffled_intervention_layer{eval_edit_layer}.txt"
             fs_shuffled_results = n_shot_eval(dataset=dataset, fv_vector=fv, edit_layer=eval_edit_layer, n_shots=n_shots, 
                                               model=model, model_config=model_config, tokenizer=tokenizer, filter_set=filter_set, shuffle_labels=True,
-                                              generate_str=generate_str, metric=metric, pred_filepath=pred_filepath)
+                                              generate_str=generate_str, metric=metric, pred_filepath=pred_filepath, prefixes=prefixes, separators=separators)
         else:
             fs_shuffled_results = n_shot_eval(dataset=dataset, fv_vector=fv, edit_layer=eval_edit_layer, n_shots=n_shots, 
-                                              model=model, model_config=model_config, tokenizer=tokenizer, filter_set=filter_set, shuffle_labels=True)
+                                              model=model, model_config=model_config, tokenizer=tokenizer, filter_set=filter_set, shuffle_labels=True, prefixes=prefixes, separators=separators)
         fs_shuffled_results_file_suffix = f'_editlayer_{eval_edit_layer}.json'   
         
     else:
@@ -183,18 +183,18 @@ if __name__ == "__main__":
             if generate_str:
                 zs_results[edit_layer] = n_shot_eval(dataset=dataset, fv_vector=fv, edit_layer=edit_layer, n_shots=0, 
                                                     model=model, model_config=model_config, tokenizer=tokenizer, filter_set=filter_set,
-                                                    generate_str=generate_str, metric=metric)
+                                                    generate_str=generate_str, metric=metric, prefixes=prefixes, separators=separators)
             else:
-                zs_results[edit_layer] = n_shot_eval(dataset=dataset, fv_vector=fv, edit_layer=edit_layer, n_shots=0, 
+                zs_results[edit_layer] = n_shot_eval(dataset=dataset, fv_vector=fv, edit_layer=edit_layer, n_shots=0, prefixes=prefixes, separators=separators,
                                                     model=model, model_config=model_config, tokenizer=tokenizer, filter_set=filter_set)
             set_seed(seed)
             if generate_str:
                 fs_shuffled_results[edit_layer] = n_shot_eval(dataset=dataset, fv_vector=fv, edit_layer=edit_layer, n_shots=n_shots, 
                                                     model=model, model_config=model_config, tokenizer=tokenizer, filter_set = filter_set,
-                                                    generate_str=generate_str, metric=metric, shuffle_labels=True)
+                                                    generate_str=generate_str, metric=metric, shuffle_labels=True, prefixes=prefixes, separators=separators)
             else:
                 fs_shuffled_results[edit_layer] = n_shot_eval(dataset=dataset, fv_vector=fv, edit_layer=edit_layer, n_shots=n_shots, 
-                                                    model=model, model_config=model_config, tokenizer=tokenizer, filter_set = filter_set, shuffle_labels=True)
+                                                    model=model, model_config=model_config, tokenizer=tokenizer, filter_set = filter_set, shuffle_labels=True, prefixes=prefixes, separators=separators)
         zs_results_file_suffix = '_layer_sweep.json'
         fs_shuffled_results_file_suffix = '_layer_sweep.json'
 
@@ -212,7 +212,7 @@ if __name__ == "__main__":
 
     if compute_baseline:
         print(f"Computing model baseline results for {n_shots}-shots")
-        baseline_results = compute_dataset_baseline(dataset, model, model_config, tokenizer, n_shots=n_shots, seed=seed)        
+        baseline_results = compute_dataset_baseline(dataset, model, model_config, tokenizer, n_shots=n_shots, seed=seed, prefixes=prefixes, separators=separators)        
     
         baseline_file_name = make_valid_path_name(f'{save_path_root}/model_baseline.json')
         args.baseline_file_name = baseline_file_name

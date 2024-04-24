@@ -132,9 +132,9 @@ def get_prompt_parts_and_labels(prompt_data, query_sentence=None):
 
     return prompt_parts, prompt_part_labels
 
-def extend_labels(sentence_parts, text_labels, tokenizer):
+def extend_labels(sentence_parts, text_labels, tokenizer, label_init=[]):
     """
-    Extends ICL component labels across words that are tokenized into multiple tokens for non-llama-style (sentence-piece) tokenizers
+    Extends ICL component labels across words that are tokenized into multiple tokens
 
     Parameters:
     sentence_parts: list, where each element is either a token (str), phrase (str), or list of tokens/phrases
@@ -144,101 +144,28 @@ def extend_labels(sentence_parts, text_labels, tokenizer):
     Returns:
     final_labels: flattened/extended list of token labels for an ICL prompt (split into parts, contained in sentence_parts and text_labels)
     """    
+    zipped_up = [list(zip(x,y)) if isinstance(x, list) else [(x,y)] for x,y in list(zip(sentence_parts,text_labels)) ]
+
     prompt_builder = ''
-    final_labels = []
-    for i,(word,label) in enumerate(zip(sentence_parts, text_labels)):
-        
-        if isinstance(word, list):
-            for j, (word2,label2) in enumerate(zip(word,label)):
-                if len(word2) == 0:
-                    continue
-                pre = tokenizer(prompt_builder, return_length=True).length[0]
-                prompt_builder += word2
-                post = tokenizer(prompt_builder, return_length=True).length[0]
-                n_tokens = tokenizer(word2, return_length=True).length[0]
-                actual_tokens = post-pre
-                if n_tokens != actual_tokens and n_tokens < actual_tokens:
-                    if 'end_of_example' in final_labels[-1]:
-                        final_labels.extend(['separator_token']*(actual_tokens - n_tokens))
-                    else:
-                        final_labels.extend([final_labels[-1]]*(actual_tokens - n_tokens))
-                final_labels.extend([label2] * (n_tokens))
-                if j==3:
-                    final_labels[-1] = final_labels[-1].replace('structural', 'predictive')
-                if j==5:
-                    final_labels[-n_tokens] = final_labels[-n_tokens].replace('separator', 'end_of_example')
-        else:
-            if len(word) == 0:
-                continue
-            pre = tokenizer(prompt_builder, return_length=True).length[0]
-            prompt_builder += word
-            post = tokenizer(prompt_builder, return_length=True).length[0]
-            n_tokens = tokenizer(word, return_length=True).length[0]
-            actual_tokens = post-pre
-            if n_tokens != actual_tokens and n_tokens < actual_tokens:
-                    final_labels.append(final_labels[-1]*(actual_tokens - n_tokens))
-            final_labels.extend([label] * (n_tokens))
-
-    return final_labels
-
-def extend_labels_llama(sentence_parts, text_labels, tokenizer):
-    """
-    Extends ICL component labels across words that are tokenized into multiple tokens for llama-style (sentence-piece) tokenizers
-
-    Parameters:
-    sentence_parts: list, where each element is either a token (str), phrase (str), or list of tokens/phrases
-    text_labels: list with the same structure as 'sentence_parts', with a corresponding label for that level of the input sentence.
-    tokenizer: huggingface tokenizer
+    final_labels = label_init
+    for element in zipped_up:
     
-    Returns:
-    final_labels: flattened/extended list of token labels for an ICL prompt (split into parts, contained in sentence_parts and text_labels)
-    """
-    prompt_builder = ''
-    final_labels = ['bos_token']
-    for i,(word,label) in enumerate(zip(sentence_parts, text_labels)):
-        
-        if isinstance(word, list):
-            for j, (word2,label2) in enumerate(zip(word,label)):
-                if len(word2) == 0:
-                    continue
-                pre = tokenizer(prompt_builder, return_length=True).length
-                prompt_builder += word2
-                post = tokenizer(prompt_builder, return_length=True).length
-                if word2.startswith(' '):  
-                    n_tokens = len(tokenizer.tokenize(word2.replace(" ","",1)))
-                else:
-                    n_tokens = tokenizer(word2, return_length=True).length -1
-                actual_tokens = post-pre
-                if n_tokens != actual_tokens:
-                    if n_tokens < actual_tokens:
-                        if prompt_builder.startswith(' '):
-                            final_labels.append(label2)
-                        else:
-                            if 'end_of_example' in final_labels[-1]:
-                                final_labels.extend(['separator_token']*(actual_tokens - n_tokens))
-                            else:
-                                final_labels.extend([final_labels[-1]]*(actual_tokens - n_tokens))
-                    elif n_tokens > actual_tokens: 
-                        n_tokens = min(actual_tokens, n_tokens)
-                
-                final_labels.extend([label2] * (n_tokens))
-                if j==3:
-                    final_labels[-1] = final_labels[-1].replace('structural', 'predictive')
-                if j==5:
-                    final_labels[-n_tokens] = final_labels[-n_tokens].replace('separator', 'end_of_example')
-                
-        else:
+        for j, (word,label) in enumerate(element):
             if len(word) == 0:
                 continue
-            pre = tokenizer(prompt_builder, return_length=True).length
+            pre = len(tokenizer.tokenize(prompt_builder))
             prompt_builder += word
-            post = tokenizer(prompt_builder, return_length=True).length
-            n_tokens = tokenizer(word, return_length=True).length -1
-            actual_tokens = post-pre
-            if n_tokens != actual_tokens and n_tokens < actual_tokens:
-                    final_labels.append(final_labels[-1]*(actual_tokens - n_tokens))
-            final_labels.extend([label] * (n_tokens))
+            post = len(tokenizer.tokenize(prompt_builder))
 
+            actual_tokens = post-pre
+            
+            final_labels.extend([label] * (actual_tokens))
+
+            if j==3:
+                final_labels[-1] = final_labels[-1].replace('structural', 'predictive')
+            if j==5:
+                final_labels[-actual_tokens] = final_labels[-actual_tokens].replace('separator', 'end_of_example')
+    
     return final_labels
 
 def tokenize_labels(sentence_parts, text_labels, tokenizer):
@@ -256,12 +183,12 @@ def tokenize_labels(sentence_parts, text_labels, tokenizer):
     https://www.depends-on-the-definition.com/named-entity-recognition-with-bert/
     """
     
-    is_llama = 'llama' in tokenizer.name_or_path
+    is_llama = 'llama' in tokenizer.name_or_path.lower()
 
     if is_llama:
-        labels = extend_labels_llama(sentence_parts, text_labels, tokenizer)
+        labels = extend_labels(sentence_parts, text_labels, tokenizer, label_init=['bos_token'])
     else:
-        labels = extend_labels(sentence_parts, text_labels, tokenizer)
+        labels = extend_labels(sentence_parts, text_labels, tokenizer, label_init=[''])
 
     return labels
 
@@ -360,7 +287,7 @@ def word_pairs_to_prompt_data(word_pairs : dict,
                               prefixes: dict = {"input":"Q:", "output":"A:","instructions":""},
                               separators: dict = {"input":"\n", "output":"\n\n", "instructions":""},
                               query_target_pair: dict = None, prepend_bos_token=False,
-                              shuffle_labels=False, prepend_space=True) -> dict:
+                              shuffle_labels=False, prepend_space=False) -> dict:
     """Takes a dataset of word pairs, and constructs a prompt_data dict with additional information to construct an ICL prompt.
     Parameters:
     word_pairs: dict of the form {'word1':['a', 'b', ...], 'word2':['c', 'd', ...]}

@@ -76,6 +76,22 @@ def decode_to_vocab(prob_dist, tokenizer, k=5) -> list:
 
     return [(tokenizer.decode(x),round(y.item(), 5)) for x,y in zip(get_topk(prob_dist,k).indices[0],get_topk(prob_dist,k).values[0])]
 
+def get_answer_id(query, answer, tokenizer):
+    """
+    Parameters:
+    query (str): query as a string
+    answer (str): expected answer as a string
+    tokenizer: huggingface tokenizer
+    
+    Returns: 
+    answer_ids (list): A list of the contextualized tokens of the answer
+    """
+    source = tokenizer(query, truncation=False, padding=False).input_ids
+    target = tokenizer(query + answer, truncation=False, padding=False).input_ids
+    assert len(source) < len(target) < tokenizer.model_max_length
+    answer_ids = target[len(source): ]
+    return answer_ids
+
 def fv_to_vocab(function_vector, model, model_config, tokenizer, n_tokens=10):
     """
     Decodes a provided function vector into the model's vocabulary embedding space.
@@ -104,7 +120,7 @@ def fv_to_vocab(function_vector, model, model_config, tokenizer, n_tokens=10):
     decoded_tokens = [(tokenizer.decode(x),round(y.item(), 4)) for x,y in zip(inds.squeeze(), vals.squeeze())]
     return decoded_tokens
 
-def compute_dataset_baseline(dataset, model, model_config, tokenizer, n_shots=10, seed=42, generate_str=False, metric=None) -> dict:
+def compute_dataset_baseline(dataset, model, model_config, tokenizer, n_shots=10, seed=42, generate_str=False, metric=None, prefixes=None, separators=None) -> dict:
     """
     Computes the ICL performance of the model on the provided dataset for a varying number of shots.
 
@@ -125,7 +141,7 @@ def compute_dataset_baseline(dataset, model, model_config, tokenizer, n_shots=10
     for N in range(n_shots+1):
         set_seed(seed)
         results_dict[N] = n_shot_eval_no_intervention(dataset, n_shots=N, model=model, model_config=model_config, tokenizer=tokenizer,
-                                                      generate_str=generate_str, metric=metric)
+                                                      generate_str=generate_str, metric=metric, prefixes=prefixes, separators=separators)
     return results_dict
 
 def is_nontrivial_prefix(prediction: str, target: str) -> bool:
@@ -257,15 +273,8 @@ def n_shot_eval(dataset, fv_vector, edit_layer: int, n_shots: int, model, model_
         
         sentence = [create_prompt(prompt_data)]
         
-        # Figure out token of interest
-        if is_llama:
-            ts = tokenizer(target, return_tensors='pt').input_ids.squeeze()
-            if tokenizer.decode(ts[1])=='' or ts[1]==29871: # avoid SP tokenizer spacing issues
-                target_token_id = ts[2]
-            else:
-                target_token_id = ts[1]    
-        else:
-            target_token_id = tokenizer(target).input_ids
+        # Figure out token of interest        
+        target_token_id = get_answer_id(sentence[0], target, tokenizer)
 
         if generate_str:
             if metric == "f1_score":
@@ -382,14 +391,7 @@ def n_shot_eval_no_intervention(dataset, n_shots, model, model_config, tokenizer
         sentence = [create_prompt(prompt_data)]
         
         # Figure out tokens of interest
-        if is_llama:
-            ts = tokenizer(target, return_tensors='pt').input_ids.squeeze()
-            if tokenizer.decode(ts[1])=='' or ts[1]==29871: # avoid SP tokenizer spacing issues
-                target_token_id = ts[2]
-            else:
-                target_token_id = ts[1]    
-        else:
-            target_token_id = tokenizer(target).input_ids
+        target_token_id = get_answer_id(sentence[0], target, tokenizer)
         
         if compute_ppl:
             clean_output, clean_nll = sentence_eval(sentence, target = [target],
