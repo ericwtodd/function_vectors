@@ -152,16 +152,19 @@ def function_vector_intervention(sentence, target, edit_layer, function_vector, 
         output = model(**nll_inputs, labels=nll_targets)
         clean_nll = output.loss.item()
         clean_output = output.logits[:,original_pred_idx,:]
+        intervention_idx = -1 - target_len
     elif generate_str:
         MAX_NEW_TOKENS = 16
         output = model.generate(inputs.input_ids, top_p=0.9, temperature=0.1,
                                 max_new_tokens=MAX_NEW_TOKENS)
         clean_output = tokenizer.decode(output.squeeze()[-MAX_NEW_TOKENS:])
+        intervention_idx = -1
     else:
         clean_output = model(**inputs).logits[:,-1,:]
+        intervention_idx = -1
 
     # Perform Intervention
-    intervention_fn = add_function_vector(edit_layer, function_vector.reshape(1, model_config['resid_dim']), model.device)
+    intervention_fn = add_function_vector(edit_layer, function_vector.reshape(1, model_config['resid_dim']), model.device, idx=intervention_idx)
     with TraceDict(model, layers=model_config['layer_hook_names'], edit_output=intervention_fn):     
         if compute_nll:
             output = model(**nll_inputs, labels=nll_targets)
