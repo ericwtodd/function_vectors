@@ -188,7 +188,7 @@ def tokenize_labels(sentence_parts, text_labels, tokenizer):
     if is_llama:
         labels = extend_labels(sentence_parts, text_labels, tokenizer, label_init=['bos_token'])
     else:
-        labels = extend_labels(sentence_parts, text_labels, tokenizer, label_init=[''])
+        labels = extend_labels(sentence_parts, text_labels, tokenizer, label_init=[])
 
     return labels
 
