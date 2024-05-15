@@ -161,8 +161,8 @@ def extend_labels(sentence_parts, text_labels, tokenizer, label_init=[]):
             
             final_labels.extend([label] * (actual_tokens))
 
-            if j==3:
-                final_labels[-1] = final_labels[-1].replace('structural', 'predictive')
+            if j==3 or j==2 and len(element[3])==0:
+                final_labels[-1] = final_labels[-1].replace('structural', 'predictive').replace('separator', 'predictive')
             if j==5:
                 final_labels[-actual_tokens] = final_labels[-actual_tokens].replace('separator', 'end_of_example')
     
