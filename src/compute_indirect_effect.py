@@ -42,15 +42,10 @@ def activation_replacement_per_class_intervention(prompt_data, avg_activations, 
     sentences = [prompt_string]# * model.config.n_head # batch things by head
 
     # Figure out tokens of interest
-    tokens_of_interest = [query_target_pair['output']]
-    if 'llama' in model_config['name_or_path']:
-        ts = tokenizer(tokens_of_interest, return_tensors='pt').input_ids.squeeze()
-        if tokenizer.decode(ts[1])=='' or ts[1]==29871: # avoid spacing issues
-            token_id_of_interest = ts[2]
-        else:
-            token_id_of_interest = ts[1]
-    else:
-        token_id_of_interest = tokenizer(tokens_of_interest).input_ids[0][:1]
+    target = [query_target_pair['output']]
+    token_id_of_interest = get_answer_id(sentences[0], target[0], tokenizer)
+    if isinstance(token_id_of_interest, list):
+        token_id_of_interest = token_id_of_interest[:1]
         
     inputs = tokenizer(sentences, return_tensors='pt').to(device)
 
