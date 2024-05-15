@@ -589,7 +589,7 @@
     },
     {
         "input": "frontal",
-        "output": "rear;"
+        "output": "rear"
     },
     {
         "input": "only",
@@ -1037,7 +1037,7 @@
     },
     {
         "input": "numerous",
-        "output": "few;"
+        "output": "few"
     },
     {
         "input": "divest",
@@ -1437,7 +1437,7 @@
     },
     {
         "input": "squat",
-        "output": "stand;"
+        "output": "stand"
     },
     {
         "input": "garner",
@@ -2021,7 +2021,7 @@
     },
     {
         "input": "distant",
-        "output": "near;"
+        "output": "near"
     },
     {
         "input": "glossy",
@@ -3605,7 +3605,7 @@
     },
     {
         "input": "upcoming",
-        "output": "past;"
+        "output": "past"
     },
     {
         "input": "inactive",
@@ -4069,7 +4069,7 @@
     },
     {
         "input": "commonplace",
-        "output": "rare;"
+        "output": "rare"
     },
     {
         "input": "married",
@@ -4637,7 +4637,7 @@
     },
     {
         "input": "desperate",
-        "output": "content;"
+        "output": "content"
     },
     {
         "input": "delete",
@@ -5205,7 +5205,7 @@
     },
     {
         "input": "package",
-        "output": "unpack;"
+        "output": "unpack"
     },
     {
         "input": "frown",
