@@ -97,8 +97,12 @@ def load_gpt_model_and_tokenizer(model_name:str, device='cuda'):
                 model_dtype = torch.float32
             else: #half precision for bigger llama models
                 model_dtype = torch.float16
+            
+            # If transformers version is < 4.31 use LlamaLoaders
             # tokenizer = LlamaTokenizer.from_pretrained(model_name)
             # model = LlamaForCausalLM.from_pretrained(model_name, torch_dtype=model_dtype).to(device)
+
+            # If transformers version is >= 4.31, use AutoLoaders
             tokenizer = AutoTokenizer.from_pretrained(model_name)
             model = AutoModelForCausalLM.from_pretrained(model_name, torch_dtype=model_dtype).to(device)
 
