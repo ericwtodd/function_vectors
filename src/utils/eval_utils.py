@@ -237,7 +237,9 @@ def n_shot_eval(dataset, fv_vector, edit_layer: int, n_shots: int, model, model_
         clean_score_list = []
         intervention_score_list = []
 
-    is_llama = 'llama' in model_config['name_or_path']
+    # If the model already prepends a bos token by default, we don't want to add one
+    prepend_bos =  False if model_config['prepend_bos'] else True
+
     if filter_set is None:
         filter_set = np.arange(len(dataset['test']))
 
@@ -255,7 +257,6 @@ def n_shot_eval(dataset, fv_vector, edit_layer: int, n_shots: int, model, model_
             word_pairs = dataset['train'][np.random.choice(len(dataset['train']),n_shots, replace=False)]
         word_pairs_test = dataset['test'][j]
 
-        prepend_bos = not is_llama
         if prefixes is not None and separators is not None:
             prompt_data = word_pairs_to_prompt_data(word_pairs, query_target_pair = word_pairs_test, prepend_bos_token=prepend_bos, 
                                                     shuffle_labels=shuffle_labels, prefixes=prefixes, separators=separators)
@@ -360,8 +361,8 @@ def n_shot_eval_no_intervention(dataset, n_shots, model, model_config, tokenizer
     if generate_str:
         score_list = []
 
-    is_llama = 'llama' in model_config['name_or_path']
-    prepend_bos = not is_llama
+    # If the model already prepends a bos token by default, we don't want to add one
+    prepend_bos =  False if model_config['prepend_bos'] else True
 
     if pred_filepath:
         pred_file = open(pred_filepath, 'w')

@@ -34,7 +34,7 @@ def activation_replacement_per_class_intervention(prompt_data, avg_activations, 
     query_target_pair = prompt_data['query_target']
 
     query = query_target_pair['input']
-    token_labels, prompt_string = get_token_meta_labels(prompt_data, tokenizer, query=query)
+    token_labels, prompt_string = get_token_meta_labels(prompt_data, tokenizer, query=query, prepend_bos=model_config['prepend_bos'])
 
     idx_map, idx_avg = compute_duplicated_labels(token_labels, dummy_labels)
     idx_map = update_idx_map(idx_map, idx_avg)
@@ -111,12 +111,12 @@ def compute_indirect_effect(dataset, mean_activations, model, model_config, toke
     n_test_examples = 1
 
     if prefixes is not None and separators is not None:
-        dummy_gt_labels = get_dummy_token_labels(n_shots, tokenizer=tokenizer, prefixes=prefixes, separators=separators)
+        dummy_gt_labels = get_dummy_token_labels(n_shots, tokenizer=tokenizer, prefixes=prefixes, separators=separators, model_config=model_config)
     else:
-        dummy_gt_labels = get_dummy_token_labels(n_shots, tokenizer=tokenizer)
+        dummy_gt_labels = get_dummy_token_labels(n_shots, tokenizer=tokenizer, model_config=model_config)
 
-    is_llama = 'llama' in model_config['name_or_path']
-    prepend_bos = not is_llama
+    # If the model already prepends a bos token by default, we don't want to add one
+    prepend_bos = False if model_config['prepend_bos'] else True
 
     if last_token_only:
         indirect_effect = torch.zeros(n_trials,model_config['n_layers'], model_config['n_heads'])

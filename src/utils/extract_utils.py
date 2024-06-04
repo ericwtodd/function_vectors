@@ -12,7 +12,7 @@ from .eval_utils import *
 
 
 # Attention Activations
-def gather_attn_activations(prompt_data, layers, dummy_labels, model, tokenizer):
+def gather_attn_activations(prompt_data, layers, dummy_labels, model, tokenizer, model_config):
     """
     Collects activations for an ICL prompt 
 
@@ -31,7 +31,7 @@ def gather_attn_activations(prompt_data, layers, dummy_labels, model, tokenizer)
     
     # Get sentence and token labels
     query = prompt_data['query_target']['input']
-    token_labels, prompt_string = get_token_meta_labels(prompt_data, tokenizer, query)
+    token_labels, prompt_string = get_token_meta_labels(prompt_data, tokenizer, query, prepend_bos=model_config['prepend_bos'])
     sentence = [prompt_string]
 
     inputs = tokenizer(sentence, return_tensors='pt').to(model.device)
@@ -69,16 +69,16 @@ def get_mean_head_activations(dataset, model, model_config, tokenizer, n_icl_exa
     
     n_test_examples = 1
     if prefixes is not None and separators is not None:
-        dummy_labels = get_dummy_token_labels(n_icl_examples, tokenizer=tokenizer, prefixes=prefixes, separators=separators)
+        dummy_labels = get_dummy_token_labels(n_icl_examples, tokenizer=tokenizer, prefixes=prefixes, separators=separators, model_config=model_config)
     else:
-        dummy_labels = get_dummy_token_labels(n_icl_examples, tokenizer=tokenizer)
+        dummy_labels = get_dummy_token_labels(n_icl_examples, tokenizer=tokenizer, model_config=model_config)
     activation_storage = torch.zeros(N_TRIALS, model_config['n_layers'], model_config['n_heads'], len(dummy_labels), model_config['resid_dim']//model_config['n_heads'])
 
     if filter_set is None:
         filter_set = np.arange(len(dataset['valid']))
 
-    is_llama = 'llama' in model_config['name_or_path']
-    prepend_bos = not is_llama
+    # If the model already prepends a bos token by default, we don't want to add one
+    prepend_bos =  False if model_config['prepend_bos'] else True
 
     for n in range(N_TRIALS):
         word_pairs = dataset['train'][np.random.choice(len(dataset['train']),n_icl_examples, replace=False)]
@@ -92,7 +92,8 @@ def get_mean_head_activations(dataset, model, model_config, tokenizer, n_icl_exa
                                                             layers = model_config['attn_hook_names'], 
                                                             dummy_labels=dummy_labels, 
                                                             model=model, 
-                                                            tokenizer=tokenizer)
+                                                            tokenizer=tokenizer, 
+                                                            model_config=model_config)
         
         stack_initial = torch.vstack([split_activations_by_head(activations_td[layer].input, model_config) for layer in model_config['attn_hook_names']]).permute(0,2,1,3)
         stack_filtered = stack_initial[:,:,list(idx_map.keys())]
@@ -105,7 +106,7 @@ def get_mean_head_activations(dataset, model, model_config, tokenizer, n_icl_exa
     return mean_activations
 
 # Layer Activations
-def gather_layer_activations(prompt_data, layers, model, tokenizer):
+def gather_layer_activations(prompt_data, layers, model, tokenizer, model_config):
     """
     Collects activations for an ICL prompt 
 
@@ -121,7 +122,7 @@ def gather_layer_activations(prompt_data, layers, model, tokenizer):
     
     # Get sentence and token labels
     query = prompt_data['query_target']['input']
-    _, prompt_string = get_token_meta_labels(prompt_data, tokenizer, query)
+    _, prompt_string = get_token_meta_labels(prompt_data, tokenizer, query, prepend_bos=model_config['prepend_bos'])
     sentence = [prompt_string]
 
     inputs = tokenizer(sentence, return_tensors='pt').to(model.device)
@@ -157,8 +158,8 @@ def get_mean_layer_activations(dataset, model, model_config, tokenizer, n_icl_ex
     if filter_set is None:
         filter_set = np.arange(len(dataset['valid']))
 
-    is_llama = 'llama' in model_config['name_or_path']
-    prepend_bos = not is_llama
+    # If the model already prepends a bos token by default, we don't want to add one
+    prepend_bos =  False if model_config['prepend_bos'] else True
 
     for n in range(N_TRIALS):
         word_pairs = dataset['train'][np.random.choice(len(dataset['train']),n_icl_examples, replace=False)]
@@ -171,7 +172,8 @@ def get_mean_layer_activations(dataset, model, model_config, tokenizer, n_icl_ex
         activations_td = gather_layer_activations(prompt_data=prompt_data, 
                                                   layers = model_config['layer_hook_names'], 
                                                   model=model, 
-                                                  tokenizer=tokenizer)
+                                                  tokenizer=tokenizer, 
+                                                  model_config=model_config)
         
         stack_initial = torch.vstack([activations_td[layer].output[0] for layer in model_config['layer_hook_names']])
         stack_filtered = stack_initial[:,-1,:] #Last token 
@@ -226,7 +228,7 @@ def get_token_averaged_attention(dataset, model, model_config, tokenizer, n_shot
         storage_size = min(len(dataset['valid']), storage_max)
         storage_inds = [int(x) for x in np.arange(storage_size)]
 
-    dummy_labels = get_dummy_token_labels(n_shots, tokenizer=tokenizer)  
+    dummy_labels = get_dummy_token_labels(n_shots, tokenizer=tokenizer, model_config=model_config)
     attn_storage = torch.zeros(storage_size, model_config['n_layers'], model_config['n_heads'], len(dummy_labels), len(dummy_labels))
     vw_attn_storage = torch.zeros(storage_size, model_config['n_layers'], model_config['n_heads'], len(dummy_labels), len(dummy_labels))
 
@@ -236,16 +238,16 @@ def get_token_averaged_attention(dataset, model, model_config, tokenizer, n_shot
         else:
             word_pairs = dataset['train'][np.random.choice(len(dataset['train']),n_shots, replace=False)]
         
-        is_llama = 'llama' in model_config['name_or_path']
-        prepend_bos = not is_llama
+        # If the model already prepends a bos token by default, we don't want to add one
+        add_bos =  False if model_config['prepend_bos'] else True
 
         word_pairs_test = dataset['valid'][s]
-        prompt_data = word_pairs_to_prompt_data(word_pairs, query_target_pair=word_pairs_test, prepend_bos_token = prepend_bos)
+        prompt_data = word_pairs_to_prompt_data(word_pairs, query_target_pair=word_pairs_test, prepend_bos_token = add_bos)
         
         # Get relevant parts of the Prompt
         query, target = prompt_data['query_target'].values()
 
-        token_labels, prompt_string = get_token_meta_labels(prompt_data, tokenizer, query)
+        token_labels, prompt_string = get_token_meta_labels(prompt_data, tokenizer, query, prepend_bos=model_config['prepend_bos'])
         idx_map, idx_avg = compute_duplicated_labels(token_labels, dummy_labels)
         
         sentence = [prompt_string]     
@@ -344,7 +346,7 @@ def compute_function_vector(mean_activations, indirect_effect, model, model_conf
             out_proj = model.transformer.h[L].attn.c_proj
         elif 'gpt-j' in model_config['name_or_path']:
             out_proj = model.transformer.h[L].attn.out_proj
-        elif 'llama' in model_config['name_or_path']:
+        elif 'llama' in model_config['name_or_path'] or 'gemma' in model_config['name_or_path']:
             out_proj = model.model.layers[L].self_attn.o_proj
         elif 'gpt-neox' in model_config['name_or_path'] or 'pythia' in model_config['name_or_path']:
             out_proj = model.gpt_neox.layers[L].attention.dense

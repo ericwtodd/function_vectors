@@ -34,7 +34,8 @@ def load_gpt_model_and_tokenizer(model_name:str, device='cuda'):
                       "resid_dim":model.config.n_embd,
                       "name_or_path":model.config.name_or_path,
                       "attn_hook_names":[f'transformer.h.{layer}.attn.c_proj' for layer in range(model.config.n_layer)],
-                      "layer_hook_names":[f'transformer.h.{layer}' for layer in range(model.config.n_layer)]}
+                      "layer_hook_names":[f'transformer.h.{layer}' for layer in range(model.config.n_layer)],
+                      "prepend_bos":False}
         
     elif 'gpt-j' in model_name.lower():
         tokenizer = AutoTokenizer.from_pretrained(model_name)
@@ -46,7 +47,8 @@ def load_gpt_model_and_tokenizer(model_name:str, device='cuda'):
                       "resid_dim":model.config.n_embd,
                       "name_or_path":model.config.name_or_path,
                       "attn_hook_names":[f'transformer.h.{layer}.attn.out_proj' for layer in range(model.config.n_layer)],
-                      "layer_hook_names":[f'transformer.h.{layer}' for layer in range(model.config.n_layer)]}
+                      "layer_hook_names":[f'transformer.h.{layer}' for layer in range(model.config.n_layer)],
+                      "prepend_bos":False}
 
     elif 'gpt-neox' in model_name.lower() or 'pythia' in model_name.lower():
         tokenizer = AutoTokenizer.from_pretrained(model_name)
@@ -58,7 +60,21 @@ def load_gpt_model_and_tokenizer(model_name:str, device='cuda'):
                       "resid_dim": model.config.hidden_size,
                       "name_or_path":model.config.name_or_path,
                       "attn_hook_names":[f'gpt_neox.layers.{layer}.attention.dense' for layer in range(model.config.num_hidden_layers)],
-                      "layer_hook_names":[f'gpt_neox.layers.{layer}' for layer in range(model.config.num_hidden_layers)]}
+                      "layer_hook_names":[f'gpt_neox.layers.{layer}' for layer in range(model.config.num_hidden_layers)], 
+                      "prepend_bos":False}
+        
+    elif 'gemma' in model_name.lower():
+        tokenizer = AutoTokenizer.from_pretrained(model_name)
+        tokenizer.pad_token = tokenizer.eos_token
+        model = AutoModelForCausalLM.from_pretrained(model_name, torch_dtype=torch.float16).to(device)
+
+        MODEL_CONFIG={"n_heads":model.config.num_attention_heads,
+                      "n_layers":model.config.num_hidden_layers,
+                      "resid_dim":model.config.hidden_size,
+                      "name_or_path":model.config._name_or_path,
+                      "attn_hook_names":[f'model.layers.{layer}.self_attn.o_proj' for layer in range(model.config.num_hidden_layers)],
+                      "layer_hook_names":[f'model.layers.{layer}' for layer in range(model.config.num_hidden_layers)],
+                      "prepend_bos":True}
         
     elif 'llama' in model_name.lower():
         if '70b' in model_name.lower():
@@ -81,15 +97,18 @@ def load_gpt_model_and_tokenizer(model_name:str, device='cuda'):
                 model_dtype = torch.float32
             else: #half precision for bigger llama models
                 model_dtype = torch.float16
-            tokenizer = LlamaTokenizer.from_pretrained(model_name)
-            model = LlamaForCausalLM.from_pretrained(model_name, torch_dtype=model_dtype).to(device)
+            # tokenizer = LlamaTokenizer.from_pretrained(model_name)
+            # model = LlamaForCausalLM.from_pretrained(model_name, torch_dtype=model_dtype).to(device)
+            tokenizer = AutoTokenizer.from_pretrained(model_name)
+            model = AutoModelForCausalLM.from_pretrained(model_name, torch_dtype=model_dtype).to(device)
 
         MODEL_CONFIG={"n_heads":model.config.num_attention_heads,
                       "n_layers":model.config.num_hidden_layers,
                       "resid_dim":model.config.hidden_size,
                       "name_or_path":model.config._name_or_path,
                       "attn_hook_names":[f'model.layers.{layer}.self_attn.o_proj' for layer in range(model.config.num_hidden_layers)],
-                      "layer_hook_names":[f'model.layers.{layer}' for layer in range(model.config.num_hidden_layers)]}
+                      "layer_hook_names":[f'model.layers.{layer}' for layer in range(model.config.num_hidden_layers)],
+                      "prepend_bos":True}
     else:
         raise NotImplementedError("Still working to get this model available!")
 

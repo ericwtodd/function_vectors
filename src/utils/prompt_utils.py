@@ -168,7 +168,7 @@ def extend_labels(sentence_parts, text_labels, tokenizer, label_init=[]):
     
     return final_labels
 
-def tokenize_labels(sentence_parts, text_labels, tokenizer):
+def tokenize_labels(sentence_parts, text_labels, tokenizer, prepend_bos=False):
     """
     Extends phrase-level labels across tokenization for in-context learning prompts. Tested with GPT-2's tokenizer from huggingface.
     Parameters:
@@ -183,16 +183,15 @@ def tokenize_labels(sentence_parts, text_labels, tokenizer):
     https://www.depends-on-the-definition.com/named-entity-recognition-with-bert/
     """
     
-    is_llama = 'llama' in tokenizer.name_or_path.lower()
-
-    if is_llama:
+    # If the model typically prepends a bos, we add a bos label to label init
+    if prepend_bos:
         labels = extend_labels(sentence_parts, text_labels, tokenizer, label_init=['bos_token'])
     else:
         labels = extend_labels(sentence_parts, text_labels, tokenizer, label_init=[])
 
     return labels
 
-def get_token_meta_labels(prompt_data, tokenizer, query=None):
+def get_token_meta_labels(prompt_data, tokenizer, query=None, prepend_bos=False):
     """
     Computes the ICL meta-labels for every token in a prompt.
     
@@ -211,14 +210,14 @@ def get_token_meta_labels(prompt_data, tokenizer, query=None):
         query = query[0]
         
     prompt_parts, prompt_part_labels = get_prompt_parts_and_labels(prompt_data, query_sentence=query)
-    token_meta_labels = tokenize_labels(prompt_parts, prompt_part_labels, tokenizer)
+    token_meta_labels = tokenize_labels(prompt_parts, prompt_part_labels, tokenizer, prepend_bos)
     prompt_string = create_prompt(prompt_data=prompt_data, sentence=query)
     tokens = [tokenizer.decode(x) for x in tokenizer(prompt_string).input_ids]
     token_labels = list(zip(np.arange(len(tokens)), tokens, token_meta_labels))
 
     return token_labels, prompt_string
 
-def get_dummy_token_labels(n_icl_examples, tokenizer, prefixes=None, separators=None):
+def get_dummy_token_labels(n_icl_examples, tokenizer, model_config, prefixes=None, separators=None):
     """
     Computes the ground-truth meta labels & indices for an ICL prompt with the specified number of example pairs
     These GT labels assume each word gets a single token
@@ -232,8 +231,9 @@ def get_dummy_token_labels(n_icl_examples, tokenizer, prefixes=None, separators=
     Return:
     final_token_labels: list of tuples containing a token's index and label name [(int, str), ... ]
     """
-    is_llama = 'llama' in tokenizer.name_or_path
-    prepend_bos = not is_llama
+    # If the model already prepends a bos token by default, we don't want to add one to our prompts
+    prepend_bos =  False if model_config['prepend_bos'] else True
+
     if prefixes is not None and separators is not None:
         dummy_prompt_data = word_pairs_to_prompt_data({'input': ['a']*n_icl_examples, 'output':['a']*n_icl_examples}, 
                                                     query_target_pair={'input':['a'], 'output':['a']}, prepend_bos_token=prepend_bos,
@@ -241,7 +241,7 @@ def get_dummy_token_labels(n_icl_examples, tokenizer, prefixes=None, separators=
     else:
         dummy_prompt_data = word_pairs_to_prompt_data({'input': ['a']*n_icl_examples, 'output':['a']*n_icl_examples}, 
                                                   query_target_pair={'input':['a'], 'output':['a']}, prepend_bos_token=prepend_bos)
-    final_token_labels, _ = get_token_meta_labels(dummy_prompt_data,tokenizer)
+    final_token_labels, _ = get_token_meta_labels(dummy_prompt_data,tokenizer, prepend_bos=model_config['prepend_bos'])
     final_token_labels = [(x[0],x[-1]) for x in final_token_labels]
     return final_token_labels
 

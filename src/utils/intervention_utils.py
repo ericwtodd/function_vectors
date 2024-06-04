@@ -71,7 +71,7 @@ def replace_activation_w_avg(layer_head_token_pairs, avg_activations, model, mod
                 out_proj_bias = proj_module.bias
                 new_output = torch.addmm(out_proj_bias, inputs.squeeze(), out_proj)
                 
-            elif 'gpt-j' in model_config['name_or_path']:
+            elif 'gpt-j' in model_config['name_or_path'] or 'gemma' in model_config['name_or_path']:
                 new_output = torch.matmul(inputs, out_proj.T)
 
             elif 'gpt-neox' in model_config['name_or_path'] or 'pythia' in model_config['name_or_path']:
@@ -282,7 +282,7 @@ def add_avg_to_activation(layer_head_token_pairs, avg_activations, model, model_
                 out_proj_bias = proj_module.bias
                 new_output = torch.addmm(out_proj_bias, inputs.squeeze(), out_proj)
 
-            elif 'gpt-j' in model_config['name_or_path']:
+            elif 'gpt-j' in model_config['name_or_path'] or 'gemma' in model_config['name_or_path']:
                 new_output = torch.matmul(inputs, out_proj.T)
 
             elif 'gpt-neox' in model_config['name_or_path'] or 'pythia' in model_config['name_or_path']:
