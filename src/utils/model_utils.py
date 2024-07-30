@@ -93,7 +93,7 @@ def load_gpt_model_and_tokenizer(model_name:str, device='cuda'):
                     quantization_config=bnb_config
             )
         else:
-            if '7b' in model_name.lower():
+            if '7b' in model_name.lower() or '8b' in model_name.lower():
                 model_dtype = torch.float32
             else: #half precision for bigger llama models
                 model_dtype = torch.float16

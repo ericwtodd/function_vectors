@@ -159,6 +159,10 @@ def extend_labels(sentence_parts, text_labels, tokenizer, label_init=[]):
 
             actual_tokens = post-pre
             
+            if actual_tokens == 0:
+                # if tokenization gobbles up a previous label, then we overwrite the last previous label w/ label that should've been added
+                final_labels[-1] = label
+            
             final_labels.extend([label] * (actual_tokens))
 
             if j==3 or j==2 and len(element[3])==0:
