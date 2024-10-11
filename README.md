@@ -1,10 +1,10 @@
 # Function Vectors in Large Language Models
-### [Project Website](https://functions.baulab.info) | [Arxiv Preprint](https://arxiv.org/abs/2310.15213)
+### [Project Website](https://functions.baulab.info) | [Arxiv Preprint](https://arxiv.org/abs/2310.15213) | [OpenReview](https://openreview.net/forum?id=AwyxtyMwaG)
 
 This repository contains data and code for the paper: [Function Vectors in Large Language Models](https://arxiv.org/abs/2310.15213).
 
 <p align="left">
-<img src="https://functions.baulab.info/images/Paper/fv-new-overview.png" style="width:100%;"/>
+<img src="https://functions.baulab.info/images/Paper/fv-demonstrations.png" style="width:100%;"/>
 </p> 
 
 ## Setup
