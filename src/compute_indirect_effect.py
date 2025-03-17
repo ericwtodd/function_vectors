@@ -185,7 +185,7 @@ if __name__ == "__main__":
     # Load Model & Tokenizer
     torch.set_grad_enabled(False)
     print("Loading Model")
-    model, tokenizer, model_config = load_gpt_model_and_tokenizer(model_name, device=device, revison=args.revision)
+    model, tokenizer, model_config = load_gpt_model_and_tokenizer(model_name, device=device, revision=args.revision)
 
     set_seed(seed)
 
