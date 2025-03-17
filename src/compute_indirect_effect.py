@@ -163,6 +163,7 @@ if __name__ == "__main__":
     parser.add_argument('--last_token_only', help='Whether to compute indirect effect for heads at only the final token position, or for all token classes', required=False, type=bool, default=True)
     parser.add_argument('--prefixes', help='Prompt template prefixes to be used', type=json.loads, required=False, default={"input":"Q:", "output":"A:", "instructions":""})
     parser.add_argument('--separators', help='Prompt template separators to be used', type=json.loads, required=False, default={"input":"\n", "output":"\n\n", "instructions":""})    
+    parser.add_argument('--revision', help='Specify model checkpoints for pythia or olmo models', type=str, required=False, default=None)
         
     args = parser.parse_args()
 
@@ -184,7 +185,7 @@ if __name__ == "__main__":
     # Load Model & Tokenizer
     torch.set_grad_enabled(False)
     print("Loading Model")
-    model, tokenizer, model_config = load_gpt_model_and_tokenizer(model_name, device=device)
+    model, tokenizer, model_config = load_gpt_model_and_tokenizer(model_name, device=device, revison=args.revision)
 
     set_seed(seed)
 

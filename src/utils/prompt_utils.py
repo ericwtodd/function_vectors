@@ -320,13 +320,13 @@ def word_pairs_to_prompt_data(word_pairs : dict,
     if shuffle_labels:
         randomized_pairs = [np.random.permutation(x).tolist() if i==1 else x for (i,x) in enumerate(list(word_pairs.values()))] # shuffle labels only
         if prepend_space:
-            prompt_data['examples'] = [{'input':' ' + w1, 'output':' ' + w2} for (w1,w2) in list(zip(*randomized_pairs))]
-            prompt_data['query_target'] = {k:' ' + v for k,v in query_target_pair.items()} if query_target_pair is not None else None
+            prompt_data['examples'] = [{'input':' ' + str(w1), 'output':' ' + str(w2)} for (w1,w2) in list(zip(*randomized_pairs))]
+            prompt_data['query_target'] = {k:' ' + str(v) for k,v in query_target_pair.items()} if query_target_pair is not None else None
         else:
             prompt_data['examples'] = [{'input':w1, 'output':w2} for (w1,w2) in list(zip(*randomized_pairs))]
     else:    
         if prepend_space:
-            prompt_data['examples'] = [{'input':' ' + w1, 'output':' ' + str(w2)} for (w1,w2) in list(zip(*word_pairs.values()))]
+            prompt_data['examples'] = [{'input':' ' + str(w1), 'output':' ' + str(w2)} for (w1,w2) in list(zip(*word_pairs.values()))]
             prompt_data['query_target'] = {k:' ' + str(v) for k,v in query_target_pair.items()} if query_target_pair is not None else None
         else:
             prompt_data['examples'] = [{'input':w1, 'output':w2} for (w1,w2) in list(zip(*word_pairs.values()))]

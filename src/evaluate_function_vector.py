@@ -34,6 +34,7 @@ if __name__ == "__main__":
     parser.add_argument('--generate_str', help='Whether to generate long-form completions for the task', action='store_true', required=False)
     parser.add_argument("--metric", help="Metric to use when evaluating generated strings", type=str, required=False, default="f1_score")
     parser.add_argument("--universal_set", help="Flag for whether to evaluate using the univeral set of heads", action="store_true", required=False)
+    parser.add_argument('--revision', help='Specify model checkpoints for pythia or olmo models', type=str, required=False, default=None)
         
     args = parser.parse_args()  
 
@@ -66,7 +67,7 @@ if __name__ == "__main__":
     # Load Model & Tokenizer
     torch.set_grad_enabled(False)
     print("Loading Model")
-    model, tokenizer, model_config = load_gpt_model_and_tokenizer(model_name, device=device)
+    model, tokenizer, model_config = load_gpt_model_and_tokenizer(model_name, device=device, revision=args.revision)
 
     if args.edit_layer == -1: # sweep over all layers if edit_layer=-1
         eval_edit_layer = [0, model_config['n_layers']]

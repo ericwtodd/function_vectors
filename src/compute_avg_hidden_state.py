@@ -24,6 +24,7 @@ if __name__ == "__main__":
     parser.add_argument('--device', help='Device to run on', required=False, default='cuda' if torch.cuda.is_available() else 'cpu')
     parser.add_argument('--prefixes', help='Prompt template prefixes to be used', type=json.loads, required=False, default={"input":"Q:", "output":"A:", "instructions":""})
     parser.add_argument('--separators', help='Prompt template separators to be used', type=json.loads, required=False, default={"input":"\n", "output":"\n\n", "instructions":""})    
+    parser.add_argument('--revision', help='Specify model checkpoints for pythia or olmo models', type=str, required=False, default=None)
         
     
     args = parser.parse_args()
@@ -44,7 +45,7 @@ if __name__ == "__main__":
     # Load Model & Tokenizer
     torch.set_grad_enabled(False)
     print("Loading Model")
-    model, tokenizer, model_config = load_gpt_model_and_tokenizer(model_name, device=device)
+    model, tokenizer, model_config = load_gpt_model_and_tokenizer(model_name, device=device, revision=args.revision)
     
     seeds = np.random.choice(100000, size=n_seeds)
     

@@ -346,7 +346,7 @@ def compute_function_vector(mean_activations, indirect_effect, model, model_conf
             out_proj = model.transformer.h[L].attn.c_proj
         elif 'gpt-j' in model_config['name_or_path']:
             out_proj = model.transformer.h[L].attn.out_proj
-        elif 'llama' in model_config['name_or_path'] or 'gemma' in model_config['name_or_path']:
+        elif 'llama' in model_config['name_or_path'] or 'gemma' in model_config['name_or_path'] or 'olmo' in model_config['name_or_path'].lower():
             out_proj = model.model.layers[L].self_attn.o_proj
         elif 'gpt-neox' in model_config['name_or_path'] or 'pythia' in model_config['name_or_path']:
             out_proj = model.gpt_neox.layers[L].attention.dense
