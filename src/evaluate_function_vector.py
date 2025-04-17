@@ -27,7 +27,8 @@ if __name__ == "__main__":
     parser.add_argument('--indirect_effect_path', help='Path to file containing indirect_effect scores for the specified task', required=False, type=str, default=None)    
     parser.add_argument('--test_split', help="Percentage corresponding to test set split size", required=False, default=0.3)    
     parser.add_argument('--n_shots', help="Number of shots in each in-context prompt", type=int, required=False, default=10)
-    parser.add_argument('--n_trials', help="Number of in-context prompts to average over for indirect_effect", type=int, required=False, default=25)
+    parser.add_argument('--n_mean_activations_trials', help="Number of in-context prompts to average over for mean_activations", type=int, required=False, default=100)
+    parser.add_argument('--n_indirect_effect_trials', help="Number of in-context prompts to average over for indirect_effect", type=int, required=False, default=25)
     parser.add_argument('--prefixes', help='Prompt template prefixes to be used', type=json.loads, required=False, default={"input":"Q:", "output":"A:", "instructions":""})
     parser.add_argument('--separators', help='Prompt template separators to be used', type=json.loads, required=False, default={"input":"\n", "output":"\n\n", "instructions":""})    
     parser.add_argument('--compute_baseline', help='Whether to compute the model baseline 0-shot -> n-shot performance', type=bool, required=False, default=True)
@@ -52,7 +53,8 @@ if __name__ == "__main__":
 
     test_split = float(args.test_split)
     n_shots = args.n_shots
-    n_trials = args.n_trials
+    n_mean_activations_trials = args.n_mean_activations_trials
+    n_indirect_effect_trials = args.n_indirect_effect_trials
 
     prefixes = args.prefixes 
     separators = args.separators
@@ -124,7 +126,7 @@ if __name__ == "__main__":
         print("Computing Mean Activations")
         set_seed(seed)
         mean_activations = get_mean_head_activations(dataset, model=model, model_config=model_config, tokenizer=tokenizer, n_icl_examples=n_shots,
-                                                     N_TRIALS=n_trials, prefixes=prefixes, separators=separators, filter_set=filter_set_validation)
+                                                     N_TRIALS=n_mean_activations_trials, prefixes=prefixes, separators=separators, filter_set=filter_set_validation)
         args.mean_activations_path = f'{save_path_root}/{dataset_name}_mean_head_activations.pt'
         torch.save(mean_activations, args.mean_activations_path)
 
@@ -138,7 +140,7 @@ if __name__ == "__main__":
         print("Computing Indirect Effects")
         set_seed(seed)
         indirect_effect = compute_indirect_effect(dataset, mean_activations, model=model, model_config=model_config, tokenizer=tokenizer, n_shots=n_shots,
-                                                  n_trials=n_trials, last_token_only=True, prefixes=prefixes, separators=separators, filter_set=filter_set_validation)
+                                                  n_trials=n_indirect_effect_trials, last_token_only=True, prefixes=prefixes, separators=separators, filter_set=filter_set_validation)
         args.indirect_effect_path = f'{save_path_root}/{dataset_name}_indirect_effect.pt'
         torch.save(indirect_effect, args.indirect_effect_path)
         
