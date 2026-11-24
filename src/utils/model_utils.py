@@ -3,6 +3,7 @@ import numpy as np
 from transformers import AutoModelForCausalLM, AutoTokenizer, LlamaTokenizer, LlamaForCausalLM
 import os
 import random
+import argparse
 from typing import *
 
 
@@ -162,3 +163,21 @@ def set_seed(seed: int) -> None:
 
     # os seed
     os.environ['PYTHONHASHSEED'] = str(seed)
+
+def str2bool(value) -> bool:
+    """
+    Parses a boolean command-line argument. argparse's `type=bool` treats any
+    non-empty string as True, so `--flag False` would still be True.
+
+    Parameters:
+    value: a bool, or a string such as 'True'/'False', 'true'/'false', '1'/'0', 'yes'/'no'
+
+    Return: the parsed bool
+    """
+    if isinstance(value, bool):
+        return value
+    if value.lower() in ('true', 't', 'yes', 'y', '1'):
+        return True
+    if value.lower() in ('false', 'f', 'no', 'n', '0'):
+        return False
+    raise argparse.ArgumentTypeError(f"Boolean value expected, got '{value}'")
